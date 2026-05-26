@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/MarkerCluster.Default.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/leaflet.markercluster.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -68,8 +69,10 @@
         
         .sidebar-content {
             flex: 1;
-            overflow-y: auto;
+            overflow: auto;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
         }
         
         .search-box {
@@ -81,6 +84,7 @@
             color: white;
             font-size: 14px;
             width: 100%;
+            flex-shrink: 0;
         }
         
         .search-box::placeholder {
@@ -91,7 +95,6 @@
             outline: none;
             background: rgba(255,255,255,0.18);
             border-color: #4fc3f7;
-            box-shadow: 0 0 8px rgba(79,195,247,0.3);
         }
         
         .property-info {
@@ -99,112 +102,119 @@
             border-radius: 8px;
             padding: 16px;
             border: 1px solid rgba(255,255,255,0.15);
-            backdrop-filter: blur(10px);
+            margin-bottom: 12px;
+            flex-shrink: 0;
         }
         
         .property-address {
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 700;
             color: #4fc3f7;
             margin-bottom: 4px;
             word-break: break-word;
-            line-height: 1.3;
         }
         
         .property-street {
-            font-size: 13px;
+            font-size: 12px;
             color: #b0bec5;
-            margin-bottom: 12px;
-        }
-        
-        .property-stats {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 16px;
-        }
-        
-        .stat {
-            background: rgba(255,255,255,0.12);
-            padding: 10px 12px;
-            border-radius: 6px;
-            text-align: center;
-            flex: 1;
-            border: 1px solid rgba(255,255,255,0.1);
-        }
-        
-        .stat-number {
-            font-size: 20px;
-            font-weight: 700;
-            color: #4fc3f7;
-        }
-        
-        .stat-label {
-            font-size: 11px;
-            color: #b0bec5;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-top: 4px;
+            margin-bottom: 8px;
         }
         
         .file-list {
-            margin-top: 12px;
+            margin-top: 8px;
         }
         
         .file-list-label {
-            font-size: 12px;
+            font-size: 11px;
             font-weight: 700;
             color: #4fc3f7;
-            margin-bottom: 10px;
+            margin-bottom: 6px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
         
         .file-item {
             font-size: 11px;
-            padding: 8px 10px;
+            padding: 6px 8px;
             background: rgba(255,255,255,0.08);
-            margin-bottom: 6px;
+            margin-bottom: 4px;
             border-radius: 4px;
             border: 1px solid rgba(255,255,255,0.1);
-            word-break: break-word;
             color: #e0e0e0;
             cursor: pointer;
             transition: all 0.2s ease;
-            text-decoration: none;
-            display: block;
         }
         
         .file-item:hover {
             background: rgba(79,195,247,0.2);
             border-color: #4fc3f7;
             color: #4fc3f7;
-            transform: translateX(2px);
         }
         
-        .file-item-link {
+        .pdf-viewer-container {
+            flex: 1;
+            background: rgba(0,0,0,0.3);
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .pdf-controls {
+            padding: 8px;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            font-size: 11px;
+            color: #b0bec5;
+        }
+        
+        .pdf-controls button {
+            background: rgba(79,195,247,0.2);
+            border: 1px solid rgba(79,195,247,0.4);
             color: #4fc3f7;
-            text-decoration: none;
+            padding: 4px 8px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 10px;
         }
         
-        .file-item-link:hover {
-            text-decoration: underline;
+        .pdf-controls button:hover {
+            background: rgba(79,195,247,0.4);
+        }
+        
+        #pdf-canvas {
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto;
+        }
+        
+        .pdf-viewer {
+            flex: 1;
+            overflow: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(0,0,0,0.5);
         }
         
         .empty-state {
             text-align: center;
-            padding: 60px 20px;
+            padding: 40px 20px;
             color: rgba(255,255,255,0.5);
         }
         
         .empty-state-icon {
-            font-size: 48px;
-            margin-bottom: 16px;
+            font-size: 32px;
+            margin-bottom: 12px;
             opacity: 0.6;
         }
         
         .empty-state-text {
-            font-size: 14px;
-            line-height: 1.5;
+            font-size: 12px;
+            line-height: 1.4;
         }
         
         .map-controls {
@@ -235,44 +245,8 @@
             transform: translateY(-1px);
         }
         
-        .leaflet-popup-content {
-            font-size: 13px;
-            color: #1a1a1a;
-        }
-        
-        .leaflet-popup-content strong {
-            display: block;
-            margin-bottom: 4px;
-            color: #1e3c72;
-        }
-        
-        .leaflet-popup-content-wrapper {
-            border-radius: 8px;
-        }
-        
-        /* Scrollbar styling */
-        .sidebar-content::-webkit-scrollbar {
-            width: 6px;
-        }
-        
-        .sidebar-content::-webkit-scrollbar-track {
-            background: rgba(255,255,255,0.05);
-        }
-        
-        .sidebar-content::-webkit-scrollbar-thumb {
-            background: rgba(255,255,255,0.2);
-            border-radius: 3px;
-        }
-        
-        .sidebar-content::-webkit-scrollbar-thumb:hover {
-            background: rgba(255,255,255,0.3);
-        }
-        
         @media (max-width: 768px) {
-            #map {
-                right: 0;
-            }
-            
+            #map { right: 0; }
             .sidebar {
                 position: fixed;
                 right: -340px;
@@ -280,14 +254,8 @@
                 width: 100%;
                 max-width: 340px;
             }
-            
-            .sidebar.active {
-                right: 0;
-            }
-            
-            .map-controls {
-                right: 20px;
-            }
+            .sidebar.active { right: 0; }
+            .map-controls { right: 20px; }
         }
     </style>
 </head>
@@ -296,22 +264,44 @@
     <div class="sidebar">
         <div class="sidebar-header">
             <h1>📍 Deal Map</h1>
-            <p>San Diego Retail OMs & Rent Rolls</p>
+            <p>San Diego Retail OMs</p>
         </div>
         <div class="sidebar-content">
-            <input type="text" class="search-box" id="search-input" placeholder="🔍 Search any address...">
+            <input type="text" class="search-box" id="search-input" placeholder="🔍 Search address...">
             
             <div class="empty-state" id="empty-state">
                 <div class="empty-state-icon">🗺️</div>
-                <div class="empty-state-text">Click a property pin to view files<br><br>Or search for any address</div>
+                <div class="empty-state-text">Click a pin to view property & PDFs</div>
             </div>
-            <div id="property-panel" style="display: none;"></div>
+            
+            <div id="property-panel" style="display: none;">
+                <div class="property-info">
+                    <div class="property-address" id="prop-address"></div>
+                    <div class="property-street" id="prop-street"></div>
+                    <div class="file-list">
+                        <div class="file-list-label">📄 Files</div>
+                        <div id="file-list"></div>
+                    </div>
+                </div>
+                
+                <div class="pdf-viewer-container" id="pdf-container" style="display: none;">
+                    <div class="pdf-controls">
+                        <button onclick="prevPage()">← Prev</button>
+                        <span id="page-info">Page 1</span>
+                        <button onclick="nextPage()">Next →</button>
+                        <button onclick="closePdf()" style="margin-left: auto;">Close</button>
+                    </div>
+                    <div class="pdf-viewer">
+                        <canvas id="pdf-canvas"></canvas>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     
     <div class="map-controls">
-        <button class="control-btn" id="reset-view" onclick="resetView()">🏠 Reset View</button>
-        <button class="control-btn toggle-layer-btn satellite" id="toggle-satellite" onclick="toggleSatellite()">🛰️ Satellite</button>
+        <button class="control-btn" onclick="resetView()">🏠 Reset</button>
+        <button class="control-btn" onclick="toggleSatellite()" id="toggle-btn">🛰️ Satellite</button>
     </div>
 
     <script>
@@ -320,54 +310,38 @@
         let properties = [];
         let baseMaps = {};
         let searchMarker = null;
+        let currentPdfUrl = null;
+        let pdfDoc = null;
+        let currentPage = 1;
         
         // Initialize map
         map = L.map('map').setView([32.87, -117.25], 11);
         
-        // Satellite layer
         baseMaps.satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
             attribution: 'Tiles &copy; Esri',
             maxZoom: 18,
             minZoom: 8
         });
         
-        // Street layer
         baseMaps.street = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap contributors',
+            attribution: '© OpenStreetMap',
             maxZoom: 19
         });
         
         baseMaps.satellite.addTo(map);
         
-        // Load GeoJSON
         fetch('properties.geojson')
             .then(r => r.json())
             .then(data => {
                 properties = data.features;
                 addMarkersToMap(data);
             })
-            .catch(err => {
-                console.error('Error loading properties:', err);
-                document.querySelector('.empty-state-text').textContent = '❌ Error loading property data';
-            });
+            .catch(err => console.error('Error:', err));
         
         function addMarkersToMap(geojson) {
             const markerGroup = L.markerClusterGroup({
                 maxClusterRadius: 100,
-                disableClusteringAtZoom: 14,
-                iconCreateFunction: function(cluster) {
-                    const count = cluster.getChildCount();
-                    let color = '#00a8e8';
-                    if (count > 5) {
-                        color = '#ef476f';
-                    } else if (count > 2) {
-                        color = '#ffd60a';
-                    }
-                    return L.divIcon({
-                        html: `<div style="background: ${color}; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.3);">${count}</div>`,
-                        iconSize: [40, 40]
-                    });
-                }
+                disableClusteringAtZoom: 14
             });
             
             L.geoJSON(geojson, {
@@ -382,9 +356,8 @@
                     });
                     
                     const props = feature.properties;
-                    const popupContent = `<strong>${props.address}</strong><br>${props.display_name}<br>${props.pdf_count} files`;
-                    marker.bindPopup(popupContent);
-                    marker.on('click', () => showPropertyDetails(props));
+                    marker.bindPopup(`<strong>${props.address}</strong><br>${props.pdf_count} files`);
+                    marker.on('click', () => showProperty(props));
                     
                     return marker;
                 }
@@ -393,112 +366,39 @@
             map.addLayer(markerGroup);
         }
         
-        function showPropertyDetails(props) {
-            const panel = document.getElementById('property-panel');
-            const empty = document.getElementById('empty-state');
+        function showProperty(props) {
+            document.getElementById('empty-state').style.display = 'none';
+            document.getElementById('property-panel').style.display = 'block';
             
-            let html = `
-                <div class="property-info">
-                    <div class="property-address">${props.address}</div>
-                    <div class="property-street">📍 ${props.display_name}</div>
-                    <div class="property-stats">
-                        <div class="stat">
-                            <div class="stat-number">${props.pdf_count}</div>
-                            <div class="stat-label">Files</div>
-                        </div>
-                    </div>
-            `;
+            document.getElementById('prop-address').textContent = props.address;
+            document.getElementById('prop-street').textContent = '📍 ' + props.display_name;
+            
+            const fileList = document.getElementById('file-list');
+            fileList.innerHTML = '';
             
             if (props.pdfs && props.pdfs.length > 0) {
-                html += '<div class="file-list">';
-                html += '<div class="file-list-label">📄 Documents</div>';
                 props.pdfs.forEach((pdf, idx) => {
                     const filename = pdf.filename || pdf;
-                    const driveLink = pdf.drive_link;
-                    
-                    if (driveLink) {
-                        html += `<a class="file-item file-item-link" href="${driveLink}" target="_blank">📋 ${filename.substring(0, 35)}${filename.length > 35 ? '...' : ''}</a>`;
-                    } else {
-                        html += `<div class="file-item">📋 ${filename.substring(0, 35)}${filename.length > 35 ? '...' : ''}</div>`;
-                    }
+                    const item = document.createElement('div');
+                    item.className = 'file-item';
+                    item.textContent = '📋 ' + filename.substring(0, 30);
+                    item.onclick = () => loadPdf(pdf, filename);
+                    fileList.appendChild(item);
                 });
-                html += '</div>';
             }
-            
-            html += '</div>';
-            
-            panel.innerHTML = html;
-            panel.style.display = 'block';
-            empty.style.display = 'none';
         }
         
-        function searchAddress() {
-            const query = document.getElementById('search-input').value.trim();
-            if (!query) return;
-            
-            const panel = document.getElementById('property-panel');
-            const empty = document.getElementById('empty-state');
-            panel.innerHTML = '<div style="padding: 20px; text-align: center; color: #4fc3f7;">🔍 Searching...</div>';
-            panel.style.display = 'block';
-            empty.style.display = 'none';
-            
-            const apiKey = '9c8074bf685942ef950a7e69e4b49fe0';
-            const url = 'https://api.opencagedata.com/geocode/v1/json';
-            const params = new URLSearchParams({
-                q: query + ', San Diego, CA',
-                key: apiKey,
-                countrycode: 'us'
-            });
-            
-            fetch(`${url}?${params}`)
-                .then(r => r.json())
-                .then(data => {
-                    if (data.results && data.results.length > 0) {
-                        const result = data.results[0];
-                        const lat = result.geometry.lat;
-                        const lng = result.geometry.lng;
-                        
-                        if (searchMarker) map.removeLayer(searchMarker);
-                        
-                        searchMarker = L.circleMarker([lat, lng], {
-                            radius: 10,
-                            fillColor: '#ff9800',
-                            color: '#e65100',
-                            weight: 3,
-                            opacity: 1,
-                            fillOpacity: 0.9
-                        }).addTo(map);
-                        
-                        const popupContent = `<strong>Search Result</strong><br>${result.formatted}`;
-                        searchMarker.bindPopup(popupContent).openPopup();
-                        
-                        const panel = document.getElementById('property-panel');
-                        panel.innerHTML = `
-                            <div class="property-info">
-                                <div class="property-address">Search Result</div>
-                                <div class="property-street">📍 ${result.formatted}</div>
-                                <div style="margin-top: 12px; padding: 12px; background: rgba(255,152,0,0.2); border-radius: 6px; font-size: 12px; color: #fff;">
-                                    Coordinates: ${lat.toFixed(4)}, ${lng.toFixed(4)}
-                                </div>
-                            </div>
-                        `;
-                        
-                        map.setView([lat, lng], 15);
-                    } else {
-                        document.getElementById('property-panel').innerHTML = 
-                            '<div style="padding: 20px; color: #ff6b6b;">Address not found</div>';
-                    }
-                })
-                .catch(err => {
-                    console.error('Geocoding error:', err);
-                    document.getElementById('property-panel').innerHTML = 
-                        '<div style="padding: 20px; color: #ff6b6b;">Error searching address</div>';
-                });
+        function loadPdf(pdf, filename) {
+            // For now, show a placeholder
+            // When Drive links are available, use: https://drive.google.com/file/d/{ID}/preview
+            alert('PDFs loading setup:\n\n' + filename + '\n\n(Will embed viewer when Drive uploads complete)');
         }
         
-        document.getElementById('search-input').addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') searchAddress();
-        });
+        function closePdf() {
+            document.getElementById('pdf-container').style.display = 'none';
+            pdfDoc = null;
+            currentPdfUrl = null;
+        }
         
         function resetView() {
             map.setView([32.87, -117.25], 11);
@@ -510,22 +410,53 @@
                 map.removeLayer(baseMaps.satellite);
                 baseMaps.street.addTo(map);
                 currentMapLayer = 'street';
-                document.getElementById('toggle-satellite').textContent = '🗺️ Street';
-                document.getElementById('toggle-satellite').classList.remove('satellite');
+                document.getElementById('toggle-btn').textContent = '🗺️ Street';
             } else {
                 map.removeLayer(baseMaps.street);
                 baseMaps.satellite.addTo(map);
                 currentMapLayer = 'satellite';
-                document.getElementById('toggle-satellite').textContent = '🛰️ Satellite';
-                document.getElementById('toggle-satellite').classList.add('satellite');
+                document.getElementById('toggle-btn').textContent = '🛰️ Satellite';
             }
         }
         
-        if (window.innerWidth <= 768) {
-            map.on('click', () => {
-                document.querySelector('.sidebar').classList.add('active');
-            });
-        }
+        document.getElementById('search-input').addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                const query = e.target.value.trim();
+                if (query) {
+                    const apiKey = '9c8074bf685942ef950a7e69e4b49fe0';
+                    const url = 'https://api.opencagedata.com/geocode/v1/json';
+                    const params = new URLSearchParams({
+                        q: query + ', San Diego, CA',
+                        key: apiKey,
+                        countrycode: 'us'
+                    });
+                    
+                    fetch(`${url}?${params}`)
+                        .then(r => r.json())
+                        .then(data => {
+                            if (data.results && data.results.length > 0) {
+                                const result = data.results[0];
+                                if (searchMarker) map.removeLayer(searchMarker);
+                                searchMarker = L.circleMarker([result.geometry.lat, result.geometry.lng], {
+                                    radius: 10,
+                                    fillColor: '#ff9800',
+                                    color: '#e65100',
+                                    weight: 3,
+                                    fillOpacity: 0.9
+                                }).addTo(map);
+                                
+                                map.setView([result.geometry.lat, result.geometry.lng], 15);
+                                
+                                document.getElementById('empty-state').style.display = 'none';
+                                document.getElementById('property-panel').style.display = 'block';
+                                document.getElementById('prop-address').textContent = 'Search Result';
+                                document.getElementById('prop-street').textContent = result.formatted;
+                                document.getElementById('file-list').innerHTML = '';
+                            }
+                        });
+                }
+            }
+        });
     </script>
 </body>
 </html>
