@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San Diego Retail Properties - Rent Rolls & OMs</title>
+    <title>San Diego Retail Deal Map</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/MarkerCluster.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/MarkerCluster.Default.min.css" />
@@ -18,48 +18,52 @@
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: #f5f5f5;
+            background: #1a1a1a;
+            overflow: hidden;
         }
         
         #map {
             position: absolute;
             top: 0;
             left: 0;
-            right: 320px;
+            right: 340px;
             bottom: 0;
-            background: #fff;
+            background: #1a1a1a;
         }
         
         .sidebar {
             position: absolute;
             right: 0;
             top: 0;
-            width: 320px;
+            width: 340px;
             height: 100%;
-            background: white;
-            box-shadow: -2px 0 8px rgba(0,0,0,0.1);
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            box-shadow: -3px 0 12px rgba(0,0,0,0.3);
             overflow-y: auto;
             z-index: 1000;
             display: flex;
             flex-direction: column;
+            color: white;
         }
         
         .sidebar-header {
-            padding: 20px;
-            background: #2c3e50;
-            color: white;
+            padding: 24px;
+            background: rgba(0,0,0,0.2);
             flex-shrink: 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
         }
         
         .sidebar-header h1 {
-            font-size: 16px;
-            font-weight: 600;
-            margin-bottom: 4px;
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 6px;
+            color: #fff;
         }
         
         .sidebar-header p {
-            font-size: 12px;
-            opacity: 0.8;
+            font-size: 13px;
+            opacity: 0.9;
+            color: #e0e0e0;
         }
         
         .sidebar-content {
@@ -69,45 +73,49 @@
         }
         
         .property-info {
-            background: #f8f9fa;
-            border-radius: 6px;
+            background: rgba(255,255,255,0.08);
+            border-radius: 8px;
             padding: 16px;
-            border: 1px solid #e9ecef;
+            border: 1px solid rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
         }
         
         .property-address {
-            font-size: 14px;
-            font-weight: 600;
-            color: #2c3e50;
-            margin-bottom: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 12px;
             word-break: break-word;
+            line-height: 1.3;
         }
         
         .property-stats {
             display: flex;
-            gap: 12px;
-            margin-bottom: 12px;
+            gap: 10px;
+            margin-bottom: 16px;
         }
         
         .stat {
-            background: white;
-            padding: 8px 12px;
-            border-radius: 4px;
+            background: rgba(255,255,255,0.12);
+            padding: 10px 12px;
+            border-radius: 6px;
             text-align: center;
             flex: 1;
+            border: 1px solid rgba(255,255,255,0.1);
         }
         
         .stat-number {
-            font-size: 18px;
+            font-size: 20px;
             font-weight: 700;
-            color: #3498db;
+            color: #4fc3f7;
         }
         
         .stat-label {
             font-size: 11px;
-            color: #7f8c8d;
+            color: #b0bec5;
             text-transform: uppercase;
-            margin-top: 2px;
+            letter-spacing: 0.5px;
+            margin-top: 4px;
         }
         
         .file-list {
@@ -116,77 +124,115 @@
         
         .file-list-label {
             font-size: 12px;
-            font-weight: 600;
-            color: #2c3e50;
-            margin-bottom: 8px;
+            font-weight: 700;
+            color: #4fc3f7;
+            margin-bottom: 10px;
             text-transform: uppercase;
-            opacity: 0.7;
+            letter-spacing: 0.5px;
         }
         
         .file-item {
             font-size: 12px;
-            padding: 6px 8px;
-            background: white;
-            margin-bottom: 4px;
-            border-radius: 3px;
-            border: 1px solid #e9ecef;
+            padding: 8px 10px;
+            background: rgba(255,255,255,0.08);
+            margin-bottom: 6px;
+            border-radius: 4px;
+            border: 1px solid rgba(255,255,255,0.1);
             word-break: break-word;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all 0.2s ease;
+            color: #e0e0e0;
         }
         
         .file-item:hover {
-            background: #e3f2fd;
-            border-color: #3498db;
+            background: rgba(79,195,247,0.2);
+            border-color: #4fc3f7;
+            color: #4fc3f7;
+            transform: translateX(2px);
         }
         
         .empty-state {
             text-align: center;
-            padding: 40px 20px;
-            color: #95a5a6;
+            padding: 60px 20px;
+            color: rgba(255,255,255,0.5);
         }
         
         .empty-state-icon {
-            font-size: 32px;
-            margin-bottom: 12px;
+            font-size: 48px;
+            margin-bottom: 16px;
+            opacity: 0.6;
         }
         
         .empty-state-text {
             font-size: 14px;
+            line-height: 1.5;
         }
         
         .map-controls {
             position: absolute;
-            bottom: 20px;
-            right: 340px;
+            top: 20px;
+            right: 360px;
             display: flex;
             gap: 8px;
             z-index: 999;
         }
         
         .control-btn {
-            background: white;
-            border: 1px solid #ddd;
-            padding: 8px 12px;
-            border-radius: 4px;
+            background: rgba(255,255,255,0.95);
+            border: 1px solid rgba(0,0,0,0.15);
+            padding: 10px 14px;
+            border-radius: 6px;
             cursor: pointer;
             font-size: 12px;
-            font-weight: 500;
-            transition: all 0.2s;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            color: #1a1a1a;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
         }
         
         .control-btn:hover {
-            background: #f5f5f5;
-            border-color: #3498db;
+            background: white;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            transform: translateY(-1px);
+        }
+        
+        .toggle-layer-btn.satellite {
+            background: rgba(255,255,255,0.15);
+            color: white;
+            border-color: rgba(255,255,255,0.3);
+        }
+        
+        .toggle-layer-btn.satellite:hover {
+            background: rgba(255,255,255,0.25);
         }
         
         .leaflet-popup-content {
             font-size: 13px;
+            color: #1a1a1a;
         }
         
         .leaflet-popup-content strong {
             display: block;
             margin-bottom: 6px;
+            color: #1e3c72;
+        }
+        
+        /* Scrollbar styling */
+        .sidebar-content::-webkit-scrollbar {
+            width: 6px;
+        }
+        
+        .sidebar-content::-webkit-scrollbar-track {
+            background: rgba(255,255,255,0.05);
+        }
+        
+        .sidebar-content::-webkit-scrollbar-thumb {
+            background: rgba(255,255,255,0.2);
+            border-radius: 3px;
+        }
+        
+        .sidebar-content::-webkit-scrollbar-thumb:hover {
+            background: rgba(255,255,255,0.3);
         }
         
         @media (max-width: 768px) {
@@ -196,14 +242,18 @@
             
             .sidebar {
                 position: fixed;
-                right: -320px;
-                transition: right 0.3s;
+                right: -340px;
+                transition: right 0.3s ease;
                 width: 100%;
-                max-width: 320px;
+                max-width: 340px;
             }
             
             .sidebar.active {
                 right: 0;
+            }
+            
+            .map-controls {
+                right: 20px;
             }
         }
     </style>
@@ -212,35 +262,49 @@
     <div id="map"></div>
     <div class="sidebar">
         <div class="sidebar-header">
-            <h1>San Diego Retail</h1>
-            <p>Property Rent Rolls & OMs</p>
+            <h1>📍 Deal Map</h1>
+            <p>San Diego Retail OMs & Rent Rolls</p>
         </div>
         <div class="sidebar-content">
             <div class="empty-state" id="empty-state">
-                <div class="empty-state-icon">📍</div>
-                <div class="empty-state-text">Click a property pin to view details</div>
+                <div class="empty-state-icon">🗺️</div>
+                <div class="empty-state-text">Click a property pin to view files and details</div>
             </div>
             <div id="property-panel" style="display: none;"></div>
         </div>
     </div>
     
     <div class="map-controls">
-        <button class="control-btn" onclick="map.setView([32.87, -117.25], 11)">Reset View</button>
-        <button class="control-btn" onclick="toggleSidebar()">Toggle Info</button>
+        <button class="control-btn" id="reset-view" onclick="resetView()">🏠 Reset View</button>
+        <button class="control-btn toggle-layer-btn satellite" id="toggle-satellite" onclick="toggleSatellite()">🛰️ Satellite</button>
     </div>
 
     <script>
-        // Initialize map
-        const map = L.map('map').setView([32.87, -117.25], 11);
+        let currentMapLayer = 'satellite';
+        let map;
+        let properties = [];
+        let baseMaps = {};
         
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        // Initialize map with satellite layer as default
+        map = L.map('map').setView([32.87, -117.25], 11);
+        
+        // Satellite layer (USGS)
+        baseMaps.satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri — Source: Esri, i-cubed, USDA, USGS, AEG, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
+            maxZoom: 18,
+            minZoom: 8
+        });
+        
+        // Street layer (fallback)
+        baseMaps.street = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap contributors',
             maxZoom: 19
-        }).addTo(map);
+        });
+        
+        // Add satellite by default
+        baseMaps.satellite.addTo(map);
         
         // Load GeoJSON
-        let properties = [];
-        
         fetch('properties.geojson')
             .then(r => r.json())
             .then(data => {
@@ -249,28 +313,46 @@
             })
             .catch(err => {
                 console.error('Error loading properties:', err);
-                document.querySelector('.empty-state-text').textContent = 'Error loading property data';
+                document.querySelector('.empty-state-text').textContent = '❌ Error loading property data';
             });
         
         function addMarkersToMap(geojson) {
             const markerGroup = L.markerClusterGroup({
-                maxClusterRadius: 80,
-                disableClusteringAtZoom: 15
+                maxClusterRadius: 100,
+                disableClusteringAtZoom: 14,
+                iconCreateFunction: function(cluster) {
+                    const count = cluster.getChildCount();
+                    let size = 'small';
+                    let color = '#00a8e8';
+                    if (count > 5) {
+                        size = 'large';
+                        color = '#ef476f';
+                    } else if (count > 2) {
+                        size = 'medium';
+                        color = '#ffd60a';
+                    }
+                    return L.divIcon({
+                        html: `<div style="background: ${color}; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.3);">${count}</div>`,
+                        className: 'marker-cluster',
+                        iconSize: [40, 40]
+                    });
+                }
             });
             
             L.geoJSON(geojson, {
                 pointToLayer: (feature, latlng) => {
                     const marker = L.circleMarker(latlng, {
-                        radius: 7,
-                        fillColor: '#3498db',
-                        color: '#2c3e50',
+                        radius: 8,
+                        fillColor: '#4fc3f7',
+                        color: '#01579b',
                         weight: 2,
-                        opacity: 0.8,
-                        fillOpacity: 0.7
+                        opacity: 0.9,
+                        fillOpacity: 0.8
                     });
                     
-                    marker.bindPopup(feature.properties.popupContent);
-                    marker.on('click', () => showPropertyDetails(feature.properties));
+                    const props = feature.properties;
+                    marker.bindPopup(`<strong>${props.address}</strong><br>${props.pdf_count} files`);
+                    marker.on('click', () => showPropertyDetails(props));
                     
                     return marker;
                 }
@@ -291,14 +373,18 @@
                             <div class="stat-number">${props.pdf_count}</div>
                             <div class="stat-label">Files</div>
                         </div>
+                        <div class="stat">
+                            <div class="stat-number">${props.pdf_count > 2 ? '✓' : '○'}</div>
+                            <div class="stat-label">Complete</div>
+                        </div>
                     </div>
             `;
             
             if (props.pdfs && props.pdfs.length > 0) {
                 html += '<div class="file-list">';
-                html += '<div class="file-list-label">📄 Files</div>';
-                props.pdfs.forEach(pdf => {
-                    html += `<div class="file-item" onclick="openFile('${pdf}')">${pdf}</div>`;
+                html += '<div class="file-list-label">📄 Documents</div>';
+                props.pdfs.forEach((pdf, idx) => {
+                    html += `<div class="file-item" title="${pdf}">📋 ${idx + 1}. ${pdf.substring(0, 35)}${pdf.length > 35 ? '...' : ''}</div>`;
                 });
                 html += '</div>';
             }
@@ -310,14 +396,24 @@
             empty.style.display = 'none';
         }
         
-        function openFile(filename) {
-            // In a real setup, this would open the PDF from the file system
-            // For now, just alert for testing
-            alert('File: ' + filename + '\n\nTo open: Click the file button in your file manager or modify this script to use your local file path');
+        function resetView() {
+            map.setView([32.87, -117.25], 11);
         }
         
-        function toggleSidebar() {
-            document.querySelector('.sidebar').classList.toggle('active');
+        function toggleSatellite() {
+            if (currentMapLayer === 'satellite') {
+                map.removeLayer(baseMaps.satellite);
+                baseMaps.street.addTo(map);
+                currentMapLayer = 'street';
+                document.getElementById('toggle-satellite').textContent = '🗺️ Street';
+                document.getElementById('toggle-satellite').classList.remove('satellite');
+            } else {
+                map.removeLayer(baseMaps.street);
+                baseMaps.satellite.addTo(map);
+                currentMapLayer = 'satellite';
+                document.getElementById('toggle-satellite').textContent = '🛰️ Satellite';
+                document.getElementById('toggle-satellite').classList.add('satellite');
+            }
         }
         
         // Mobile: auto-open sidebar on map click
