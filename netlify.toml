@@ -1,0 +1,4 @@
+# CoStar Deal Map - Static Site
+[build]
+  command = "echo 'Static site - no build needed'"
+  publish = "."
