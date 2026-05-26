@@ -130,7 +130,6 @@
             color: #4fc3f7;
             margin-bottom: 6px;
             text-transform: uppercase;
-            letter-spacing: 0.5px;
         }
         
         .file-item {
@@ -151,55 +150,6 @@
             color: #4fc3f7;
         }
         
-        .pdf-viewer-container {
-            flex: 1;
-            background: rgba(0,0,0,0.3);
-            border-radius: 8px;
-            border: 1px solid rgba(255,255,255,0.1);
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .pdf-controls {
-            padding: 8px;
-            background: rgba(0,0,0,0.5);
-            display: flex;
-            gap: 6px;
-            align-items: center;
-            font-size: 11px;
-            color: #b0bec5;
-        }
-        
-        .pdf-controls button {
-            background: rgba(79,195,247,0.2);
-            border: 1px solid rgba(79,195,247,0.4);
-            color: #4fc3f7;
-            padding: 4px 8px;
-            border-radius: 3px;
-            cursor: pointer;
-            font-size: 10px;
-        }
-        
-        .pdf-controls button:hover {
-            background: rgba(79,195,247,0.4);
-        }
-        
-        #pdf-canvas {
-            max-width: 100%;
-            max-height: 100%;
-            margin: auto;
-        }
-        
-        .pdf-viewer {
-            flex: 1;
-            overflow: auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: rgba(0,0,0,0.5);
-        }
-        
         .empty-state {
             text-align: center;
             padding: 40px 20px;
@@ -210,11 +160,6 @@
             font-size: 32px;
             margin-bottom: 12px;
             opacity: 0.6;
-        }
-        
-        .empty-state-text {
-            font-size: 12px;
-            line-height: 1.4;
         }
         
         .map-controls {
@@ -245,6 +190,10 @@
             transform: translateY(-1px);
         }
         
+        .label-toggle {
+            font-size: 11px;
+        }
+        
         @media (max-width: 768px) {
             #map { right: 0; }
             .sidebar {
@@ -255,7 +204,6 @@
                 max-width: 340px;
             }
             .sidebar.active { right: 0; }
-            .map-controls { right: 20px; }
         }
     </style>
 </head>
@@ -283,52 +231,55 @@
                         <div id="file-list"></div>
                     </div>
                 </div>
-                
-                <div class="pdf-viewer-container" id="pdf-container" style="display: none;">
-                    <div class="pdf-controls">
-                        <button onclick="prevPage()">← Prev</button>
-                        <span id="page-info">Page 1</span>
-                        <button onclick="nextPage()">Next →</button>
-                        <button onclick="closePdf()" style="margin-left: auto;">Close</button>
-                    </div>
-                    <div class="pdf-viewer">
-                        <canvas id="pdf-canvas"></canvas>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
     
     <div class="map-controls">
         <button class="control-btn" onclick="resetView()">🏠 Reset</button>
-        <button class="control-btn" onclick="toggleSatellite()" id="toggle-btn">🛰️ Satellite</button>
+        <button class="control-btn label-toggle" onclick="toggleLabels()" id="label-btn">🏷️ Labels ON</button>
+        <button class="control-btn" onclick="toggleSatellite()" id="satellite-btn">🛰️ Satellite</button>
     </div>
 
     <script>
         let currentMapLayer = 'satellite';
+        let labelsVisible = true;
         let map;
         let properties = [];
         let baseMaps = {};
+        let labelsLayer = null;
         let searchMarker = null;
-        let currentPdfUrl = null;
-        let pdfDoc = null;
-        let currentPage = 1;
         
         // Initialize map
         map = L.map('map').setView([32.87, -117.25], 11);
         
+        // Satellite layer (doesn't have labels)
         baseMaps.satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
             attribution: 'Tiles &copy; Esri',
             maxZoom: 18,
             minZoom: 8
         });
         
+        // Street layer
         baseMaps.street = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap',
             maxZoom: 19
         });
         
+        // Labels layer (overlay on top of satellite)
+        const labelsLayerDef = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap',
+            maxZoom: 19,
+            opacity: 0.3
+        });
+        
         baseMaps.satellite.addTo(map);
+        
+        // Add labels on satellite by default
+        labelsLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/voyager_labels_under/{z}/{x}/{y}{r}.png', {
+            attribution: '© CartoDB',
+            maxZoom: 18
+        }).addTo(map);
         
         fetch('properties.geojson')
             .then(r => r.json())
@@ -382,22 +333,22 @@
                     const item = document.createElement('div');
                     item.className = 'file-item';
                     item.textContent = '📋 ' + filename.substring(0, 30);
-                    item.onclick = () => loadPdf(pdf, filename);
+                    item.onclick = () => alert('PDF viewer ready when Drive upload completes!');
                     fileList.appendChild(item);
                 });
             }
         }
         
-        function loadPdf(pdf, filename) {
-            // For now, show a placeholder
-            // When Drive links are available, use: https://drive.google.com/file/d/{ID}/preview
-            alert('PDFs loading setup:\n\n' + filename + '\n\n(Will embed viewer when Drive uploads complete)');
-        }
-        
-        function closePdf() {
-            document.getElementById('pdf-container').style.display = 'none';
-            pdfDoc = null;
-            currentPdfUrl = null;
+        function toggleLabels() {
+            if (labelsVisible) {
+                map.removeLayer(labelsLayer);
+                labelsVisible = false;
+                document.getElementById('label-btn').textContent = '🏷️ Labels OFF';
+            } else {
+                labelsLayer.addTo(map);
+                labelsVisible = true;
+                document.getElementById('label-btn').textContent = '🏷️ Labels ON';
+            }
         }
         
         function resetView() {
@@ -408,14 +359,19 @@
         function toggleSatellite() {
             if (currentMapLayer === 'satellite') {
                 map.removeLayer(baseMaps.satellite);
+                map.removeLayer(labelsLayer);
                 baseMaps.street.addTo(map);
                 currentMapLayer = 'street';
-                document.getElementById('toggle-btn').textContent = '🗺️ Street';
+                document.getElementById('satellite-btn').textContent = '🛰️ Street';
+                labelsVisible = false;
+                document.getElementById('label-btn').style.display = 'none';
             } else {
                 map.removeLayer(baseMaps.street);
                 baseMaps.satellite.addTo(map);
+                if (labelsVisible) labelsLayer.addTo(map);
                 currentMapLayer = 'satellite';
-                document.getElementById('toggle-btn').textContent = '🛰️ Satellite';
+                document.getElementById('satellite-btn').textContent = '🛰️ Satellite';
+                document.getElementById('label-btn').style.display = 'block';
             }
         }
         
