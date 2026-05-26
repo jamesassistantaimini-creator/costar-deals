@@ -1,0 +1,1828 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          32.7
+        ]
+      },
+      "properties": {
+        "address": "43423 Monroe St, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "43423 Monroe Street Indio Brochure_1779753434.pdf",
+          "43423 Monroe Street Indio Brochure_1779755724.pdf",
+          "43423 Monroe Street Indio Brochure.pdf"
+        ],
+        "popupContent": "<strong>43423 Monroe St, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          32.85
+        ]
+      },
+      "properties": {
+        "address": "8130 Parkway Dr, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "8130 Parkway Drive_OM_1779756052.pdf",
+          "8130 Parkway Drive_OM.pdf",
+          "8130 Parkway Drive_OM_1779753781.pdf"
+        ],
+        "popupContent": "<strong>8130 Parkway Dr, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          33.0
+        ]
+      },
+      "properties": {
+        "address": "34660 Monterey Ave, San Diego, CA",
+        "pdf_count": 14,
+        "pdfs": [
+          "34660 Monterey Ave - 6375-81 and 6385 Imperial Ave - Marketin.pdf",
+          "34660 Monterey Ave - 2301-2305 Highland Ave National City - f (1).pdf",
+          "34660 Monterey Ave - attachment - 2026-03-31T114801.230.pdf",
+          "34660 Monterey Ave - View the Rite Aid Marketing Flyer.pdf",
+          "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building (1).pdf",
+          "34660 Monterey Ave - 26175 Jefferson Ave LeasingSale Brochur.pdf",
+          "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building.pdf",
+          "34660 Monterey Ave - 2301-2305 Highland Ave National City - f.pdf",
+          "34660 Monterey Ave - Flyer - 300 S Highland Springs Ave Bann.pdf",
+          "34660 Monterey Ave - 838-840-G-Street.pdf",
+          "34660 Monterey Ave - OM - 1523 South Coast Highway.pdf",
+          "34660 Monterey Ave - 2822 State St.pdf",
+          "34660 Monterey Ave - State Street Brochure 2025.pdf",
+          "34660 Monterey Ave.pdf"
+        ],
+        "popupContent": "<strong>34660 Monterey Ave, San Diego, CA</strong><br>14 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          33.150000000000006
+        ]
+      },
+      "properties": {
+        "address": "1502 Market St, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "1502 Market St - Coldwell Banker Marketing BrochureFlyer.pdf",
+          "1502 Market St - Brochure.pdf"
+        ],
+        "popupContent": "<strong>1502 Market St, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          33.300000000000004
+        ]
+      },
+      "properties": {
+        "address": "296 S Palm Canyon Dr, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "296 S Palm Canyon Drive.pdf",
+          "296 S Palm Canyon Drive_1779753735.pdf",
+          "296 S Palm Canyon Drive_1779756010.pdf"
+        ],
+        "popupContent": "<strong>296 S Palm Canyon Dr, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          33.45
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Storefront RetailOffice St, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "2 Star Retail Storefront RetailOffice Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2_1779755018.pdf",
+          "2 Star Retail Storefront RetailOffice Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2.pdf"
+        ],
+        "popupContent": "<strong>2 Star Retail Storefront RetailOffice St, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          33.6
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail St, San Diego, CA",
+        "pdf_count": 30,
+        "pdfs": [
+          "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print_1779749316.pdf",
+          "2 Star Retail Storefront - 307  317 N. El Camino Real San Clement_1779754844.pdf",
+          "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure.pdf",
+          "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view_1779753301.pdf",
+          "2 Star Retail Storefront RetailResidential - Zoning Allowances_1779755373.pdf",
+          "2 Star Retail Storefront - Marketing BrochureFlyer.pdf",
+          "2 Star Retail Storefront - 307  317 N. El Camino Real San Clement.pdf",
+          "2 Star Retail Storefront RetailOffice - BROCHURE.pdf",
+          "2 Star Retail Storefront - 73880_73890ElPaseoPD_IncStmt.pdf",
+          "2 Star Retail Storefront - 2730 2736  2740-2752 Imperial Ave - OM_1779753019.pdf",
+          "2 Star Retail Storefront - 73880_73890ElPaseoDrivePD_OM_Sale_1779754962.pdf",
+          "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view.pdf",
+          "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure_1779753564.pdf",
+          "2 Star Retail Storefront - 1434-44 Garnet Avenue Flyer.pdf",
+          "2 Star Retail Storefront - 1434-44 Garnet Avenue Flyer_1779755096.pdf",
+          "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print_1779753290.pdf",
+          "2 Star Retail Storefront - Marketing BrochureFlyer_1779755100.pdf",
+          "2 Star Retail Storefront RetailOffice - MP- 2121 Adams 060125.pdf",
+          "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print.pdf",
+          "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure_1779755850.pdf",
+          "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view_1779749319.pdf",
+          "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print_1779753297.pdf",
+          "2 Star Retail Storefront RetailResidential - Zoning Allowances.pdf",
+          "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view_1779753293.pdf",
+          "2 Star Retail Storefront - 73880_73890ElPaseoPD_IncStmt_1779754966.pdf",
+          "2 Star Retail Storefront - 2730 2736  2740-2752 Imperial Ave - OM.pdf",
+          "2 Star Retail Storefront - 73880_73890ElPaseoDrivePD_OM_Sale.pdf",
+          "2 Star Retail Storefront RetailResidential - 1194 N Imperial Hwy Ocotillo - 12-25_1779755369.pdf",
+          "2 Star Retail Storefront RetailOffice - El Paseo Brochure.pdf",
+          "2 Star Retail Storefront RetailResidential - 1194 N Imperial Hwy Ocotillo - 12-25.pdf"
+        ],
+        "popupContent": "<strong>2 Star Retail St, San Diego, CA</strong><br>30 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          33.75
+        ]
+      },
+      "properties": {
+        "address": "41267 E Florida Ave, San Diego, CA",
+        "pdf_count": 8,
+        "pdfs": [
+          "41267 E Florida Ave - County Zoning_1779755069.pdf",
+          "41267 E Florida Ave - Riverside County Report.pdf",
+          "41267 E Florida Ave - County Zoning.pdf",
+          "41267 E Florida Ave - Riverside County Report 2_1779755073.pdf",
+          "41267 E Florida Ave - Riverside County Report 2.pdf",
+          "41267 E Florida Ave - Riverside County Report_1779755065.pdf",
+          "41267 E Florida Ave - Offer Memorandum - 41267 E. Florida Ave_1779755062.pdf",
+          "41267 E Florida Ave - Offer Memorandum - 41267 E. Florida Ave.pdf"
+        ],
+        "popupContent": "<strong>41267 E Florida Ave, San Diego, CA</strong><br>8 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          33.900000000000006
+        ]
+      },
+      "properties": {
+        "address": "68580 Ramon Rd, San Diego, CA",
+        "pdf_count": 6,
+        "pdfs": [
+          "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25_1779756118.pdf",
+          "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25_1779753847.pdf",
+          "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25.pdf",
+          "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25_1779753851.pdf",
+          "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25_1779749757.pdf",
+          "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25_1779756115.pdf"
+        ],
+        "popupContent": "<strong>68580 Ramon Rd, San Diego, CA</strong><br>6 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0,
+          34.050000000000004
+        ]
+      },
+      "properties": {
+        "address": "1243 E Palm Canyon Dr, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "1243 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S_1779755916.pdf",
+          "1243 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S_1779753635.pdf",
+          "1243 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S.pdf"
+        ],
+        "popupContent": "<strong>1243 E Palm Canyon Dr, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1218,
+          33.0164
+        ]
+      },
+      "properties": {
+        "address": "69040 Ramon Rd, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "69040 Ramon Rd_Marketing Brochure_Triwel_1779753873.pdf",
+          "69040 Ramon Rd_Marketing Brochure_Triwel_1779756140.pdf",
+          "69040 Ramon Rd_Marketing Brochure_Triwel.pdf"
+        ],
+        "popupContent": "<strong>69040 Ramon Rd, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15,
+          32.85
+        ]
+      },
+      "properties": {
+        "address": "27665 Jefferson Ave, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "27665 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755428.pdf",
+          "27665 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf"
+        ],
+        "popupContent": "<strong>27665 Jefferson Ave, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15,
+          33.0
+        ]
+      },
+      "properties": {
+        "address": "73120 Highway, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "3 Star Retail VeterinarianKennel - 73120 Highway 111 030526_1779752906.pdf",
+          "3 Star Retail VeterinarianKennel - 73120 Highway 111 030526.pdf",
+          "3 Star Retail VeterinarianKennel - 73120 Highway 111 030526_1779755240.pdf"
+        ],
+        "popupContent": "<strong>73120 Highway, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15,
+          33.150000000000006
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Freestanding St, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "2 Star Retail Freestanding Strip Center - Brochure.pdf",
+          "2 Star Retail Freestanding Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2.pdf",
+          "2 Star Retail Freestanding Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2_1779755026.pdf"
+        ],
+        "popupContent": "<strong>2 Star Retail Freestanding St, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15,
+          33.300000000000004
+        ]
+      },
+      "properties": {
+        "address": "435 Hacienda Dr, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "435 Hacienda Dr - Sunroad Plaza.pdf",
+          "435 Hacienda Dr - Sunroad Plaza_1779755156.pdf"
+        ],
+        "popupContent": "<strong>435 Hacienda Dr, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15,
+          33.45
+        ]
+      },
+      "properties": {
+        "address": "14411 Norwalk Ln, San Diego, CA",
+        "pdf_count": 6,
+        "pdfs": [
+          "14411 Norwalk Ln - Marketing BrochureFlyer_1779753534.pdf",
+          "14411 Norwalk Ln - Marketing BrochureFlyer_1779753530.pdf",
+          "14411 Norwalk Ln - Marketing BrochureFlyer_1779749487.pdf",
+          "14411 Norwalk Ln - Marketing BrochureFlyer.pdf",
+          "14411 Norwalk Ln - Marketing BrochureFlyer_1779755818.pdf",
+          "14411 Norwalk Ln - Marketing BrochureFlyer_1779755822.pdf"
+        ],
+        "popupContent": "<strong>14411 Norwalk Ln, San Diego, CA</strong><br>6 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15,
+          33.6
+        ]
+      },
+      "properties": {
+        "address": "3 Star Retail St, San Diego, CA",
+        "pdf_count": 6,
+        "pdfs": [
+          "3 Star Retail Strip Center - ValleyCenter_ParkCircle_v2 1_1779755649.pdf",
+          "3 Star Retail Storefront RetailOffice - Sale Brochure - El Paseo Collection Eleg.pdf",
+          "3 Star Retail Storefront RetailOffice - FourthE OM_UPG.pdf",
+          "3 Star Retail Strip Center - ValleyCenter_ParkCircle_v2 1.pdf",
+          "3 Star Retail Storefront RetailOffice - Sale Brochure - El Paseo Collection Eleg_1779754955.pdf",
+          "3 Star Retail Strip Center - ValleyCenter_ParkCircle_v2 1_1779753350.pdf"
+        ],
+        "popupContent": "<strong>3 Star Retail St, San Diego, CA</strong><br>6 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15,
+          33.75
+        ]
+      },
+      "properties": {
+        "address": "74725 Joni Dr, San Diego, CA",
+        "pdf_count": 4,
+        "pdfs": [
+          "74725 Joni Dr - 74725JoniPD_Sale.pdf",
+          "74725 Joni Dr - 74725JoniPD_IncStmt.pdf",
+          "74725 Joni Dr - 74725JoniPD_IncStmt_1779755466.pdf",
+          "74725 Joni Dr - 74725JoniPD_Sale_1779755469.pdf"
+        ],
+        "popupContent": "<strong>74725 Joni Dr, San Diego, CA</strong><br>4 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15,
+          33.900000000000006
+        ]
+      },
+      "properties": {
+        "address": "475 Hacienda Dr, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "475 Hacienda Dr - Sunroad Plaza.pdf"
+        ],
+        "popupContent": "<strong>475 Hacienda Dr, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15,
+          34.050000000000004
+        ]
+      },
+      "properties": {
+        "address": "3 Star Retail Freest, San Diego, CA",
+        "pdf_count": 16,
+        "pdfs": [
+          "3 Star Retail Freestanding - 724 N El Camino Real OM.pdf",
+          "3 Star Retail Freestanding - RSM 24 Hr Fitness - Brochure 10-1.pdf",
+          "3 Star Retail Freestanding - San Clemente Renderings_1779754888.pdf",
+          "3 Star Retail Freestanding - 22331 El Paseo Offering Memorandum 1.pdf",
+          "3 Star Retail Freestanding - El Cajon CA - Starbucks.pdf",
+          "3 Star Retail Freestanding Power Center - Marketing BrochureFlyer.pdf",
+          "3 Star Retail Freestanding - RSM 24 Hr Fitness - Brochure 10-1_1779754936.pdf",
+          "3 Star Retail Freestanding - Brochure_1779754907.pdf",
+          "3 Star Retail Freestanding - Floorplan_1779754910.pdf",
+          "3 Star Retail Freestanding - FOR SALE 1640 N El Camino Real San Cle_1779754885.pdf",
+          "3 Star Retail Freestanding - Brochure.pdf",
+          "3 Star Retail Freestanding - 724 N El Camino Real OM_1779754867.pdf",
+          "3 Star Retail Freestanding - 22331 El Paseo Offering Memorandum 1_1779754933.pdf",
+          "3 Star Retail Freestanding - San Clemente Renderings.pdf",
+          "3 Star Retail Freestanding - FOR SALE 1640 N El Camino Real San Cle.pdf",
+          "3 Star Retail Freestanding - Floorplan.pdf"
+        ],
+        "popupContent": "<strong>3 Star Retail Freest, San Diego, CA</strong><br>16 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3,
+          32.7
+        ]
+      },
+      "properties": {
+        "address": "42021 Florida Ave, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "42021 Florida Ave - Flyer - Hemet CA.pdf",
+          "42021 Florida Ave - Flyer - Hemet CA_1779754996.pdf"
+        ],
+        "popupContent": "<strong>42021 Florida Ave, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3,
+          32.85
+        ]
+      },
+      "properties": {
+        "address": "1512 Main St, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "1512 Main Street_Bank_print For Sale.pdf_1779753210.pdf",
+          "1512 Main Street_Bank_print For Sale.pdf.pdf"
+        ],
+        "popupContent": "<strong>1512 Main St, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3,
+          33.0
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Rest, San Diego, CA",
+        "pdf_count": 7,
+        "pdfs": [
+          "2 Star Retail Restaurant - 83010 Highway 111 and 45900 Fargo Street.pdf",
+          "2 Star Retail Restaurant - Offering Memorandum_1779755249.pdf",
+          "2 Star Retail Restaurant - Lee  Associates Marketing BrochureFlye.pdf",
+          "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C_1779753666.pdf",
+          "2 Star Retail Restaurant - Offering Memorandum.pdf",
+          "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C_1779755946.pdf",
+          "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C.pdf"
+        ],
+        "popupContent": "<strong>2 Star Retail Rest, San Diego, CA</strong><br>7 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3,
+          33.150000000000006
+        ]
+      },
+      "properties": {
+        "address": "832 Fifth Ave, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "Unknown - 832 Fifth Ave-Floor Plan.pdf"
+        ],
+        "popupContent": "<strong>832 Fifth Ave, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3,
+          33.300000000000004
+        ]
+      },
+      "properties": {
+        "address": "7969 Mission Gorge Rd, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "7969 Mission Gorge Rd - Cushman  Wakefield Marketing BrochureF_1779753411.pdf",
+          "7969 Mission Gorge Rd - Cushman  Wakefield Marketing BrochureF_1779755703.pdf",
+          "7969 Mission Gorge Rd - Cushman  Wakefield Marketing BrochureF.pdf"
+        ],
+        "popupContent": "<strong>7969 Mission Gorge Rd, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3,
+          33.45
+        ]
+      },
+      "properties": {
+        "address": "5752 La Jolla Blvd, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145_1779753167.pdf",
+          "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145_1779755502.pdf",
+          "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145.pdf"
+        ],
+        "popupContent": "<strong>5752 La Jolla Blvd, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3,
+          33.6
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Drug St, San Diego, CA",
+        "pdf_count": 4,
+        "pdfs": [
+          "2 Star Retail Drug Store - 801 N El Camino Real Brochure S.pdf",
+          "2 Star Retail Drug Store - 801 N El Camino Real Brochure S_1779752132.pdf",
+          "2 Star Retail Drug Store - 801 N El Camino Real Brochure S_1779754874.pdf",
+          "2 Star Retail Drug Store - 801 N El Camino Real Brochure S_1779754878.pdf"
+        ],
+        "popupContent": "<strong>2 Star Retail Drug St, San Diego, CA</strong><br>4 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3,
+          33.75
+        ]
+      },
+      "properties": {
+        "address": "320 Broadway, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "Unknown - 310-320 Broadway.pdf"
+        ],
+        "popupContent": "<strong>320 Broadway, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3,
+          33.900000000000006
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Storefront RetailResidential St, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "2 Star Retail Storefront RetailResidential Strip C - OM 4224-28 El Cajon Blvd.pdf"
+        ],
+        "popupContent": "<strong>2 Star Retail Storefront RetailResidential St, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3,
+          34.050000000000004
+        ]
+      },
+      "properties": {
+        "address": "1040 National City Blvd, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "1040 National City Blvd - National_City_Development_Flyer__1779755797.pdf",
+          "1040 National City Blvd - National_City_Development_Flyer_.pdf",
+          "1040 National City Blvd - National_City_Development_Flyer__1779753507.pdf"
+        ],
+        "popupContent": "<strong>1040 National City Blvd, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.45,
+          32.7
+        ]
+      },
+      "properties": {
+        "address": "34900 Monterey Ave, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "34900 Monterey Ave - Pet Smart OM_1779753477.pdf",
+          "34900 Monterey Ave - Pet Smart OM.pdf",
+          "34900 Monterey Ave - Pet Smart OM_1779755769.pdf"
+        ],
+        "popupContent": "<strong>34900 Monterey Ave, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.45,
+          32.85
+        ]
+      },
+      "properties": {
+        "address": "3055 Harding St, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "3055 Harding St.pdf",
+          "3055 Harding St_1779755193.pdf"
+        ],
+        "popupContent": "<strong>3055 Harding St, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.45,
+          33.0
+        ]
+      },
+      "properties": {
+        "address": "2822 State St, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "3 Star Retail Movie Theatre - 2822 State St.pdf"
+        ],
+        "popupContent": "<strong>2822 State St, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.45,
+          33.150000000000006
+        ]
+      },
+      "properties": {
+        "address": "27310 Madison Ave, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "27310 Madison Ave - Madison Ave_OM.pdf.pdf",
+          "27310 Madison Ave - Madison Ave_OM.pdf_1779753177.pdf"
+        ],
+        "popupContent": "<strong>27310 Madison Ave, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.45,
+          33.300000000000004
+        ]
+      },
+      "properties": {
+        "address": "2100 N Palm Canyon Dr, San Diego, CA",
+        "pdf_count": 9,
+        "pdfs": [
+          "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE.pdf",
+          "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779749626.pdf",
+          "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755965.pdf",
+          "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779749636.pdf",
+          "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755976.pdf",
+          "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753687.pdf",
+          "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755987.pdf",
+          "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753698.pdf",
+          "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753711.pdf"
+        ],
+        "popupContent": "<strong>2100 N Palm Canyon Dr, San Diego, CA</strong><br>9 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.45,
+          33.45
+        ]
+      },
+      "properties": {
+        "address": "68406 Highway, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "2 Star Retail Auto Repair - 68406 Highway 111_1779755220.pdf",
+          "2 Star Retail Auto Repair - 68406 Highway 111.pdf"
+        ],
+        "popupContent": "<strong>68406 Highway, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.45,
+          33.6
+        ]
+      },
+      "properties": {
+        "address": "1670 Main St, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "1670 Main St - Stonegate-Rite-Aid Print 4.16.26_1779753220.pdf",
+          "1670 Main St - Stonegate-Rite-Aid Print 4.16.26.pdf",
+          "1670 Main St - Stonegate-Rite-Aid Print 4.16.26_1779755551.pdf"
+        ],
+        "popupContent": "<strong>1670 Main St, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.45,
+          33.75
+        ]
+      },
+      "properties": {
+        "address": "3 Star Retail Drug St, San Diego, CA",
+        "pdf_count": 4,
+        "pdfs": [
+          "3 Star Retail Drug Store - CVS Mission Viejo OM_1779755586.pdf",
+          "3 Star Retail Drug Store - CVS Mission Viejo OM.pdf",
+          "3 Star Retail Drug Store - CVS Mission Viejo OM_1779753259.pdf",
+          "3 Star Retail Drug Store Neighborhood Center - 894 Oak Valley Rite Aid Sale Lease Flyer.pdf"
+        ],
+        "popupContent": "<strong>3 Star Retail Drug St, San Diego, CA</strong><br>4 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.45,
+          33.900000000000006
+        ]
+      },
+      "properties": {
+        "address": "490 S Palm Canyon Dr, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE.pdf",
+          "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE_1779753760.pdf",
+          "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE_1779756032.pdf"
+        ],
+        "popupContent": "<strong>490 S Palm Canyon Dr, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2448,
+          32.785
+        ]
+      },
+      "properties": {
+        "address": "1560 Garnet Ave, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "1560 Garnet Ave - 1560-1564GarnetAve2_OM.pdf",
+          "1560 Garnet Ave - 1560-1564GarnetAve2_OM_1779825639.pdf"
+        ],
+        "popupContent": "<strong>1560 Garnet Ave, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6,
+          32.7
+        ]
+      },
+      "properties": {
+        "address": "1003 E Devonshire Ave, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "1003 E Devonshire Ave - HEMET-OM updated-compressed.pdf",
+          "1003 E Devonshire Ave - 1003 E. Devonshire Avenue.pdf"
+        ],
+        "popupContent": "<strong>1003 E Devonshire Ave, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6,
+          32.85
+        ]
+      },
+      "properties": {
+        "address": "1202 Main St, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "1202 Main St - 1202 W Main St_1779755536.pdf",
+          "1202 Main St - 1202 W Main St.pdf",
+          "1202 Main St - 1202 W Main St_1779753200.pdf"
+        ],
+        "popupContent": "<strong>1202 Main St, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6,
+          33.0
+        ]
+      },
+      "properties": {
+        "address": "450 S Palm Canyon Dr, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE_1779756021.pdf",
+          "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE.pdf",
+          "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE_1779753747.pdf"
+        ],
+        "popupContent": "<strong>450 S Palm Canyon Dr, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6,
+          33.150000000000006
+        ]
+      },
+      "properties": {
+        "address": "33389 Old State Hwy, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "33389 Old State Hwy - Hemet - 33389 Highway 74.pdf",
+          "33389 Old State Hwy - Hemet - 33389 Highway 74_1779755839.pdf"
+        ],
+        "popupContent": "<strong>33389 Old State Hwy, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6,
+          33.300000000000004
+        ]
+      },
+      "properties": {
+        "address": "3050 Pio Pico Dr, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2_1779756076.pdf",
+          "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2_1779753806.pdf",
+          "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2.pdf"
+        ],
+        "popupContent": "<strong>3050 Pio Pico Dr, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6,
+          33.45
+        ]
+      },
+      "properties": {
+        "address": "47985 Monroe St, San Diego, CA",
+        "pdf_count": 4,
+        "pdfs": [
+          "47985 Monroe St - Brochure - Former Rite-Aid in Indio CA.pdf",
+          "47985 Monroe St - Retail Demand by Industry Tabular 2578.pdf",
+          "47985 Monroe St - Household Budget Expenditures Report Ta.pdf",
+          "47985 Monroe St - Retail Demand Outlook Report Tabular 2.pdf"
+        ],
+        "popupContent": "<strong>47985 Monroe St, San Diego, CA</strong><br>4 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6,
+          33.6
+        ]
+      },
+      "properties": {
+        "address": "128 N Juanita St, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "128 N Juanita St - 128 N. Juanita St. Hemet__1779755479.pdf",
+          "128 N Juanita St - 128 N. Juanita St. Hemet__1779753144.pdf",
+          "128 N Juanita St - 128 N. Juanita St. Hemet_.pdf"
+        ],
+        "popupContent": "<strong>128 N Juanita St, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6,
+          33.75
+        ]
+      },
+      "properties": {
+        "address": "3719 Mission Blvd, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "3719 Mission Blvd - Brochure 3719 Mission Blvd_1779753383.pdf",
+          "3719 Mission Blvd - Brochure 3719 Mission Blvd.pdf",
+          "3719 Mission Blvd - Brochure 3719 Mission Blvd_1779755676.pdf"
+        ],
+        "popupContent": "<strong>3719 Mission Blvd, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6,
+          33.900000000000006
+        ]
+      },
+      "properties": {
+        "address": "1010 National City Blvd, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "1010 National City Blvd - National_City_Development_Flyer_.pdf",
+          "1010 National City Blvd - National_City_Development_Flyer__1779755787.pdf",
+          "1010 National City Blvd - National_City_Development_Flyer__1779753496.pdf"
+        ],
+        "popupContent": "<strong>1010 National City Blvd, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.6,
+          34.050000000000004
+        ]
+      },
+      "properties": {
+        "address": "4741 Point Loma Ave, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "4741 Point Loma Ave - 4741 - Pt loma OM - 2026-04-04 2.pdf",
+          "4741 Point Loma Ave - 4741 - Pt loma OM - 2026-04-04.pdf",
+          "4741 Point Loma Ave - 4741 - Pt loma OM - 2026-04-04 2_1779743313.pdf"
+        ],
+        "popupContent": "<strong>4741 Point Loma Ave, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.75,
+          32.7
+        ]
+      },
+      "properties": {
+        "address": "27625 Jefferson Ave, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "27625 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753092.pdf",
+          "27625 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755419.pdf",
+          "27625 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf"
+        ],
+        "popupContent": "<strong>27625 Jefferson Ave, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.75,
+          32.85
+        ]
+      },
+      "properties": {
+        "address": "1201 E Palm Canyon Dr, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "1201 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S.pdf",
+          "1201 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S_1779755905.pdf",
+          "1201 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S_1779753624.pdf"
+        ],
+        "popupContent": "<strong>1201 E Palm Canyon Dr, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.75,
+          33.0
+        ]
+      },
+      "properties": {
+        "address": "102 N Palm Canyon Dr, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling _1779755935.pdf",
+          "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling .pdf",
+          "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling _1779753654.pdf"
+        ],
+        "popupContent": "<strong>102 N Palm Canyon Dr, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.75,
+          33.150000000000006
+        ]
+      },
+      "properties": {
+        "address": "6333 Mission Gorge Rd, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "6333 Mission Gorge Rd- MP 1225_1779753400.pdf",
+          "6333 Mission Gorge Rd- MP 1225.pdf",
+          "6333 Mission Gorge Rd- MP 1225_1779755693.pdf"
+        ],
+        "popupContent": "<strong>6333 Mission Gorge Rd, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.75,
+          33.300000000000004
+        ]
+      },
+      "properties": {
+        "address": "445 Hacienda Dr, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "445 Hacienda Dr - Sunroad Plaza_1779752833.pdf",
+          "445 Hacienda Dr - Sunroad Plaza.pdf"
+        ],
+        "popupContent": "<strong>445 Hacienda Dr, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.75,
+          33.45
+        ]
+      },
+      "properties": {
+        "address": "34275 Monterey Ave, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "34275 Monterey Ave - 34275 Monterey OM.pdf",
+          "34275 Monterey Ave - 34275 Monterey OM_1779753466.pdf"
+        ],
+        "popupContent": "<strong>34275 Monterey Ave, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.0386,
+          32.9627
+        ]
+      },
+      "properties": {
+        "address": "13977 Poway Rd, San Diego, CA",
+        "pdf_count": 6,
+        "pdfs": [
+          "13977 Poway Rd - 13977 Poway_1779756103.pdf",
+          "13977 Poway Rd - 13977 Poway_1779756099.pdf",
+          "13977 Poway Rd - 13977 Poway_1779749743.pdf",
+          "13977 Poway Rd - 13977 Poway.pdf",
+          "13977 Poway Rd - 13977 Poway_1779753831.pdf",
+          "13977 Poway Rd - 13977 Poway_1779753835.pdf"
+        ],
+        "popupContent": "<strong>13977 Poway Rd, San Diego, CA</strong><br>6 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.75,
+          33.75
+        ]
+      },
+      "properties": {
+        "address": "3 Star Retail Rest, San Diego, CA",
+        "pdf_count": 4,
+        "pdfs": [
+          "3 Star Retail Restaurant - 1814 El Camino Real_OM_2026_1779754896.pdf",
+          "3 Star Retail Restaurant - 1814 El Camino Real_OM_2026.pdf",
+          "3 Star Retail Restaurant - Historical Marketing Brochure_1779754899.pdf",
+          "3 Star Retail Restaurant - Historical Marketing Brochure.pdf"
+        ],
+        "popupContent": "<strong>3 Star Retail Rest, San Diego, CA</strong><br>4 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.75,
+          33.900000000000006
+        ]
+      },
+      "properties": {
+        "address": "262 S Palm Canyon Dr, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "262 S Palm Canyon Dr - 262 S. Palm Canyon Drive Palm Springs .pdf",
+          "262 S Palm Canyon Dr - 262 S. Palm Canyon Drive Palm Springs _1779755998.pdf",
+          "262 S Palm Canyon Dr - 262 S. Palm Canyon Drive Palm Springs _1779753723.pdf"
+        ],
+        "popupContent": "<strong>262 S Palm Canyon Dr, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.75,
+          34.050000000000004
+        ]
+      },
+      "properties": {
+        "address": "4811 W Point Loma Blvd, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "4811 W Point Loma Blvd - Sale Brochure_1779753818.pdf",
+          "4811 W Point Loma Blvd - Sale Brochure_1779756088.pdf",
+          "4811 W Point Loma Blvd - Sale Brochure.pdf"
+        ],
+        "popupContent": "<strong>4811 W Point Loma Blvd, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9,
+          32.7
+        ]
+      },
+      "properties": {
+        "address": "1020 E Florida Ave, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "1020 E Florida Ave - Traffic Count 1020 E Florida Ave Hemet.pdf",
+          "1020 E Florida Ave - 1020 E. Florida Ave. Offering Memorandum.pdf",
+          "1020 E Florida Ave - APN MAP.pdf"
+        ],
+        "popupContent": "<strong>1020 E Florida Ave, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9,
+          32.85
+        ]
+      },
+      "properties": {
+        "address": "31662 S Coast Hwy, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "Unknown - 31656-31662 S Coast Hwy OM.pdf",
+          "Unknown - 31656-31662 S Coast Hwy OM_1779745717.pdf"
+        ],
+        "popupContent": "<strong>31662 S Coast Hwy, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9,
+          33.0
+        ]
+      },
+      "properties": {
+        "address": "54227 Pine Crest Ave, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "54227 Pine Crest Ave - 35364_print 2.pdf",
+          "54227 Pine Crest Ave - 35364_print 2_1779753793.pdf",
+          "54227 Pine Crest Ave - 35364_print 2_1779756063.pdf"
+        ],
+        "popupContent": "<strong>54227 Pine Crest Ave, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9,
+          33.150000000000006
+        ]
+      },
+      "properties": {
+        "address": "1180 N State St, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "1180 N State St - View the Rite Aid Brochure.pdf",
+          "1180 N State St - View the Rite Aid Marketing Flyer.pdf",
+          "1180 N State St - View the Rite Aid Brochure_1779742184.pdf"
+        ],
+        "popupContent": "<strong>1180 N State St, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9,
+          33.300000000000004
+        ]
+      },
+      "properties": {
+        "address": "2415 San Diego Ave, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "2415 San Diego Ave - 2415SanDiegoAve_UPG.pdf",
+          "2415 San Diego Ave - OldTownCorralOM_UPG.pdf"
+        ],
+        "popupContent": "<strong>2415 San Diego Ave, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9,
+          33.45
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Restaurant St, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "2 Star Retail Restaurant Strip Center - Indio Offering Memorandum.pdf"
+        ],
+        "popupContent": "<strong>2 Star Retail Restaurant St, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9,
+          33.6
+        ]
+      },
+      "properties": {
+        "address": "42150 Jackson St, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "42150 Jackson St - Offering Memorandum.pdf"
+        ],
+        "popupContent": "<strong>42150 Jackson St, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9,
+          33.75
+        ]
+      },
+      "properties": {
+        "address": "27685 Jefferson Ave, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "27685 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755438.pdf",
+          "27685 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753107.pdf",
+          "27685 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf"
+        ],
+        "popupContent": "<strong>27685 Jefferson Ave, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9,
+          33.900000000000006
+        ]
+      },
+      "properties": {
+        "address": "455 Hacienda Dr, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "455 Hacienda Dr - Sunroad Plaza_1779752841.pdf",
+          "455 Hacienda Dr - Sunroad Plaza.pdf"
+        ],
+        "popupContent": "<strong>455 Hacienda Dr, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.9,
+          34.050000000000004
+        ]
+      },
+      "properties": {
+        "address": "72777 Dinah Shore Dr, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "72777 Dinah Shore Dr - 72777_DinahShore_OM-05132025-Low-Res.pdf",
+          "72777 Dinah Shore Dr - 72777_DinahShore_OM-05122025-Low-Res.pdf"
+        ],
+        "popupContent": "<strong>72777 Dinah Shore Dr, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.05,
+          32.7
+        ]
+      },
+      "properties": {
+        "address": "2545 W Florida Ave, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "2545 W Florida Ave - Marketing BrochureFlyer.pdf",
+          "2545 W Florida Ave - Marketing BrochureFlyer_1779755089.pdf",
+          "2545 W Florida Ave - Marketing BrochureFlyer_1779752332.pdf"
+        ],
+        "popupContent": "<strong>2545 W Florida Ave, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.05,
+          32.85
+        ]
+      },
+      "properties": {
+        "address": "5032 Niagara Ave, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "5032 Niagara Ave - Broker CA_OB Collective_1779753518.pdf",
+          "5032 Niagara Ave - Broker CA_OB Collective_1779755807.pdf",
+          "5032 Niagara Ave - Broker CA_OB Collective.pdf"
+        ],
+        "popupContent": "<strong>5032 Niagara Ave, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.05,
+          33.0
+        ]
+      },
+      "properties": {
+        "address": "465 Hacienda Dr, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "465 Hacienda Dr - Sunroad Plaza.pdf"
+        ],
+        "popupContent": "<strong>465 Hacienda Dr, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.05,
+          33.150000000000006
+        ]
+      },
+      "properties": {
+        "address": "14010 Palm Dr, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "14010 Palm Dr Marketing Package.pdf",
+          "14010 Palm Dr Marketing Package_1779755887.pdf",
+          "14010 Palm Dr Marketing Package_1779753604.pdf"
+        ],
+        "popupContent": "<strong>14010 Palm Dr, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.05,
+          33.300000000000004
+        ]
+      },
+      "properties": {
+        "address": "3 Star Retail Freestanding St, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "3 Star Retail Freestanding Strip Center - ValleyCenter_ParkCircle_v2 1.pdf"
+        ],
+        "popupContent": "<strong>3 Star Retail Freestanding St, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.05,
+          33.45
+        ]
+      },
+      "properties": {
+        "address": "2730 Imperial Ave, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "2730 Imperial Ave - 2730 2736  2740-2752 Imperial Ave - OM.pdf"
+        ],
+        "popupContent": "<strong>2730 Imperial Ave, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.05,
+          33.6
+        ]
+      },
+      "properties": {
+        "address": "1571 S Hale Ave, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "1571 S Hale Ave - Marketing BrochureFlyer.pdf",
+          "1571 S Hale Ave - Brochure.pdf"
+        ],
+        "popupContent": "<strong>1571 S Hale Ave, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.05,
+          33.75
+        ]
+      },
+      "properties": {
+        "address": "790 N Johnson Ave, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "790 N Johnson Ave - Brochure.pdf",
+          "790 N Johnson Ave - Brochure_1779755453.pdf",
+          "790 N Johnson Ave - Brochure_1779753124.pdf"
+        ],
+        "popupContent": "<strong>790 N Johnson Ave, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.05,
+          33.900000000000006
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Freest, San Diego, CA",
+        "pdf_count": 3,
+        "pdfs": [
+          "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1.pdf.pdf",
+          "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1.pdf_1779755666.pdf",
+          "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1.pdf_1779753371.pdf"
+        ],
+        "popupContent": "<strong>2 Star Retail Freest, San Diego, CA</strong><br>3 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.05,
+          34.050000000000004
+        ]
+      },
+      "properties": {
+        "address": "3340 El Cajon Blvd, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "3340 El Cajon Blvd - Final OM 3340 El Cajon Bld.pdf.pdf"
+        ],
+        "popupContent": "<strong>3340 El Cajon Blvd, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2,
+          32.7
+        ]
+      },
+      "properties": {
+        "address": "6555 Indian Canyon Dr, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "6555 Indian Canyon Dr - 6555 N Indian Canyon Dr Sale Brochure.pdf"
+        ],
+        "popupContent": "<strong>6555 Indian Canyon Dr, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2,
+          32.85
+        ]
+      },
+      "properties": {
+        "address": "1291 E Florida Ave, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "1291 E Florida Ave - Hemet_Strip_Center_Sale_Brochure_11-10-2.pdf"
+        ],
+        "popupContent": "<strong>1291 E Florida Ave, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2,
+          33.0
+        ]
+      },
+      "properties": {
+        "address": "73625 Highway, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "73625 Highway 111_OM.pdf"
+        ],
+        "popupContent": "<strong>73625 Highway, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1611,
+          32.7143
+        ]
+      },
+      "properties": {
+        "address": "1045 Main St, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "1045 Main Street-Marketing Package-For S.pdf"
+        ],
+        "popupContent": "<strong>1045 Main St, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2,
+          33.300000000000004
+        ]
+      },
+      "properties": {
+        "address": "2232 Encinitas Blvd, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "2232 Encinitas Blvd OM.pdf"
+        ],
+        "popupContent": "<strong>2232 Encinitas Blvd, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2,
+          33.45
+        ]
+      },
+      "properties": {
+        "address": "3444 Midway, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "3444 Midway.pdf"
+        ],
+        "popupContent": "<strong>3444 Midway, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2,
+          33.6
+        ]
+      },
+      "properties": {
+        "address": "3444 Midway Dr, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "3444 Midway Dr - 3444 Midway.pdf"
+        ],
+        "popupContent": "<strong>3444 Midway Dr, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2,
+          33.75
+        ]
+      },
+      "properties": {
+        "address": "27722 Clinton Keith Rd, San Diego, CA",
+        "pdf_count": 2,
+        "pdfs": [
+          "27722 Clinton Keith Rd - The Orchard at Stone Creek.pdf",
+          "27722 Clinton Keith Rd - CBRE Marketing BrochureFlyer.pdf"
+        ],
+        "popupContent": "<strong>27722 Clinton Keith Rd, San Diego, CA</strong><br>2 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2,
+          33.900000000000006
+        ]
+      },
+      "properties": {
+        "address": "1075 Rosecrans St, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "1075 Rosecrans St - Offering-Memorandum 1075 Rosecrans.pdf"
+        ],
+        "popupContent": "<strong>1075 Rosecrans St, San Diego, CA</strong><br>1 files"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2,
+          34.050000000000004
+        ]
+      },
+      "properties": {
+        "address": "3 Star Retail Convenience St, San Diego, CA",
+        "pdf_count": 1,
+        "pdfs": [
+          "3 Star Retail Convenience Store - Winchester 7.11 - Tear Sheet.pdf"
+        ],
+        "popupContent": "<strong>3 Star Retail Convenience St, San Diego, CA</strong><br>1 files"
+      }
+    }
+  ]
+}

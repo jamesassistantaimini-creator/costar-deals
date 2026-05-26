@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Diego Retail Properties - Rent Rolls & OMs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/MarkerCluster.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/MarkerCluster.Default.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/leaflet.markercluster.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #f5f5f5;
+        }
+        
+        #map {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 320px;
+            bottom: 0;
+            background: #fff;
+        }
+        
+        .sidebar {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 320px;
+            height: 100%;
+            background: white;
+            box-shadow: -2px 0 8px rgba(0,0,0,0.1);
+            overflow-y: auto;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .sidebar-header {
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+            flex-shrink: 0;
+        }
+        
+        .sidebar-header h1 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .sidebar-header p {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+        
+        .sidebar-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        
+        .property-info {
+            background: #f8f9fa;
+            border-radius: 6px;
+            padding: 16px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .property-address {
+            font-size: 14px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            word-break: break-word;
+        }
+        
+        .property-stats {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 12px;
+        }
+        
+        .stat {
+            background: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            text-align: center;
+            flex: 1;
+        }
+        
+        .stat-number {
+            font-size: 18px;
+            font-weight: 700;
+            color: #3498db;
+        }
+        
+        .stat-label {
+            font-size: 11px;
+            color: #7f8c8d;
+            text-transform: uppercase;
+            margin-top: 2px;
+        }
+        
+        .file-list {
+            margin-top: 12px;
+        }
+        
+        .file-list-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            opacity: 0.7;
+        }
+        
+        .file-item {
+            font-size: 12px;
+            padding: 6px 8px;
+            background: white;
+            margin-bottom: 4px;
+            border-radius: 3px;
+            border: 1px solid #e9ecef;
+            word-break: break-word;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .file-item:hover {
+            background: #e3f2fd;
+            border-color: #3498db;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #95a5a6;
+        }
+        
+        .empty-state-icon {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+        
+        .empty-state-text {
+            font-size: 14px;
+        }
+        
+        .map-controls {
+            position: absolute;
+            bottom: 20px;
+            right: 340px;
+            display: flex;
+            gap: 8px;
+            z-index: 999;
+        }
+        
+        .control-btn {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 8px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .control-btn:hover {
+            background: #f5f5f5;
+            border-color: #3498db;
+        }
+        
+        .leaflet-popup-content {
+            font-size: 13px;
+        }
+        
+        .leaflet-popup-content strong {
+            display: block;
+            margin-bottom: 6px;
+        }
+        
+        @media (max-width: 768px) {
+            #map {
+                right: 0;
+            }
+            
+            .sidebar {
+                position: fixed;
+                right: -320px;
+                transition: right 0.3s;
+                width: 100%;
+                max-width: 320px;
+            }
+            
+            .sidebar.active {
+                right: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h1>San Diego Retail</h1>
+            <p>Property Rent Rolls & OMs</p>
+        </div>
+        <div class="sidebar-content">
+            <div class="empty-state" id="empty-state">
+                <div class="empty-state-icon">📍</div>
+                <div class="empty-state-text">Click a property pin to view details</div>
+            </div>
+            <div id="property-panel" style="display: none;"></div>
+        </div>
+    </div>
+    
+    <div class="map-controls">
+        <button class="control-btn" onclick="map.setView([32.87, -117.25], 11)">Reset View</button>
+        <button class="control-btn" onclick="toggleSidebar()">Toggle Info</button>
+    </div>
+
+    <script>
+        // Initialize map
+        const map = L.map('map').setView([32.87, -117.25], 11);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors',
+            maxZoom: 19
+        }).addTo(map);
+        
+        // Load GeoJSON
+        let properties = [];
+        
+        fetch('properties.geojson')
+            .then(r => r.json())
+            .then(data => {
+                properties = data.features;
+                addMarkersToMap(data);
+            })
+            .catch(err => {
+                console.error('Error loading properties:', err);
+                document.querySelector('.empty-state-text').textContent = 'Error loading property data';
+            });
+        
+        function addMarkersToMap(geojson) {
+            const markerGroup = L.markerClusterGroup({
+                maxClusterRadius: 80,
+                disableClusteringAtZoom: 15
+            });
+            
+            L.geoJSON(geojson, {
+                pointToLayer: (feature, latlng) => {
+                    const marker = L.circleMarker(latlng, {
+                        radius: 7,
+                        fillColor: '#3498db',
+                        color: '#2c3e50',
+                        weight: 2,
+                        opacity: 0.8,
+                        fillOpacity: 0.7
+                    });
+                    
+                    marker.bindPopup(feature.properties.popupContent);
+                    marker.on('click', () => showPropertyDetails(feature.properties));
+                    
+                    return marker;
+                }
+            }).eachLayer(layer => markerGroup.addLayer(layer));
+            
+            map.addLayer(markerGroup);
+        }
+        
+        function showPropertyDetails(props) {
+            const panel = document.getElementById('property-panel');
+            const empty = document.getElementById('empty-state');
+            
+            let html = `
+                <div class="property-info">
+                    <div class="property-address">${props.address}</div>
+                    <div class="property-stats">
+                        <div class="stat">
+                            <div class="stat-number">${props.pdf_count}</div>
+                            <div class="stat-label">Files</div>
+                        </div>
+                    </div>
+            `;
+            
+            if (props.pdfs && props.pdfs.length > 0) {
+                html += '<div class="file-list">';
+                html += '<div class="file-list-label">📄 Files</div>';
+                props.pdfs.forEach(pdf => {
+                    html += `<div class="file-item" onclick="openFile('${pdf}')">${pdf}</div>`;
+                });
+                html += '</div>';
+            }
+            
+            html += '</div>';
+            
+            panel.innerHTML = html;
+            panel.style.display = 'block';
+            empty.style.display = 'none';
+        }
+        
+        function openFile(filename) {
+            // In a real setup, this would open the PDF from the file system
+            // For now, just alert for testing
+            alert('File: ' + filename + '\n\nTo open: Click the file button in your file manager or modify this script to use your local file path');
+        }
+        
+        function toggleSidebar() {
+            document.querySelector('.sidebar').classList.toggle('active');
+        }
+        
+        // Mobile: auto-open sidebar on map click
+        if (window.innerWidth <= 768) {
+            map.on('click', () => {
+                document.querySelector('.sidebar').classList.add('active');
+            });
+        }
+    </script>
+</body>
+</html>
