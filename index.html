@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/MarkerCluster.Default.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/leaflet.markercluster.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -71,8 +70,6 @@
             flex: 1;
             overflow: auto;
             padding: 20px;
-            display: flex;
-            flex-direction: column;
         }
         
         .search-box {
@@ -84,7 +81,6 @@
             color: white;
             font-size: 14px;
             width: 100%;
-            flex-shrink: 0;
         }
         
         .search-box::placeholder {
@@ -103,7 +99,6 @@
             padding: 16px;
             border: 1px solid rgba(255,255,255,0.15);
             margin-bottom: 12px;
-            flex-shrink: 0;
         }
         
         .property-address {
@@ -134,7 +129,7 @@
         
         .file-item {
             font-size: 11px;
-            padding: 6px 8px;
+            padding: 8px 10px;
             background: rgba(255,255,255,0.08);
             margin-bottom: 4px;
             border-radius: 4px;
@@ -142,24 +137,49 @@
             color: #e0e0e0;
             cursor: pointer;
             transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
         }
         
         .file-item:hover {
             background: rgba(79,195,247,0.2);
             border-color: #4fc3f7;
             color: #4fc3f7;
+            transform: translateX(2px);
+        }
+        
+        .file-item.no-link {
+            cursor: default;
+        }
+        
+        .file-item.no-link:hover {
+            background: rgba(255,255,255,0.08);
+            border-color: rgba(255,255,255,0.1);
+            color: #e0e0e0;
+            transform: none;
+        }
+        
+        .file-icon {
+            font-size: 12px;
         }
         
         .empty-state {
             text-align: center;
-            padding: 40px 20px;
+            padding: 60px 20px;
             color: rgba(255,255,255,0.5);
         }
         
         .empty-state-icon {
-            font-size: 32px;
-            margin-bottom: 12px;
+            font-size: 48px;
+            margin-bottom: 16px;
             opacity: 0.6;
+        }
+        
+        .empty-state-text {
+            font-size: 14px;
+            line-height: 1.5;
         }
         
         .map-controls {
@@ -190,8 +210,15 @@
             transform: translateY(-1px);
         }
         
-        .label-toggle {
-            font-size: 11px;
+        .status-badge {
+            display: inline-block;
+            font-size: 10px;
+            padding: 2px 6px;
+            background: rgba(76,175,80,0.3);
+            border: 1px solid rgba(76,175,80,0.6);
+            border-radius: 3px;
+            color: #4caf50;
+            margin-top: 4px;
         }
         
         @media (max-width: 768px) {
@@ -237,7 +264,7 @@
     
     <div class="map-controls">
         <button class="control-btn" onclick="resetView()">🏠 Reset</button>
-        <button class="control-btn label-toggle" onclick="toggleLabels()" id="label-btn">🏷️ Labels ON</button>
+        <button class="control-btn" onclick="toggleLabels()" id="label-btn">🏷️ Labels ON</button>
         <button class="control-btn" onclick="toggleSatellite()" id="satellite-btn">🛰️ Satellite</button>
     </div>
 
@@ -253,29 +280,19 @@
         // Initialize map
         map = L.map('map').setView([32.87, -117.25], 11);
         
-        // Satellite layer (doesn't have labels)
         baseMaps.satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
             attribution: 'Tiles &copy; Esri',
             maxZoom: 18,
             minZoom: 8
         });
         
-        // Street layer
         baseMaps.street = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap',
             maxZoom: 19
         });
         
-        // Labels layer (overlay on top of satellite)
-        const labelsLayerDef = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap',
-            maxZoom: 19,
-            opacity: 0.3
-        });
-        
         baseMaps.satellite.addTo(map);
         
-        // Add labels on satellite by default
         labelsLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/voyager_labels_under/{z}/{x}/{y}{r}.png', {
             attribution: '© CartoDB',
             maxZoom: 18
@@ -329,12 +346,25 @@
             
             if (props.pdfs && props.pdfs.length > 0) {
                 props.pdfs.forEach((pdf, idx) => {
-                    const filename = pdf.filename || pdf;
-                    const item = document.createElement('div');
-                    item.className = 'file-item';
-                    item.textContent = '📋 ' + filename.substring(0, 30);
-                    item.onclick = () => alert('PDF viewer ready when Drive upload completes!');
-                    fileList.appendChild(item);
+                    const filename = typeof pdf === 'string' ? pdf : pdf.filename;
+                    const driveLink = typeof pdf === 'object' && pdf.drive_link ? pdf.drive_link : null;
+                    
+                    if (driveLink) {
+                        // Create clickable link
+                        const link = document.createElement('a');
+                        link.className = 'file-item';
+                        link.href = driveLink;
+                        link.target = '_blank';
+                        link.rel = 'noopener noreferrer';
+                        link.innerHTML = `<span class="file-icon">📋</span><span>${filename.substring(0, 35)}${filename.length > 35 ? '...' : ''}</span>`;
+                        fileList.appendChild(link);
+                    } else {
+                        // No link yet
+                        const item = document.createElement('div');
+                        item.className = 'file-item no-link';
+                        item.innerHTML = `<span class="file-icon">📄</span><span>${filename.substring(0, 35)}${filename.length > 35 ? '...' : ''}</span>`;
+                        fileList.appendChild(item);
+                    }
                 });
             }
         }
