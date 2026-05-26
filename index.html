@@ -80,6 +80,7 @@
             margin-bottom: 16px;
             color: white;
             font-size: 14px;
+            width: 100%;
         }
         
         .search-box::placeholder {
@@ -167,6 +168,26 @@
             border: 1px solid rgba(255,255,255,0.1);
             word-break: break-word;
             color: #e0e0e0;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .file-item:hover {
+            background: rgba(79,195,247,0.2);
+            border-color: #4fc3f7;
+            color: #4fc3f7;
+            transform: translateX(2px);
+        }
+        
+        .file-item-link {
+            color: #4fc3f7;
+            text-decoration: none;
+        }
+        
+        .file-item-link:hover {
+            text-decoration: underline;
         }
         
         .empty-state {
@@ -300,23 +321,22 @@
         let baseMaps = {};
         let searchMarker = null;
         
-        // Initialize map with satellite layer as default
+        // Initialize map
         map = L.map('map').setView([32.87, -117.25], 11);
         
-        // Satellite layer (USGS)
+        // Satellite layer
         baseMaps.satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
             attribution: 'Tiles &copy; Esri',
             maxZoom: 18,
             minZoom: 8
         });
         
-        // Street layer (fallback)
+        // Street layer
         baseMaps.street = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap contributors',
             maxZoom: 19
         });
         
-        // Add satellite by default
         baseMaps.satellite.addTo(map);
         
         // Load GeoJSON
@@ -337,18 +357,14 @@
                 disableClusteringAtZoom: 14,
                 iconCreateFunction: function(cluster) {
                     const count = cluster.getChildCount();
-                    let size = 'small';
                     let color = '#00a8e8';
                     if (count > 5) {
-                        size = 'large';
                         color = '#ef476f';
                     } else if (count > 2) {
-                        size = 'medium';
                         color = '#ffd60a';
                     }
                     return L.divIcon({
                         html: `<div style="background: ${color}; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.3);">${count}</div>`,
-                        className: 'marker-cluster',
                         iconSize: [40, 40]
                     });
                 }
@@ -397,7 +413,14 @@
                 html += '<div class="file-list">';
                 html += '<div class="file-list-label">📄 Documents</div>';
                 props.pdfs.forEach((pdf, idx) => {
-                    html += `<div class="file-item">📋 ${pdf.substring(0, 38)}${pdf.length > 38 ? '...' : ''}</div>`;
+                    const filename = pdf.filename || pdf;
+                    const driveLink = pdf.drive_link;
+                    
+                    if (driveLink) {
+                        html += `<a class="file-item file-item-link" href="${driveLink}" target="_blank">📋 ${filename.substring(0, 35)}${filename.length > 35 ? '...' : ''}</a>`;
+                    } else {
+                        html += `<div class="file-item">📋 ${filename.substring(0, 35)}${filename.length > 35 ? '...' : ''}</div>`;
+                    }
                 });
                 html += '</div>';
             }
@@ -413,14 +436,12 @@
             const query = document.getElementById('search-input').value.trim();
             if (!query) return;
             
-            // Show loading state
             const panel = document.getElementById('property-panel');
             const empty = document.getElementById('empty-state');
             panel.innerHTML = '<div style="padding: 20px; text-align: center; color: #4fc3f7;">🔍 Searching...</div>';
             panel.style.display = 'block';
             empty.style.display = 'none';
             
-            // Use OpenCage to geocode the search query
             const apiKey = '9c8074bf685942ef950a7e69e4b49fe0';
             const url = 'https://api.opencagedata.com/geocode/v1/json';
             const params = new URLSearchParams({
@@ -437,10 +458,8 @@
                         const lat = result.geometry.lat;
                         const lng = result.geometry.lng;
                         
-                        // Remove old search marker
                         if (searchMarker) map.removeLayer(searchMarker);
                         
-                        // Add new search marker (different style)
                         searchMarker = L.circleMarker([lat, lng], {
                             radius: 10,
                             fillColor: '#ff9800',
@@ -453,7 +472,6 @@
                         const popupContent = `<strong>Search Result</strong><br>${result.formatted}`;
                         searchMarker.bindPopup(popupContent).openPopup();
                         
-                        // Show in sidebar
                         const panel = document.getElementById('property-panel');
                         panel.innerHTML = `
                             <div class="property-info">
@@ -465,7 +483,6 @@
                             </div>
                         `;
                         
-                        // Zoom to location
                         map.setView([lat, lng], 15);
                     } else {
                         document.getElementById('property-panel').innerHTML = 
@@ -479,7 +496,6 @@
                 });
         }
         
-        // Search on Enter key
         document.getElementById('search-input').addEventListener('keypress', (e) => {
             if (e.key === 'Enter') searchAddress();
         });
@@ -505,7 +521,6 @@
             }
         }
         
-        // Mobile: auto-open sidebar on map click
         if (window.innerWidth <= 768) {
             map.on('click', () => {
                 document.querySelector('.sidebar').classList.add('active');
