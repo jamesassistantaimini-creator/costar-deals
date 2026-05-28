@@ -3,446 +3,460 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>San Diego Retail Deal Map</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/MarkerCluster.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/MarkerCluster.Default.min.css" />
+    <title>Retail Deal Map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.Default.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.1/leaflet.markercluster.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
+    
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: #1a1a1a;
+            font-family: 'Arial', sans-serif;
+            background: #000;
             overflow: hidden;
         }
-        
-        #map {
-            position: absolute;
+
+        /* STATE SELECTOR MODAL */
+        #stateModal {
+            position: fixed;
             top: 0;
             left: 0;
-            right: 340px;
-            bottom: 0;
-            background: #1a1a1a;
-        }
-        
-        .sidebar {
-            position: absolute;
-            right: 0;
-            top: 0;
-            width: 340px;
+            width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-            box-shadow: -3px 0 12px rgba(0,0,0,0.3);
-            overflow-y: auto;
-            z-index: 1000;
+            background: #000;
             display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
             flex-direction: column;
-            color: white;
+            gap: 40px;
         }
-        
-        .sidebar-header {
-            padding: 24px;
-            background: rgba(0,0,0,0.2);
-            flex-shrink: 0;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+
+        #stateModal.hidden {
+            display: none;
         }
-        
-        .sidebar-header h1 {
-            font-size: 18px;
-            font-weight: 700;
-            margin-bottom: 6px;
+
+        .modal-title {
+            font-size: 48px;
             color: #fff;
+            text-align: center;
+            font-weight: bold;
+            letter-spacing: 3px;
+            animation: slideIn 1s ease-out;
         }
-        
-        .sidebar-header p {
-            font-size: 13px;
-            opacity: 0.9;
-            color: #e0e0e0;
-        }
-        
-        .sidebar-content {
-            flex: 1;
-            overflow: auto;
+
+        .states-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            max-width: 1200px;
+            width: 90%;
+            max-height: 60vh;
+            overflow-y: auto;
             padding: 20px;
         }
-        
-        .search-box {
-            background: rgba(255,255,255,0.12);
-            border: 1px solid rgba(255,255,255,0.3);
-            border-radius: 8px;
-            padding: 12px;
-            margin-bottom: 16px;
-            color: white;
-            font-size: 14px;
-            width: 100%;
-        }
-        
-        .search-box::placeholder {
-            color: rgba(255,255,255,0.6);
-        }
-        
-        .search-box:focus {
-            outline: none;
-            background: rgba(255,255,255,0.18);
-            border-color: #4fc3f7;
-        }
-        
-        .property-info {
-            background: rgba(255,255,255,0.08);
-            border-radius: 8px;
-            padding: 16px;
-            border: 1px solid rgba(255,255,255,0.15);
-            margin-bottom: 12px;
-        }
-        
-        .property-address {
-            font-size: 14px;
-            font-weight: 700;
-            color: #4fc3f7;
-            margin-bottom: 4px;
-            word-break: break-word;
-        }
-        
-        .property-street {
-            font-size: 12px;
-            color: #b0bec5;
-            margin-bottom: 8px;
-        }
-        
-        .file-list {
-            margin-top: 8px;
-        }
-        
-        .file-list-label {
-            font-size: 11px;
-            font-weight: 700;
-            color: #4fc3f7;
-            margin-bottom: 6px;
-            text-transform: uppercase;
-        }
-        
-        .file-item {
-            font-size: 11px;
-            padding: 8px 10px;
-            background: rgba(255,255,255,0.08);
-            margin-bottom: 4px;
-            border-radius: 4px;
-            border: 1px solid rgba(255,255,255,0.1);
-            color: #e0e0e0;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            text-decoration: none;
-        }
-        
-        .file-item:hover {
-            background: rgba(79,195,247,0.2);
-            border-color: #4fc3f7;
-            color: #4fc3f7;
-            transform: translateX(2px);
-        }
-        
-        .file-item.no-link {
-            cursor: default;
-        }
-        
-        .file-item.no-link:hover {
-            background: rgba(255,255,255,0.08);
-            border-color: rgba(255,255,255,0.1);
-            color: #e0e0e0;
-            transform: none;
-        }
-        
-        .file-icon {
-            font-size: 12px;
-        }
-        
-        .empty-state {
+
+        .state-btn {
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: #fff;
+            border: 2px solid #60a5fa;
+            padding: 20px;
             text-align: center;
-            padding: 60px 20px;
-            color: rgba(255,255,255,0.5);
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            animation: fadeIn 0.6s ease-out forwards;
+            opacity: 0;
         }
-        
-        .empty-state-icon {
-            font-size: 48px;
-            margin-bottom: 16px;
-            opacity: 0.6;
+
+        .state-btn:nth-child(1) { animation-delay: 0.1s; }
+        .state-btn:nth-child(2) { animation-delay: 0.15s; }
+        .state-btn:nth-child(3) { animation-delay: 0.2s; }
+        .state-btn:nth-child(4) { animation-delay: 0.25s; }
+        .state-btn:nth-child(5) { animation-delay: 0.3s; }
+        /* Continue pattern... */
+
+        .state-btn:hover {
+            background: linear-gradient(135deg, #3b82f6, #60a5fa);
+            border-color: #bfdbfe;
+            transform: scale(1.05);
+            box-shadow: 0 0 20px #3b82f6;
         }
-        
-        .empty-state-text {
-            font-size: 14px;
-            line-height: 1.5;
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
-        
-        .map-controls {
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* MAP CONTAINER */
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* HEADER */
+        .map-header {
             position: absolute;
             top: 20px;
-            right: 360px;
+            left: 20px;
+            right: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
             display: flex;
-            gap: 8px;
-            z-index: 999;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
         }
-        
+
+        .map-header h1 {
+            font-size: 24px;
+            color: #1e3a8a;
+            margin: 0;
+        }
+
+        .map-header p {
+            color: #666;
+            margin: 5px 0 0 0;
+            font-size: 14px;
+        }
+
+        .header-controls {
+            display: flex;
+            gap: 10px;
+        }
+
         .control-btn {
-            background: rgba(255,255,255,0.95);
-            border: 1px solid rgba(0,0,0,0.15);
-            padding: 10px 14px;
-            border-radius: 6px;
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
             cursor: pointer;
-            font-size: 12px;
-            font-weight: 600;
-            transition: all 0.2s ease;
-            color: #1a1a1a;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.3s ease;
         }
-        
+
         .control-btn:hover {
-            background: white;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            transform: translateY(-1px);
+            background: linear-gradient(135deg, #3b82f6, #60a5fa);
+            box-shadow: 0 0 15px #3b82f6;
         }
-        
-        .status-badge {
+
+        /* SIDEBAR */
+        .sidebar {
+            position: absolute;
+            right: 20px;
+            top: 120px;
+            width: 350px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+            z-index: 999;
+            max-height: calc(100vh - 160px);
+            overflow-y: auto;
+        }
+
+        .sidebar h2 {
+            color: #1e3a8a;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .sidebar input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 2px solid #e5e7eb;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .sidebar input:focus {
+            outline: none;
+            border-color: #3b82f6;
+        }
+
+        .property-placeholder {
+            text-align: center;
+            color: #999;
+            padding: 40px 20px;
+            font-size: 14px;
+        }
+
+        .property-item {
+            background: #f3f4f6;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #3b82f6;
+        }
+
+        .property-item h3 {
+            color: #1e3a8a;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        .pdf-link {
             display: inline-block;
-            font-size: 10px;
-            padding: 2px 6px;
-            background: rgba(76,175,80,0.3);
-            border: 1px solid rgba(76,175,80,0.6);
+            color: #3b82f6;
+            text-decoration: none;
+            font-size: 12px;
+            margin-right: 5px;
+            padding: 5px 8px;
+            background: #eff6ff;
             border-radius: 3px;
-            color: #4caf50;
-            margin-top: 4px;
+            transition: all 0.2s;
         }
-        
-        @media (max-width: 768px) {
-            #map { right: 0; }
-            .sidebar {
-                position: fixed;
-                right: -340px;
-                transition: right 0.3s ease;
-                width: 100%;
-                max-width: 340px;
-            }
-            .sidebar.active { right: 0; }
+
+        .pdf-link:hover {
+            background: #3b82f6;
+            color: white;
+        }
+
+        .no-property {
+            text-align: center;
+            color: #999;
+        }
+
+        /* CHANGE STATE BUTTON (Top Left) */
+        .change-state-btn {
+            position: absolute;
+            top: 80px;
+            left: 20px;
+            background: linear-gradient(135deg, #059669, #10b981);
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            z-index: 1001;
+            transition: all 0.3s ease;
+        }
+
+        .change-state-btn:hover {
+            background: linear-gradient(135deg, #10b981, #34d399);
+            box-shadow: 0 0 15px #10b981;
+        }
+
+        .leaflet-container {
+            background: #f3f4f6;
         }
     </style>
 </head>
 <body>
+    <!-- STATE SELECTOR MODAL -->
+    <div id="stateModal">
+        <div class="modal-title">Select a State to Explore</div>
+        <div class="states-grid" id="statesGrid"></div>
+    </div>
+
+    <!-- MAP -->
     <div id="map"></div>
-    <div class="sidebar">
-        <div class="sidebar-header">
-            <h1>📍 Deal Map</h1>
-            <p>California Deal Map</p>
-        </div>
-        <div class="sidebar-content">
-            <input type="text" class="search-box" id="search-input" placeholder="🔍 Search address...">
-            
-            <div class="empty-state" id="empty-state">
-                <div class="empty-state-icon">🗺️</div>
-                <div class="empty-state-text">Click a pin to view property & PDFs</div>
-            </div>
-            
-            <div id="property-panel" style="display: none;">
-                <div class="property-info">
-                    <div class="property-address" id="prop-address"></div>
-                    <div class="property-street" id="prop-street"></div>
-                    <div class="file-list">
-                        <div class="file-list-label">📄 Files</div>
-                        <div id="file-list"></div>
-                    </div>
-                </div>
-            </div>
+
+    <!-- HEADER -->
+    <div class="map-header">
+        <div>
+            <h1>📍 Retail Deal Map</h1>
+            <p id="stateDisplay">California</p>
         </div>
     </div>
-    
-    <div class="map-controls">
-        <button class="control-btn" onclick="resetView()">🏠 Reset</button>
-        <button class="control-btn" onclick="toggleLabels()" id="label-btn">🏷️ Labels ON</button>
-        <button class="control-btn" onclick="toggleSatellite()" id="satellite-btn">🛰️ Satellite</button>
+
+    <!-- CHANGE STATE BUTTON -->
+    <button class="change-state-btn" onclick="showStateSelector()">🔄 Change State</button>
+
+    <!-- SIDEBAR -->
+    <div class="sidebar">
+        <h2>Deal Map</h2>
+        <input type="text" id="searchBox" placeholder="🔍 Search address..."/>
+        <div id="propertyList">
+            <div class="property-placeholder">Click a pin to view property & PDFs</div>
+        </div>
     </div>
 
     <script>
-        let currentMapLayer = 'satellite';
-        let labelsVisible = true;
+        // STATE DATA
+        const STATES = [
+            { name: 'California', code: 'CA', center: [36.5, -120], zoom: 7 },
+            { name: 'Texas', code: 'TX', center: [31.9, -99.9], zoom: 6 },
+            { name: 'Florida', code: 'FL', center: [27.9, -81.8], zoom: 7 },
+            { name: 'New York', code: 'NY', center: [43.0, -75.5], zoom: 7 },
+            { name: 'Illinois', code: 'IL', center: [40.3, -88.9], zoom: 7 },
+            { name: 'Pennsylvania', code: 'PA', center: [40.6, -77.2], zoom: 7 },
+            { name: 'Ohio', code: 'OH', center: [40.3, -82.7], zoom: 7 },
+            { name: 'Georgia', code: 'GA', center: [32.9, -83.6], zoom: 7 },
+            { name: 'North Carolina', code: 'NC', center: [35.6, -79.8], zoom: 7 },
+            { name: 'Michigan', code: 'MI', center: [45.7, -84.6], zoom: 7 },
+            { name: 'New Jersey', code: 'NJ', center: [40.0, -74.4], zoom: 7 },
+            { name: 'Virginia', code: 'VA', center: [37.9, -77.5], zoom: 7 },
+            { name: 'Washington', code: 'WA', center: [47.4, -121.5], zoom: 7 },
+            { name: 'Arizona', code: 'AZ', center: [33.7, -111.4], zoom: 7 },
+            { name: 'Massachusetts', code: 'MA', center: [42.2, -71.8], zoom: 7 },
+            { name: 'Tennessee', code: 'TN', center: [35.7, -86.7], zoom: 7 },
+            { name: 'Missouri', code: 'MO', center: [38.5, -92.3], zoom: 7 },
+            { name: 'Maryland', code: 'MD', center: [39.1, -76.9], zoom: 7 },
+            { name: 'Wisconsin', code: 'WI', center: [44.7, -89.7], zoom: 7 },
+            { name: 'Minnesota', code: 'MN', center: [45.7, -94.6], zoom: 7 },
+            { name: 'Colorado', code: 'CO', center: [39.1, -105.3], zoom: 7 },
+            { name: 'Indiana', code: 'IN', center: [40.3, -86.3], zoom: 7 },
+            { name: 'Louisiana', code: 'LA', center: [30.9, -91.9], zoom: 7 },
+            { name: 'Kentucky', code: 'KY', center: [37.7, -84.9], zoom: 7 },
+            { name: 'Oklahoma', code: 'OK', center: [35.6, -97.5], zoom: 7 },
+            { name: 'Connecticut', code: 'CT', center: [41.6, -72.7], zoom: 7 },
+            { name: 'Iowa', code: 'IA', center: [42.0, -93.2], zoom: 7 },
+            { name: 'Nevada', code: 'NV', center: [39.9, -116.2], zoom: 7 },
+            { name: 'Arkansas', code: 'AR', center: [34.8, -92.4], zoom: 7 },
+            { name: 'Kansas', code: 'KS', center: [38.5, -96.7], zoom: 7 },
+            { name: 'Utah', code: 'UT', center: [39.3, -111.9], zoom: 7 },
+            { name: 'New Mexico', code: 'NM', center: [34.5, -106.6], zoom: 7 },
+            { name: 'Nebraska', code: 'NE', center: [41.5, -99.9], zoom: 7 },
+            { name: 'West Virginia', code: 'WV', center: [38.6, -80.9], zoom: 7 },
+            { name: 'Idaho', code: 'ID', center: [44.9, -114.7], zoom: 7 },
+            { name: 'Hawaii', code: 'HI', center: [21.3, -157.5], zoom: 7 },
+            { name: 'New Hampshire', code: 'NH', center: [43.5, -71.6], zoom: 7 },
+            { name: 'Maine', code: 'ME', center: [45.4, -69.4], zoom: 7 },
+            { name: 'Montana', code: 'MT', center: [47.0, -109.6], zoom: 6 },
+            { name: 'Rhode Island', code: 'RI', center: [41.7, -71.5], zoom: 7 },
+            { name: 'Delaware', code: 'DE', center: [39.3, -75.5], zoom: 7 },
+            { name: 'South Dakota', code: 'SD', center: [44.9, -99.9], zoom: 7 },
+            { name: 'North Dakota', code: 'ND', center: [47.6, -100.5], zoom: 6 },
+            { name: 'Alaska', code: 'AK', center: [63.6, -152.2], zoom: 4 },
+            { name: 'Wyoming', code: 'WY', center: [43.1, -107.3], zoom: 6 },
+            { name: 'Vermont', code: 'VT', center: [44.0, -72.7], zoom: 7 },
+            { name: 'South Carolina', code: 'SC', center: [34.0, -81.2], zoom: 7 },
+            { name: 'Alabama', code: 'AL', center: [33.0, -86.9], zoom: 7 },
+            { name: 'Mississippi', code: 'MS', center: [32.7, -89.7], zoom: 7 },
+            { name: 'Oregon', code: 'OR', center: [44.6, -122.0], zoom: 7 }
+        ];
+
+        let currentState = 'CA';
         let map;
-        let properties = [];
-        let baseMaps = {};
-        let labelsLayer = null;
-        let searchMarker = null;
-        
-        // Initialize map
-        map = L.map('map').setView([36.5, -120], 7);
-        
-        baseMaps.satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-            attribution: 'Tiles &copy; Esri',
-            maxZoom: 18,
-            minZoom: 8
-        });
-        
-        baseMaps.street = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '© OpenStreetMap',
-            maxZoom: 19
-        });
-        
-        baseMaps.satellite.addTo(map);
-        
-        labelsLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/voyager_labels_under/{z}/{x}/{y}{r}.png', {
-            attribution: '© CartoDB',
-            maxZoom: 18
-        }).addTo(map);
-        
-        fetch('properties.geojson?t=' + Date.now())
-            .then(r => r.json())
-            .then(data => {
-                properties = data.features;
-                addMarkersToMap(data);
-            })
-            .catch(err => console.error('Error:', err));
-        
-        function addMarkersToMap(geojson) {
-            const markerGroup = L.markerClusterGroup({
-                maxClusterRadius: 100,
-                disableClusteringAtZoom: 14
+        let markersCluster;
+        let allProperties = {};
+
+        // Initialize state selector
+        function initStateSelector() {
+            const grid = document.getElementById('statesGrid');
+            STATES.forEach(state => {
+                const btn = document.createElement('button');
+                btn.className = 'state-btn';
+                btn.textContent = state.name;
+                btn.onclick = () => selectState(state);
+                grid.appendChild(btn);
             });
-            
-            L.geoJSON(geojson, {
-                pointToLayer: (feature, latlng) => {
-                    const marker = L.circleMarker(latlng, {
-                        radius: 8,
-                        fillColor: '#4fc3f7',
-                        color: '#01579b',
-                        weight: 2,
-                        opacity: 0.9,
-                        fillOpacity: 0.8
-                    });
-                    
-                    const props = feature.properties;
-                    marker.bindPopup(`<strong>${props.address}</strong><br>${props.pdf_count} files`);
-                    marker.on('click', () => showProperty(props));
-                    
-                    return marker;
-                }
-            }).eachLayer(layer => markerGroup.addLayer(layer));
-            
-            map.addLayer(markerGroup);
         }
-        
-        function showProperty(props) {
-            document.getElementById('empty-state').style.display = 'none';
-            document.getElementById('property-panel').style.display = 'block';
-            
-            document.getElementById('prop-address').textContent = props.address;
-            document.getElementById('prop-street').textContent = '📍 ' + props.display_name;
-            
-            const fileList = document.getElementById('file-list');
-            fileList.innerHTML = '';
-            
-            if (props.pdfs && props.pdfs.length > 0) {
-                props.pdfs.forEach((pdf, idx) => {
-                    const filename = typeof pdf === 'string' ? pdf : pdf.filename;
-                    const driveLink = typeof pdf === 'object' && pdf.drive_url ? pdf.drive_url : null;
-                    
-                    if (driveLink) {
-                        // Create clickable link
-                        const link = document.createElement('a');
-                        link.className = 'file-item';
-                        link.href = driveLink;
-                        link.target = '_blank';
-                        link.rel = 'noopener noreferrer';
-                        link.innerHTML = `<span class="file-icon">📋</span><span>${filename.substring(0, 35)}${filename.length > 35 ? '...' : ''}</span>`;
-                        fileList.appendChild(link);
-                    } else {
-                        // No link yet
-                        const item = document.createElement('div');
-                        item.className = 'file-item no-link';
-                        item.innerHTML = `<span class="file-icon">📄</span><span>${filename.substring(0, 35)}${filename.length > 35 ? '...' : ''}</span>`;
-                        fileList.appendChild(item);
-                    }
+
+        function selectState(state) {
+            currentState = state.code;
+            document.getElementById('stateModal').classList.add('hidden');
+            document.getElementById('stateDisplay').textContent = state.name;
+            map.setView(state.center, state.zoom);
+            updateMapForState(state.code);
+        }
+
+        function showStateSelector() {
+            document.getElementById('stateModal').classList.remove('hidden');
+        }
+
+        function updateMapForState(stateCode) {
+            // Filter properties and clusters by state
+            // For now, just show CA data; when you add more states, update this logic
+            markersCluster.clearLayers();
+            if (allProperties[stateCode]) {
+                allProperties[stateCode].forEach(feature => {
+                    const marker = L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
+                        radius: 8,
+                        fillColor: '#3b82f6',
+                        color: '#1e3a8a',
+                        weight: 2,
+                        opacity: 0.7,
+                        fillOpacity: 0.5
+                    });
+                    marker.bindPopup(`<strong>${feature.properties.address}</strong>`);
+                    marker.on('click', () => showProperty(feature));
+                    markersCluster.addLayer(marker);
                 });
             }
         }
-        
-        function toggleLabels() {
-            if (labelsVisible) {
-                map.removeLayer(labelsLayer);
-                labelsVisible = false;
-                document.getElementById('label-btn').textContent = '🏷️ Labels OFF';
-            } else {
-                labelsLayer.addTo(map);
-                labelsVisible = true;
-                document.getElementById('label-btn').textContent = '🏷️ Labels ON';
-            }
+
+        function showProperty(feature) {
+            const props = feature.properties;
+            const html = `
+                <div class="property-item">
+                    <h3>${props.address}</h3>
+                    ${props.pdfs && props.pdfs.length > 0 ? props.pdfs.map(pdf => 
+                        `<a href="${pdf.drive_url}" target="_blank" class="pdf-link">📄 ${pdf.filename.substring(0,40)}...</a>`
+                    ).join('') : '<div class="no-property">No PDFs available</div>'}
+                </div>
+            `;
+            document.getElementById('propertyList').innerHTML = html;
         }
-        
-        function resetView() {
-            map.setView([36.5, -120], 7);
-            if (searchMarker) map.removeLayer(searchMarker);
-        }
-        
-        function toggleSatellite() {
-            if (currentMapLayer === 'satellite') {
-                map.removeLayer(baseMaps.satellite);
-                map.removeLayer(labelsLayer);
-                baseMaps.street.addTo(map);
-                currentMapLayer = 'street';
-                document.getElementById('satellite-btn').textContent = '🛰️ Street';
-                labelsVisible = false;
-                document.getElementById('label-btn').style.display = 'none';
-            } else {
-                map.removeLayer(baseMaps.street);
-                baseMaps.satellite.addTo(map);
-                if (labelsVisible) labelsLayer.addTo(map);
-                currentMapLayer = 'satellite';
-                document.getElementById('satellite-btn').textContent = '🛰️ Satellite';
-                document.getElementById('label-btn').style.display = 'block';
-            }
-        }
-        
-        document.getElementById('search-input').addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                const query = e.target.value.trim();
-                if (query) {
-                    const apiKey = '9c8074bf685942ef950a7e69e4b49fe0';
-                    const url = 'https://api.opencagedata.com/geocode/v1/json';
-                    const params = new URLSearchParams({
-                        q: query + ', San Diego, CA',
-                        key: apiKey,
-                        countrycode: 'us'
-                    });
+
+        // Initialize map
+        function initMap() {
+            map = L.map('map').setView([36.5, -120], 7);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap',
+                maxZoom: 19
+            }).addTo(map);
+
+            markersCluster = L.markerClusterGroup();
+            map.addLayer(markersCluster);
+
+            // Load GeoJSON and populate map
+            fetch('properties.geojson?' + Date.now())
+                .then(r => r.json())
+                .then(geojson => {
+                    // Group by state
+                    allProperties['CA'] = geojson.features;
                     
-                    fetch(`${url}?${params}`)
-                        .then(r => r.json())
-                        .then(data => {
-                            if (data.results && data.results.length > 0) {
-                                const result = data.results[0];
-                                if (searchMarker) map.removeLayer(searchMarker);
-                                searchMarker = L.circleMarker([result.geometry.lat, result.geometry.lng], {
-                                    radius: 10,
-                                    fillColor: '#ff9800',
-                                    color: '#e65100',
-                                    weight: 3,
-                                    fillOpacity: 0.9
-                                }).addTo(map);
-                                
-                                map.setView([result.geometry.lat, result.geometry.lng], 15);
-                                
-                                document.getElementById('empty-state').style.display = 'none';
-                                document.getElementById('property-panel').style.display = 'block';
-                                document.getElementById('prop-address').textContent = 'Search Result';
-                                document.getElementById('prop-street').textContent = result.formatted;
-                                document.getElementById('file-list').innerHTML = '';
+                    // Add all markers for CA (current state)
+                    geojson.features.forEach(feature => {
+                        const marker = L.circleMarker(
+                            [feature.geometry.coordinates[1], feature.geometry.coordinates[0]],
+                            {
+                                radius: 8,
+                                fillColor: '#3b82f6',
+                                color: '#1e3a8a',
+                                weight: 2,
+                                opacity: 0.7,
+                                fillOpacity: 0.5
                             }
-                        });
-                }
-            }
-        });
+                        );
+                        marker.on('click', () => showProperty(feature));
+                        markersCluster.addLayer(marker);
+                    });
+                });
+        }
+
+        // Start
+        initStateSelector();
+        initMap();
     </script>
 </body>
 </html>
