@@ -296,6 +296,7 @@
 
     <!-- CHANGE STATE BUTTON -->
     <button class="change-state-btn" onclick="showStateSelector()">🔄 Change State</button>
+    <button class="change-state-btn" data-satellite-btn style="left: 180px; background: linear-gradient(135deg, #059669, #10b981); display: none;">🛰️ Satellite</button>
 
     <!-- SIDEBAR -->
     <div class="sidebar">
@@ -463,10 +464,47 @@
         // Initialize map
         function initMap() {
             map = L.map('map').setView([36.5, -120], 7);
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap',
-                maxZoom: 19
+            // Greyscale tile layer (Stamen TonerLite)
+            const tileLayer = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; OpenStreetMap, &copy; CARTO',
+                maxZoom: 20,
+                className: 'greyscale-tiles'
             }).addTo(map);
+
+            // Satellite layer (hidden by default)
+            const satelliteLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© OpenStreetMap',
+                maxZoom: 19,
+                className: 'satellite-tiles'
+            });
+
+            let isSatelliteMode = false;
+            const satelliteBtn = document.querySelector('[data-satellite-btn]');
+            
+            // Show/hide satellite toggle based on zoom level
+            function updateSatelliteVisibility() {
+                const zoomLevel = map.getZoom();
+                satelliteBtn.style.display = zoomLevel >= 10 ? 'block' : 'none';
+            }
+
+            map.on('zoomend', updateSatelliteVisibility);
+            updateSatelliteVisibility();
+
+            // Satellite toggle
+            if (satelliteBtn) {
+                satelliteBtn.addEventListener('click', () => {
+                    isSatelliteMode = !isSatelliteMode;
+                    if (isSatelliteMode) {
+                        map.removeLayer(tileLayer);
+                        satelliteLayer.addTo(map);
+                        satelliteBtn.style.background = 'linear-gradient(135deg, #dc2626, #991b1b)';
+                    } else {
+                        map.removeLayer(satelliteLayer);
+                        tileLayer.addTo(map);
+                        satelliteBtn.style.background = 'linear-gradient(135deg, #059669, #10b981)';
+                    }
+                });
+            }
 
             markersCluster = L.markerClusterGroup();
             map.addLayer(markersCluster);
