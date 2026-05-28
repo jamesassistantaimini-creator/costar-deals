@@ -41,6 +41,7 @@
         .pdf-link { display: inline-block; background: #eff6ff; color: #3b82f6; padding: 4px 8px; border-radius: 3px; text-decoration: none; font-size: 11px; margin-right: 5px; }
         .pdf-link:hover { background: #3b82f6; color: white; }
         .placeholder { text-align: center; color: #999; padding: 30px 10px; font-size: 12px; }
+        .greyscale { filter: grayscale(80%) brightness(1.1); }
     </style>
 </head>
 <body>
@@ -65,6 +66,7 @@
 
 <!-- CHANGE STATE BUTTON -->
 <button class="change-state" onclick="showModal()">🔄 Change State</button>
+<button id="satellite-btn" class="change-state" style="left: 180px; background: linear-gradient(135deg, #059669, #10b981); display: none;">🛰️ Satellite</button>
 
 <!-- SIDEBAR -->
 <div class="sidebar">
@@ -117,11 +119,41 @@ let map, markersCluster;
 function initMap() {
     map = L.map('map').setView([36.5, -120], 7);
     
-    // Greyscale OSM tiles
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    // Greyscale OSM tiles (default)
+    const greyTile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap',
-        maxZoom: 19
+        maxZoom: 19,
+        className: 'greyscale'
     }).addTo(map);
+    
+    // Satellite tiles (hidden initially)
+    const satTile = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+        attribution: 'Tiles &copy; Esri',
+        maxZoom: 19
+    });
+    
+    let isSatellite = false;
+    const satBtn = document.getElementById('satellite-btn');
+    
+    // Show satellite button when zoomed in
+    map.on('zoomend', () => {
+        const zoom = map.getZoom();
+        satBtn.style.display = zoom >= 10 ? 'block' : 'none';
+    });
+    
+    // Toggle satellite
+    satBtn.addEventListener('click', () => {
+        isSatellite = !isSatellite;
+        if (isSatellite) {
+            map.removeLayer(greyTile);
+            satTile.addTo(map);
+            satBtn.style.background = 'linear-gradient(135deg, #dc2626, #991b1b)';
+        } else {
+            map.removeLayer(satTile);
+            greyTile.addTo(map);
+            satBtn.style.background = 'linear-gradient(135deg, #059669, #10b981)';
+        }
+    });
     
     markersCluster = L.markerClusterGroup();
     map.addLayer(markersCluster);
