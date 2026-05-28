@@ -8249,5 +8249,10 @@
         "geocoding_method": "filename_extraction"
       }
     }
-  ]
+  ],
+  "metadata": {
+    "updated": "2026-05-27 18:20:31",
+    "property_count": 341,
+    "timestamp": 1779931231
+  }
 }
