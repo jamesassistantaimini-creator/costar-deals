@@ -1,546 +1,219 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Retail Deal Map</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/MarkerCluster.Default.css"/>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
-    
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html, body {
-            width: 100%;
-            height: 100%;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background: #000;
-            overflow: hidden;
-        }
-
-        /* STATE SELECTOR MODAL */
-        #stateModal {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: #000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 10000;
-            flex-direction: column;
-            gap: 40px;
-        }
-
-        #stateModal.hidden {
-            display: none;
-        }
-
-        .modal-title {
-            font-size: 48px;
-            color: #fff;
-            text-align: center;
-            font-weight: bold;
-            letter-spacing: 3px;
-            animation: slideIn 1s ease-out;
-        }
-
-        .search-container {
-            position: relative;
-            width: 400px;
-            animation: fadeIn 1.2s ease-out;
-        }
-
-        #stateSearch {
-            width: 100%;
-            padding: 20px;
-            font-size: 18px;
-            border: 2px solid #3b82f6;
-            border-radius: 8px;
-            background: rgba(255, 255, 255, 0.95);
-            outline: none;
-            transition: all 0.3s ease;
-        }
-
-        #stateSearch:focus {
-            border-color: #60a5fa;
-            box-shadow: 0 0 30px rgba(59, 130, 246, 0.5);
-        }
-
-        #suggestionsDropdown {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            right: 0;
-            background: rgba(255, 255, 255, 0.98);
-            border: 2px solid #3b82f6;
-            border-top: none;
-            border-radius: 0 0 8px 8px;
-            max-height: 300px;
-            overflow-y: auto;
-            z-index: 10001;
-            display: none;
-        }
-
-        #suggestionsDropdown.show {
-            display: block;
-        }
-
-        .suggestion-item {
-            padding: 15px 20px;
-            cursor: pointer;
-            transition: all 0.2s;
-            border-bottom: 1px solid #e5e7eb;
-        }
-
-        .suggestion-item:hover {
-            background: linear-gradient(135deg, #eff6ff, #dbeafe);
-            color: #1e3a8a;
-            font-weight: bold;
-        }
-
-        .suggestion-item:last-child {
-            border-bottom: none;
-        }
-
-        @keyframes slideIn {
-            from {
-                opacity: 0;
-                transform: translateY(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-            }
-            to {
-                opacity: 1;
-            }
-        }
-
-        /* MAP CONTAINER */
-        #map {
-            width: 100%;
-            height: 100%;
-        }
-
-        /* HEADER */
-        .map-header {
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            right: 20px;
-            background: rgba(255, 255, 255, 0.95);
-            padding: 15px 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            z-index: 1000;
-        }
-
-        .map-header h1 {
-            font-size: 24px;
-            color: #1e3a8a;
-            margin: 0;
-        }
-
-        .map-header p {
-            color: #666;
-            margin: 5px 0 0 0;
-            font-size: 14px;
-        }
-
-        /* CHANGE STATE BUTTON (Top Left) */
-        .change-state-btn {
-            position: absolute;
-            top: 80px;
-            left: 20px;
-            background: linear-gradient(135deg, #059669, #10b981);
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-            z-index: 1001;
-            transition: all 0.3s ease;
-        }
-
-        .change-state-btn:hover {
-            background: linear-gradient(135deg, #10b981, #34d399);
-            box-shadow: 0 0 15px #10b981;
-        }
-
-        /* SIDEBAR */
-        .sidebar {
-            position: absolute;
-            right: 20px;
-            top: 120px;
-            width: 350px;
-            background: rgba(255, 255, 255, 0.95);
-            border-radius: 8px;
-            padding: 20px;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
-            z-index: 999;
-            max-height: calc(100vh - 160px);
-            overflow-y: auto;
-        }
-
-        .sidebar h2 {
-            color: #1e3a8a;
-            margin-bottom: 15px;
-            font-size: 18px;
-        }
-
-        .sidebar input {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 2px solid #e5e7eb;
-            border-radius: 5px;
-            font-size: 14px;
-        }
-
-        .sidebar input:focus {
-            outline: none;
-            border-color: #3b82f6;
-        }
-
-        .property-placeholder {
-            text-align: center;
-            color: #999;
-            padding: 40px 20px;
-            font-size: 14px;
-        }
-
-        .property-item {
-            background: #f3f4f6;
-            padding: 15px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            border-left: 4px solid #3b82f6;
-        }
-
-        .property-item h3 {
-            color: #1e3a8a;
-            font-size: 14px;
-            margin-bottom: 8px;
-        }
-
-        .pdf-link {
-            display: inline-block;
-            color: #3b82f6;
-            text-decoration: none;
-            font-size: 12px;
-            margin-right: 5px;
-            padding: 5px 8px;
-            background: #eff6ff;
-            border-radius: 3px;
-            transition: all 0.2s;
-        }
-
-        .pdf-link:hover {
-            background: #3b82f6;
-            color: white;
-        }
-
-        .no-property {
-            text-align: center;
-            color: #999;
-        }
-
-        .leaflet-container {
-            background: #f3f4f6;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { height: 100%; }
+        body { height: 100%; font-family: Arial, sans-serif; }
+        
+        #map { width: 100%; height: 100%; background: #ccc; }
+        .leaflet-container { background: #f5f5f5 !important; }
+        
+        .modal { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 9999; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; }
+        .modal.hidden { display: none; }
+        .modal h1 { font-size: 48px; margin-bottom: 40px; letter-spacing: 3px; }
+        .modal input { width: 400px; padding: 15px; font-size: 16px; border: 2px solid #3b82f6; border-radius: 8px; }
+        .modal input:focus { outline: none; border-color: #60a5fa; box-shadow: 0 0 20px #3b82f6; }
+        #dropdown { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); margin-top: 10px; background: white; color: black; width: 400px; max-height: 300px; overflow-y: auto; border: 2px solid #3b82f6; border-radius: 0 0 8px 8px; display: none; }
+        #dropdown.show { display: block; }
+        .dropdown-item { padding: 12px; cursor: pointer; hover:background #eff6ff; }
+        .dropdown-item:hover { background: #eff6ff; }
+        
+        .header { position: absolute; top: 15px; left: 15px; background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; }
+        .header h1 { font-size: 20px; color: #1e3a8a; margin: 0; }
+        .header p { color: #666; font-size: 13px; margin: 5px 0 0 0; }
+        
+        .change-state { position: absolute; top: 80px; left: 15px; background: linear-gradient(135deg, #059669, #10b981); color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; font-weight: bold; z-index: 1000; }
+        .change-state:hover { background: linear-gradient(135deg, #10b981, #34d399); box-shadow: 0 0 15px #10b981; }
+        
+        .sidebar { position: absolute; right: 15px; top: 120px; width: 330px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.1); z-index: 1000; max-height: calc(100vh - 140px); overflow-y: auto; }
+        .sidebar h2 { color: #1e3a8a; margin-bottom: 15px; font-size: 16px; }
+        .sidebar input { width: 100%; padding: 10px; border: 2px solid #e5e7eb; border-radius: 5px; margin-bottom: 15px; }
+        .property-list { font-size: 13px; }
+        .property-item { background: #f3f4f6; padding: 12px; margin-bottom: 10px; border-left: 4px solid #3b82f6; border-radius: 4px; }
+        .property-item h3 { color: #1e3a8a; font-size: 13px; margin-bottom: 8px; }
+        .pdf-link { display: inline-block; background: #eff6ff; color: #3b82f6; padding: 4px 8px; border-radius: 3px; text-decoration: none; font-size: 11px; margin-right: 5px; }
+        .pdf-link:hover { background: #3b82f6; color: white; }
+        .placeholder { text-align: center; color: #999; padding: 30px 10px; font-size: 12px; }
     </style>
-<!-- Built: 1779940096 -->
 </head>
 <body>
-    <!-- STATE SELECTOR MODAL -->
-    <div id="stateModal">
-        <div class="modal-title">Select a State to Explore</div>
-        <div class="search-container">
-            <input 
-                type="text" 
-                id="stateSearch" 
-                placeholder="Type state name..." 
-                autofocus
-            />
-            <div id="suggestionsDropdown"></div>
-        </div>
+
+<!-- STATE SELECTOR MODAL -->
+<div id="modal" class="modal">
+    <h1>Select a State to Explore</h1>
+    <div style="position: relative;">
+        <input type="text" id="search" placeholder="Type state name..." autofocus />
+        <div id="dropdown"></div>
     </div>
+</div>
 
-    <!-- MAP -->
-    <div id="map"></div>
+<!-- MAP -->
+<div id="map"></div>
 
-    <!-- HEADER -->
-    <div class="map-header">
-        <div>
-            <h1>📍 Retail Deal Map</h1>
-            <p id="stateDisplay">California</p>
-        </div>
+<!-- HEADER -->
+<div class="header">
+    <h1>📍 Retail Deal Map</h1>
+    <p id="state-display">California</p>
+</div>
+
+<!-- CHANGE STATE BUTTON -->
+<button class="change-state" onclick="showModal()">🔄 Change State</button>
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+    <h2>Deal Map</h2>
+    <input type="text" placeholder="🔍 Search address..." />
+    <div class="property-list">
+        <div id="property-display" class="placeholder">Click a pin to view property & PDFs</div>
     </div>
+</div>
 
-    <!-- CHANGE STATE BUTTON -->
-    <button class="change-state-btn" onclick="showStateSelector()">🔄 Change State</button>
-    <button class="change-state-btn" data-satellite-btn style="left: 180px; background: linear-gradient(135deg, #059669, #10b981); display: none;">🛰️ Satellite</button>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
+<script>
 
-    <!-- SIDEBAR -->
-    <div class="sidebar">
-        <h2>Deal Map</h2>
-        <input type="text" id="searchBox" placeholder="🔍 Search address..."/>
-        <div id="propertyList">
-            <div class="property-placeholder">Click a pin to view property & PDFs</div>
-        </div>
-    </div>
+const STATES = [
+    { name: 'California', code: 'CA', center: [36.5, -120], zoom: 7 },
+    { name: 'Texas', code: 'TX', center: [31.9, -99.9], zoom: 6 },
+    { name: 'New York', code: 'NY', center: [43.0, -75.5], zoom: 7 },
+    { name: 'Florida', code: 'FL', center: [27.9, -81.8], zoom: 7 },
+    { name: 'Illinois', code: 'IL', center: [40.3, -88.9], zoom: 7 },
+    { name: 'Pennsylvania', code: 'PA', center: [40.6, -77.2], zoom: 7 },
+    { name: 'Ohio', code: 'OH', center: [40.3, -82.7], zoom: 7 },
+    { name: 'Georgia', code: 'GA', center: [32.9, -83.6], zoom: 7 },
+    { name: 'North Carolina', code: 'NC', center: [35.6, -79.8], zoom: 7 },
+    { name: 'Michigan', code: 'MI', center: [45.7, -84.6], zoom: 7 },
+    { name: 'New Jersey', code: 'NJ', center: [40.0, -74.4], zoom: 7 },
+    { name: 'Virginia', code: 'VA', center: [37.9, -77.5], zoom: 7 },
+    { name: 'Washington', code: 'WA', center: [47.4, -121.5], zoom: 7 },
+    { name: 'Arizona', code: 'AZ', center: [33.7, -111.4], zoom: 7 },
+    { name: 'Colorado', code: 'CO', center: [39.1, -105.3], zoom: 7 },
+    { name: 'Massachusetts', code: 'MA', center: [42.2, -71.8], zoom: 7 },
+    { name: 'Tennessee', code: 'TN', center: [35.7, -86.7], zoom: 7 },
+    { name: 'Missouri', code: 'MO', center: [38.5, -92.3], zoom: 7 },
+    { name: 'Maryland', code: 'MD', center: [39.1, -76.9], zoom: 7 },
+    { name: 'Wisconsin', code: 'WI', center: [44.7, -89.7], zoom: 7 },
+    { name: 'Minnesota', code: 'MN', center: [45.7, -94.6], zoom: 7 },
+    { name: 'Indiana', code: 'IN', center: [40.3, -86.3], zoom: 7 },
+    { name: 'Louisiana', code: 'LA', center: [30.9, -91.9], zoom: 7 },
+    { name: 'Kentucky', code: 'KY', center: [37.7, -84.9], zoom: 7 },
+    { name: 'Oklahoma', code: 'OK', center: [35.6, -97.5], zoom: 7 },
+    { name: 'Oregon', code: 'OR', center: [44.6, -122.0], zoom: 7 },
+    { name: 'Connecticut', code: 'CT', center: [41.6, -72.7], zoom: 7 },
+    { name: 'Iowa', code: 'IA', center: [42.0, -93.2], zoom: 7 },
+    { name: 'Nevada', code: 'NV', center: [39.9, -116.2], zoom: 7 },
+    { name: 'Utah', code: 'UT', center: [39.3, -111.9], zoom: 7 },
+];
 
-    <script>
-        // STATE DATA
-        const STATES = [
-            { name: 'California', code: 'CA', center: [36.5, -120], zoom: 7 },
-            { name: 'Texas', code: 'TX', center: [31.9, -99.9], zoom: 6 },
-            { name: 'Florida', code: 'FL', center: [27.9, -81.8], zoom: 7 },
-            { name: 'New York', code: 'NY', center: [43.0, -75.5], zoom: 7 },
-            { name: 'Illinois', code: 'IL', center: [40.3, -88.9], zoom: 7 },
-            { name: 'Pennsylvania', code: 'PA', center: [40.6, -77.2], zoom: 7 },
-            { name: 'Ohio', code: 'OH', center: [40.3, -82.7], zoom: 7 },
-            { name: 'Georgia', code: 'GA', center: [32.9, -83.6], zoom: 7 },
-            { name: 'North Carolina', code: 'NC', center: [35.6, -79.8], zoom: 7 },
-            { name: 'Michigan', code: 'MI', center: [45.7, -84.6], zoom: 7 },
-            { name: 'New Jersey', code: 'NJ', center: [40.0, -74.4], zoom: 7 },
-            { name: 'Virginia', code: 'VA', center: [37.9, -77.5], zoom: 7 },
-            { name: 'Washington', code: 'WA', center: [47.4, -121.5], zoom: 7 },
-            { name: 'Arizona', code: 'AZ', center: [33.7, -111.4], zoom: 7 },
-            { name: 'Massachusetts', code: 'MA', center: [42.2, -71.8], zoom: 7 },
-            { name: 'Tennessee', code: 'TN', center: [35.7, -86.7], zoom: 7 },
-            { name: 'Missouri', code: 'MO', center: [38.5, -92.3], zoom: 7 },
-            { name: 'Maryland', code: 'MD', center: [39.1, -76.9], zoom: 7 },
-            { name: 'Wisconsin', code: 'WI', center: [44.7, -89.7], zoom: 7 },
-            { name: 'Minnesota', code: 'MN', center: [45.7, -94.6], zoom: 7 },
-            { name: 'Colorado', code: 'CO', center: [39.1, -105.3], zoom: 7 },
-            { name: 'Indiana', code: 'IN', center: [40.3, -86.3], zoom: 7 },
-            { name: 'Louisiana', code: 'LA', center: [30.9, -91.9], zoom: 7 },
-            { name: 'Kentucky', code: 'KY', center: [37.7, -84.9], zoom: 7 },
-            { name: 'Oklahoma', code: 'OK', center: [35.6, -97.5], zoom: 7 },
-            { name: 'Connecticut', code: 'CT', center: [41.6, -72.7], zoom: 7 },
-            { name: 'Iowa', code: 'IA', center: [42.0, -93.2], zoom: 7 },
-            { name: 'Nevada', code: 'NV', center: [39.9, -116.2], zoom: 7 },
-            { name: 'Arkansas', code: 'AR', center: [34.8, -92.4], zoom: 7 },
-            { name: 'Kansas', code: 'KS', center: [38.5, -96.7], zoom: 7 },
-            { name: 'Utah', code: 'UT', center: [39.3, -111.9], zoom: 7 },
-            { name: 'New Mexico', code: 'NM', center: [34.5, -106.6], zoom: 7 },
-            { name: 'Nebraska', code: 'NE', center: [41.5, -99.9], zoom: 7 },
-            { name: 'West Virginia', code: 'WV', center: [38.6, -80.9], zoom: 7 },
-            { name: 'Idaho', code: 'ID', center: [44.9, -114.7], zoom: 7 },
-            { name: 'Hawaii', code: 'HI', center: [21.3, -157.5], zoom: 7 },
-            { name: 'New Hampshire', code: 'NH', center: [43.5, -71.6], zoom: 7 },
-            { name: 'Maine', code: 'ME', center: [45.4, -69.4], zoom: 7 },
-            { name: 'Montana', code: 'MT', center: [47.0, -109.6], zoom: 6 },
-            { name: 'Rhode Island', code: 'RI', center: [41.7, -71.5], zoom: 7 },
-            { name: 'Delaware', code: 'DE', center: [39.3, -75.5], zoom: 7 },
-            { name: 'South Dakota', code: 'SD', center: [44.9, -99.9], zoom: 7 },
-            { name: 'North Dakota', code: 'ND', center: [47.6, -100.5], zoom: 6 },
-            { name: 'Alaska', code: 'AK', center: [63.6, -152.2], zoom: 4 },
-            { name: 'Wyoming', code: 'WY', center: [43.1, -107.3], zoom: 6 },
-            { name: 'Vermont', code: 'VT', center: [44.0, -72.7], zoom: 7 },
-            { name: 'South Carolina', code: 'SC', center: [34.0, -81.2], zoom: 7 },
-            { name: 'Alabama', code: 'AL', center: [33.0, -86.9], zoom: 7 },
-            { name: 'Mississippi', code: 'MS', center: [32.7, -89.7], zoom: 7 },
-            { name: 'Oregon', code: 'OR', center: [44.6, -122.0], zoom: 7 }
-        ];
+let map, markersCluster;
 
-        let currentState = 'CA';
-        let map;
-        let markersCluster;
-        let allProperties = {};
-
-        // Initialize state search
-        function initStateSearch() {
-            const searchInput = document.getElementById('stateSearch');
-            const dropdown = document.getElementById('suggestionsDropdown');
-
-            searchInput.addEventListener('input', (e) => {
-                const query = e.target.value.toLowerCase();
-                dropdown.innerHTML = '';
-
-                if (query.length === 0) {
-                    dropdown.classList.remove('show');
-                    return;
-                }
-
-                const matches = STATES.filter(state => 
-                    state.name.toLowerCase().includes(query) || 
-                    state.code.toLowerCase().includes(query)
-                );
-
-                if (matches.length === 0) {
-                    dropdown.classList.remove('show');
-                    return;
-                }
-
-                dropdown.classList.add('show');
-                matches.forEach(state => {
-                    const item = document.createElement('div');
-                    item.className = 'suggestion-item';
-                    item.textContent = state.name;
-                    item.onclick = () => selectState(state);
-                    dropdown.appendChild(item);
+function initMap() {
+    map = L.map('map').setView([36.5, -120], 7);
+    
+    // Greyscale OSM tiles
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap',
+        maxZoom: 19
+    }).addTo(map);
+    
+    markersCluster = L.markerClusterGroup();
+    map.addLayer(markersCluster);
+    
+    // Load geojson
+    fetch('properties.geojson?' + Date.now())
+        .then(r => r.json())
+        .then(data => {
+            data.features.forEach(feature => {
+                const coords = feature.geometry.coordinates;
+                const props = feature.properties;
+                
+                const marker = L.circleMarker([coords[1], coords[0]], {
+                    radius: 8,
+                    fillColor: '#3b82f6',
+                    color: '#1e3a8a',
+                    weight: 2,
+                    opacity: 0.7,
+                    fillOpacity: 0.5
                 });
-            });
-
-            searchInput.addEventListener('keydown', (e) => {
-                if (e.key === 'Enter') {
-                    const firstMatch = STATES.find(s => 
-                        s.name.toLowerCase().includes(searchInput.value.toLowerCase()) ||
-                        s.code.toLowerCase().includes(searchInput.value.toLowerCase())
-                    );
-                    if (firstMatch) {
-                        selectState(firstMatch);
+                
+                marker.on('click', () => {
+                    let html = `<div class="property-item"><h3>${props.address}</h3>`;
+                    if (props.pdfs && props.pdfs.length) {
+                        props.pdfs.forEach(pdf => {
+                            html += `<a href="${pdf.drive_url}" target="_blank" class="pdf-link">📄 ${pdf.filename.substring(0,35)}</a>`;
+                        });
                     }
-                }
+                    html += '</div>';
+                    document.getElementById('property-display').innerHTML = html;
+                });
+                
+                markersCluster.addLayer(marker);
             });
+        });
+}
+
+function initSearch() {
+    const input = document.getElementById('search');
+    const dropdown = document.getElementById('dropdown');
+    
+    input.addEventListener('input', (e) => {
+        const val = e.target.value.toLowerCase();
+        dropdown.innerHTML = '';
+        
+        if (!val) {
+            dropdown.classList.remove('show');
+            return;
         }
-
-        function selectState(state) {
-            currentState = state.code;
-            document.getElementById('stateModal').classList.add('hidden');
-            document.getElementById('stateDisplay').textContent = state.name;
-            map.setView(state.center, state.zoom);
-            updateMapForState(state.code);
+        
+        const matches = STATES.filter(s => s.name.toLowerCase().includes(val) || s.code.toLowerCase().includes(val));
+        
+        if (!matches.length) {
+            dropdown.classList.remove('show');
+            return;
         }
-
-        function showStateSelector() {
-            document.getElementById('stateModal').classList.remove('hidden');
-            document.getElementById('stateSearch').value = '';
-            document.getElementById('suggestionsDropdown').classList.remove('show');
-            document.getElementById('stateSearch').focus();
+        
+        dropdown.classList.add('show');
+        matches.forEach(state => {
+            const item = document.createElement('div');
+            item.className = 'dropdown-item';
+            item.textContent = state.name;
+            item.onclick = () => selectState(state);
+            dropdown.appendChild(item);
+        });
+    });
+    
+    input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            const match = STATES.find(s => s.name.toLowerCase().includes(input.value.toLowerCase()));
+            if (match) selectState(match);
         }
+    });
+}
 
-        function updateMapForState(stateCode) {
-            markersCluster.clearLayers();
-            if (allProperties[stateCode]) {
-                allProperties[stateCode].forEach(feature => {
-                    const marker = L.circleMarker([feature.geometry.coordinates[1], feature.geometry.coordinates[0]], {
-                        radius: 8,
-                        fillColor: '#3b82f6',
-                        color: '#1e3a8a',
-                        weight: 2,
-                        opacity: 0.7,
-                        fillOpacity: 0.5
-                    });
-                    marker.bindPopup(`<strong>${feature.properties.address}</strong>`);
-                    marker.on('click', () => showProperty(feature));
-                    markersCluster.addLayer(marker);
-                });
-            }
-        }
+function selectState(state) {
+    document.getElementById('modal').classList.add('hidden');
+    document.getElementById('state-display').textContent = state.name;
+    map.setView(state.center, state.zoom);
+}
 
-        function showProperty(feature) {
-            const props = feature.properties;
-            const html = `
-                <div class="property-item">
-                    <h3>${props.address}</h3>
-                    ${props.pdfs && props.pdfs.length > 0 ? props.pdfs.map(pdf => 
-                        `<a href="${pdf.drive_url}" target="_blank" class="pdf-link">📄 ${pdf.filename.substring(0,40)}...</a>`
-                    ).join('') : '<div class="no-property">No PDFs available</div>'}
-                </div>
-            `;
-            document.getElementById('propertyList').innerHTML = html;
-        }
+function showModal() {
+    document.getElementById('modal').classList.remove('hidden');
+    document.getElementById('search').value = '';
+    document.getElementById('dropdown').classList.remove('show');
+    document.getElementById('search').focus();
+}
 
-        // Initialize map
-        function initMap() {
-            map = L.map('map').setView([36.5, -120], 7);
-            // OpenStreetMap (will see tiles first, then we'll add greyscale)
-            const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap',
-                maxZoom: 19
-            }).addTo(map);
+initSearch();
+initMap();
 
-            // Satellite layer (hidden by default)
-            const satelliteLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                attribution: '© OpenStreetMap',
-                maxZoom: 19,
-                className: 'satellite-tiles'
-            });
+</script>
 
-            let isSatelliteMode = false;
-            const satelliteBtn = document.querySelector('[data-satellite-btn]');
-            
-            // Show/hide satellite toggle based on zoom level
-            function updateSatelliteVisibility() {
-                const zoomLevel = map.getZoom();
-                satelliteBtn.style.display = zoomLevel >= 10 ? 'block' : 'none';
-            }
-
-            map.on('zoomend', updateSatelliteVisibility);
-            updateSatelliteVisibility();
-
-            // Satellite toggle
-            if (satelliteBtn) {
-                satelliteBtn.addEventListener('click', () => {
-                    isSatelliteMode = !isSatelliteMode;
-                    if (isSatelliteMode) {
-                        map.removeLayer(tileLayer);
-                        satelliteLayer.addTo(map);
-                        satelliteBtn.style.background = 'linear-gradient(135deg, #dc2626, #991b1b)';
-                    } else {
-                        map.removeLayer(satelliteLayer);
-                        tileLayer.addTo(map);
-                        satelliteBtn.style.background = 'linear-gradient(135deg, #059669, #10b981)';
-                    }
-                });
-            }
-
-            markersCluster = L.markerClusterGroup();
-            map.addLayer(markersCluster);
-
-            // Load GeoJSON
-            fetch('properties.geojson?' + Date.now())
-                .then(r => r.json())
-                .then(geojson => {
-                    allProperties['CA'] = geojson.features;
-                    
-                    geojson.features.forEach(feature => {
-                        const marker = L.circleMarker(
-                            [feature.geometry.coordinates[1], feature.geometry.coordinates[0]],
-                            {
-                                radius: 8,
-                                fillColor: '#3b82f6',
-                                color: '#1e3a8a',
-                                weight: 2,
-                                opacity: 0.7,
-                                fillOpacity: 0.5
-                            }
-                        );
-                        marker.on('click', () => showProperty(feature));
-                        markersCluster.addLayer(marker);
-                    });
-                });
-        }
-
-        // Start
-        initStateSearch();
-        initMap();
-    </script>
 </body>
 </html>
