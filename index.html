@@ -298,7 +298,7 @@
             maxZoom: 18
         }).addTo(map);
         
-        fetch('properties.geojson')
+        fetch('properties.geojson?t=' + Date.now())
             .then(r => r.json())
             .then(data => {
                 properties = data.features;
@@ -347,7 +347,7 @@
             if (props.pdfs && props.pdfs.length > 0) {
                 props.pdfs.forEach((pdf, idx) => {
                     const filename = typeof pdf === 'string' ? pdf : pdf.filename;
-                    const driveLink = typeof pdf === 'object' && pdf.drive_link ? pdf.drive_link : null;
+                    const driveLink = typeof pdf === 'object' && pdf.drive_url ? pdf.drive_url : null;
                     
                     if (driveLink) {
                         // Create clickable link
