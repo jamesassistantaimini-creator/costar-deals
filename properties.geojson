@@ -6,49 +6,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.010921,
-          41.247519
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "02.20.26 - 800 S Mountain Ave",
-        "lat": 41.247519,
-        "lng": -77.010921,
-        "formatted": "Mountain Ave, Williamsport, PA, United States of America",
-        "pdf_count": 1,
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
+        "pdf_count": 2,
         "pdfs": [
+          {
+            "filename": "02.20.26 - 800 S Mountain Ave - OM.pdf",
+            "drive_url": null
+          },
           {
             "filename": "02.20.26 - 800 S Mountain Ave - OM.pdf",
             "drive_url": null
           }
         ],
-        "display_name": "Mountain Ave, Williamsport, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.684089,
-          35.747321
-        ]
-      },
-      "properties": {
-        "address": "02.20.26 - 800 S Mountain Ave, Mission Plaza, CA",
-        "lat": 35.747321,
-        "lng": -120.684089,
-        "formatted": "Mission Lane, San Miguel, CA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "02.20.26 - 800 S Mountain Ave - OM.pdf",
-            "drive_url": null
-          }
-        ],
-        "display_name": "Mission Lane, San Miguel, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -73,7 +52,7 @@
           }
         ],
         "display_name": "W 8th St, National City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -98,7 +77,7 @@
           }
         ],
         "display_name": "Landis Dr, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -123,7 +102,7 @@
           }
         ],
         "display_name": "Devonshire Way, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -148,7 +127,7 @@
           }
         ],
         "display_name": "Devonshire St, Mission Hills, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -156,15 +135,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.978746,
-          40.045428
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1010 National City Blvd - National_City_Development_Flyer_",
-        "lat": 40.045428,
-        "lng": -79.978746,
-        "formatted": "Old National Pike, Coal Center, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -172,8 +151,8 @@
             "drive_url": "https://drive.google.com/file/d/1K41xD7L8jbYCuU8e27EKWswpdzumWArf/view?usp=sharing"
           }
         ],
-        "display_name": "Old National Pike, Coal Center, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -181,15 +160,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.978746,
-          40.045428
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1010 National City Blvd - National_City_Development_Flyer__1779753496",
-        "lat": 40.045428,
-        "lng": -79.978746,
-        "formatted": "Old National Pike, Coal Center, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -197,8 +176,8 @@
             "drive_url": "https://drive.google.com/file/d/13o5hyNyIL14-P3n0gsvB26pglNbnkmj5/view?usp=sharing"
           }
         ],
-        "display_name": "Old National Pike, Coal Center, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -206,15 +185,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.978746,
-          40.045428
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1010 National City Blvd - National_City_Development_Flyer__1779755787",
-        "lat": 40.045428,
-        "lng": -79.978746,
-        "formatted": "Old National Pike, Coal Center, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -222,8 +201,8 @@
             "drive_url": "https://drive.google.com/file/d/1vkkiFJNPUwlf1fIuM_1mMAbTkgLxqmwI/view?usp=sharing"
           }
         ],
-        "display_name": "Old National Pike, Coal Center, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -248,57 +227,7 @@
           }
         ],
         "display_name": "Canyon Dr, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.854542,
-          41.077375
-        ]
-      },
-      "properties": {
-        "address": "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling _1779753654",
-        "lat": 41.077375,
-        "lng": -76.854542,
-        "formatted": "Plum Aly, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling _1779753654.pdf",
-            "drive_url": "https://drive.google.com/file/d/1k6uNZsMtDs_9Qdrh5rdBTDojmpWjwxI0/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Aly, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.854542,
-          41.077375
-        ]
-      },
-      "properties": {
-        "address": "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling _1779755935",
-        "lat": 41.077375,
-        "lng": -76.854542,
-        "formatted": "Plum Aly, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling _1779755935.pdf",
-            "drive_url": "https://drive.google.com/file/d/1na6okZU8jT9kxxAiboh_qaqfA3c939vW/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Aly, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -323,7 +252,7 @@
           }
         ],
         "display_name": "Velarde Dr, Thousand Oaks, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -348,7 +277,7 @@
           }
         ],
         "display_name": "Apion Court, Paso Robles, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -373,7 +302,7 @@
           }
         ],
         "display_name": "E Florida Ave, Hemet, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -381,15 +310,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.978746,
-          40.045428
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1040 National City Blvd - National_City_Development_Flyer_",
-        "lat": 40.045428,
-        "lng": -79.978746,
-        "formatted": "Old National Pike, Coal Center, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -397,8 +326,8 @@
             "drive_url": "https://drive.google.com/file/d/1oMnDR8n89xeYNT3B32eUEIvZuWe2EfAi/view?usp=sharing"
           }
         ],
-        "display_name": "Old National Pike, Coal Center, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -406,15 +335,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.978746,
-          40.045428
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1040 National City Blvd - National_City_Development_Flyer__1779753507",
-        "lat": 40.045428,
-        "lng": -79.978746,
-        "formatted": "Old National Pike, Coal Center, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -422,8 +351,8 @@
             "drive_url": "https://drive.google.com/file/d/1sQ0g7PgiqxIsTXy-DFyE2ece2iMkoAWg/view?usp=sharing"
           }
         ],
-        "display_name": "Old National Pike, Coal Center, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -431,15 +360,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.978746,
-          40.045428
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1040 National City Blvd - National_City_Development_Flyer__1779755797",
-        "lat": 40.045428,
-        "lng": -79.978746,
-        "formatted": "Old National Pike, Coal Center, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -447,8 +376,8 @@
             "drive_url": "https://drive.google.com/file/d/1xit1-YKR1ztgkYiaZSQ_5h_JzHFxloNE/view?usp=sharing"
           }
         ],
-        "display_name": "Old National Pike, Coal Center, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -473,7 +402,7 @@
           }
         ],
         "display_name": "Main St, Morro Bay, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -498,7 +427,7 @@
           }
         ],
         "display_name": "St Francis Way, San Miguel, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -523,7 +452,7 @@
           }
         ],
         "display_name": "Bircher St, Granada Hills, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -548,7 +477,7 @@
           }
         ],
         "display_name": "Reed Pl, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -556,15 +485,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.71199,
-          35.935991
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1180 N State St - View the Rite Aid Marketing Flyer",
-        "lat": 35.935991,
-        "lng": -75.71199,
-        "formatted": "State Svc Road, Manteo, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -572,33 +501,8 @@
             "drive_url": "https://drive.google.com/file/d/1FBEYgprGwGrrhmcz2q1TN2givxJDU5_d/view?usp=sharing"
           }
         ],
-        "display_name": "State Svc Road, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.848256,
-          41.124977
-        ]
-      },
-      "properties": {
-        "address": "1201 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S",
-        "lat": 41.124977,
-        "lng": -76.848256,
-        "formatted": "Spring Lake Crst, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "1201 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S.pdf",
-            "drive_url": "https://drive.google.com/file/d/1PvuzsZUjE08mO8d8W9BFdTmW1TE7oyFC/view?usp=sharing"
-          }
-        ],
-        "display_name": "Spring Lake Crst, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -623,7 +527,7 @@
           }
         ],
         "display_name": "E Palm Canyon Dr, Palm Springs, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -648,7 +552,7 @@
           }
         ],
         "display_name": "E Palm Canyon Dr, Palm Springs, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -656,15 +560,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.592254,
-          35.586645
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1202 Main St - 1202 W Main St",
-        "lat": 35.586645,
-        "lng": -77.592254,
-        "formatted": "S Main St, Farmville, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -672,8 +576,8 @@
             "drive_url": "https://drive.google.com/file/d/1YisD3y42vWNMyNGJ-JiUYmcxCK9yZLkB/view?usp=sharing"
           }
         ],
-        "display_name": "S Main St, Farmville, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -681,15 +585,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.592254,
-          35.586645
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1202 Main St - 1202 W Main St_1779753200",
-        "lat": 35.586645,
-        "lng": -77.592254,
-        "formatted": "S Main St, Farmville, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -697,8 +601,8 @@
             "drive_url": "https://drive.google.com/file/d/1LweCRWnz2hDJ7rwAFEH_GQ3Nlt44F5OI/view?usp=sharing"
           }
         ],
-        "display_name": "S Main St, Farmville, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -706,15 +610,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.592254,
-          35.586645
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1202 Main St - 1202 W Main St_1779755536",
-        "lat": 35.586645,
-        "lng": -77.592254,
-        "formatted": "S Main St, Farmville, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -722,33 +626,8 @@
             "drive_url": "https://drive.google.com/file/d/1fU8Ii7ZDW_sJwZeEDPYd7bDEWfMFsKbk/view?usp=sharing"
           }
         ],
-        "display_name": "S Main St, Farmville, NC, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.848256,
-          41.124977
-        ]
-      },
-      "properties": {
-        "address": "1243 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S",
-        "lat": 41.124977,
-        "lng": -76.848256,
-        "formatted": "Spring Lake Crst, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "1243 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S.pdf",
-            "drive_url": "https://drive.google.com/file/d/1T-GdKwP08mkNB8js8SBMn-0bFAvzk4MA/view?usp=sharing"
-          }
-        ],
-        "display_name": "Spring Lake Crst, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -773,7 +652,7 @@
           }
         ],
         "display_name": "E Palm Canyon Dr, Palm Springs, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -798,7 +677,7 @@
           }
         ],
         "display_name": "E Palm Canyon Dr, Palm Springs, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -823,7 +702,7 @@
           }
         ],
         "display_name": "N Juanita St, Hemet, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -848,7 +727,7 @@
           }
         ],
         "display_name": "Janet Boulevard, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -873,7 +752,7 @@
           }
         ],
         "display_name": "Janet Boulevard, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -898,7 +777,7 @@
           }
         ],
         "display_name": "Rd 102, Tulare, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -923,7 +802,7 @@
           }
         ],
         "display_name": "13977 Poway Road, Poway, CA 92064, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -948,7 +827,7 @@
           }
         ],
         "display_name": "Poway Road, Poway, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -973,7 +852,7 @@
           }
         ],
         "display_name": "Poway Road, Poway, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -998,7 +877,7 @@
           }
         ],
         "display_name": "Poway Road, Poway, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1023,7 +902,7 @@
           }
         ],
         "display_name": "Poway Road, Poway, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1048,7 +927,7 @@
           }
         ],
         "display_name": "Poway Road, Poway, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1073,7 +952,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1098,7 +977,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1123,7 +1002,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1140,40 +1019,19 @@
         "lat": 34.00946,
         "lng": -118.10535,
         "formatted": "Montebello, California, United States of America",
-        "pdf_count": 1,
+        "pdf_count": 2,
         "pdfs": [
+          {
+            "filename": "1.1.24 Rent Roll - 1416 - 1440 West Beverly, Montebello.pdf",
+            "drive_url": null
+          },
           {
             "filename": "1.1.24 Rent Roll - 1416 - 1440 West Beverly, Montebello.pdf",
             "drive_url": null
           }
         ],
         "display_name": "Montebello, California, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.095295,
-          34.013425
-        ]
-      },
-      "properties": {
-        "address": "1416 - 1440 West Beverly, Montebello, CA",
-        "lat": 34.013425,
-        "lng": -118.095295,
-        "formatted": "E Beverly Ter, Montebello, CA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "1.1.24 Rent Roll - 1416 - 1440 West Beverly, Montebello.pdf",
-            "drive_url": null
-          }
-        ],
-        "display_name": "E Beverly Ter, Montebello, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1190,15 +1048,19 @@
         "lat": 34.018834,
         "lng": -118.113613,
         "formatted": "W Beverly Boulevard, Montebello, CA, United States of America",
-        "pdf_count": 1,
+        "pdf_count": 2,
         "pdfs": [
+          {
+            "filename": "1416-1440 West Beverly Blvd, Montebello- OM.pdf",
+            "drive_url": null
+          },
           {
             "filename": "1416-1440 West Beverly Blvd, Montebello- OM.pdf",
             "drive_url": null
           }
         ],
         "display_name": "W Beverly Boulevard, Montebello, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1206,40 +1068,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.113613,
-          34.018834
-        ]
-      },
-      "properties": {
-        "address": "1416-1440 West Beverly Blvd, Montebello, CA",
-        "lat": 34.018834,
-        "lng": -118.113613,
-        "formatted": "W Beverly Boulevard, Montebello, CA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "1416-1440 West Beverly Blvd, Montebello- OM.pdf",
-            "drive_url": null
-          }
-        ],
-        "display_name": "W Beverly Boulevard, Montebello, CA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.808422,
-          41.569507
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "14411 Norwalk Ln - Marketing BrochureFlyer",
-        "lat": 41.569507,
-        "lng": -95.808422,
-        "formatted": "Norwalk Lane, Missouri Valley, IA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1247,8 +1084,8 @@
             "drive_url": "https://drive.google.com/file/d/1j38h6yvjBYVpkHV0dH2yIFza6PYqAuh1/view?usp=sharing"
           }
         ],
-        "display_name": "Norwalk Lane, Missouri Valley, IA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1273,7 +1110,7 @@
           }
         ],
         "display_name": "Norwalk Boulevard, Norwalk, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1298,7 +1135,7 @@
           }
         ],
         "display_name": "Norwalk Boulevard, Norwalk, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1323,7 +1160,7 @@
           }
         ],
         "display_name": "Norwalk Boulevard, Norwalk, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1348,7 +1185,7 @@
           }
         ],
         "display_name": "Norwalk Boulevard, Norwalk, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1373,7 +1210,7 @@
           }
         ],
         "display_name": "Norwalk Boulevard, Norwalk, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1398,7 +1235,7 @@
           }
         ],
         "display_name": "Market Road, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1423,7 +1260,7 @@
           }
         ],
         "display_name": "E Caldwell Ave, Visalia, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1448,7 +1285,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1473,7 +1310,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1498,7 +1335,7 @@
           }
         ],
         "display_name": "Garnet Road, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1523,7 +1360,7 @@
           }
         ],
         "display_name": "Granite Way, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1531,15 +1368,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.803024,
-          41.115105
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1571 S Hale Ave - Brochure",
-        "lat": 41.115105,
-        "lng": -76.803024,
-        "formatted": "Hall Road, Watsontown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1547,8 +1384,8 @@
             "drive_url": "https://drive.google.com/file/d/1Pgfwe8f-aAO5fY233FER77z91iJnoJHa/view?usp=sharing"
           }
         ],
-        "display_name": "Hall Road, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1556,15 +1393,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.367627,
-          40.470053
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1571 S Hale Ave - Marketing BrochureFlyer",
-        "lat": 40.470053,
-        "lng": -75.367627,
-        "formatted": "Holly Ter, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1572,8 +1409,8 @@
             "drive_url": "https://drive.google.com/file/d/1sIAulpMIjcSKu32OTFHY6Ld1L6Qgn-2y/view?usp=sharing"
           }
         ],
-        "display_name": "Holly Ter, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1598,7 +1435,7 @@
           }
         ],
         "display_name": "S Main St, Lone Pine, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1606,15 +1443,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.370543,
-          40.446245
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1670 Main St - Stonegate-Rite-Aid Print 4.16.26_1779753220",
-        "lat": 40.446245,
-        "lng": -75.370543,
-        "formatted": "Stonegate Village, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1622,8 +1459,8 @@
             "drive_url": "https://drive.google.com/file/d/1NZqH3k1uVN6ecfE3RDc82Lcvrz1r7RBZ/view?usp=sharing"
           }
         ],
-        "display_name": "Stonegate Village, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1631,15 +1468,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.370543,
-          40.446245
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "1670 Main St - Stonegate-Rite-Aid Print 4.16.26_1779755551",
-        "lat": 40.446245,
-        "lng": -75.370543,
-        "formatted": "Stonegate Village, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1647,8 +1484,8 @@
             "drive_url": "https://drive.google.com/file/d/1sAWtB7VvbwOT2flyfS7qnLZJe12KOstP/view?usp=sharing"
           }
         ],
-        "display_name": "Stonegate Village, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1656,15 +1493,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.411316,
-          40.429836
+          -119.12603,
+          34.35753
         ]
       },
       "properties": {
         "address": "2 Star Retail Auto Repair - 68406 Highway 111",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
+        "lat": 34.35753,
+        "lng": -119.12603,
+        "formatted": "Ventura County, California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1672,8 +1509,8 @@
             "drive_url": "https://drive.google.com/file/d/15a6hbooRtDsy3i-ReWYpNFStyC_sn7IS/view?usp=sharing"
           }
         ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "Ventura County, California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1698,7 +1535,7 @@
           }
         ],
         "display_name": "California Hot Springs, California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1723,7 +1560,7 @@
           }
         ],
         "display_name": "Cathedral City, California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1748,7 +1585,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1756,15 +1593,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.50139,
-          44.00013
+          -116.46686,
+          33.814957
         ]
       },
       "properties": {
         "address": "2 Star Retail Auto Repair - NEW Lease - Cathedral City GL or BTS",
-        "lat": 44.00013,
-        "lng": -120.50139,
-        "formatted": "Oregon, United States of America",
+        "lat": 33.814957,
+        "lng": -116.46686,
+        "formatted": "Cathedral Canyon Dr, Cathedral City, CA, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1772,8 +1609,8 @@
             "drive_url": "https://drive.google.com/file/d/1OVO2xst30oZ2wZT5yhxU36vw5DFx44u8/view?usp=sharing"
           }
         ],
-        "display_name": "Oregon, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "Cathedral Canyon Dr, Cathedral City, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1781,15 +1618,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.50139,
-          44.00013
+          -116.46686,
+          33.814957
         ]
       },
       "properties": {
         "address": "2 Star Retail Auto Repair - NEW Lease - Cathedral City GL or BTS_1779755224",
-        "lat": 44.00013,
-        "lng": -120.50139,
-        "formatted": "Oregon, United States of America",
+        "lat": 33.814957,
+        "lng": -116.46686,
+        "formatted": "Cathedral Canyon Dr, Cathedral City, CA, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1797,8 +1634,8 @@
             "drive_url": "https://drive.google.com/file/d/1ExfMI82LUmPrCH688LOGgmqkVm2biNcN/view?usp=sharing"
           }
         ],
-        "display_name": "Oregon, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "Cathedral Canyon Dr, Cathedral City, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1823,7 +1660,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1848,7 +1685,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1856,15 +1693,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.864426,
-          38.413114
+          -117.15726,
+          32.71533
         ]
       },
       "properties": {
         "address": "2 Star Retail BarNightclub - BROCHURE 2391 El Camino Real San Clemen",
-        "lat": 38.413114,
-        "lng": -95.864426,
-        "formatted": "N Cedar St, Lebo, KS, United States of America",
+        "lat": 32.71533,
+        "lng": -117.15726,
+        "formatted": "San Diego, California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1872,8 +1709,8 @@
             "drive_url": "https://drive.google.com/file/d/11YS4-hACM9Qj7NdimjAZvLlk-s8eemFj/view?usp=sharing"
           }
         ],
-        "display_name": "N Cedar St, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "San Diego, California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1881,15 +1718,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.864426,
-          38.413114
+          -117.15726,
+          32.71533
         ]
       },
       "properties": {
         "address": "2 Star Retail BarNightclub - BROCHURE 2391 El Camino Real San Clemen_1779754925",
-        "lat": 38.413114,
-        "lng": -95.864426,
-        "formatted": "N Cedar St, Lebo, KS, United States of America",
+        "lat": 32.71533,
+        "lng": -117.15726,
+        "formatted": "San Diego, California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1897,8 +1734,8 @@
             "drive_url": "https://drive.google.com/file/d/1MYoPe6qZAsWA16w6xuuO0Aqzg_eqSp7q/view?usp=sharing"
           }
         ],
-        "display_name": "N Cedar St, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "San Diego, California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -1923,157 +1760,7 @@
           }
         ],
         "display_name": "el Camino Real, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.365639,
-          40.467117
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Drug Store - 801 N El Camino Real Brochure S_1779752132",
-        "lat": 40.467117,
-        "lng": -75.365639,
-        "formatted": "Cedar Ter, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Drug Store - 801 N El Camino Real Brochure S_1779752132.pdf",
-            "drive_url": "https://drive.google.com/file/d/1cRd3v2P-V-93NF-paY615ojRLMKNU__p/view?usp=sharing"
-          }
-        ],
-        "display_name": "Cedar Ter, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.365639,
-          40.467117
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Drug Store - 801 N El Camino Real Brochure S_1779754874",
-        "lat": 40.467117,
-        "lng": -75.365639,
-        "formatted": "Cedar Ter, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Drug Store - 801 N El Camino Real Brochure S_1779754874.pdf",
-            "drive_url": "https://drive.google.com/file/d/1MIA794xwvq-yyB7M3VS5MpOgQCthB3jT/view?usp=sharing"
-          }
-        ],
-        "display_name": "Cedar Ter, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.365639,
-          40.467117
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Drug Store - 801 N El Camino Real Brochure S_1779754878",
-        "lat": 40.467117,
-        "lng": -75.365639,
-        "formatted": "Cedar Ter, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Drug Store - 801 N El Camino Real Brochure S_1779754878.pdf",
-            "drive_url": "https://drive.google.com/file/d/1zDcFhC69tFbAb7pFtnvYLrghT0Br0Y9X/view?usp=sharing"
-          }
-        ],
-        "display_name": "Cedar Ter, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.258063,
-          40.461556
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1",
-        "lat": 40.461556,
-        "lng": -75.258063,
-        "formatted": "Mission Road, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1.pdf.pdf",
-            "drive_url": "https://drive.google.com/file/d/1jdwPXkpabL4s4xqPuT4tVZYf849LGLDY/view?usp=sharing"
-          }
-        ],
-        "display_name": "Mission Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.258063,
-          40.461556
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1_1779753371",
-        "lat": 40.461556,
-        "lng": -75.258063,
-        "formatted": "Mission Road, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1.pdf_1779753371.pdf",
-            "drive_url": "https://drive.google.com/file/d/11074FqAI0OJA1UxRE4agXetraYRXCT6r/view?usp=sharing"
-          }
-        ],
-        "display_name": "Mission Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.258063,
-          40.461556
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1_1779755666",
-        "lat": 40.461556,
-        "lng": -75.258063,
-        "formatted": "Mission Road, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1.pdf_1779755666.pdf",
-            "drive_url": "https://drive.google.com/file/d/1NKA-mvzx3jPsXTAG6O9T5npvqEm9R1BB/view?usp=sharing"
-          }
-        ],
-        "display_name": "Mission Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2098,57 +1785,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.365639,
-          40.467117
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Freestanding Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2",
-        "lat": 40.467117,
-        "lng": -75.365639,
-        "formatted": "Cedar Ter, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Freestanding Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2.pdf",
-            "drive_url": "https://drive.google.com/file/d/1EhATB8EpneuZCzvxxgSjctHrDBIABUog/view?usp=sharing"
-          }
-        ],
-        "display_name": "Cedar Ter, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.365639,
-          40.467117
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Freestanding Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2_1779755026",
-        "lat": 40.467117,
-        "lng": -75.365639,
-        "formatted": "Cedar Ter, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Freestanding Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2_1779755026.pdf",
-            "drive_url": "https://drive.google.com/file/d/1996DTOaH75Qi2n1W4fPYLa8aMim6YWCB/view?usp=sharing"
-          }
-        ],
-        "display_name": "Cedar Ter, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2173,7 +1810,7 @@
           }
         ],
         "display_name": "Canyon Dr, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2181,15 +1818,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.845535,
-          41.124644
+          -116.54529,
+          33.8303
         ]
       },
       "properties": {
         "address": "2 Star Retail Restaurant - 360 N Palm Canyon - Palm Springs_ C_1779753666",
-        "lat": 41.124644,
-        "lng": -76.845535,
-        "formatted": "Spring Lake Crst, Watsontown, PA, United States of America",
+        "lat": 33.8303,
+        "lng": -116.54529,
+        "formatted": "Palm Springs, California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2197,8 +1834,8 @@
             "drive_url": "https://drive.google.com/file/d/1dDJwlkvKx8Y9coR1jMbjTk-7Ls-sI1pw/view?usp=sharing"
           }
         ],
-        "display_name": "Spring Lake Crst, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "Palm Springs, California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2206,15 +1843,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.845535,
-          41.124644
+          -116.54529,
+          33.8303
         ]
       },
       "properties": {
         "address": "2 Star Retail Restaurant - 360 N Palm Canyon - Palm Springs_ C_1779755946",
-        "lat": 41.124644,
-        "lng": -76.845535,
-        "formatted": "Spring Lake Crst, Watsontown, PA, United States of America",
+        "lat": 33.8303,
+        "lng": -116.54529,
+        "formatted": "Palm Springs, California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2222,33 +1859,8 @@
             "drive_url": "https://drive.google.com/file/d/1EMTCusSbshCf4DM1lo5F-2oQZERTthGx/view?usp=sharing"
           }
         ],
-        "display_name": "Spring Lake Crst, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.864426,
-          38.413114
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Restaurant - 83010 Highway 111 and 45900 Fargo Street",
-        "lat": 38.413114,
-        "lng": -95.864426,
-        "formatted": "N Cedar St, Lebo, KS, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Restaurant - 83010 Highway 111 and 45900 Fargo Street.pdf",
-            "drive_url": "https://drive.google.com/file/d/10H8FT-TXiX9k9nCBR02Nwtf-93xfZXg-/view?usp=sharing"
-          }
-        ],
-        "display_name": "N Cedar St, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "Palm Springs, California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2273,7 +1885,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2298,7 +1910,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2323,7 +1935,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2348,7 +1960,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2356,15 +1968,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.27836,
-          60.46117
+          -118.19904,
+          36.802706
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print",
-        "lat": 60.46117,
-        "lng": 14.27836,
-        "formatted": "Vansbro Kommun, Sweden",
+        "lat": 36.802706,
+        "lng": -118.19904,
+        "formatted": "E Market St, Independence, CA, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2372,8 +1984,8 @@
             "drive_url": "https://drive.google.com/file/d/1M_ZkodNUqlCEB_l4xrX3nuJm_jXAIWEs/view?usp=sharing"
           }
         ],
-        "display_name": "Vansbro Kommun, Sweden",
-        "geocoding_method": "opencage_api"
+        "display_name": "E Market St, Independence, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2381,15 +1993,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.27836,
-          60.46117
+          -118.19904,
+          36.802706
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print_1779749316",
-        "lat": 60.46117,
-        "lng": 14.27836,
-        "formatted": "Vansbro Kommun, Sweden",
+        "lat": 36.802706,
+        "lng": -118.19904,
+        "formatted": "E Market St, Independence, CA, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2397,8 +2009,8 @@
             "drive_url": "https://drive.google.com/file/d/1Rb0rQbxBL8rMLPUrPBqXHrS0hfvsA0_e/view?usp=sharing"
           }
         ],
-        "display_name": "Vansbro Kommun, Sweden",
-        "geocoding_method": "opencage_api"
+        "display_name": "E Market St, Independence, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2406,15 +2018,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.27836,
-          60.46117
+          -118.19904,
+          36.802706
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print_1779753290",
-        "lat": 60.46117,
-        "lng": 14.27836,
-        "formatted": "Vansbro Kommun, Sweden",
+        "lat": 36.802706,
+        "lng": -118.19904,
+        "formatted": "E Market St, Independence, CA, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2422,8 +2034,8 @@
             "drive_url": "https://drive.google.com/file/d/1YmV5_Fqb_RRPwsmyEsTZHqJFsSU_XaZH/view?usp=sharing"
           }
         ],
-        "display_name": "Vansbro Kommun, Sweden",
-        "geocoding_method": "opencage_api"
+        "display_name": "E Market St, Independence, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2431,15 +2043,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.27836,
-          60.46117
+          -118.19904,
+          36.802706
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print_1779753297",
-        "lat": 60.46117,
-        "lng": 14.27836,
-        "formatted": "Vansbro Kommun, Sweden",
+        "lat": 36.802706,
+        "lng": -118.19904,
+        "formatted": "E Market St, Independence, CA, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2447,8 +2059,8 @@
             "drive_url": "https://drive.google.com/file/d/19f0O_FibZka-PMXBuzpvazt1pznLxKs5/view?usp=sharing"
           }
         ],
-        "display_name": "Vansbro Kommun, Sweden",
-        "geocoding_method": "opencage_api"
+        "display_name": "E Market St, Independence, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2456,40 +2068,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.864426,
-          38.413114
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view",
-        "lat": 38.413114,
-        "lng": -95.864426,
-        "formatted": "N Cedar St, Lebo, KS, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view.pdf",
-            "drive_url": "https://drive.google.com/file/d/1J0iNKLK_nr20OWbLrHm-Q2gwBzls6PJS/view?usp=sharing"
-          }
-        ],
-        "display_name": "N Cedar St, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.27836,
-          60.46117
+          -118.19904,
+          36.802706
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view_1779749319",
-        "lat": 60.46117,
-        "lng": 14.27836,
-        "formatted": "Vansbro Kommun, Sweden",
+        "lat": 36.802706,
+        "lng": -118.19904,
+        "formatted": "E Market St, Independence, CA, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2497,8 +2084,8 @@
             "drive_url": "https://drive.google.com/file/d/1QoxCPqO-ZIKuJPnXQ4WzyDj3aHUi7gQ9/view?usp=sharing"
           }
         ],
-        "display_name": "Vansbro Kommun, Sweden",
-        "geocoding_method": "opencage_api"
+        "display_name": "E Market St, Independence, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2506,15 +2093,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.27836,
-          60.46117
+          -118.19904,
+          36.802706
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view_1779753293",
-        "lat": 60.46117,
-        "lng": 14.27836,
-        "formatted": "Vansbro Kommun, Sweden",
+        "lat": 36.802706,
+        "lng": -118.19904,
+        "formatted": "E Market St, Independence, CA, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2522,8 +2109,8 @@
             "drive_url": "https://drive.google.com/file/d/1RgLuTlMhNL6LcDgQLT0jwI70x1YM-5wB/view?usp=sharing"
           }
         ],
-        "display_name": "Vansbro Kommun, Sweden",
-        "geocoding_method": "opencage_api"
+        "display_name": "E Market St, Independence, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2531,15 +2118,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.27836,
-          60.46117
+          -118.19904,
+          36.802706
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view_1779753301",
-        "lat": 60.46117,
-        "lng": 14.27836,
-        "formatted": "Vansbro Kommun, Sweden",
+        "lat": 36.802706,
+        "lng": -118.19904,
+        "formatted": "E Market St, Independence, CA, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2547,8 +2134,8 @@
             "drive_url": "https://drive.google.com/file/d/1v0CFF46dO2uXGi0pnOMK_ZoJMWBxQVIL/view?usp=sharing"
           }
         ],
-        "display_name": "Vansbro Kommun, Sweden",
-        "geocoding_method": "opencage_api"
+        "display_name": "E Market St, Independence, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2573,7 +2160,7 @@
           }
         ],
         "display_name": "Garnet Road, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2598,7 +2185,7 @@
           }
         ],
         "display_name": "Garnet Road, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2606,15 +2193,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.702823,
-          35.934977
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 2730 2736 2740-2752 Imperial Ave",
-        "lat": 35.934977,
-        "lng": -75.702823,
-        "formatted": "Cedrow Ave, Manteo, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2622,8 +2209,8 @@
             "drive_url": "https://drive.google.com/file/d/1R7FpHgyBGAMVyvc_1ynoAsj0p1biGeKI/view?usp=sharing"
           }
         ],
-        "display_name": "Cedrow Ave, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2631,15 +2218,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.702823,
-          35.934977
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 2730 2736 2740-2752 Imperial Ave _1779753019",
-        "lat": 35.934977,
-        "lng": -75.702823,
-        "formatted": "Cedrow Ave, Manteo, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2647,8 +2234,8 @@
             "drive_url": "https://drive.google.com/file/d/1HB8nGonrApTDDt_hhtabWD4ULWc7hyEE/view?usp=sharing"
           }
         ],
-        "display_name": "Cedrow Ave, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2673,7 +2260,7 @@
           }
         ],
         "display_name": "Cam San Clemente, San Clemente, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2681,40 +2268,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.864426,
-          38.413114
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Storefront - 307 317 N. El Camino Real San Clement_1779754844",
-        "lat": 38.413114,
-        "lng": -95.864426,
-        "formatted": "N Cedar St, Lebo, KS, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Storefront - 307  317 N. El Camino Real San Clement_1779754844.pdf",
-            "drive_url": "https://drive.google.com/file/d/1LLKvuVRkwHLSkmjGYjC6pYp0veCOoEQj/view?usp=sharing"
-          }
-        ],
-        "display_name": "N Cedar St, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.411316,
-          40.429836
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 73880_73890ElPaseoDrivePD_Sale",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2722,8 +2284,8 @@
             "drive_url": "https://drive.google.com/file/d/1AF_tltChlVTCz9d0-fe7QeUc1x3r1i4_/view?usp=sharing"
           }
         ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2731,15 +2293,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.411316,
-          40.429836
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 73880_73890ElPaseoDrivePD_Sale_1779754962",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2747,8 +2309,8 @@
             "drive_url": "https://drive.google.com/file/d/1OCIlID58X6SuEyqB2qOrHMrDr2LYt6fi/view?usp=sharing"
           }
         ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2756,15 +2318,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.411316,
-          40.429836
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront - 73880_73890ElPaseoPD_IncStmt",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2772,8 +2334,8 @@
             "drive_url": "https://drive.google.com/file/d/1jrgH6PmXTu3IH0x72AR_reZJ_mq4cN2v/view?usp=sharing"
           }
         ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2798,7 +2360,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2823,7 +2385,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2848,7 +2410,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2856,15 +2418,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.365639,
-          40.467117
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure",
-        "lat": 40.467117,
-        "lng": -75.365639,
-        "formatted": "Cedar Ter, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2872,58 +2434,8 @@
             "drive_url": "https://drive.google.com/file/d/1AkMJZItLpkyufRKmJJa0KOF349DtJw9Q/view?usp=sharing"
           }
         ],
-        "display_name": "Cedar Ter, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.365639,
-          40.467117
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure_1779753564",
-        "lat": 40.467117,
-        "lng": -75.365639,
-        "formatted": "Cedar Ter, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure_1779753564.pdf",
-            "drive_url": "https://drive.google.com/file/d/1WkXtEXPs_IEiUglCQ67OPfL1Aw3BH_mO/view?usp=sharing"
-          }
-        ],
-        "display_name": "Cedar Ter, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.365639,
-          40.467117
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure_1779755850",
-        "lat": 40.467117,
-        "lng": -75.365639,
-        "formatted": "Cedar Ter, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure_1779755850.pdf",
-            "drive_url": "https://drive.google.com/file/d/1i9HcZUPb_7lfoiqVkPhXYH4ulzifWuf0/view?usp=sharing"
-          }
-        ],
-        "display_name": "Cedar Ter, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2948,7 +2460,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2973,7 +2485,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -2998,7 +2510,7 @@
           }
         ],
         "display_name": "Adams Ave, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3006,65 +2518,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -94.17909,
-          31.79545
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Storefront RetailOffice Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2",
-        "lat": 31.79545,
-        "lng": -94.17909,
-        "formatted": "Center, Texas, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Storefront RetailOffice Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2.pdf",
-            "drive_url": "https://drive.google.com/file/d/12RfT1aKNT0uoQgZDcjG-CkjLdQUT9zrN/view?usp=sharing"
-          }
-        ],
-        "display_name": "Center, Texas, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -94.17909,
-          31.79545
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Storefront RetailOffice Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2_1779755018",
-        "lat": 31.79545,
-        "lng": -94.17909,
-        "formatted": "Center, Texas, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Storefront RetailOffice Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2_1779755018.pdf",
-            "drive_url": "https://drive.google.com/file/d/18KaA4BZe2QWJz37EEMlIp42VpJyOo7V_/view?usp=sharing"
-          }
-        ],
-        "display_name": "Center, Texas, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.864426,
-          38.413114
+          -115.99418,
+          32.73867
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront RetailResidential - 1194 N Imperial Hwy Ocotillo - 12-25",
-        "lat": 38.413114,
-        "lng": -95.864426,
-        "formatted": "N Cedar St, Lebo, KS, United States of America",
+        "lat": 32.73867,
+        "lng": -115.99418,
+        "formatted": "Ocotillo, California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -3072,8 +2534,8 @@
             "drive_url": "https://drive.google.com/file/d/1-1bnrfmm3-R5jQabOBzyBUDw0Wk3bd0e/view?usp=sharing"
           }
         ],
-        "display_name": "N Cedar St, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "Ocotillo, California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3081,15 +2543,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.864426,
-          38.413114
+          -115.99418,
+          32.73867
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront RetailResidential - 1194 N Imperial Hwy Ocotillo - 12-25_1779755369",
-        "lat": 38.413114,
-        "lng": -95.864426,
-        "formatted": "N Cedar St, Lebo, KS, United States of America",
+        "lat": 32.73867,
+        "lng": -115.99418,
+        "formatted": "Ocotillo, California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -3097,8 +2559,8 @@
             "drive_url": "https://drive.google.com/file/d/1GEBWCl8jh3BlHpGUHk_klDZgeXjmyVMn/view?usp=sharing"
           }
         ],
-        "display_name": "N Cedar St, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "Ocotillo, California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3123,7 +2585,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3148,32 +2610,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.864426,
-          38.413114
-        ]
-      },
-      "properties": {
-        "address": "2 Star Retail Storefront RetailResidential Strip C 4224-28 El Cajon Blvd",
-        "lat": 38.413114,
-        "lng": -95.864426,
-        "formatted": "N Cedar St, Lebo, KS, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2 Star Retail Storefront RetailResidential Strip C - OM 4224-28 El Cajon Blvd.pdf",
-            "drive_url": "https://drive.google.com/file/d/1o30JCw3MKzyu2HGzU_3GGgj1H0pj7BID/view?usp=sharing"
-          }
-        ],
-        "display_name": "N Cedar St, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3198,7 +2635,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3223,7 +2660,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3248,7 +2685,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3273,7 +2710,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3298,7 +2735,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3323,7 +2760,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3348,207 +2785,7 @@
           }
         ],
         "display_name": "Sally Ave, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.854542,
-          41.077375
-        ]
-      },
-      "properties": {
-        "address": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779749626",
-        "lat": 41.077375,
-        "lng": -76.854542,
-        "formatted": "Plum Aly, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779749626.pdf",
-            "drive_url": "https://drive.google.com/file/d/1x1I2gRmMCyege_QLbiftsdOySILJ9g9k/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Aly, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.854542,
-          41.077375
-        ]
-      },
-      "properties": {
-        "address": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779749636",
-        "lat": 41.077375,
-        "lng": -76.854542,
-        "formatted": "Plum Aly, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779749636.pdf",
-            "drive_url": "https://drive.google.com/file/d/19kPwW_TpgfeZC5p8io2fxIuRqGm2ihU3/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Aly, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.854542,
-          41.077375
-        ]
-      },
-      "properties": {
-        "address": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753687",
-        "lat": 41.077375,
-        "lng": -76.854542,
-        "formatted": "Plum Aly, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753687.pdf",
-            "drive_url": "https://drive.google.com/file/d/1t9Z6l3Pp6neFIIG6s1SWTEg8QDvoih9H/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Aly, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.854542,
-          41.077375
-        ]
-      },
-      "properties": {
-        "address": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753698",
-        "lat": 41.077375,
-        "lng": -76.854542,
-        "formatted": "Plum Aly, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753698.pdf",
-            "drive_url": "https://drive.google.com/file/d/1qU_ZkxNT41DwhDEhyjeahc8vi7HSeAmj/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Aly, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.854542,
-          41.077375
-        ]
-      },
-      "properties": {
-        "address": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753711",
-        "lat": 41.077375,
-        "lng": -76.854542,
-        "formatted": "Plum Aly, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753711.pdf",
-            "drive_url": "https://drive.google.com/file/d/1auIcjmy_Zh7vcmuUhKvXt6R5qGtzwaiE/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Aly, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.854542,
-          41.077375
-        ]
-      },
-      "properties": {
-        "address": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755965",
-        "lat": 41.077375,
-        "lng": -76.854542,
-        "formatted": "Plum Aly, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755965.pdf",
-            "drive_url": "https://drive.google.com/file/d/1QRIPBVijS5z1iHjPBnx4El2Gj1UbLbVJ/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Aly, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.854542,
-          41.077375
-        ]
-      },
-      "properties": {
-        "address": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755976",
-        "lat": 41.077375,
-        "lng": -76.854542,
-        "formatted": "Plum Aly, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755976.pdf",
-            "drive_url": "https://drive.google.com/file/d/1HFpRafdXziApP4772WSToqPw4dkCbsGC/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Aly, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.854542,
-          41.077375
-        ]
-      },
-      "properties": {
-        "address": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755987",
-        "lat": 41.077375,
-        "lng": -76.854542,
-        "formatted": "Plum Aly, Watsontown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755987.pdf",
-            "drive_url": "https://drive.google.com/file/d/1VmcOwXUgS4U3PKh6m1QQjwMXPbKpFaox/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Aly, Watsontown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3573,7 +2810,7 @@
           }
         ],
         "display_name": "Via Ensenada, San Luis Obispo, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3581,15 +2818,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.581361,
-          35.603091
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "2415 San Diego Ave - 2415SanDiegoAve_UPG",
-        "lat": 35.603091,
-        "lng": -77.581361,
-        "formatted": "Duke Dr, Farmville, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -3597,8 +2834,8 @@
             "drive_url": "https://drive.google.com/file/d/14TKBAqyw34jPJmZUoX2xczR0P3yMbieK/view?usp=sharing"
           }
         ],
-        "display_name": "Duke Dr, Farmville, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3623,7 +2860,7 @@
           }
         ],
         "display_name": "San Diego St, Tulare, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3648,7 +2885,7 @@
           }
         ],
         "display_name": "W 11th St, National City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3673,7 +2910,7 @@
           }
         ],
         "display_name": "California, Pennsylvania, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3698,7 +2935,7 @@
           }
         ],
         "display_name": "California City, California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3706,15 +2943,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.549268,
-          39.162673
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "2545 W Florida Ave - Marketing BrochureFlyer",
-        "lat": 39.162673,
-        "lng": -84.549268,
-        "formatted": "Florida Ave, Cincinnati, OH, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -3722,8 +2959,8 @@
             "drive_url": "https://drive.google.com/file/d/1-Ixcp59xmapLh8DpGMRrkUij6rmGz0CQ/view?usp=sharing"
           }
         ],
-        "display_name": "Florida Ave, Cincinnati, OH, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3731,15 +2968,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.549268,
-          39.162673
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "2545 W Florida Ave - Marketing BrochureFlyer_1779752332",
-        "lat": 39.162673,
-        "lng": -84.549268,
-        "formatted": "Florida Ave, Cincinnati, OH, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -3747,8 +2984,8 @@
             "drive_url": "https://drive.google.com/file/d/1dEkB95bBfCOjPhlFekIQb0SBOyvFaia4/view?usp=sharing"
           }
         ],
-        "display_name": "Florida Ave, Cincinnati, OH, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3756,15 +2993,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.549268,
-          39.162673
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "2545 W Florida Ave - Marketing BrochureFlyer_1779755089",
-        "lat": 39.162673,
-        "lng": -84.549268,
-        "formatted": "Florida Ave, Cincinnati, OH, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -3772,8 +3009,8 @@
             "drive_url": "https://drive.google.com/file/d/1aUix63mZr8FNOvLxxQQ4mwF3Pb2toxm1/view?usp=sharing"
           }
         ],
-        "display_name": "Florida Ave, Cincinnati, OH, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3798,7 +3035,7 @@
           }
         ],
         "display_name": "S Palm Canyon Dr, Palm Springs, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3823,7 +3060,7 @@
           }
         ],
         "display_name": "Spring Walk Pvt Road, California Hot Springs, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3848,7 +3085,7 @@
           }
         ],
         "display_name": "Spring Walk Pvt Road, California Hot Springs, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3856,15 +3093,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.873699,
-          35.708155
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "2730 Imperial Ave - 2730 2736 2740-2752 Imperial Ave",
-        "lat": 35.708155,
-        "lng": -77.873699,
-        "formatted": "Imperial Ave E, Wilson, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -3872,8 +3109,8 @@
             "drive_url": "https://drive.google.com/file/d/1o8-wmlqXwcz0U1PhMy3QHITzTl0JRMat/view?usp=sharing"
           }
         ],
-        "display_name": "Imperial Ave E, Wilson, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3898,7 +3135,7 @@
           }
         ],
         "display_name": "United States Border Patrol, Madison Avenue, Murrieta, CA 92562, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3923,7 +3160,7 @@
           }
         ],
         "display_name": "Madison Ave, California, KY, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3948,7 +3185,7 @@
           }
         ],
         "display_name": "Jefferson Dr, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3973,7 +3210,7 @@
           }
         ],
         "display_name": "Jefferson City Road, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -3998,7 +3235,7 @@
           }
         ],
         "display_name": "Jefferson City Road, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4023,7 +3260,7 @@
           }
         ],
         "display_name": "Jefferson Dr, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4048,7 +3285,7 @@
           }
         ],
         "display_name": "Jefferson City Road, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4073,7 +3310,7 @@
           }
         ],
         "display_name": "Jefferson Dr, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4098,7 +3335,7 @@
           }
         ],
         "display_name": "Jefferson City Road, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4123,7 +3360,7 @@
           }
         ],
         "display_name": "Jefferson City Road, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4148,7 +3385,7 @@
           }
         ],
         "display_name": "Clinton Peak Court, Jackson, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4173,7 +3410,7 @@
           }
         ],
         "display_name": "Stonecrop St, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4198,7 +3435,7 @@
           }
         ],
         "display_name": "28501 Canwood Street, Agoura, Agoura Hills, CA 91301, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4223,7 +3460,36 @@
           }
         ],
         "display_name": "Canwood St, Agoura Hills, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.153686,
+          33.49891
+        ]
+      },
+      "properties": {
+        "address": "28860, Old Town Front Street, Temecula, CA - Offering Memorandum",
+        "lat": 33.49891,
+        "lng": -117.153686,
+        "formatted": "Old Town Front St, Temecula, CA, United States of America",
+        "pdf_count": 2,
+        "pdfs": [
+          {
+            "filename": "28860, Old Town Front Street, Temecula, CA - Offering Memorandum (1).pdf",
+            "drive_url": null
+          },
+          {
+            "filename": "28860, Old Town Front Street, Temecula, CA - Offering Memorandum (1).pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "Old Town Front St, Temecula, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4248,7 +3514,7 @@
           }
         ],
         "display_name": "296 South Palm Canyon Drive, Palm Springs, CA 92262, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4273,7 +3539,7 @@
           }
         ],
         "display_name": "Canyon Dr, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4298,7 +3564,7 @@
           }
         ],
         "display_name": "Canyon Dr, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4323,7 +3589,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4348,7 +3614,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4373,7 +3639,7 @@
           }
         ],
         "display_name": "S Derrick Ave, Coalinga, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4398,7 +3664,7 @@
           }
         ],
         "display_name": "S Derrick Ave, Coalinga, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4423,7 +3689,7 @@
           }
         ],
         "display_name": "Sally Ave, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4431,40 +3697,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.411316,
-          40.429836
-        ]
-      },
-      "properties": {
-        "address": "3 Star Retail Freestanding - 22331 El Paseo Offering Memorandum 1",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3 Star Retail Freestanding - 22331 El Paseo Offering Memorandum 1.pdf",
-            "drive_url": "https://drive.google.com/file/d/1XrE8GzYZye5lwl74EoNAQwas2pB6s_HT/view?usp=sharing"
-          }
-        ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.4897,
-          47.27541
+          -118.398486,
+          34.614733
         ]
       },
       "properties": {
         "address": "3 Star Retail Freestanding - 22331 El Paseo Offering Memorandum 1_1779754933",
-        "lat": 47.27541,
-        "lng": 8.4897,
-        "formatted": "Aeugst am Albis, Bezirk Affoltern, Switzerland",
+        "lat": 34.614733,
+        "lng": -118.398486,
+        "formatted": "Cll el Pozo Verde, Santa Clarita, CA, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -4472,8 +3713,8 @@
             "drive_url": "https://drive.google.com/file/d/1HHt3wlG3pEnQLXGl3qw4DT1ifppxVLGI/view?usp=sharing"
           }
         ],
-        "display_name": "Aeugst am Albis, Bezirk Affoltern, Switzerland",
-        "geocoding_method": "opencage_api"
+        "display_name": "Cll el Pozo Verde, Santa Clarita, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4498,7 +3739,7 @@
           }
         ],
         "display_name": "el Camino Real, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4523,7 +3764,7 @@
           }
         ],
         "display_name": "el Camino Real, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4548,7 +3789,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4573,32 +3814,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -119.75126,
-          37.25022
-        ]
-      },
-      "properties": {
-        "address": "3 Star Retail Freestanding - El Cajon CA - Starbucks",
-        "lat": 37.25022,
-        "lng": -119.75126,
-        "formatted": "California, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3 Star Retail Freestanding - El Cajon CA - Starbucks.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Ob2grZQkI1-zxCwFbQIko5Lf001u_BXD/view?usp=sharing"
-          }
-        ],
-        "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4623,7 +3839,7 @@
           }
         ],
         "display_name": "Raylow Ave, Manteca, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4631,15 +3847,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.595911,
-          35.588443
+          -122.17055,
+          40.04099
         ]
       },
       "properties": {
         "address": "3 Star Retail Freestanding - FOR SALE 1640 N El Camino Real San Cle_1779754885",
-        "lat": 35.588443,
-        "lng": -77.595911,
-        "formatted": "Foree Cir, Farmville, NC, United States of America",
+        "lat": 40.04099,
+        "lng": -122.17055,
+        "formatted": "El Camino, California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -4647,8 +3863,8 @@
             "drive_url": "https://drive.google.com/file/d/1E57U9kvzRCv-CNOvT84s9CiFmkQjylrx/view?usp=sharing"
           }
         ],
-        "display_name": "Foree Cir, Farmville, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "El Camino, California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4673,7 +3889,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4698,57 +3914,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.411316,
-          40.429836
-        ]
-      },
-      "properties": {
-        "address": "3 Star Retail Freestanding - RSM 24 Hr Fitness - Brochure 10-1",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3 Star Retail Freestanding - RSM 24 Hr Fitness - Brochure 10-1.pdf",
-            "drive_url": "https://drive.google.com/file/d/1aKaABcEve7JqjjFXkhiKNtwt3vHDoTuM/view?usp=sharing"
-          }
-        ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.411316,
-          40.429836
-        ]
-      },
-      "properties": {
-        "address": "3 Star Retail Freestanding - RSM 24 Hr Fitness - Brochure 10-1_1779754936",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3 Star Retail Freestanding - RSM 24 Hr Fitness - Brochure 10-1_1779754936.pdf",
-            "drive_url": "https://drive.google.com/file/d/1jd1TYDjtGR1BNP_LUgWnVQlRc9huXAwc/view?usp=sharing"
-          }
-        ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4773,7 +3939,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4798,7 +3964,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4823,7 +3989,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4831,40 +3997,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.67908,
-          35.914843
-        ]
-      },
-      "properties": {
-        "address": "3 Star Retail Freestanding Strip Center - ValleyCenter_ParkCircle_v2 1",
-        "lat": 35.914843,
-        "lng": -75.67908,
-        "formatted": "1st St, Manteo, NC, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3 Star Retail Freestanding Strip Center - ValleyCenter_ParkCircle_v2 1.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Tz1oInO_yqgGQgLNIZk-oCyDu5T579eO/view?usp=sharing"
-          }
-        ],
-        "display_name": "1st St, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.71199,
-          35.935991
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "3 Star Retail Movie Theatre - 2822 State St",
-        "lat": 35.935991,
-        "lng": -75.71199,
-        "formatted": "State Svc Road, Manteo, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -4872,8 +4013,8 @@
             "drive_url": "https://drive.google.com/file/d/1MR9AMJ5FUyrRZdRDRiFaJFw18_M-XtA2/view?usp=sharing"
           }
         ],
-        "display_name": "State Svc Road, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4881,15 +4022,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.71199,
-          35.935991
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "3 Star Retail Movie Theatre - State Street Brochure 2025",
-        "lat": 35.935991,
-        "lng": -75.71199,
-        "formatted": "State Svc Road, Manteo, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -4897,8 +4038,8 @@
             "drive_url": "https://drive.google.com/file/d/1eQ_q9v_Tr8Rlv16JbQh1mrWuYxqAUrnY/view?usp=sharing"
           }
         ],
-        "display_name": "State Svc Road, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4923,7 +4064,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4931,15 +4072,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.411316,
-          40.429836
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "3 Star Retail Restaurant - 1814 El Camino Real_2026",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -4947,33 +4088,8 @@
             "drive_url": "https://drive.google.com/file/d/1F31O_YdBM1A4ZlMr6ovPtTSUjwhQJRol/view?usp=sharing"
           }
         ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.411316,
-          40.429836
-        ]
-      },
-      "properties": {
-        "address": "3 Star Retail Restaurant - 1814 El Camino Real_2026_1779754896",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3 Star Retail Restaurant - 1814 El Camino Real_OM_2026_1779754896.pdf",
-            "drive_url": "https://drive.google.com/file/d/1u1ewszNBi8b-kN_s8DUZS8WgbBUJTA8i/view?usp=sharing"
-          }
-        ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -4998,7 +4114,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5023,7 +4139,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5048,32 +4164,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -95.864478,
-          38.413671
-        ]
-      },
-      "properties": {
-        "address": "3 Star Retail Storefront RetailOffice - Sale Brochure - El Paseo Collection Eleg",
-        "lat": 38.413671,
-        "lng": -95.864478,
-        "formatted": "N Cedar St, Lebo, KS, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3 Star Retail Storefront RetailOffice - Sale Brochure - El Paseo Collection Eleg.pdf",
-            "drive_url": "https://drive.google.com/file/d/17CbITYET9EVCV_iFGzrB6mG5_Kj2vipN/view?usp=sharing"
-          }
-        ],
-        "display_name": "N Cedar St, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5098,7 +4189,7 @@
           }
         ],
         "display_name": "Sally Ave, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5123,7 +4214,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5148,7 +4239,7 @@
           }
         ],
         "display_name": "Valley Center Road, Valley Center, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5173,7 +4264,7 @@
           }
         ],
         "display_name": "Valley Center Road, Valley Center, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5181,15 +4272,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.411316,
-          40.429836
+          -119.12603,
+          34.35753
         ]
       },
       "properties": {
         "address": "3 Star Retail VeterinarianKennel - 73120 Highway 111 030526",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
+        "lat": 34.35753,
+        "lng": -119.12603,
+        "formatted": "Ventura County, California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -5197,8 +4288,8 @@
             "drive_url": "https://drive.google.com/file/d/1dAbpLI-nQOk_S9Q5BOUyzVUaVNfqnUgF/view?usp=sharing"
           }
         ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "Ventura County, California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5206,15 +4297,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.411316,
-          40.429836
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "3 Star Retail VeterinarianKennel - 73120 Highway 111 030526_1779752906",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -5222,8 +4313,8 @@
             "drive_url": "https://drive.google.com/file/d/1DTNIA2ADjfPY1oy86n8zSZIIXoJA2N2J/view?usp=sharing"
           }
         ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5231,15 +4322,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.411316,
-          40.429836
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "3 Star Retail VeterinarianKennel - 73120 Highway 111 030526_1779755240",
-        "lat": 40.429836,
-        "lng": -75.411316,
-        "formatted": "Starr Road, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -5247,8 +4338,8 @@
             "drive_url": "https://drive.google.com/file/d/14icojTHBsjFa1ueH9CwYnhHc_FyPmxLs/view?usp=sharing"
           }
         ],
-        "display_name": "Starr Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5273,7 +4364,7 @@
           }
         ],
         "display_name": "Pow Wow Pl, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5298,7 +4389,7 @@
           }
         ],
         "display_name": "Pow Wow Pl, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5323,7 +4414,7 @@
           }
         ],
         "display_name": "Pow Wow Pl, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5348,7 +4439,7 @@
           }
         ],
         "display_name": "Pollo Maria, 3055 Harding Street, Carlsbad, CA 92008, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5356,15 +4447,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.364167,
-          35.608202
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "3055 Harding St_1779755193",
-        "lat": 35.608202,
-        "lng": -77.364167,
-        "formatted": "Harding St, Greenville, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -5372,8 +4463,8 @@
             "drive_url": "https://drive.google.com/file/d/1s-20sCpVLS52ku68qSHU_EgL1W3nJMNr/view?usp=sharing"
           }
         ],
-        "display_name": "Harding St, Greenville, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5398,7 +4489,7 @@
           }
         ],
         "display_name": "State St, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5423,32 +4514,7 @@
           }
         ],
         "display_name": "Old State Hwy, Hemet, CA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -75.430478,
-          40.416807
-        ]
-      },
-      "properties": {
-        "address": "3340 El Cajon Blvd - Final OM 3340 El Cajon Bld",
-        "lat": 40.416807,
-        "lng": -75.430478,
-        "formatted": "Fennel Road, Quakertown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3340 El Cajon Blvd - Final OM 3340 El Cajon Bld.pdf.pdf",
-            "drive_url": "https://drive.google.com/file/d/1CO9s1PrinSZ1y2kEq299GkV1SHdocwEz/view?usp=sharing"
-          }
-        ],
-        "display_name": "Fennel Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5473,7 +4539,7 @@
           }
         ],
         "display_name": "Monterey, Lemoore, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5498,7 +4564,7 @@
           }
         ],
         "display_name": "Monterey Lane, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5523,7 +4589,7 @@
           }
         ],
         "display_name": "Monterey, Lemoore, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5548,7 +4614,7 @@
           }
         ],
         "display_name": "El Pollo Loco, 3444 Midway Drive, San Diego, CA 92110, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5573,7 +4639,7 @@
           }
         ],
         "display_name": "El Pollo Loco, 3444 Midway Drive, San Diego, CA 92110, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5598,7 +4664,7 @@
           }
         ],
         "display_name": "99 Cents Only Stores, 34660 Monterey Avenue, Palm Desert, CA 92211, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5623,7 +4689,7 @@
           }
         ],
         "display_name": "Monterey Lane, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5652,7 +4718,7 @@
           }
         ],
         "display_name": "National City Boulevard, National City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5677,7 +4743,7 @@
           }
         ],
         "display_name": "Bircher St, Granada Hills, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5702,7 +4768,7 @@
           }
         ],
         "display_name": "Monterey Lane, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5727,7 +4793,7 @@
           }
         ],
         "display_name": "Meander Road, Santa Clarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5752,7 +4818,7 @@
           }
         ],
         "display_name": "Monterey Ave, Valencia, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5777,7 +4843,7 @@
           }
         ],
         "display_name": "Beanie Lane, El Cajon, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5806,7 +4872,7 @@
           }
         ],
         "display_name": "Monterey Ave, Valencia, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5831,7 +4897,7 @@
           }
         ],
         "display_name": "Monterey Lane, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5856,7 +4922,7 @@
           }
         ],
         "display_name": "Monterey Lane, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5881,7 +4947,7 @@
           }
         ],
         "display_name": "S Monterey Ave, Coalinga, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5906,7 +4972,7 @@
           }
         ],
         "display_name": "Podd Court, Canyon Country, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5931,7 +4997,7 @@
           }
         ],
         "display_name": "Monterey Lane, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5956,7 +5022,7 @@
           }
         ],
         "display_name": "Monterey Lane, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5964,15 +5030,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.248193,
-          40.472379
+          -116.27363,
+          32.66367
         ]
       },
       "properties": {
         "address": "3719 Mission Blvd - Brochure 3719 Mission Blvd",
-        "lat": 40.472379,
-        "lng": -75.248193,
-        "formatted": "Mission Road, Quakertown, PA, United States of America",
+        "lat": 32.66367,
+        "lng": -116.27363,
+        "formatted": "Boulevard, California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -5980,8 +5046,8 @@
             "drive_url": "https://drive.google.com/file/d/17OYg_j__85TyKGOQp4SOHtj4b0FFv8nQ/view?usp=sharing"
           }
         ],
-        "display_name": "Mission Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "Boulevard, California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -5989,15 +5055,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.248193,
-          40.472379
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "3719 Mission Blvd - Brochure 3719 Mission Blvd_1779753383",
-        "lat": 40.472379,
-        "lng": -75.248193,
-        "formatted": "Mission Road, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -6005,8 +5071,8 @@
             "drive_url": "https://drive.google.com/file/d/1N7tR8PDPOiDFDWet-ovaKXLZ_T9zE87n/view?usp=sharing"
           }
         ],
-        "display_name": "Mission Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6014,15 +5080,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.248193,
-          40.472379
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "3719 Mission Blvd - Brochure 3719 Mission Blvd_1779755676",
-        "lat": 40.472379,
-        "lng": -75.248193,
-        "formatted": "Mission Road, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -6030,8 +5096,8 @@
             "drive_url": "https://drive.google.com/file/d/1KIHl_VctYJkHsd6WsqxA2U5URdAiyOlx/view?usp=sharing"
           }
         ],
-        "display_name": "Mission Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6039,15 +5105,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.700468,
-          35.922685
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "41267 E Florida Ave - County Zoning",
-        "lat": 35.922685,
-        "lng": -75.700468,
-        "formatted": "Old County Road, Manteo, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -6055,8 +5121,8 @@
             "drive_url": "https://drive.google.com/file/d/1ZSiGJWoKVp-V7KBu3mT17xoFW35jxpAd/view?usp=sharing"
           }
         ],
-        "display_name": "Old County Road, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6064,15 +5130,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.700468,
-          35.922685
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "41267 E Florida Ave - County Zoning_1779755069",
-        "lat": 35.922685,
-        "lng": -75.700468,
-        "formatted": "Old County Road, Manteo, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -6080,58 +5146,8 @@
             "drive_url": "https://drive.google.com/file/d/1xC7Bdtp71p0_al-oMyWr6wE11MA8Xunn/view?usp=sharing"
           }
         ],
-        "display_name": "Old County Road, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.547384,
-          39.167395
-        ]
-      },
-      "properties": {
-        "address": "41267 E Florida Ave - Offer Memorandum - 41267 E. Florida Ave",
-        "lat": 39.167395,
-        "lng": -84.547384,
-        "formatted": "Florida Ave, Cincinnati, OH, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "41267 E Florida Ave - Offer Memorandum - 41267 E. Florida Ave.pdf",
-            "drive_url": "https://drive.google.com/file/d/12PLbCKWFN_avxQLrj-JTwthwoqsnMCvQ/view?usp=sharing"
-          }
-        ],
-        "display_name": "Florida Ave, Cincinnati, OH, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.547384,
-          39.167395
-        ]
-      },
-      "properties": {
-        "address": "41267 E Florida Ave - Offer Memorandum - 41267 E. Florida Ave_1779755062",
-        "lat": 39.167395,
-        "lng": -84.547384,
-        "formatted": "Florida Ave, Cincinnati, OH, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "41267 E Florida Ave - Offer Memorandum - 41267 E. Florida Ave_1779755062.pdf",
-            "drive_url": "https://drive.google.com/file/d/1KdgSM1BnbOjLVURBAd1LQu8Dd6n557t9/view?usp=sharing"
-          }
-        ],
-        "display_name": "Florida Ave, Cincinnati, OH, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6156,7 +5172,7 @@
           }
         ],
         "display_name": "Kennedy Boulevard, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6164,15 +5180,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.700468,
-          35.922685
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "41267 E Florida Ave - Riverside County Report 2",
-        "lat": 35.922685,
-        "lng": -75.700468,
-        "formatted": "Old County Road, Manteo, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -6180,8 +5196,8 @@
             "drive_url": "https://drive.google.com/file/d/16fTJ-o1aMfMCz3x668mCNojiWGhVwUbG/view?usp=sharing"
           }
         ],
-        "display_name": "Old County Road, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6189,15 +5205,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.700468,
-          35.922685
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "41267 E Florida Ave - Riverside County Report 2_1779755073",
-        "lat": 35.922685,
-        "lng": -75.700468,
-        "formatted": "Old County Road, Manteo, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -6205,8 +5221,8 @@
             "drive_url": "https://drive.google.com/file/d/1J3xt0PxB4y6Rp8MttqUdqZ5snEokjac5/view?usp=sharing"
           }
         ],
-        "display_name": "Old County Road, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6214,15 +5230,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.700468,
-          35.922685
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "41267 E Florida Ave - Riverside County Report_1779755065",
-        "lat": 35.922685,
-        "lng": -75.700468,
-        "formatted": "Old County Road, Manteo, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -6230,8 +5246,8 @@
             "drive_url": "https://drive.google.com/file/d/1u_5DVkRDF6Pwz4O571-WHt2ABXaHZBiv/view?usp=sharing"
           }
         ],
-        "display_name": "Old County Road, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6256,7 +5272,32 @@
           }
         ],
         "display_name": "6th St, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.923867,
+          33.747682
+        ]
+      },
+      "properties": {
+        "address": "42021 Florida Ave - Flyer - Hemet CA",
+        "lat": 33.747682,
+        "lng": -116.923867,
+        "formatted": "Florida Ave, Hemet, CA, United States of America",
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "42021 Florida Ave - Flyer - Hemet CA.pdf",
+            "drive_url": "https://drive.google.com/file/d/15R6_MjyyImh7Yd8t3Tcifjvwv3TQtI3b/view?usp=sharing"
+          }
+        ],
+        "display_name": "Florida Ave, Hemet, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6269,35 +5310,10 @@
         ]
       },
       "properties": {
-        "address": "42021 Florida Ave - Flyer - Hemet CA",
+        "address": "42021 Florida Ave - Flyer - Hemet CA_1779754996",
         "lat": 33.74752,
         "lng": -116.97197,
         "formatted": "Hemet, California, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "42021 Florida Ave - Flyer - Hemet CA.pdf",
-            "drive_url": "https://drive.google.com/file/d/15R6_MjyyImh7Yd8t3Tcifjvwv3TQtI3b/view?usp=sharing"
-          }
-        ],
-        "display_name": "Hemet, California, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.570978,
-          38.49187
-        ]
-      },
-      "properties": {
-        "address": "42021 Florida Ave - Flyer - Hemet CA_1779754996",
-        "lat": 38.49187,
-        "lng": -92.570978,
-        "formatted": "State Hwy C, Russellville, MO, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -6305,8 +5321,8 @@
             "drive_url": "https://drive.google.com/file/d/1TavjH6mE2seqP1DsRP59Qr4Qt7e_21wQ/view?usp=sharing"
           }
         ],
-        "display_name": "State Hwy C, Russellville, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "Hemet, California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6331,7 +5347,7 @@
           }
         ],
         "display_name": "St Francis Way, San Miguel, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6356,7 +5372,7 @@
           }
         ],
         "display_name": "Monroe Way, California, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6381,7 +5397,7 @@
           }
         ],
         "display_name": "Monroe Way, California, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6406,7 +5422,7 @@
           }
         ],
         "display_name": "Monroe Way, California, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6431,7 +5447,7 @@
           }
         ],
         "display_name": "Hacienda Boulevard, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6456,7 +5472,7 @@
           }
         ],
         "display_name": "Hacienda Boulevard, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6481,7 +5497,7 @@
           }
         ],
         "display_name": "Hacienda Boulevard, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6506,7 +5522,7 @@
           }
         ],
         "display_name": "Hacienda Boulevard, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6531,7 +5547,7 @@
           }
         ],
         "display_name": "Sally Ave, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6556,7 +5572,7 @@
           }
         ],
         "display_name": "Plum Way, California, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6581,7 +5597,7 @@
           }
         ],
         "display_name": "Plum Way, California, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6606,7 +5622,7 @@
           }
         ],
         "display_name": "Hacienda Boulevard, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6631,7 +5647,7 @@
           }
         ],
         "display_name": "Hacienda Boulevard, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6656,7 +5672,7 @@
           }
         ],
         "display_name": "Hacienda Boulevard, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6681,7 +5697,7 @@
           }
         ],
         "display_name": "Lime Ave, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6706,7 +5722,7 @@
           }
         ],
         "display_name": "Lime Ave, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6731,7 +5747,7 @@
           }
         ],
         "display_name": "Lime Ave, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6756,7 +5772,7 @@
           }
         ],
         "display_name": "Hacienda Boulevard, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6764,15 +5780,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.21556,
-          33.72058
+          -116.233885,
+          33.700489
         ]
       },
       "properties": {
         "address": "47985 Monroe St - Brochure - Former Rite-Aid in Indio CA",
-        "lat": 33.72058,
-        "lng": -116.21556,
-        "formatted": "Indio, California, United States of America",
+        "lat": 33.700489,
+        "lng": -116.233885,
+        "formatted": "Monroe St, Indio, CA, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -6780,8 +5796,8 @@
             "drive_url": "https://drive.google.com/file/d/1rlhRkZQ_niyEbVlQjVtbO4hxgO19cGKP/view?usp=sharing"
           }
         ],
-        "display_name": "Indio, California, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "Monroe St, Indio, CA, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6806,7 +5822,7 @@
           }
         ],
         "display_name": "Day Road, McArthur, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6831,7 +5847,7 @@
           }
         ],
         "display_name": "Monroe Way, California, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6856,7 +5872,7 @@
           }
         ],
         "display_name": "Industrial Road, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6881,7 +5897,7 @@
           }
         ],
         "display_name": "Zulu St, California, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6906,7 +5922,7 @@
           }
         ],
         "display_name": "Zulu St, California, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6931,7 +5947,7 @@
           }
         ],
         "display_name": "Zulu St, California, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6956,7 +5972,7 @@
           }
         ],
         "display_name": "Sally Ave, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -6981,7 +5997,7 @@
           }
         ],
         "display_name": "Plum Way, California, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7006,7 +6022,7 @@
           }
         ],
         "display_name": "Plum Way, California, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7019,85 +6035,10 @@
         ]
       },
       "properties": {
-        "address": "5032 Niagara Ave - Broker CA_OB Collective",
+        "address": "54227 Pine Crest Ave - 35364_print 2",
         "lat": 37.25022,
         "lng": -119.75126,
         "formatted": "California, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "5032 Niagara Ave - Broker CA_OB Collective.pdf",
-            "drive_url": "https://drive.google.com/file/d/1ihHesmPDpDY9Tfffthd8ZO_GsWf87FVo/view?usp=sharing"
-          }
-        ],
-        "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.715799,
-          38.821877
-        ]
-      },
-      "properties": {
-        "address": "5032 Niagara Ave - Broker CA_OB Collective_1779753518",
-        "lat": 38.821877,
-        "lng": -122.715799,
-        "formatted": "Cobb Boulevard, Cobb, CA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "5032 Niagara Ave - Broker CA_OB Collective_1779753518.pdf",
-            "drive_url": "https://drive.google.com/file/d/14bj7FE_yl18N3ozBQR8WGDBwrzM0cNG_/view?usp=sharing"
-          }
-        ],
-        "display_name": "Cobb Boulevard, Cobb, CA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.715799,
-          38.821877
-        ]
-      },
-      "properties": {
-        "address": "5032 Niagara Ave - Broker CA_OB Collective_1779755807",
-        "lat": 38.821877,
-        "lng": -122.715799,
-        "formatted": "Cobb Boulevard, Cobb, CA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "5032 Niagara Ave - Broker CA_OB Collective_1779755807.pdf",
-            "drive_url": "https://drive.google.com/file/d/1rYnKpfD6GfMDdgW86qNwUz4-oihLxe8N/view?usp=sharing"
-          }
-        ],
-        "display_name": "Cobb Boulevard, Cobb, CA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.577697,
-          35.601044
-        ]
-      },
-      "properties": {
-        "address": "54227 Pine Crest Ave - 35364_print 2",
-        "lat": 35.601044,
-        "lng": -77.577697,
-        "formatted": "Pinecrest Dr, Farmville, NC, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -7105,8 +6046,8 @@
             "drive_url": "https://drive.google.com/file/d/1PG8gTgcT-h2IkvDI-v8ny7o0ueOIl00l/view?usp=sharing"
           }
         ],
-        "display_name": "Pinecrest Dr, Farmville, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7131,7 +6072,7 @@
           }
         ],
         "display_name": "Paine St, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7156,7 +6097,7 @@
           }
         ],
         "display_name": "Paine St, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7181,7 +6122,7 @@
           }
         ],
         "display_name": "Gila Court, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7206,7 +6147,7 @@
           }
         ],
         "display_name": "S Julie St, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7231,7 +6172,7 @@
           }
         ],
         "display_name": "S Julie St, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7239,15 +6180,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.248193,
-          40.472379
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "6333 Mission Gorge Rd- MP 1225",
-        "lat": 40.472379,
-        "lng": -75.248193,
-        "formatted": "Mission Road, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -7255,8 +6196,8 @@
             "drive_url": "https://drive.google.com/file/d/1gkWY6vtwnzIQoYSCpp7myoz3sGOHfAYG/view?usp=sharing"
           }
         ],
-        "display_name": "Mission Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7264,15 +6205,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.248193,
-          40.472379
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "6333 Mission Gorge Rd- MP 1225_1779753400",
-        "lat": 40.472379,
-        "lng": -75.248193,
-        "formatted": "Mission Road, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -7280,8 +6221,8 @@
             "drive_url": "https://drive.google.com/file/d/1vH0UVRq92QnrdJzo6QIRBycP8u-omETR/view?usp=sharing"
           }
         ],
-        "display_name": "Mission Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7289,15 +6230,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.248193,
-          40.472379
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "6333 Mission Gorge Rd- MP 1225_1779755693",
-        "lat": 40.472379,
-        "lng": -75.248193,
-        "formatted": "Mission Road, Quakertown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -7305,33 +6246,8 @@
             "drive_url": "https://drive.google.com/file/d/13Z3JoXdGI9O_fi9kbty5ffD6T0ZXuufF/view?usp=sharing"
           }
         ],
-        "display_name": "Mission Road, Quakertown, PA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.805883,
-          41.809795
-        ]
-      },
-      "properties": {
-        "address": "6555 Indian Canyon Dr - 6555 N Indian Canyon Dr Sale Brochure",
-        "lat": 41.809795,
-        "lng": -84.805883,
-        "formatted": "Indian Trl, Montgomery, MI, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "6555 Indian Canyon Dr - 6555 N Indian Canyon Dr Sale Brochure.pdf",
-            "drive_url": "https://drive.google.com/file/d/1iihZCLTtbeltUe8y38Nv5lnHpDB2zJgL/view?usp=sharing"
-          }
-        ],
-        "display_name": "Indian Trl, Montgomery, MI, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7356,7 +6272,7 @@
           }
         ],
         "display_name": "Romona Road, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7381,7 +6297,7 @@
           }
         ],
         "display_name": "Ramona Road, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7406,7 +6322,7 @@
           }
         ],
         "display_name": "Ramona Road, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7431,7 +6347,7 @@
           }
         ],
         "display_name": "Ramona Road, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7456,7 +6372,7 @@
           }
         ],
         "display_name": "Ramona Road, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7481,7 +6397,7 @@
           }
         ],
         "display_name": "Ramona Road, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7506,7 +6422,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7531,7 +6447,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7556,7 +6472,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7581,7 +6497,7 @@
           }
         ],
         "display_name": "Diane Pl, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7606,7 +6522,7 @@
           }
         ],
         "display_name": "Diane Pl, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7631,7 +6547,7 @@
           }
         ],
         "display_name": "North Gene Autry Trail, Palm Springs, CA 92262, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7656,7 +6572,7 @@
           }
         ],
         "display_name": "Joan Court, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7681,7 +6597,7 @@
           }
         ],
         "display_name": "Joan Dr, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7706,7 +6622,7 @@
           }
         ],
         "display_name": "Joan Dr, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7731,7 +6647,7 @@
           }
         ],
         "display_name": "Joan Dr, California, MD, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7756,7 +6672,7 @@
           }
         ],
         "display_name": "5th Ave, Avenal, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7764,15 +6680,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.75428,
-          38.483309
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "790 N Johnson Ave - Brochure",
-        "lat": 38.483309,
-        "lng": -95.75428,
-        "formatted": "Johnson Road, Lebo, KS, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -7780,8 +6696,8 @@
             "drive_url": "https://drive.google.com/file/d/12UhFZ_EilfsgiJu-up57qIwUZIylnVx_/view?usp=sharing"
           }
         ],
-        "display_name": "Johnson Road, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7789,15 +6705,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.75428,
-          38.483309
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "790 N Johnson Ave - Brochure_1779753124",
-        "lat": 38.483309,
-        "lng": -95.75428,
-        "formatted": "Johnson Road, Lebo, KS, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -7805,8 +6721,8 @@
             "drive_url": "https://drive.google.com/file/d/1q9SLeNHeubFUyNhH4Vsbbgpjj52YVxq9/view?usp=sharing"
           }
         ],
-        "display_name": "Johnson Road, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7814,15 +6730,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -95.75428,
-          38.483309
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "790 N Johnson Ave - Brochure_1779755453",
-        "lat": 38.483309,
-        "lng": -95.75428,
-        "formatted": "Johnson Road, Lebo, KS, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -7830,8 +6746,8 @@
             "drive_url": "https://drive.google.com/file/d/1bnu9oPNIMAd-c-UaxgSw_M7FgcE5heHj/view?usp=sharing"
           }
         ],
-        "display_name": "Johnson Road, Lebo, KS, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7856,7 +6772,7 @@
           }
         ],
         "display_name": "Wakefield Ave, Thousand Oaks, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7881,7 +6797,7 @@
           }
         ],
         "display_name": "Wakefield Ave, Thousand Oaks, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7906,7 +6822,7 @@
           }
         ],
         "display_name": "Wakefield Ave, Thousand Oaks, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7931,7 +6847,7 @@
           }
         ],
         "display_name": "8130 Parkway Drive, La Mesa, CA 91942, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7956,7 +6872,7 @@
           }
         ],
         "display_name": "Parkway Dr, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7981,7 +6897,7 @@
           }
         ],
         "display_name": "Parkway Dr, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -7989,15 +6905,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.062997,
-          41.01011
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "83500 Hwy 111 - Marketing BrochureFlyer",
-        "lat": 41.01011,
-        "lng": -79.062997,
-        "formatted": "Markton Cemetery Road, Punxsutawney, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -8005,8 +6921,8 @@
             "drive_url": "https://drive.google.com/file/d/1YKX8yTCaHw_OX7FYJoWhw7wc5Ee17yF8/view?usp=sharing"
           }
         ],
-        "display_name": "Markton Cemetery Road, Punxsutawney, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8031,7 +6947,7 @@
           }
         ],
         "display_name": "111th St E, Littlerock, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8056,7 +6972,7 @@
           }
         ],
         "display_name": "Ave 50, Coachella, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8081,7 +6997,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8106,7 +7022,7 @@
           }
         ],
         "display_name": "Moreno Valley, California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8135,7 +7051,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8160,7 +7076,7 @@
           }
         ],
         "display_name": "Lawrence, Santa Clara, California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8185,7 +7101,7 @@
           }
         ],
         "display_name": "Fresno, California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8214,7 +7130,7 @@
           }
         ],
         "display_name": "California City, California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8239,7 +7155,7 @@
           }
         ],
         "display_name": "California, Pennsylvania, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8264,7 +7180,7 @@
           }
         ],
         "display_name": "Viola Dr, Shingletown, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8289,7 +7205,7 @@
           }
         ],
         "display_name": "State St, California, MO, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8314,7 +7230,7 @@
           }
         ],
         "display_name": "State St, Santa Barbara, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8322,15 +7238,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.611537,
-          35.586115
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "Oxnard-OM - 4833-4917 S Rose Ave",
-        "lat": 35.586115,
-        "lng": -77.611537,
-        "formatted": "Rouse Road, Farmville, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 2,
         "pdfs": [
           {
@@ -8342,8 +7258,8 @@
             "drive_url": null
           }
         ],
-        "display_name": "Rouse Road, Farmville, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8368,7 +7284,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8393,57 +7309,7 @@
           }
         ],
         "display_name": "Pajaro Hills Court, Watsonville, CA, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -117.885359,
-          35.187133
-        ]
-      },
-      "properties": {
-        "address": "SeminaryPoint_OaklandCA",
-        "lat": 35.187133,
-        "lng": -117.885359,
-        "formatted": "California City, California, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "SeminaryPoint_OaklandCA.pdf",
-            "drive_url": null
-          }
-        ],
-        "display_name": "California City, California, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.021353,
-          35.125624
-        ]
-      },
-      "properties": {
-        "address": "SeminaryPoint_OaklandCA, Rent Rolls - California, CA",
-        "lat": 35.125624,
-        "lng": -118.021353,
-        "formatted": "California City Boulevard, California City, CA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "SeminaryPoint_OaklandCA.pdf",
-            "drive_url": null
-          }
-        ],
-        "display_name": "California City Boulevard, California City, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8468,7 +7334,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8493,7 +7359,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8518,7 +7384,7 @@
           }
         ],
         "display_name": "Costa Court, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8526,15 +7392,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.949556,
-          40.243347
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "Unknown - 31656-31662 S Coast Hwy OM_1779745717",
-        "lat": 40.243347,
-        "lng": -74.949556,
-        "formatted": "Unknown Off Durham, Newtown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -8542,8 +7408,8 @@
             "drive_url": "https://drive.google.com/file/d/1UUx4R9JLx0fZuw4IvWgJn_Bt8CKo5uDc/view?usp=sharing"
           }
         ],
-        "display_name": "Unknown Off Durham, Newtown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8568,7 +7434,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8593,7 +7459,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8618,32 +7484,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.949556,
-          40.243347
-        ]
-      },
-      "properties": {
-        "address": "Unknown - Brochure 415 ECR",
-        "lat": 40.243347,
-        "lng": -74.949556,
-        "formatted": "Unknown Off Durham, Newtown, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "Unknown - Brochure 415 ECR.pdf",
-            "drive_url": "https://drive.google.com/file/d/1yKyV1Qi_R6DzT-EtbaU3vF4JRAPMuZN0/view?usp=sharing"
-          }
-        ],
-        "display_name": "Unknown Off Durham, Newtown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8656,19 +7497,19 @@
         ]
       },
       "properties": {
-        "address": "Unknown - Broker CA_OB Collective",
+        "address": "Unknown - Brochure 415 ECR",
         "lat": 37.25022,
         "lng": -119.75126,
         "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
-            "filename": "Unknown - Broker CA_OB Collective.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Tj21Td1C4X_CWtkoXQr1QfVMNjcIyOVv/view?usp=sharing"
+            "filename": "Unknown - Brochure 415 ECR.pdf",
+            "drive_url": "https://drive.google.com/file/d/1yKyV1Qi_R6DzT-EtbaU3vF4JRAPMuZN0/view?usp=sharing"
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8676,15 +7517,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -75.670507,
-          35.909768
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "Unknown - Tem Pkwy Layout",
-        "lat": 35.909768,
-        "lng": -75.670507,
-        "formatted": "Old Tom Ave, Manteo, NC, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -8692,8 +7533,8 @@
             "drive_url": "https://drive.google.com/file/d/1lRX2pbhfaHN_-n24CkzCb0XEk3rMXDu1/view?usp=sharing"
           }
         ],
-        "display_name": "Old Tom Ave, Manteo, NC, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8701,15 +7542,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.949556,
-          40.243347
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "Unknown - Vacant Suite Layout",
-        "lat": 40.243347,
-        "lng": -74.949556,
-        "formatted": "Unknown Off Durham, Newtown, PA, United States of America",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -8717,8 +7558,8 @@
             "drive_url": "https://drive.google.com/file/d/1Z40wwCxiLpyeC4OcAsqV3ivipYllrblg/view?usp=sharing"
           }
         ],
-        "display_name": "Unknown Off Durham, Newtown, PA, United States of America",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8743,7 +7584,7 @@
           }
         ],
         "display_name": "California, United States of America",
-        "geocoding_method": "opencage_api"
+        "geocoding_method": "opencage_ca_verified"
       }
     },
     {
@@ -8751,15 +7592,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -62.78197,
-          46.06681
+          -119.75126,
+          37.25022
         ]
       },
       "properties": {
         "address": "e7cc41a0-6860-416d-a203-e248d37db592, Jurupa Valley, CA",
-        "lat": 46.06681,
-        "lng": -62.78197,
-        "formatted": "Valley, Prince Edward Island, Canada",
+        "lat": 37.25022,
+        "lng": -119.75126,
+        "formatted": "California, United States of America",
         "pdf_count": 1,
         "pdfs": [
           {
@@ -8767,14 +7608,15 @@
             "drive_url": null
           }
         ],
-        "display_name": "Valley, Prince Edward Island, Canada",
-        "geocoding_method": "opencage_api"
+        "display_name": "California, United States of America",
+        "geocoding_method": "opencage_ca_verified"
       }
     }
   ],
   "metadata": {
-    "geocoded": 350,
-    "failed": 1,
-    "method": "opencage_api"
+    "geocoded_ca": 303,
+    "non_ca_filtered": 38,
+    "failed": 6,
+    "method": "opencage_ca_verified"
   }
 }
