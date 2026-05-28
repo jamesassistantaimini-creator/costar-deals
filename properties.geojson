@@ -30,7 +30,7 @@
         ]
       },
       "properties": {
-        "address": "1416",
+        "address": "1.1.24 Rent Roll",
         "city": "montebello",
         "pdfs": [
           "1.1.24 Rent Roll - 1416 - 1440 West Beverly, Montebello.pdf"
@@ -64,13 +64,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1477,
+          33.4942
         ]
       },
       "properties": {
         "address": "1003 E Devonshire Ave",
-        "city": "los angeles",
+        "city": "temecula",
         "pdfs": [
           "1003 E Devonshire Ave - 1003 E. Devonshire Avenue.pdf"
         ],
@@ -144,26 +144,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
-        ]
-      },
-      "properties": {
-        "address": "1020 E Florida Ave",
-        "city": "los angeles",
-        "pdfs": [
-          "1020 E Florida Ave - 1020 E. Florida Ave. Offering Memorandum.pdf",
-          "1020 E Florida Ave - APN MAP.pdf"
-        ],
-        "flagged": false,
-        "flag_reason": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -116.3723,
           33.7456
         ]
@@ -172,6 +152,8 @@
         "address": "1020 E Florida Ave",
         "city": "hemet",
         "pdfs": [
+          "1020 E Florida Ave - 1020 E. Florida Ave. Offering Memorandum.pdf",
+          "1020 E Florida Ave - APN MAP.pdf",
           "1020 E Florida Ave - Traffic Count 1020 E Florida Ave Hemet.pdf"
         ],
         "flagged": false,
@@ -223,13 +205,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "1075 Rosecrans St",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "1075 Rosecrans St - Offering-Memorandum 1075 Rosecrans.pdf"
         ],
@@ -466,13 +448,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.3506,
+          33.1581
         ]
       },
       "properties": {
         "address": "14411 Norwalk Ln",
-        "city": "los angeles",
+        "city": "carlsbad",
         "pdfs": [
           "14411 Norwalk Ln - Marketing BrochureFlyer.pdf",
           "14411 Norwalk Ln - Marketing BrochureFlyer_1779749487.pdf",
@@ -490,13 +472,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "1502 Market St",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "1502 Market St - Brochure.pdf",
           "1502 Market St - Coldwell Banker Marketing BrochureFlyer.pdf"
@@ -548,13 +530,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "1560 Garnet Ave",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "1560 Garnet Ave - 1560-1564GarnetAve2_OM.pdf",
           "1560 Garnet Ave - 1560-1564GarnetAve2_OM_1779825639.pdf"
@@ -568,13 +550,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.3506,
+          33.1581
         ]
       },
       "properties": {
         "address": "1571 S Hale Ave",
-        "city": "los angeles",
+        "city": "carlsbad",
         "pdfs": [
           "1571 S Hale Ave - Brochure.pdf",
           "1571 S Hale Ave - Marketing BrochureFlyer.pdf"
@@ -618,9 +600,25 @@
         "city": "los angeles",
         "pdfs": [
           "2 Star Retail Auto Repair - 68406 Highway 111.pdf",
-          "2 Star Retail Auto Repair - 68406 Highway 111_1779755220.pdf",
-          "2 Star Retail Auto Repair - Cathedral City.pdf",
-          "2 Star Retail Auto Repair - Cathedral City_1779755227.pdf",
+          "2 Star Retail Auto Repair - 68406 Highway 111_1779755220.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.3867,
+          33.7431
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Auto Repair",
+        "city": "palm canyon",
+        "pdfs": [
           "2 Star Retail Auto Repair - NEW Lease - Cathedral City GL or BTS.pdf",
           "2 Star Retail Auto Repair - NEW Lease - Cathedral City GL or BTS_1779755224.pdf"
         ],
@@ -677,13 +675,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.3795,
+          33.1959
         ]
       },
       "properties": {
         "address": "2 Star Retail Freestanding",
-        "city": "los angeles",
+        "city": "oceanside",
         "pdfs": [
           "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1.pdf.pdf",
           "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1.pdf_1779753371.pdf",
@@ -698,13 +696,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "2 Star Retail Freestanding Strip Center",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "2 Star Retail Freestanding Strip Center - Brochure.pdf"
         ],
@@ -737,18 +735,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.2258,
+          33.7268
         ]
       },
       "properties": {
         "address": "2 Star Retail Restaurant",
-        "city": "los angeles",
+        "city": "indio",
         "pdfs": [
-          "2 Star Retail Restaurant - 83010 Highway 111 and 45900 Fargo Street.pdf",
-          "2 Star Retail Restaurant - Lee  Associates Marketing BrochureFlye.pdf",
-          "2 Star Retail Restaurant - Offering Memorandum.pdf",
-          "2 Star Retail Restaurant - Offering Memorandum_1779755249.pdf"
+          "2 Star Retail Restaurant - 83010 Highway 111 and 45900 Fargo Street.pdf"
         ],
         "flagged": false,
         "flag_reason": null
@@ -759,17 +754,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.3867,
-          33.7431
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "2 Star Retail Restaurant",
-        "city": "palm canyon",
+        "city": "san diego",
+        "pdfs": [
+          "2 Star Retail Restaurant - Lee  Associates Marketing BrochureFlye.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5453,
+          33.8303
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Restaurant",
+        "city": "palm springs",
         "pdfs": [
           "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C.pdf",
           "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C_1779753666.pdf",
           "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C_1779755946.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Restaurant",
+        "city": "los angeles",
+        "pdfs": [
+          "2 Star Retail Restaurant - Offering Memorandum.pdf",
+          "2 Star Retail Restaurant - Offering Memorandum_1779755249.pdf"
         ],
         "flagged": false,
         "flag_reason": null
@@ -799,13 +833,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print.pdf",
           "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print_1779749316.pdf",
@@ -815,18 +849,72 @@
           "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view_1779749319.pdf",
           "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view_1779753293.pdf",
           "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_view_1779753301.pdf",
-          "2 Star Retail Storefront - 1434-44 Garnet Avenue Flyer.pdf",
-          "2 Star Retail Storefront - 1434-44 Garnet Avenue Flyer_1779755096.pdf",
           "2 Star Retail Storefront - 2730 2736  2740-2752 Imperial Ave - OM.pdf",
-          "2 Star Retail Storefront - 2730 2736  2740-2752 Imperial Ave - OM_1779753019.pdf",
+          "2 Star Retail Storefront - 2730 2736  2740-2752 Imperial Ave - OM_1779753019.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Storefront",
+        "city": "los angeles",
+        "pdfs": [
           "2 Star Retail Storefront - 307  317 N. El Camino Real San Clement.pdf",
           "2 Star Retail Storefront - 307  317 N. El Camino Real San Clement_1779754844.pdf",
           "2 Star Retail Storefront - 73880_73890ElPaseoDrivePD_OM_Sale.pdf",
-          "2 Star Retail Storefront - 73880_73890ElPaseoDrivePD_OM_Sale_1779754962.pdf",
+          "2 Star Retail Storefront - 73880_73890ElPaseoDrivePD_OM_Sale_1779754962.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.2437,
+          34.0522
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Storefront",
+        "city": "downtown",
+        "pdfs": [
           "2 Star Retail Storefront - 73880_73890ElPaseoPD_IncStmt.pdf",
-          "2 Star Retail Storefront - 73880_73890ElPaseoPD_IncStmt_1779754966.pdf",
-          "2 Star Retail Storefront - Marketing BrochureFlyer.pdf",
-          "2 Star Retail Storefront - Marketing BrochureFlyer_1779755100.pdf"
+          "2 Star Retail Storefront - 73880_73890ElPaseoPD_IncStmt_1779754966.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1611,
+          32.7157
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Storefront RetailOffice",
+        "city": "san diego",
+        "pdfs": [
+          "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure.pdf",
+          "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure_1779753564.pdf",
+          "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure_1779755850.pdf",
+          "2 Star Retail Storefront RetailOffice - MP- 2121 Adams 060125.pdf"
         ],
         "flagged": false,
         "flag_reason": null
@@ -845,12 +933,8 @@
         "address": "2 Star Retail Storefront RetailOffice",
         "city": "los angeles",
         "pdfs": [
-          "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure.pdf",
-          "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure_1779753564.pdf",
-          "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure_1779755850.pdf",
           "2 Star Retail Storefront RetailOffice - BROCHURE.pdf",
-          "2 Star Retail Storefront RetailOffice - El Paseo Brochure.pdf",
-          "2 Star Retail Storefront RetailOffice - MP- 2121 Adams 060125.pdf"
+          "2 Star Retail Storefront RetailOffice - El Paseo Brochure.pdf"
         ],
         "flagged": false,
         "flag_reason": null
@@ -881,6 +965,26 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -116.8874,
+          32.7659
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Storefront RetailResidential",
+        "city": "la mesa",
+        "pdfs": [
+          "2 Star Retail Storefront RetailResidential - 1194 N Imperial Hwy Ocotillo - 12-25.pdf",
+          "2 Star Retail Storefront RetailResidential - 1194 N Imperial Hwy Ocotillo - 12-25_1779755369.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.2437,
           34.0522
         ]
@@ -889,8 +993,6 @@
         "address": "2 Star Retail Storefront RetailResidential",
         "city": "los angeles",
         "pdfs": [
-          "2 Star Retail Storefront RetailResidential - 1194 N Imperial Hwy Ocotillo - 12-25.pdf",
-          "2 Star Retail Storefront RetailResidential - 1194 N Imperial Hwy Ocotillo - 12-25_1779755369.pdf",
           "2 Star Retail Storefront RetailResidential - Zoning Allowances.pdf",
           "2 Star Retail Storefront RetailResidential - Zoning Allowances_1779755373.pdf"
         ],
@@ -922,13 +1024,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "2 Star Retail VeterinarianKennel",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "2 Star Retail VeterinarianKennel - Marketing BrochureFlyer.pdf",
           "2 Star Retail VeterinarianKennel - Marketing BrochureFlyer_1779749062.pdf",
@@ -1012,13 +1114,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1014,
+          32.678
         ]
       },
       "properties": {
         "address": "25 W 11th St",
-        "city": "los angeles",
+        "city": "national city",
         "pdfs": [
           "25 W 11th St - National_City_Development_Flyer_.pdf"
         ],
@@ -1031,13 +1133,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.2297,
+          33.5539
         ]
       },
       "properties": {
         "address": "25312_Madison_Ave_R",
-        "city": "los angeles",
+        "city": "murrieta",
         "pdfs": [
           "25312_Madison_Ave_R.pdf"
         ],
@@ -1092,13 +1194,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "2730 Imperial Ave",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "2730 Imperial Ave - 2730 2736  2740-2752 Imperial Ave - OM.pdf"
         ],
@@ -1111,13 +1213,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1477,
+          33.4942
         ]
       },
       "properties": {
         "address": "27310 Madison Ave",
-        "city": "los angeles",
+        "city": "temecula",
         "pdfs": [
           "27310 Madison Ave - Madison Ave_OM.pdf.pdf",
           "27310 Madison Ave - Madison Ave_OM.pdf_1779753177.pdf"
@@ -1131,13 +1233,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1477,
+          33.4942
         ]
       },
       "properties": {
         "address": "27625 Jefferson Ave",
-        "city": "los angeles",
+        "city": "temecula",
         "pdfs": [
           "27625 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf",
           "27625 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753092.pdf",
@@ -1152,13 +1254,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1477,
+          33.4942
         ]
       },
       "properties": {
         "address": "27665 Jefferson Ave",
-        "city": "los angeles",
+        "city": "temecula",
         "pdfs": [
           "27665 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf",
           "27665 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755428.pdf"
@@ -1172,13 +1274,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1477,
+          33.4942
         ]
       },
       "properties": {
         "address": "27685 Jefferson Ave",
-        "city": "los angeles",
+        "city": "temecula",
         "pdfs": [
           "27685 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf",
           "27685 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753107.pdf",
@@ -1193,15 +1295,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.3723,
+          33.7456
         ]
       },
       "properties": {
         "address": "27722 Clinton Keith Rd",
-        "city": "los angeles",
+        "city": "hemet",
         "pdfs": [
-          "27722 Clinton Keith Rd - CBRE Marketing BrochureFlyer.pdf",
+          "27722 Clinton Keith Rd - CBRE Marketing BrochureFlyer.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2297,
+          33.5539
+        ]
+      },
+      "properties": {
+        "address": "27722 Clinton Keith Rd",
+        "city": "murrieta",
+        "pdfs": [
           "27722 Clinton Keith Rd - The Orchard at Stone Creek.pdf"
         ],
         "flagged": false,
@@ -1289,13 +1409,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.2297,
+          33.5539
         ]
       },
       "properties": {
         "address": "3 Star Retail Convenience Store",
-        "city": "los angeles",
+        "city": "murrieta",
         "pdfs": [
           "3 Star Retail Convenience Store - Winchester 7.11 - Tear Sheet.pdf"
         ],
@@ -1437,15 +1557,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.3506,
+          33.1581
         ]
       },
       "properties": {
         "address": "3 Star Retail Movie Theatre",
-        "city": "los angeles",
+        "city": "carlsbad",
         "pdfs": [
-          "3 Star Retail Movie Theatre - 2822 State St.pdf",
+          "3 Star Retail Movie Theatre - 2822 State St.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1611,
+          32.7157
+        ]
+      },
+      "properties": {
+        "address": "3 Star Retail Movie Theatre",
+        "city": "san diego",
+        "pdfs": [
           "3 Star Retail Movie Theatre - State Street Brochure 2025.pdf"
         ],
         "flagged": false,
@@ -1498,6 +1636,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -117.1611,
+          32.7157
+        ]
+      },
+      "properties": {
+        "address": "3 Star Retail Storefront RetailOffice",
+        "city": "san diego",
+        "pdfs": [
+          "3 Star Retail Storefront RetailOffice - FourthE OM_UPG.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.2437,
           34.0522
         ]
@@ -1506,7 +1663,6 @@
         "address": "3 Star Retail Storefront RetailOffice",
         "city": "los angeles",
         "pdfs": [
-          "3 Star Retail Storefront RetailOffice - FourthE OM_UPG.pdf",
           "3 Star Retail Storefront RetailOffice - Sale Brochure - El Paseo Collection Eleg.pdf",
           "3 Star Retail Storefront RetailOffice - Sale Brochure - El Paseo Collection Eleg_1779754955.pdf"
         ],
@@ -1561,13 +1717,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.3506,
+          33.1581
         ]
       },
       "properties": {
         "address": "3050 Pio Pico Dr",
-        "city": "los angeles",
+        "city": "carlsbad",
         "pdfs": [
           "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2.pdf",
           "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2_1779753806.pdf",
@@ -1582,13 +1738,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.3506,
+          33.1581
         ]
       },
       "properties": {
         "address": "3055 Harding St",
-        "city": "los angeles",
+        "city": "carlsbad",
         "pdfs": [
           "3055 Harding St.pdf"
         ],
@@ -1601,13 +1757,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.3506,
+          33.1581
         ]
       },
       "properties": {
         "address": "3055 Harding St_1779755193",
-        "city": "los angeles",
+        "city": "carlsbad",
         "pdfs": [
           "3055 Harding St_1779755193.pdf"
         ],
@@ -1756,6 +1912,67 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -117.1477,
+          33.4942
+        ]
+      },
+      "properties": {
+        "address": "34660 Monterey Ave",
+        "city": "temecula",
+        "pdfs": [
+          "34660 Monterey Ave - 26175 Jefferson Ave LeasingSale Brochur.pdf",
+          "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building (1).pdf",
+          "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3506,
+          33.1581
+        ]
+      },
+      "properties": {
+        "address": "34660 Monterey Ave",
+        "city": "carlsbad",
+        "pdfs": [
+          "34660 Monterey Ave - 2822 State St.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1611,
+          32.7157
+        ]
+      },
+      "properties": {
+        "address": "34660 Monterey Ave",
+        "city": "san diego",
+        "pdfs": [
+          "34660 Monterey Ave - 6375-81 and 6385 Imperial Ave - Marketin.pdf",
+          "34660 Monterey Ave - 838-840-G-Street.pdf",
+          "34660 Monterey Ave - State Street Brochure 2025.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.2437,
           34.0522
         ]
@@ -1764,13 +1981,7 @@
         "address": "34660 Monterey Ave",
         "city": "los angeles",
         "pdfs": [
-          "34660 Monterey Ave - 26175 Jefferson Ave LeasingSale Brochur.pdf",
-          "34660 Monterey Ave - 2822 State St.pdf",
-          "34660 Monterey Ave - 6375-81 and 6385 Imperial Ave - Marketin.pdf",
-          "34660 Monterey Ave - 838-840-G-Street.pdf",
           "34660 Monterey Ave - Flyer - 300 S Highland Springs Ave Bann.pdf",
-          "34660 Monterey Ave - OM - 1523 South Coast Highway.pdf",
-          "34660 Monterey Ave - State Street Brochure 2025.pdf",
           "34660 Monterey Ave - View the Rite Aid Marketing Flyer.pdf",
           "34660 Monterey Ave - attachment - 2026-03-31T114801.230.pdf",
           "34660 Monterey Ave.pdf"
@@ -1784,16 +1995,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.1477,
-          33.4942
+          -117.3795,
+          33.1959
         ]
       },
       "properties": {
         "address": "34660 Monterey Ave",
-        "city": "temecula",
+        "city": "oceanside",
         "pdfs": [
-          "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building (1).pdf",
-          "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building.pdf"
+          "34660 Monterey Ave - OM - 1523 South Coast Highway.pdf"
         ],
         "flagged": false,
         "flag_reason": null
@@ -1804,13 +2014,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.0765,
+          33.1196
         ]
       },
       "properties": {
         "address": "34900 Monterey Ave",
-        "city": "los angeles",
+        "city": "escondido",
         "pdfs": [
           "34900 Monterey Ave - Pet Smart OM.pdf",
           "34900 Monterey Ave - Pet Smart OM_1779753477.pdf",
@@ -1825,13 +2035,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "3719 Mission Blvd",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "3719 Mission Blvd - Brochure 3719 Mission Blvd.pdf",
           "3719 Mission Blvd - Brochure 3719 Mission Blvd_1779753383.pdf",
@@ -1856,10 +2066,28 @@
         "pdfs": [
           "41267 E Florida Ave - County Zoning.pdf",
           "41267 E Florida Ave - County Zoning_1779755069.pdf",
+          "41267 E Florida Ave - Riverside County Report 2.pdf",
+          "41267 E Florida Ave - Riverside County Report 2_1779755073.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.3723,
+          33.7456
+        ]
+      },
+      "properties": {
+        "address": "41267 E Florida Ave",
+        "city": "hemet",
+        "pdfs": [
           "41267 E Florida Ave - Offer Memorandum - 41267 E. Florida Ave.pdf",
           "41267 E Florida Ave - Offer Memorandum - 41267 E. Florida Ave_1779755062.pdf",
-          "41267 E Florida Ave - Riverside County Report 2.pdf",
-          "41267 E Florida Ave - Riverside County Report 2_1779755073.pdf",
           "41267 E Florida Ave - Riverside County Report.pdf",
           "41267 E Florida Ave - Riverside County Report_1779755065.pdf"
         ],
@@ -1911,13 +2139,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.2258,
+          33.7268
         ]
       },
       "properties": {
         "address": "42150 Jackson St",
-        "city": "los angeles",
+        "city": "indio",
         "pdfs": [
           "42150 Jackson St - Offering Memorandum.pdf"
         ],
@@ -1987,13 +2215,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "435 Hacienda Dr",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "435 Hacienda Dr - Sunroad Plaza.pdf",
           "435 Hacienda Dr - Sunroad Plaza_1779755156.pdf"
@@ -2007,13 +2235,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "445 Hacienda Dr",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "445 Hacienda Dr - Sunroad Plaza.pdf",
           "445 Hacienda Dr - Sunroad Plaza_1779752833.pdf"
@@ -2048,13 +2276,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "455 Hacienda Dr",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "455 Hacienda Dr - Sunroad Plaza.pdf",
           "455 Hacienda Dr - Sunroad Plaza_1779752841.pdf"
@@ -2068,13 +2296,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "465 Hacienda Dr",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "465 Hacienda Dr - Sunroad Plaza.pdf"
         ],
@@ -2087,13 +2315,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "4741 Point Loma Ave",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "4741 Point Loma Ave - 4741 - Pt loma OM - 2026-04-04 2.pdf",
           "4741 Point Loma Ave - 4741 - Pt loma OM - 2026-04-04 2_1779743313.pdf",
@@ -2108,13 +2336,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "475 Hacienda Dr",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "475 Hacienda Dr - Sunroad Plaza.pdf"
         ],
@@ -2135,25 +2363,7 @@
         "address": "47985 Monroe St",
         "city": "indio",
         "pdfs": [
-          "47985 Monroe St - Brochure - Former Rite-Aid in Indio CA.pdf"
-        ],
-        "flagged": false,
-        "flag_reason": null
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -118.2437,
-          34.0522
-        ]
-      },
-      "properties": {
-        "address": "47985 Monroe St",
-        "city": "los angeles",
-        "pdfs": [
+          "47985 Monroe St - Brochure - Former Rite-Aid in Indio CA.pdf",
           "47985 Monroe St - Household Budget Expenditures Report Ta.pdf",
           "47985 Monroe St - Retail Demand Outlook Report Tabular 2.pdf",
           "47985 Monroe St - Retail Demand by Industry Tabular 2578.pdf"
@@ -2167,13 +2377,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "4811 W Point Loma Blvd",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "4811 W Point Loma Blvd - Sale Brochure.pdf",
           "4811 W Point Loma Blvd - Sale Brochure_1779753818.pdf",
@@ -2209,13 +2419,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "5032 Niagara Ave",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "5032 Niagara Ave - Broker CA_OB Collective.pdf",
           "5032 Niagara Ave - Broker CA_OB Collective_1779753518.pdf",
@@ -2272,13 +2482,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "6333 Mission Gorge Rd- MP 1225",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "6333 Mission Gorge Rd- MP 1225.pdf"
         ],
@@ -2291,13 +2501,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "6333 Mission Gorge Rd- MP 1225_1779753400",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "6333 Mission Gorge Rd- MP 1225_1779753400.pdf"
         ],
@@ -2310,13 +2520,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "6333 Mission Gorge Rd- MP 1225_1779755693",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "6333 Mission Gorge Rd- MP 1225_1779755693.pdf"
         ],
@@ -2329,13 +2539,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.5453,
+          33.8303
         ]
       },
       "properties": {
         "address": "6555 Indian Canyon Dr",
-        "city": "los angeles",
+        "city": "palm springs",
         "pdfs": [
           "6555 Indian Canyon Dr - 6555 N Indian Canyon Dr Sale Brochure.pdf"
         ],
@@ -2509,13 +2719,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.9618,
+          32.7957
         ]
       },
       "properties": {
         "address": "790 N Johnson Ave",
-        "city": "los angeles",
+        "city": "el cajon",
         "pdfs": [
           "790 N Johnson Ave - Brochure.pdf",
           "790 N Johnson Ave - Brochure_1779753124.pdf",
@@ -2530,13 +2740,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1611,
+          32.7157
         ]
       },
       "properties": {
         "address": "7969 Mission Gorge Rd",
-        "city": "los angeles",
+        "city": "san diego",
         "pdfs": [
           "7969 Mission Gorge Rd - Cushman  Wakefield Marketing BrochureF.pdf",
           "7969 Mission Gorge Rd - Cushman  Wakefield Marketing BrochureF_1779753411.pdf",
@@ -2608,13 +2818,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.5453,
+          33.8303
         ]
       },
       "properties": {
         "address": "83500 Hwy 111",
-        "city": "los angeles",
+        "city": "palm springs",
         "pdfs": [
           "83500 Hwy 111 - Marketing BrochureFlyer.pdf",
           "83500 Hwy 111 - Marketing BrochureFlyer_1779755336.pdf"
@@ -2846,16 +3056,52 @@
         "city": "los angeles",
         "pdfs": [
           "Unknown - 307  317 N. El Camino Real San Clement.pdf",
-          "Unknown - 310-320 Broadway.pdf",
           "Unknown - 31656-31662 S Coast Hwy OM.pdf",
           "Unknown - 31656-31662 S Coast Hwy OM_1779745717.pdf",
           "Unknown - 832 5TH AVE 2nd Floor Plan Offices.pdf",
           "Unknown - 832 Fifth Ave-Floor Plan.pdf",
           "Unknown - Brochure 415 ECR.pdf",
-          "Unknown - Brochure.pdf",
-          "Unknown - Broker CA_OB Collective.pdf",
           "Unknown - Tem Pkwy Layout.pdf",
           "Unknown - Vacant Suite Layout.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.2427,
+          33.1948
+        ]
+      },
+      "properties": {
+        "address": "Unknown",
+        "city": "vista",
+        "pdfs": [
+          "Unknown - 310-320 Broadway.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1611,
+          32.7157
+        ]
+      },
+      "properties": {
+        "address": "Unknown",
+        "city": "san diego",
+        "pdfs": [
+          "Unknown - Brochure.pdf",
+          "Unknown - Broker CA_OB Collective.pdf"
         ],
         "flagged": false,
         "flag_reason": null
