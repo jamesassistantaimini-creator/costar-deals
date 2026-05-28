@@ -189,6 +189,18 @@ function initMap() {
                             html += `<a href="${pdf.drive_url}" target="_blank" class="pdf-link">📄 ${pdf.filename.substring(0,35)}</a>`;
                         });
                     }
+                    
+                    // Check if flagged
+                    const flags = JSON.parse(localStorage.getItem('flaggedPins') || '{}');
+                    const isFlagged = flags[props.address] ? true : false;
+                    const flagText = isFlagged ? '🚩 Unflag' : '⚠️ Flag as Incorrect';
+                    
+                    html += `<button class="flag-btn" onclick="toggleFlag('${props.address.replace(/'/g, "\'")}', this)">${flagText}</button>`;
+                    
+                    if (isFlagged && flags[props.address]) {
+                        html += `<p class="flag-reason">Reason: ${flags[props.address]}</p>`;
+                    }
+                    
                     html += '</div>';
                     document.getElementById('property-display').innerHTML = html;
                 });
@@ -251,6 +263,67 @@ function showModal() {
 
 initSearch();
 initMap();
+
+
+
+function toggleFlag(address, button) {
+    const flags = JSON.parse(localStorage.getItem('flaggedPins') || '{}');
+    
+    if (flags[address]) {
+        // Unflag
+        delete flags[address];
+        button.textContent = '⚠️ Flag as Incorrect';
+        button.classList.remove('flagged');
+    } else {
+        // Flag - ask for reason
+        const reason = prompt('Why is this location incorrect? (optional)');
+        flags[address] = reason || 'Location mismatch';
+        button.textContent = '🚩 Unflag';
+        button.classList.add('flagged');
+        if (reason) {
+            button.parentElement.innerHTML += `<p class="flag-reason">Reason: ${reason}</p>`;
+        }
+    }
+    
+    localStorage.setItem('flaggedPins', JSON.stringify(flags));
+    console.log('Flags updated:', flags);
+}
+
+
+
+function exportFlags() {
+    const flags = JSON.parse(localStorage.getItem('flaggedPins') || '{}');
+    if (Object.keys(flags).length === 0) {
+        alert('No flagged pins yet');
+        return;
+    }
+    
+    const exportData = {
+        timestamp: new Date().toISOString(),
+        flags: flags
+    };
+    
+    const dataStr = JSON.stringify(exportData, null, 2);
+    const blob = new Blob([dataStr], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `flagged-pins-${new Date().toISOString().split('T')[0]}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    
+    alert(`Exported ${Object.keys(flags).length} flagged pins`);
+}
+
+function showExportFlagsBtn() {
+    const flags = JSON.parse(localStorage.getItem('flaggedPins') || '{}');
+    if (Object.keys(flags).length > 0) {
+        document.getElementById('exportFlagsBtn').style.display = 'block';
+    }
+}
+
+// Show export button if there are flags
+setInterval(showExportFlagsBtn, 5000);
 
 </script>
 
