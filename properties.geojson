@@ -85,31 +85,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.54808,
-          38.303714
-        ]
-      },
-      "properties": {
-        "address": "1003 E Devonshire Ave - 1003 E. Devonshire Avenue",
-        "lat": 38.303714,
-        "lng": -76.54808,
-        "formatted": "Devonshire Way, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "1003 E Devonshire Ave - 1003 E. Devonshire Avenue.pdf",
-            "drive_url": "https://drive.google.com/file/d/1HdDL6KW9qe5q24ZoGOUCST-RgmioFVtk/view?usp=sharing"
-          }
-        ],
-        "display_name": "Devonshire Way, California, MD, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.444031,
           34.257616
         ]
@@ -710,56 +685,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -92.60047,
-          38.634963
-        ]
-      },
-      "properties": {
-        "address": "128 N Juanita St - 128 N. Juanita St. Hemet__1779753144",
-        "lat": 38.634963,
-        "lng": -92.60047,
-        "formatted": "Janet Boulevard, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "128 N Juanita St - 128 N. Juanita St. Hemet__1779753144.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Ic7XvwNthkbFkVgOYtw2MtEDrGX4tcY_/view?usp=sharing"
-          }
-        ],
-        "display_name": "Janet Boulevard, California, MO, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.60047,
-          38.634963
-        ]
-      },
-      "properties": {
-        "address": "128 N Juanita St - 128 N. Juanita St. Hemet__1779755479",
-        "lat": 38.634963,
-        "lng": -92.60047,
-        "formatted": "Janet Boulevard, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "128 N Juanita St - 128 N. Juanita St. Hemet__1779755479.pdf",
-            "drive_url": "https://drive.google.com/file/d/1GgDxdWt8Pbu9tpqCqgMAjo08Wd67hFfm/view?usp=sharing"
-          }
-        ],
-        "display_name": "Janet Boulevard, California, MO, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -119.344707,
           36.173969
         ]
@@ -1218,31 +1143,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -92.721373,
-          38.505634
-        ]
-      },
-      "properties": {
-        "address": "1502 Market St - Brochure",
-        "lat": 38.505634,
-        "lng": -92.721373,
-        "formatted": "Market Road, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "1502 Market St - Brochure.pdf",
-            "drive_url": "https://drive.google.com/file/d/14FQrcnLcrIhHBTM7jZYAJNSwTwe-l3z7/view?usp=sharing"
-          }
-        ],
-        "display_name": "Market Road, California, MO, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -119.275786,
           36.298248
         ]
@@ -1335,31 +1235,6 @@
           }
         ],
         "display_name": "Garnet Road, Santa Margarita, CA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.550805,
-          38.301138
-        ]
-      },
-      "properties": {
-        "address": "1560 Garnet Ave - 1560-1564GarnetAve2_1779825639",
-        "lat": 38.301138,
-        "lng": -76.550805,
-        "formatted": "Granite Way, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "1560 Garnet Ave - 1560-1564GarnetAve2_OM_1779825639.pdf",
-            "drive_url": "https://drive.google.com/file/d/1m2H7PIJFjrR5amW82UnaJHODZq9TF5ud/view?usp=sharing"
-          }
-        ],
-        "display_name": "Granite Way, California, MD, United States of America",
         "geocoding_method": "opencage_ca_verified"
       }
     },
@@ -2893,31 +2768,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.894985,
-          40.046955
-        ]
-      },
-      "properties": {
-        "address": "25312_Madison_Ave_R",
-        "lat": 40.046955,
-        "lng": -79.894985,
-        "formatted": "California, Pennsylvania, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "25312_Madison_Ave_R.pdf",
-            "drive_url": null
-          }
-        ],
-        "display_name": "California, Pennsylvania, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.885359,
           35.187133
         ]
@@ -3143,31 +2993,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -84.260894,
-          38.915743
-        ]
-      },
-      "properties": {
-        "address": "27310 Madison Ave - Madison Ave_1779753177",
-        "lat": 38.915743,
-        "lng": -84.260894,
-        "formatted": "Madison Ave, California, KY, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "27310 Madison Ave - Madison Ave_OM.pdf_1779753177.pdf",
-            "drive_url": "https://drive.google.com/file/d/1BUb3pBRti2Qpprt7o_ti3-ON8vhDsvae/view?usp=sharing"
-          }
-        ],
-        "display_name": "Madison Ave, California, KY, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.178369,
           34.595687
         ]
@@ -3185,56 +3010,6 @@
           }
         ],
         "display_name": "Jefferson Dr, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.557595,
-          38.634651
-        ]
-      },
-      "properties": {
-        "address": "27625 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753092",
-        "lat": 38.634651,
-        "lng": -92.557595,
-        "formatted": "Jefferson City Road, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "27625 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753092.pdf",
-            "drive_url": "https://drive.google.com/file/d/1iscmMBIUNuk6kJrJqdLTCs_PCEqbZ6Uf/view?usp=sharing"
-          }
-        ],
-        "display_name": "Jefferson City Road, California, MO, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.557595,
-          38.634651
-        ]
-      },
-      "properties": {
-        "address": "27625 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755419",
-        "lat": 38.634651,
-        "lng": -92.557595,
-        "formatted": "Jefferson City Road, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "27625 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755419.pdf",
-            "drive_url": "https://drive.google.com/file/d/17LvrdIr216yKX47l5TWtwzeLPIRKYCZe/view?usp=sharing"
-          }
-        ],
-        "display_name": "Jefferson City Road, California, MO, United States of America",
         "geocoding_method": "opencage_ca_verified"
       }
     },
@@ -3268,31 +3043,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -92.557595,
-          38.634651
-        ]
-      },
-      "properties": {
-        "address": "27665 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755428",
-        "lat": 38.634651,
-        "lng": -92.557595,
-        "formatted": "Jefferson City Road, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "27665 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755428.pdf",
-            "drive_url": "https://drive.google.com/file/d/1VkRbpkfvQuOIImufuKF458fsRUdnUgPd/view?usp=sharing"
-          }
-        ],
-        "display_name": "Jefferson City Road, California, MO, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.178369,
           34.595687
         ]
@@ -3310,56 +3060,6 @@
           }
         ],
         "display_name": "Jefferson Dr, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.557595,
-          38.634651
-        ]
-      },
-      "properties": {
-        "address": "27685 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753107",
-        "lat": 38.634651,
-        "lng": -92.557595,
-        "formatted": "Jefferson City Road, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "27685 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753107.pdf",
-            "drive_url": "https://drive.google.com/file/d/1tYGGiRk3Fx2nQGqbisRrIfWSfd4JA_CR/view?usp=sharing"
-          }
-        ],
-        "display_name": "Jefferson City Road, California, MO, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.557595,
-          38.634651
-        ]
-      },
-      "properties": {
-        "address": "27685 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755438",
-        "lat": 38.634651,
-        "lng": -92.557595,
-        "formatted": "Jefferson City Road, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "27685 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755438.pdf",
-            "drive_url": "https://drive.google.com/file/d/1ndgZfBTV35000736PBVK4KOWxlU3B37L/view?usp=sharing"
-          }
-        ],
-        "display_name": "Jefferson City Road, California, MO, United States of America",
         "geocoding_method": "opencage_ca_verified"
       }
     },
@@ -4347,81 +4047,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.488546,
-          38.284317
-        ]
-      },
-      "properties": {
-        "address": "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2",
-        "lat": 38.284317,
-        "lng": -76.488546,
-        "formatted": "Pow Wow Pl, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2.pdf",
-            "drive_url": "https://drive.google.com/file/d/1gl7uKzMcn-gwjjD0gQw9nmampt2xu-y-/view?usp=sharing"
-          }
-        ],
-        "display_name": "Pow Wow Pl, California, MD, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.488546,
-          38.284317
-        ]
-      },
-      "properties": {
-        "address": "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2_1779753806",
-        "lat": 38.284317,
-        "lng": -76.488546,
-        "formatted": "Pow Wow Pl, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2_1779753806.pdf",
-            "drive_url": "https://drive.google.com/file/d/1O06vEKvd0iZrWtqfBVUgyf0FeWa9IRHS/view?usp=sharing"
-          }
-        ],
-        "display_name": "Pow Wow Pl, California, MD, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.488546,
-          38.284317
-        ]
-      },
-      "properties": {
-        "address": "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2_1779756076",
-        "lat": 38.284317,
-        "lng": -76.488546,
-        "formatted": "Pow Wow Pl, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2_1779756076.pdf",
-            "drive_url": "https://drive.google.com/file/d/1PMGQ81HU8VGMnxs7czM_NQF0NrameRGB/view?usp=sharing"
-          }
-        ],
-        "display_name": "Pow Wow Pl, California, MD, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.3443427,
           33.1611938
         ]
@@ -4472,31 +4097,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -92.471229,
-          38.613115
-        ]
-      },
-      "properties": {
-        "address": "33389 Old State Hwy - Hemet - 33389 Highway 74",
-        "lat": 38.613115,
-        "lng": -92.471229,
-        "formatted": "State St, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "33389 Old State Hwy - Hemet - 33389 Highway 74.pdf",
-            "drive_url": "https://drive.google.com/file/d/1qm3q4qIIdl8brALWoZR9K6_goTPkLjl4/view?usp=sharing"
-          }
-        ],
-        "display_name": "State St, California, MO, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.076041,
           33.738336
         ]
@@ -4539,31 +4139,6 @@
           }
         ],
         "display_name": "Monterey, Lemoore, CA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.507058,
-          38.28992
-        ]
-      },
-      "properties": {
-        "address": "34275 Monterey Ave - 34275 Monterey OM_1779753466",
-        "lat": 38.28992,
-        "lng": -76.507058,
-        "formatted": "Monterey Lane, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "34275 Monterey Ave - 34275 Monterey OM_1779753466.pdf",
-            "drive_url": "https://drive.google.com/file/d/1JsQbS8rDDJDhVGEIoYT4iwTrTLANVI9N/view?usp=sharing"
-          }
-        ],
-        "display_name": "Monterey Lane, California, MD, United States of America",
         "geocoding_method": "opencage_ca_verified"
       }
     },
@@ -4672,31 +4247,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.507058,
-          38.28992
-        ]
-      },
-      "properties": {
-        "address": "34660 Monterey Ave - 1523 South Coast Highway",
-        "lat": 38.28992,
-        "lng": -76.507058,
-        "formatted": "Monterey Lane, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "34660 Monterey Ave - OM - 1523 South Coast Highway.pdf",
-            "drive_url": "https://drive.google.com/file/d/12txC1y8D3C5Uu6nKMwgD-DvLTCdyFR2q/view?usp=sharing"
-          }
-        ],
-        "display_name": "Monterey Lane, California, MD, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.10988,
           32.68192
         ]
@@ -4743,31 +4293,6 @@
           }
         ],
         "display_name": "Bircher St, Granada Hills, CA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.507058,
-          38.28992
-        ]
-      },
-      "properties": {
-        "address": "34660 Monterey Ave - 2822 State St",
-        "lat": 38.28992,
-        "lng": -76.507058,
-        "formatted": "Monterey Lane, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "34660 Monterey Ave - 2822 State St.pdf",
-            "drive_url": "https://drive.google.com/file/d/1hGEcRyyxmug7PvbgzIwTPwx_yTd6ujXs/view?usp=sharing"
-          }
-        ],
-        "display_name": "Monterey Lane, California, MD, United States of America",
         "geocoding_method": "opencage_ca_verified"
       }
     },
@@ -4880,56 +4405,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.507058,
-          38.28992
-        ]
-      },
-      "properties": {
-        "address": "34660 Monterey Ave - State Street Brochure 2025",
-        "lat": 38.28992,
-        "lng": -76.507058,
-        "formatted": "Monterey Lane, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "34660 Monterey Ave - State Street Brochure 2025.pdf",
-            "drive_url": "https://drive.google.com/file/d/1pwLhBaKzVC6Qh7jpM21uViehRXxeOfnT/view?usp=sharing"
-          }
-        ],
-        "display_name": "Monterey Lane, California, MD, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.507058,
-          38.28992
-        ]
-      },
-      "properties": {
-        "address": "34660 Monterey Ave - View the Rite Aid Marketing Flyer",
-        "lat": 38.28992,
-        "lng": -76.507058,
-        "formatted": "Monterey Lane, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "34660 Monterey Ave - View the Rite Aid Marketing Flyer.pdf",
-            "drive_url": "https://drive.google.com/file/d/1hZBu7Rkz_7gDJaJC4zFd0UhzwzNwotod/view?usp=sharing"
-          }
-        ],
-        "display_name": "Monterey Lane, California, MD, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -120.372951,
           36.208802
         ]
@@ -4972,56 +4447,6 @@
           }
         ],
         "display_name": "Podd Court, Canyon Country, CA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.507058,
-          38.28992
-        ]
-      },
-      "properties": {
-        "address": "34900 Monterey Ave - Pet Smart OM_1779753477",
-        "lat": 38.28992,
-        "lng": -76.507058,
-        "formatted": "Monterey Lane, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "34900 Monterey Ave - Pet Smart OM_1779753477.pdf",
-            "drive_url": "https://drive.google.com/file/d/1cYVgc-ZbL-qnAniDcIn8s862IQbJ2RzI/view?usp=sharing"
-          }
-        ],
-        "display_name": "Monterey Lane, California, MD, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.507058,
-          38.28992
-        ]
-      },
-      "properties": {
-        "address": "34900 Monterey Ave - Pet Smart OM_1779755769",
-        "lat": 38.28992,
-        "lng": -76.507058,
-        "formatted": "Monterey Lane, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "34900 Monterey Ave - Pet Smart OM_1779755769.pdf",
-            "drive_url": "https://drive.google.com/file/d/1hlXJSD2WgxHz7SSiTho9ZdGK2S6vtwKN/view?usp=sharing"
-          }
-        ],
-        "display_name": "Monterey Lane, California, MD, United States of America",
         "geocoding_method": "opencage_ca_verified"
       }
     },
@@ -5355,81 +4780,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.89008,
-          40.065961
-        ]
-      },
-      "properties": {
-        "address": "43423 Monroe Street Indio Brochure",
-        "lat": 40.065961,
-        "lng": -79.89008,
-        "formatted": "Monroe Way, California, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "43423 Monroe Street Indio Brochure.pdf",
-            "drive_url": "https://drive.google.com/file/d/1PFkADIhCavxm-fHD2yTA9NLAKwzE4ewv/view?usp=sharing"
-          }
-        ],
-        "display_name": "Monroe Way, California, PA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.89008,
-          40.065961
-        ]
-      },
-      "properties": {
-        "address": "43423 Monroe Street Indio Brochure_1779753434",
-        "lat": 40.065961,
-        "lng": -79.89008,
-        "formatted": "Monroe Way, California, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "43423 Monroe Street Indio Brochure_1779753434.pdf",
-            "drive_url": "https://drive.google.com/file/d/1OA0BdKipzapdopdsXf7r78Q2RiSPN0IY/view?usp=sharing"
-          }
-        ],
-        "display_name": "Monroe Way, California, PA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.89008,
-          40.065961
-        ]
-      },
-      "properties": {
-        "address": "43423 Monroe Street Indio Brochure_1779755724",
-        "lat": 40.065961,
-        "lng": -79.89008,
-        "formatted": "Monroe Way, California, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "43423 Monroe Street Indio Brochure_1779755724.pdf",
-            "drive_url": "https://drive.google.com/file/d/1ib9l3vvBSTNgyV3FvI-FvXqY7OMHy7Di/view?usp=sharing"
-          }
-        ],
-        "display_name": "Monroe Way, California, PA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -117.959668,
           35.096759
         ]
@@ -5547,56 +4897,6 @@
           }
         ],
         "display_name": "Sally Ave, California City, CA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.892423,
-          40.064952
-        ]
-      },
-      "properties": {
-        "address": "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE_1779753747",
-        "lat": 40.064952,
-        "lng": -79.892423,
-        "formatted": "Plum Way, California, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE_1779753747.pdf",
-            "drive_url": "https://drive.google.com/file/d/1sW7uiKxVqnG4exoO5X_jm_-shJMye4S-/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Way, California, PA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.892423,
-          40.064952
-        ]
-      },
-      "properties": {
-        "address": "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE_1779756021",
-        "lat": 40.064952,
-        "lng": -79.892423,
-        "formatted": "Plum Way, California, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE_1779756021.pdf",
-            "drive_url": "https://drive.google.com/file/d/16tJUwoESTo7I9PegYyHdVsn8p2KRz2CL/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Way, California, PA, United States of America",
         "geocoding_method": "opencage_ca_verified"
       }
     },
@@ -5830,131 +5130,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.89008,
-          40.065961
-        ]
-      },
-      "properties": {
-        "address": "47985 Monroe St - Retail Demand Outlook Report Tabular 2",
-        "lat": 40.065961,
-        "lng": -79.89008,
-        "formatted": "Monroe Way, California, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "47985 Monroe St - Retail Demand Outlook Report Tabular 2.pdf",
-            "drive_url": "https://drive.google.com/file/d/1j0J18nqxBgvO8qmEDaeJ0PbXHcBiy3A-/view?usp=sharing"
-          }
-        ],
-        "display_name": "Monroe Way, California, PA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.544179,
-          38.631311
-        ]
-      },
-      "properties": {
-        "address": "47985 Monroe St - Retail Demand by Industry Tabular 2578",
-        "lat": 38.631311,
-        "lng": -92.544179,
-        "formatted": "Industrial Road, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "47985 Monroe St - Retail Demand by Industry Tabular 2578.pdf",
-            "drive_url": "https://drive.google.com/file/d/1-5WlmM4iKv9WVtHnOctSTRjS-lvo7bJL/view?usp=sharing"
-          }
-        ],
-        "display_name": "Industrial Road, California, MO, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.887596,
-          40.056474
-        ]
-      },
-      "properties": {
-        "address": "4811 W Point Loma Blvd - Sale Brochure",
-        "lat": 40.056474,
-        "lng": -79.887596,
-        "formatted": "Zulu St, California, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "4811 W Point Loma Blvd - Sale Brochure.pdf",
-            "drive_url": "https://drive.google.com/file/d/1D8asZLs7jqIy92Z5urMf05SiYdvRWy97/view?usp=sharing"
-          }
-        ],
-        "display_name": "Zulu St, California, PA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.887596,
-          40.056474
-        ]
-      },
-      "properties": {
-        "address": "4811 W Point Loma Blvd - Sale Brochure_1779753818",
-        "lat": 40.056474,
-        "lng": -79.887596,
-        "formatted": "Zulu St, California, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "4811 W Point Loma Blvd - Sale Brochure_1779753818.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Lwd5NP7_CiGVMgPX6OdBT9vY-knwn-pn/view?usp=sharing"
-          }
-        ],
-        "display_name": "Zulu St, California, PA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.887596,
-          40.056474
-        ]
-      },
-      "properties": {
-        "address": "4811 W Point Loma Blvd - Sale Brochure_1779756088",
-        "lat": 40.056474,
-        "lng": -79.887596,
-        "formatted": "Zulu St, California, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "4811 W Point Loma Blvd - Sale Brochure_1779756088.pdf",
-            "drive_url": "https://drive.google.com/file/d/1QYC3_v6dG3ABSUVWWdnw2tbPFyqHGYKl/view?usp=sharing"
-          }
-        ],
-        "display_name": "Zulu St, California, PA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -118.009227,
           35.133794
         ]
@@ -5972,56 +5147,6 @@
           }
         ],
         "display_name": "Sally Ave, California City, CA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.892466,
-          40.064743
-        ]
-      },
-      "properties": {
-        "address": "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE_1779753760",
-        "lat": 40.064743,
-        "lng": -79.892466,
-        "formatted": "Plum Way, California, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE_1779753760.pdf",
-            "drive_url": "https://drive.google.com/file/d/1b8qxUlxYaGLIml1T3zsXS_IualmpG40d/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Way, California, PA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -79.892466,
-          40.064743
-        ]
-      },
-      "properties": {
-        "address": "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE_1779756032",
-        "lat": 40.064743,
-        "lng": -79.892466,
-        "formatted": "Plum Way, California, PA, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE_1779756032.pdf",
-            "drive_url": "https://drive.google.com/file/d/1KF-WmB4xiah8Q0j9pKYfKrGOe-Se2tPx/view?usp=sharing"
-          }
-        ],
-        "display_name": "Plum Way, California, PA, United States of America",
         "geocoding_method": "opencage_ca_verified"
       }
     },
@@ -6122,56 +5247,6 @@
           }
         ],
         "display_name": "Gila Court, Palmdale, CA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.589004,
-          38.631969
-        ]
-      },
-      "properties": {
-        "address": "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145_1779753167",
-        "lat": 38.631969,
-        "lng": -92.589004,
-        "formatted": "S Julie St, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145_1779753167.pdf",
-            "drive_url": "https://drive.google.com/file/d/1es1xOwPUNwyAjKetkRX3rPcy6GcmbY8m/view?usp=sharing"
-          }
-        ],
-        "display_name": "S Julie St, California, MO, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.589004,
-          38.631969
-        ]
-      },
-      "properties": {
-        "address": "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145_1779755502",
-        "lat": 38.631969,
-        "lng": -92.589004,
-        "formatted": "S Julie St, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145_1779755502.pdf",
-            "drive_url": "https://drive.google.com/file/d/1o2bfHO38c5puFTtUOXsoPPwTOtZADiMo/view?usp=sharing"
-          }
-        ],
-        "display_name": "S Julie St, California, MO, United States of America",
         "geocoding_method": "opencage_ca_verified"
       }
     },
@@ -6580,81 +5655,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.506234,
-          38.289113
-        ]
-      },
-      "properties": {
-        "address": "74725 Joni Dr - 74725JoniPD_IncStmt_1779755466",
-        "lat": 38.289113,
-        "lng": -76.506234,
-        "formatted": "Joan Dr, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "74725 Joni Dr - 74725JoniPD_IncStmt_1779755466.pdf",
-            "drive_url": "https://drive.google.com/file/d/1R0cr3IW2eAMBJrRyD-AYSHW3rCJX9Rf4/view?usp=sharing"
-          }
-        ],
-        "display_name": "Joan Dr, California, MD, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.506234,
-          38.289113
-        ]
-      },
-      "properties": {
-        "address": "74725 Joni Dr - 74725JoniPD_Sale",
-        "lat": 38.289113,
-        "lng": -76.506234,
-        "formatted": "Joan Dr, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "74725 Joni Dr - 74725JoniPD_Sale.pdf",
-            "drive_url": "https://drive.google.com/file/d/1p0wBp9s3muVMNq00HZxS106tjOU8BpUg/view?usp=sharing"
-          }
-        ],
-        "display_name": "Joan Dr, California, MD, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -76.506234,
-          38.289113
-        ]
-      },
-      "properties": {
-        "address": "74725 Joni Dr - 74725JoniPD_Sale_1779755469",
-        "lat": 38.289113,
-        "lng": -76.506234,
-        "formatted": "Joan Dr, California, MD, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "74725 Joni Dr - 74725JoniPD_Sale_1779755469.pdf",
-            "drive_url": "https://drive.google.com/file/d/1bkB5SogJFVPZYO_e125IP8wKtN9uHcaQ/view?usp=sharing"
-          }
-        ],
-        "display_name": "Joan Dr, California, MD, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -120.131199,
           36.014905
         ]
@@ -6847,56 +5847,6 @@
           }
         ],
         "display_name": "8130 Parkway Drive, La Mesa, CA 91942, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.561239,
-          38.621908
-        ]
-      },
-      "properties": {
-        "address": "8130 Parkway Drive_1779753781",
-        "lat": 38.621908,
-        "lng": -92.561239,
-        "formatted": "Parkway Dr, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "8130 Parkway Drive_OM_1779753781.pdf",
-            "drive_url": "https://drive.google.com/file/d/1QxKC_z9_U9LgSC5w1NKAf1_ZXzquom9Y/view?usp=sharing"
-          }
-        ],
-        "display_name": "Parkway Dr, California, MO, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.561239,
-          38.621908
-        ]
-      },
-      "properties": {
-        "address": "8130 Parkway Drive_1779756052",
-        "lat": 38.621908,
-        "lng": -92.561239,
-        "formatted": "Parkway Dr, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "8130 Parkway Drive_OM_1779756052.pdf",
-            "drive_url": "https://drive.google.com/file/d/1470KPmEd3FPV2qduLAFWzRB1AEDtQBD6/view?usp=sharing"
-          }
-        ],
-        "display_name": "Parkway Dr, California, MO, United States of America",
         "geocoding_method": "opencage_ca_verified"
       }
     },
@@ -7138,31 +6088,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -79.894985,
-          40.046955
-        ]
-      },
-      "properties": {
-        "address": "JurupaValley_JurupaSprings",
-        "lat": 40.046955,
-        "lng": -79.894985,
-        "formatted": "California, Pennsylvania, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "JurupaValley_JurupaSprings_OM (002).pdf",
-            "drive_url": null
-          }
-        ],
-        "display_name": "California, Pennsylvania, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -121.674067,
           40.513958
         ]
@@ -7180,31 +6105,6 @@
           }
         ],
         "display_name": "Viola Dr, Shingletown, CA, United States of America",
-        "geocoding_method": "opencage_ca_verified"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -92.472945,
-          38.612766
-        ]
-      },
-      "properties": {
-        "address": "Ontare Plaza - 3609-3617 State St",
-        "lat": 38.612766,
-        "lng": -92.472945,
-        "formatted": "State St, California, MO, United States of America",
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "Offering Memorandum - Ontare Plaza - 3609-3617 State St.pdf",
-            "drive_url": null
-          }
-        ],
-        "display_name": "State St, California, MO, United States of America",
         "geocoding_method": "opencage_ca_verified"
       }
     },
@@ -7617,6 +6517,7 @@
     "geocoded_ca": 303,
     "non_ca_filtered": 38,
     "failed": 6,
-    "method": "opencage_ca_verified"
+    "method": "opencage_ca_verified",
+    "ca_bounds_filtered": 259
   }
 }
