@@ -465,18 +465,11 @@
         // Initialize map
         function initMap() {
             map = L.map('map').setView([36.5, -120], 7);
-            // Light OSM with CSS filter for greyscale effect
+            // OpenStreetMap (will see tiles first, then we'll add greyscale)
             const tileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© OpenStreetMap',
-                maxZoom: 19,
-                className: 'greyscale-tiles',
-                filter: 'grayscale(80%)'
+                maxZoom: 19
             }).addTo(map);
-            
-            // Apply greyscale filter to tiles
-            document.querySelectorAll('.greyscale-tiles').forEach(img => {
-                if (img.style) img.style.filter = 'grayscale(80%) brightness(1.1)';
-            });
 
             // Satellite layer (hidden by default)
             const satelliteLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
