@@ -14,16 +14,8 @@
         "address": "43423 Monroe Street Indio Brochure",
         "lat": 33.72021441250674,
         "lng": -116.21019825771172,
-        "pdf_count": 3,
+        "pdf_count": 1,
         "pdfs": [
-          {
-            "filename": "43423 Monroe Street Indio Brochure_1779753434.pdf",
-            "drive_url": "https://drive.google.com/file/d/1OA0BdKipzapdopdsXf7r78Q2RiSPN0IY/view?usp=sharing"
-          },
-          {
-            "filename": "43423 Monroe Street Indio Brochure_1779755724.pdf",
-            "drive_url": "https://drive.google.com/file/d/1ib9l3vvBSTNgyV3FvI-FvXqY7OMHy7Di/view?usp=sharing"
-          },
           {
             "filename": "43423 Monroe Street Indio Brochure.pdf",
             "drive_url": "https://drive.google.com/file/d/1PFkADIhCavxm-fHD2yTA9NLAKwzE4ewv/view?usp=sharing"
@@ -46,17 +38,8 @@
         "address": "100 W 8th St",
         "lat": 32.7054554409715,
         "lng": -117.15177503388368,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "100 W 8th St - Land Use Regulations National City downt.pdf",
-            "drive_url": "https://drive.google.com/file/d/1BGfDa6i0-3VJXJC95H0HGF9EDPi5G38x/view?usp=sharing"
-          },
-          {
-            "filename": "100 W 8th St - Downtown Specific Plan Map National City.pdf",
-            "drive_url": "https://drive.google.com/file/d/1pLtaSW4h6JeBF_Gpq05_sFd5Vah_fpjE/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "100 W 8th St, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -74,19 +57,11 @@
         "address": "8130 Parkway Drive",
         "lat": 32.70477593893699,
         "lng": -117.14317054753548,
-        "pdf_count": 3,
+        "pdf_count": 1,
         "pdfs": [
-          {
-            "filename": "8130 Parkway Drive_OM_1779756052.pdf",
-            "drive_url": "https://drive.google.com/file/d/1470KPmEd3FPV2qduLAFWzRB1AEDtQBD6/view?usp=sharing"
-          },
           {
             "filename": "8130 Parkway Drive_OM.pdf",
             "drive_url": "https://drive.google.com/file/d/1ySvuqJm_1f6Ny5YC27JvUu1Wca9PDJU7/view?usp=sharing"
-          },
-          {
-            "filename": "8130 Parkway Drive_OM_1779753781.pdf",
-            "drive_url": "https://drive.google.com/file/d/1QxKC_z9_U9LgSC5w1NKAf1_ZXzquom9Y/view?usp=sharing"
           }
         ],
         "display_name": "8130 Parkway Drive, San Diego, CA",
@@ -106,60 +81,8 @@
         "address": "34660 Monterey Ave",
         "lat": 32.712141474222406,
         "lng": -117.14435171013466,
-        "pdf_count": 14,
+        "pdf_count": 1,
         "pdfs": [
-          {
-            "filename": "34660 Monterey Ave - 6375-81 and 6385 Imperial Ave - Marketin.pdf",
-            "drive_url": "https://drive.google.com/file/d/1oJ0qPRnu-iivdSJTXl6dI9Wwg1E20HcD/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - 2301-2305 Highland Ave National City - f (1).pdf",
-            "drive_url": "https://drive.google.com/file/d/1EdgslWYW724ZDPy8KKtOMpcuJ0N7B52K/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - attachment - 2026-03-31T114801.230.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Qk3FcdddbbWJVAui-5v4xAIYEFFjKDft/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - View the Rite Aid Marketing Flyer.pdf",
-            "drive_url": "https://drive.google.com/file/d/1hZBu7Rkz_7gDJaJC4zFd0UhzwzNwotod/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building (1).pdf",
-            "drive_url": "https://drive.google.com/file/d/1PzLSUGG4KQ628R4wdj1C9TscNsroMq7u/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - 26175 Jefferson Ave LeasingSale Brochur.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Lmh-ckZjqvVdXhEitu3a196J57JlrTfe/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building.pdf",
-            "drive_url": "https://drive.google.com/file/d/1mkiFMTL9QRyFToMNNv7klCOzJo2iO9U8/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - 2301-2305 Highland Ave National City - f.pdf",
-            "drive_url": "https://drive.google.com/file/d/12ouitGcbmcJF-Zjcb-KOiBPL0rlR2gNg/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - Flyer - 300 S Highland Springs Ave Bann.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Bq5cuDMRabzhcdbic2flWXY9KkiMFe-M/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - 838-840-G-Street.pdf",
-            "drive_url": "https://drive.google.com/file/d/1ol8nUbyQUB_MahhYdv09hsF309WAEbfe/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - OM - 1523 South Coast Highway.pdf",
-            "drive_url": "https://drive.google.com/file/d/12txC1y8D3C5Uu6nKMwgD-DvLTCdyFR2q/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - 2822 State St.pdf",
-            "drive_url": "https://drive.google.com/file/d/1hGEcRyyxmug7PvbgzIwTPwx_yTd6ujXs/view?usp=sharing"
-          },
-          {
-            "filename": "34660 Monterey Ave - State Street Brochure 2025.pdf",
-            "drive_url": "https://drive.google.com/file/d/1pwLhBaKzVC6Qh7jpM21uViehRXxeOfnT/view?usp=sharing"
-          },
           {
             "filename": "34660 Monterey Ave.pdf",
             "drive_url": "https://drive.google.com/file/d/1_IQ98kcNPi-DKJniGvTzjY-NxgqtQiPJ/view?usp=sharing"
@@ -182,17 +105,8 @@
         "address": "1502 Market St",
         "lat": 32.698869532030685,
         "lng": -117.16570085800873,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "1502 Market St - Coldwell Banker Marketing BrochureFlyer.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Lp_nbLRdEAP3XZ3RvDzRqdYemofC9Za8/view?usp=sharing"
-          },
-          {
-            "filename": "1502 Market St - Brochure.pdf",
-            "drive_url": "https://drive.google.com/file/d/14FQrcnLcrIhHBTM7jZYAJNSwTwe-l3z7/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1502 Market St, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -210,19 +124,11 @@
         "address": "296 S Palm Canyon Drive",
         "lat": 33.84463881149527,
         "lng": -116.5633746151558,
-        "pdf_count": 3,
+        "pdf_count": 1,
         "pdfs": [
           {
             "filename": "296 S Palm Canyon Drive.pdf",
             "drive_url": "https://drive.google.com/file/d/1bTzRV7kgF0PN3quh50I7CRlNAi_fGa8q/view?usp=sharing"
-          },
-          {
-            "filename": "296 S Palm Canyon Drive_1779753735.pdf",
-            "drive_url": "https://drive.google.com/file/d/1gqWxbn5HvZ3dMd_H_E4fYEu4Il0QJQq6/view?usp=sharing"
-          },
-          {
-            "filename": "296 S Palm Canyon Drive_1779756010.pdf",
-            "drive_url": "https://drive.google.com/file/d/1vxmoCKPei04p6kX-Sb_9TaS_l3VTonuD/view?usp=sharing"
           }
         ],
         "display_name": "296 S Palm Canyon Drive, San Diego, CA",
@@ -242,41 +148,8 @@
         "address": "41267 E Florida Ave",
         "lat": 32.734877444775734,
         "lng": -117.15530506297554,
-        "pdf_count": 8,
-        "pdfs": [
-          {
-            "filename": "41267 E Florida Ave - County Zoning_1779755069.pdf",
-            "drive_url": "https://drive.google.com/file/d/1xC7Bdtp71p0_al-oMyWr6wE11MA8Xunn/view?usp=sharing"
-          },
-          {
-            "filename": "41267 E Florida Ave - Riverside County Report.pdf",
-            "drive_url": "https://drive.google.com/file/d/1lG3KacSq1YsyZhm1p6yCfyU0X9c25unu/view?usp=sharing"
-          },
-          {
-            "filename": "41267 E Florida Ave - County Zoning.pdf",
-            "drive_url": "https://drive.google.com/file/d/1ZSiGJWoKVp-V7KBu3mT17xoFW35jxpAd/view?usp=sharing"
-          },
-          {
-            "filename": "41267 E Florida Ave - Riverside County Report 2_1779755073.pdf",
-            "drive_url": "https://drive.google.com/file/d/1J3xt0PxB4y6Rp8MttqUdqZ5snEokjac5/view?usp=sharing"
-          },
-          {
-            "filename": "41267 E Florida Ave - Riverside County Report 2.pdf",
-            "drive_url": "https://drive.google.com/file/d/16fTJ-o1aMfMCz3x668mCNojiWGhVwUbG/view?usp=sharing"
-          },
-          {
-            "filename": "41267 E Florida Ave - Riverside County Report_1779755065.pdf",
-            "drive_url": "https://drive.google.com/file/d/1u_5DVkRDF6Pwz4O571-WHt2ABXaHZBiv/view?usp=sharing"
-          },
-          {
-            "filename": "41267 E Florida Ave - Offer Memorandum - 41267 E. Florida Ave_1779755062.pdf",
-            "drive_url": "https://drive.google.com/file/d/1KdgSM1BnbOjLVURBAd1LQu8Dd6n557t9/view?usp=sharing"
-          },
-          {
-            "filename": "41267 E Florida Ave - Offer Memorandum - 41267 E. Florida Ave.pdf",
-            "drive_url": "https://drive.google.com/file/d/12PLbCKWFN_avxQLrj-JTwthwoqsnMCvQ/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "41267 E Florida Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -294,33 +167,8 @@
         "address": "68580 Ramon Rd",
         "lat": 32.71276201857797,
         "lng": -117.16335061938211,
-        "pdf_count": 6,
-        "pdfs": [
-          {
-            "filename": "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25_1779756118.pdf",
-            "drive_url": "https://drive.google.com/file/d/1vwYhBtHnt3Kw2Qg2eQW9DbrG6s2Z6o_O/view?usp=sharing"
-          },
-          {
-            "filename": "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25_1779753847.pdf",
-            "drive_url": "https://drive.google.com/file/d/19lQf0_ytgRCtfs09YOjxNASSOGALEPk_/view?usp=sharing"
-          },
-          {
-            "filename": "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Hn85FPWRLYV-0XWmbxocjIHQFEJhAHW0/view?usp=sharing"
-          },
-          {
-            "filename": "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25_1779753851.pdf",
-            "drive_url": "https://drive.google.com/file/d/1jBYbAFTvOm8KDfErYR3P0nblsoIGpDv8/view?usp=sharing"
-          },
-          {
-            "filename": "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25_1779749757.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Z19q15MRleHVZBaI3P9VzS7mtUNcWjUV/view?usp=sharing"
-          },
-          {
-            "filename": "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25_1779756115.pdf",
-            "drive_url": "https://drive.google.com/file/d/1waokoxI9EdxxAOaPjrIZKoDbDuhLNQoD/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "68580 Ramon Rd, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -338,13 +186,8 @@
         "address": "Oxnard-OM",
         "lat": 32.71171627346914,
         "lng": -117.14181655258376,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "Oxnard-OM - 4833-4917 S Rose Ave.pdf",
-            "drive_url": null
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "Oxnard-OM, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -362,21 +205,8 @@
         "address": "1243 E Palm Canyon Dr",
         "lat": 33.81684074494592,
         "lng": -116.55641752015397,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "1243 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S_1779755916.pdf",
-            "drive_url": "https://drive.google.com/file/d/1f-46hCyZi_0oT8dM4ybtAEbCGdWv0lhN/view?usp=sharing"
-          },
-          {
-            "filename": "1243 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S_1779753635.pdf",
-            "drive_url": "https://drive.google.com/file/d/1hc2MFJcn5gSRddKgv5AbTEHHaqFFii1U/view?usp=sharing"
-          },
-          {
-            "filename": "1243 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S.pdf",
-            "drive_url": "https://drive.google.com/file/d/1T-GdKwP08mkNB8js8SBMn-0bFAvzk4MA/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1243 E Palm Canyon Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -394,21 +224,8 @@
         "address": "69040 Ramon Rd",
         "lat": 32.72122878142174,
         "lng": -117.17639759395217,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "69040 Ramon Rd_Marketing Brochure_Triwel_1779753873.pdf",
-            "drive_url": "https://drive.google.com/file/d/1V5TTcTNfiqp5zUuDFIWuED2AQJVnLZ93/view?usp=sharing"
-          },
-          {
-            "filename": "69040 Ramon Rd_Marketing Brochure_Triwel_1779756140.pdf",
-            "drive_url": "https://drive.google.com/file/d/1DFVu6bQUymyM2-o1r8X85uhP2Fz-FXXp/view?usp=sharing"
-          },
-          {
-            "filename": "69040 Ramon Rd_Marketing Brochure_Triwel.pdf",
-            "drive_url": "https://drive.google.com/file/d/1NlDnSyw5S_SAw7SuoOf6ML0Wu6a0MWMC/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "69040 Ramon Rd, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -426,17 +243,8 @@
         "address": "27665 Jefferson Ave",
         "lat": 32.69940293306687,
         "lng": -117.16694844849104,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "27665 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755428.pdf",
-            "drive_url": "https://drive.google.com/file/d/1VkRbpkfvQuOIImufuKF458fsRUdnUgPd/view?usp=sharing"
-          },
-          {
-            "filename": "27665 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Dl_6Cau5tnM44gK_zjycztHPeTF9bgi4/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "27665 Jefferson Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -454,17 +262,8 @@
         "address": "435 Hacienda Dr",
         "lat": 32.71702627416514,
         "lng": -117.15368875550291,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "435 Hacienda Dr - Sunroad Plaza.pdf",
-            "drive_url": "https://drive.google.com/file/d/1IRhtc0zi40JgtnuJMu0u0dFXXt7Vrj6c/view?usp=sharing"
-          },
-          {
-            "filename": "435 Hacienda Dr - Sunroad Plaza_1779755156.pdf",
-            "drive_url": "https://drive.google.com/file/d/1c-TZmXmolJ7PabS1bbXvy2-ybRfgRpJ7/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "435 Hacienda Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -482,33 +281,8 @@
         "address": "14411 Norwalk Ln",
         "lat": 32.72225642922708,
         "lng": -117.1539931310794,
-        "pdf_count": 6,
-        "pdfs": [
-          {
-            "filename": "14411 Norwalk Ln - Marketing BrochureFlyer_1779753534.pdf",
-            "drive_url": "https://drive.google.com/file/d/1_JNo_QNbCTvn4Uf6_1NrnDYL7KWEuF0w/view?usp=sharing"
-          },
-          {
-            "filename": "14411 Norwalk Ln - Marketing BrochureFlyer_1779753530.pdf",
-            "drive_url": "https://drive.google.com/file/d/1UBRJ_5YKflFArsJqihVia4eyDXJwmOQB/view?usp=sharing"
-          },
-          {
-            "filename": "14411 Norwalk Ln - Marketing BrochureFlyer_1779749487.pdf",
-            "drive_url": "https://drive.google.com/file/d/1hel6MS9C44uRHY4XL9fVMjbs3bkmFtfD/view?usp=sharing"
-          },
-          {
-            "filename": "14411 Norwalk Ln - Marketing BrochureFlyer.pdf",
-            "drive_url": "https://drive.google.com/file/d/1j38h6yvjBYVpkHV0dH2yIFza6PYqAuh1/view?usp=sharing"
-          },
-          {
-            "filename": "14411 Norwalk Ln - Marketing BrochureFlyer_1779755818.pdf",
-            "drive_url": "https://drive.google.com/file/d/12N9fFnHK0H737fhq0fMZFOcO4rSSsS2T/view?usp=sharing"
-          },
-          {
-            "filename": "14411 Norwalk Ln - Marketing BrochureFlyer_1779755822.pdf",
-            "drive_url": "https://drive.google.com/file/d/1JHXrJMkepGgPNh6loEVjUHEhMCnENig7/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "14411 Norwalk Ln, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -526,25 +300,8 @@
         "address": "74725 Joni Dr",
         "lat": 32.707064717794815,
         "lng": -117.15907433711268,
-        "pdf_count": 4,
-        "pdfs": [
-          {
-            "filename": "74725 Joni Dr - 74725JoniPD_Sale.pdf",
-            "drive_url": "https://drive.google.com/file/d/1p0wBp9s3muVMNq00HZxS106tjOU8BpUg/view?usp=sharing"
-          },
-          {
-            "filename": "74725 Joni Dr - 74725JoniPD_IncStmt.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Y2hQJyIawjLxCqTQRF2ksMch6RqIvJ10/view?usp=sharing"
-          },
-          {
-            "filename": "74725 Joni Dr - 74725JoniPD_IncStmt_1779755466.pdf",
-            "drive_url": "https://drive.google.com/file/d/1R0cr3IW2eAMBJrRyD-AYSHW3rCJX9Rf4/view?usp=sharing"
-          },
-          {
-            "filename": "74725 Joni Dr - 74725JoniPD_Sale_1779755469.pdf",
-            "drive_url": "https://drive.google.com/file/d/1bkB5SogJFVPZYO_e125IP8wKtN9uHcaQ/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "74725 Joni Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -562,8 +319,12 @@
         "address": "CedarTree",
         "lat": 32.69740603166216,
         "lng": -117.15716176841735,
-        "pdf_count": 1,
+        "pdf_count": 2,
         "pdfs": [
+          {
+            "filename": "CedarTree.pdf",
+            "drive_url": null
+          },
           {
             "filename": "CedarTree.pdf",
             "drive_url": null
@@ -586,13 +347,8 @@
         "address": "475 Hacienda Dr",
         "lat": 32.72619083467489,
         "lng": -117.17070463035407,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "475 Hacienda Dr - Sunroad Plaza.pdf",
-            "drive_url": "https://drive.google.com/file/d/1dyscTWRg3jdvNPjdlF_XYRdU7TBQyVl6/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "475 Hacienda Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -610,17 +366,8 @@
         "address": "42021 Florida Ave",
         "lat": 32.701626682439475,
         "lng": -117.15768498256189,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "42021 Florida Ave - Flyer - Hemet CA.pdf",
-            "drive_url": "https://drive.google.com/file/d/15R6_MjyyImh7Yd8t3Tcifjvwv3TQtI3b/view?usp=sharing"
-          },
-          {
-            "filename": "42021 Florida Ave - Flyer - Hemet CA_1779754996.pdf",
-            "drive_url": "https://drive.google.com/file/d/1TavjH6mE2seqP1DsRP59Qr4Qt7e_21wQ/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "42021 Florida Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -638,17 +385,8 @@
         "address": "1512 Main Street",
         "lat": 32.72762356884535,
         "lng": -117.15230535588644,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "1512 Main Street_Bank_print For Sale.pdf_1779753210.pdf",
-            "drive_url": "https://drive.google.com/file/d/1EvndLydZ6yQOfsutFWIBv9X3mPRiJZwR/view?usp=sharing"
-          },
-          {
-            "filename": "1512 Main Street_Bank_print For Sale.pdf.pdf",
-            "drive_url": "https://drive.google.com/file/d/1fm9T2C1y5d_8cvi8wHRRmnKkV_J7PxzH/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1512 Main Street, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -666,21 +404,8 @@
         "address": "7969 Mission Gorge Rd",
         "lat": 32.710348543479654,
         "lng": -117.1799293666073,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "7969 Mission Gorge Rd - Cushman  Wakefield Marketing BrochureF_1779753411.pdf",
-            "drive_url": "https://drive.google.com/file/d/15L5mOpeMGqYOfOlhClKh1w8OWkr-WMp7/view?usp=sharing"
-          },
-          {
-            "filename": "7969 Mission Gorge Rd - Cushman  Wakefield Marketing BrochureF_1779755703.pdf",
-            "drive_url": "https://drive.google.com/file/d/1QMd4kUbFGExAZbdwgfQ_O-Mkc4xbt93P/view?usp=sharing"
-          },
-          {
-            "filename": "7969 Mission Gorge Rd - Cushman  Wakefield Marketing BrochureF.pdf",
-            "drive_url": "https://drive.google.com/file/d/1sTVsov26wgO_WWQbTExW2SBsZUwnbSI7/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "7969 Mission Gorge Rd, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -698,21 +423,8 @@
         "address": "5752 La Jolla Blvd",
         "lat": 32.73410502597888,
         "lng": -117.15335417156565,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145_1779753167.pdf",
-            "drive_url": "https://drive.google.com/file/d/1es1xOwPUNwyAjKetkRX3rPcy6GcmbY8m/view?usp=sharing"
-          },
-          {
-            "filename": "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145_1779755502.pdf",
-            "drive_url": "https://drive.google.com/file/d/1o2bfHO38c5puFTtUOXsoPPwTOtZADiMo/view?usp=sharing"
-          },
-          {
-            "filename": "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145.pdf",
-            "drive_url": "https://drive.google.com/file/d/1A5fLSNIYTWYGrMCdycz3UdhD5XD0_jsK/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "5752 La Jolla Blvd, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -730,21 +442,8 @@
         "address": "1040 National City Blvd",
         "lat": 32.68017497180764,
         "lng": -117.0949427583133,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "1040 National City Blvd - National_City_Development_Flyer__1779755797.pdf",
-            "drive_url": "https://drive.google.com/file/d/1xit1-YKR1ztgkYiaZSQ_5h_JzHFxloNE/view?usp=sharing"
-          },
-          {
-            "filename": "1040 National City Blvd - National_City_Development_Flyer_.pdf",
-            "drive_url": "https://drive.google.com/file/d/1oMnDR8n89xeYNT3B32eUEIvZuWe2EfAi/view?usp=sharing"
-          },
-          {
-            "filename": "1040 National City Blvd - National_City_Development_Flyer__1779753507.pdf",
-            "drive_url": "https://drive.google.com/file/d/1sQ0g7PgiqxIsTXy-DFyE2ece2iMkoAWg/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1040 National City Blvd, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -762,21 +461,8 @@
         "address": "34900 Monterey Ave",
         "lat": 32.726517219663734,
         "lng": -117.15380039413874,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "34900 Monterey Ave - Pet Smart OM_1779753477.pdf",
-            "drive_url": "https://drive.google.com/file/d/1cYVgc-ZbL-qnAniDcIn8s862IQbJ2RzI/view?usp=sharing"
-          },
-          {
-            "filename": "34900 Monterey Ave - Pet Smart OM.pdf",
-            "drive_url": "https://drive.google.com/file/d/1GqYJB1az4ZYZNqwFi8jxdxQRS3JC551V/view?usp=sharing"
-          },
-          {
-            "filename": "34900 Monterey Ave - Pet Smart OM_1779755769.pdf",
-            "drive_url": "https://drive.google.com/file/d/1hlXJSD2WgxHz7SSiTho9ZdGK2S6vtwKN/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "34900 Monterey Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -794,15 +480,11 @@
         "address": "3055 Harding St",
         "lat": 32.705555670644976,
         "lng": -117.14934794447721,
-        "pdf_count": 2,
+        "pdf_count": 1,
         "pdfs": [
           {
             "filename": "3055 Harding St.pdf",
             "drive_url": "https://drive.google.com/file/d/1bJd6xIp5-W_0-_v_K4j7tbyRqHXcR-Rp/view?usp=sharing"
-          },
-          {
-            "filename": "3055 Harding St_1779755193.pdf",
-            "drive_url": "https://drive.google.com/file/d/1s-20sCpVLS52ku68qSHU_EgL1W3nJMNr/view?usp=sharing"
           }
         ],
         "display_name": "3055 Harding St, San Diego, CA",
@@ -822,17 +504,8 @@
         "address": "27310 Madison Ave",
         "lat": 32.700978273759524,
         "lng": -117.16345874495534,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "27310 Madison Ave - Madison Ave_OM.pdf.pdf",
-            "drive_url": "https://drive.google.com/file/d/12h6Wqrx6hxHgmDViNcsupHITY6YDqOj2/view?usp=sharing"
-          },
-          {
-            "filename": "27310 Madison Ave - Madison Ave_OM.pdf_1779753177.pdf",
-            "drive_url": "https://drive.google.com/file/d/1BUb3pBRti2Qpprt7o_ti3-ON8vhDsvae/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "27310 Madison Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -850,45 +523,8 @@
         "address": "2100 N Palm Canyon Dr",
         "lat": 33.831605897835054,
         "lng": -116.56134799559686,
-        "pdf_count": 9,
-        "pdfs": [
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE.pdf",
-            "drive_url": "https://drive.google.com/file/d/1o2t3yQx6MT0lFaVWMzkCyRMCPgu3WWSW/view?usp=sharing"
-          },
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779749626.pdf",
-            "drive_url": "https://drive.google.com/file/d/1x1I2gRmMCyege_QLbiftsdOySILJ9g9k/view?usp=sharing"
-          },
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755965.pdf",
-            "drive_url": "https://drive.google.com/file/d/1QRIPBVijS5z1iHjPBnx4El2Gj1UbLbVJ/view?usp=sharing"
-          },
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779749636.pdf",
-            "drive_url": "https://drive.google.com/file/d/19kPwW_TpgfeZC5p8io2fxIuRqGm2ihU3/view?usp=sharing"
-          },
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755976.pdf",
-            "drive_url": "https://drive.google.com/file/d/1HFpRafdXziApP4772WSToqPw4dkCbsGC/view?usp=sharing"
-          },
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753687.pdf",
-            "drive_url": "https://drive.google.com/file/d/1t9Z6l3Pp6neFIIG6s1SWTEg8QDvoih9H/view?usp=sharing"
-          },
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779755987.pdf",
-            "drive_url": "https://drive.google.com/file/d/1VmcOwXUgS4U3PKh6m1QQjwMXPbKpFaox/view?usp=sharing"
-          },
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753698.pdf",
-            "drive_url": "https://drive.google.com/file/d/1qU_ZkxNT41DwhDEhyjeahc8vi7HSeAmj/view?usp=sharing"
-          },
-          {
-            "filename": "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779753711.pdf",
-            "drive_url": "https://drive.google.com/file/d/1auIcjmy_Zh7vcmuUhKvXt6R5qGtzwaiE/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "2100 N Palm Canyon Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -906,13 +542,8 @@
         "address": "748 5th Ave",
         "lat": 32.705740607182435,
         "lng": -117.15710623322012,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "748 5th Ave - 7485thAve_OM_UPG.pdf",
-            "drive_url": "https://drive.google.com/file/d/1yhS443dlAEbBn159pLRB5VXf_Hndtjby/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "748 5th Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -930,21 +561,8 @@
         "address": "1670 Main St",
         "lat": 32.723595667767015,
         "lng": -117.1508983741614,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "1670 Main St - Stonegate-Rite-Aid Print 4.16.26_1779753220.pdf",
-            "drive_url": "https://drive.google.com/file/d/1NZqH3k1uVN6ecfE3RDc82Lcvrz1r7RBZ/view?usp=sharing"
-          },
-          {
-            "filename": "1670 Main St - Stonegate-Rite-Aid Print 4.16.26.pdf",
-            "drive_url": "https://drive.google.com/file/d/1LuOB3SntZYs5sxXTi-ECyIH_Nu4Cmli1/view?usp=sharing"
-          },
-          {
-            "filename": "1670 Main St - Stonegate-Rite-Aid Print 4.16.26_1779755551.pdf",
-            "drive_url": "https://drive.google.com/file/d/1sAWtB7VvbwOT2flyfS7qnLZJe12KOstP/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1670 Main St, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -962,13 +580,8 @@
         "address": "Pajaro Hills Shopping Center",
         "lat": 32.722170872267846,
         "lng": -117.16558008975743,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "Pajaro Hills Shopping Center_Offering Memorandum.pdf",
-            "drive_url": null
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "Pajaro Hills Shopping Center, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -986,21 +599,8 @@
         "address": "490 S Palm Canyon Dr",
         "lat": 33.84880321801881,
         "lng": -116.5589431956072,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE.pdf",
-            "drive_url": "https://drive.google.com/file/d/1ZADAigZfu3DN-hZBnWu2tvbjf9LecnXh/view?usp=sharing"
-          },
-          {
-            "filename": "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE_1779753760.pdf",
-            "drive_url": "https://drive.google.com/file/d/1b8qxUlxYaGLIml1T3zsXS_IualmpG40d/view?usp=sharing"
-          },
-          {
-            "filename": "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE_1779756032.pdf",
-            "drive_url": "https://drive.google.com/file/d/1KF-WmB4xiah8Q0j9pKYfKrGOe-Se2tPx/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "490 S Palm Canyon Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1018,17 +618,8 @@
         "address": "1560 Garnet Ave",
         "lat": 32.79762633604424,
         "lng": -117.26200679298337,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "1560 Garnet Ave - 1560-1564GarnetAve2_OM.pdf",
-            "drive_url": "https://drive.google.com/file/d/1oqd2wuxwTCbNne3i0fsLiLnUeI8TSbUP/view?usp=sharing"
-          },
-          {
-            "filename": "1560 Garnet Ave - 1560-1564GarnetAve2_OM_1779825639.pdf",
-            "drive_url": "https://drive.google.com/file/d/1m2H7PIJFjrR5amW82UnaJHODZq9TF5ud/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1560 Garnet Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1046,13 +637,8 @@
         "address": "Rent Roll",
         "lat": 32.71161564245689,
         "lng": -117.1702212905665,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "Rent Roll - Broadway El Cajon Shopping Center.pdf",
-            "drive_url": null
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "Rent Roll, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1070,17 +656,8 @@
         "address": "1003 E Devonshire Ave",
         "lat": 32.70217422828268,
         "lng": -117.14166162727635,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "1003 E Devonshire Ave - HEMET-OM updated-compressed.pdf",
-            "drive_url": "https://drive.google.com/file/d/1fQc_RWLxhY29nWDlwgfVNuzaRoOca03C/view?usp=sharing"
-          },
-          {
-            "filename": "1003 E Devonshire Ave - 1003 E. Devonshire Avenue.pdf",
-            "drive_url": "https://drive.google.com/file/d/1HdDL6KW9qe5q24ZoGOUCST-RgmioFVtk/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1003 E Devonshire Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1098,21 +675,8 @@
         "address": "1202 Main St",
         "lat": 32.72336381496447,
         "lng": -117.1617468718476,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "1202 Main St - 1202 W Main St_1779755536.pdf",
-            "drive_url": "https://drive.google.com/file/d/1fU8Ii7ZDW_sJwZeEDPYd7bDEWfMFsKbk/view?usp=sharing"
-          },
-          {
-            "filename": "1202 Main St - 1202 W Main St.pdf",
-            "drive_url": "https://drive.google.com/file/d/1YisD3y42vWNMyNGJ-JiUYmcxCK9yZLkB/view?usp=sharing"
-          },
-          {
-            "filename": "1202 Main St - 1202 W Main St_1779753200.pdf",
-            "drive_url": "https://drive.google.com/file/d/1LweCRWnz2hDJ7rwAFEH_GQ3Nlt44F5OI/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1202 Main St, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1130,21 +694,8 @@
         "address": "450 S Palm Canyon Dr",
         "lat": 33.847218795184126,
         "lng": -116.54511767540633,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE_1779756021.pdf",
-            "drive_url": "https://drive.google.com/file/d/16tJUwoESTo7I9PegYyHdVsn8p2KRz2CL/view?usp=sharing"
-          },
-          {
-            "filename": "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE.pdf",
-            "drive_url": "https://drive.google.com/file/d/1CW83znOKPku_gJ1Tumk-J8imW_ujM5Mh/view?usp=sharing"
-          },
-          {
-            "filename": "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE_1779753747.pdf",
-            "drive_url": "https://drive.google.com/file/d/1sW7uiKxVqnG4exoO5X_jm_-shJMye4S-/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "450 S Palm Canyon Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1162,17 +713,8 @@
         "address": "33389 Old State Hwy",
         "lat": 32.70103641780803,
         "lng": -117.15993665043466,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "33389 Old State Hwy - Hemet - 33389 Highway 74.pdf",
-            "drive_url": "https://drive.google.com/file/d/1qm3q4qIIdl8brALWoZR9K6_goTPkLjl4/view?usp=sharing"
-          },
-          {
-            "filename": "33389 Old State Hwy - Hemet - 33389 Highway 74_1779755839.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Ux9Ik_yLERpiIc_wrTo9-0_CsmvbrmuC/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "33389 Old State Hwy, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1190,21 +732,8 @@
         "address": "3050 Pio Pico Dr",
         "lat": 32.69656463601027,
         "lng": -117.1589615369139,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2_1779756076.pdf",
-            "drive_url": "https://drive.google.com/file/d/1PMGQ81HU8VGMnxs7czM_NQF0NrameRGB/view?usp=sharing"
-          },
-          {
-            "filename": "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2_1779753806.pdf",
-            "drive_url": "https://drive.google.com/file/d/1O06vEKvd0iZrWtqfBVUgyf0FeWa9IRHS/view?usp=sharing"
-          },
-          {
-            "filename": "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2.pdf",
-            "drive_url": "https://drive.google.com/file/d/1gl7uKzMcn-gwjjD0gQw9nmampt2xu-y-/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "3050 Pio Pico Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1222,25 +751,8 @@
         "address": "47985 Monroe St",
         "lat": 32.73553608028138,
         "lng": -117.15741936908171,
-        "pdf_count": 4,
-        "pdfs": [
-          {
-            "filename": "47985 Monroe St - Brochure - Former Rite-Aid in Indio CA.pdf",
-            "drive_url": "https://drive.google.com/file/d/1rlhRkZQ_niyEbVlQjVtbO4hxgO19cGKP/view?usp=sharing"
-          },
-          {
-            "filename": "47985 Monroe St - Retail Demand by Industry Tabular 2578.pdf",
-            "drive_url": "https://drive.google.com/file/d/1-5WlmM4iKv9WVtHnOctSTRjS-lvo7bJL/view?usp=sharing"
-          },
-          {
-            "filename": "47985 Monroe St - Household Budget Expenditures Report Ta.pdf",
-            "drive_url": "https://drive.google.com/file/d/1KZlHAZLCYxVJaA6NCMhaJOQ-r4fkgnId/view?usp=sharing"
-          },
-          {
-            "filename": "47985 Monroe St - Retail Demand Outlook Report Tabular 2.pdf",
-            "drive_url": "https://drive.google.com/file/d/1j0J18nqxBgvO8qmEDaeJ0PbXHcBiy3A-/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "47985 Monroe St, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1258,21 +770,8 @@
         "address": "128 N Juanita St",
         "lat": 32.7124645945908,
         "lng": -117.15034629398423,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "128 N Juanita St - 128 N. Juanita St. Hemet__1779755479.pdf",
-            "drive_url": "https://drive.google.com/file/d/1GgDxdWt8Pbu9tpqCqgMAjo08Wd67hFfm/view?usp=sharing"
-          },
-          {
-            "filename": "128 N Juanita St - 128 N. Juanita St. Hemet__1779753144.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Ic7XvwNthkbFkVgOYtw2MtEDrGX4tcY_/view?usp=sharing"
-          },
-          {
-            "filename": "128 N Juanita St - 128 N. Juanita St. Hemet_.pdf",
-            "drive_url": "https://drive.google.com/file/d/1n8t62oobjz4Dr6RIGlJJ-zuCjSW2QSOx/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "128 N Juanita St, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1290,21 +789,8 @@
         "address": "3719 Mission Blvd",
         "lat": 32.72451752495948,
         "lng": -117.16623259572759,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "3719 Mission Blvd - Brochure 3719 Mission Blvd_1779753383.pdf",
-            "drive_url": "https://drive.google.com/file/d/1N7tR8PDPOiDFDWet-ovaKXLZ_T9zE87n/view?usp=sharing"
-          },
-          {
-            "filename": "3719 Mission Blvd - Brochure 3719 Mission Blvd.pdf",
-            "drive_url": "https://drive.google.com/file/d/17OYg_j__85TyKGOQp4SOHtj4b0FFv8nQ/view?usp=sharing"
-          },
-          {
-            "filename": "3719 Mission Blvd - Brochure 3719 Mission Blvd_1779755676.pdf",
-            "drive_url": "https://drive.google.com/file/d/1KIHl_VctYJkHsd6WsqxA2U5URdAiyOlx/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "3719 Mission Blvd, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1322,21 +808,8 @@
         "address": "1010 National City Blvd",
         "lat": 32.69266523623919,
         "lng": -117.11586942428964,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "1010 National City Blvd - National_City_Development_Flyer_.pdf",
-            "drive_url": "https://drive.google.com/file/d/1K41xD7L8jbYCuU8e27EKWswpdzumWArf/view?usp=sharing"
-          },
-          {
-            "filename": "1010 National City Blvd - National_City_Development_Flyer__1779755787.pdf",
-            "drive_url": "https://drive.google.com/file/d/1vkkiFJNPUwlf1fIuM_1mMAbTkgLxqmwI/view?usp=sharing"
-          },
-          {
-            "filename": "1010 National City Blvd - National_City_Development_Flyer__1779753496.pdf",
-            "drive_url": "https://drive.google.com/file/d/13o5hyNyIL14-P3n0gsvB26pglNbnkmj5/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1010 National City Blvd, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1354,21 +827,8 @@
         "address": "4741 Point Loma Ave",
         "lat": 32.7222787069114,
         "lng": -117.15770338139266,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "4741 Point Loma Ave - 4741 - Pt loma OM - 2026-04-04 2.pdf",
-            "drive_url": "https://drive.google.com/file/d/1eQK8dAMqXO2FgyVns8XrFQeRcniYetgW/view?usp=sharing"
-          },
-          {
-            "filename": "4741 Point Loma Ave - 4741 - Pt loma OM - 2026-04-04.pdf",
-            "drive_url": "https://drive.google.com/file/d/1yYPLg9VrQ4iRLZ67SzLVwDA3o5I1aupB/view?usp=sharing"
-          },
-          {
-            "filename": "4741 Point Loma Ave - 4741 - Pt loma OM - 2026-04-04 2_1779743313.pdf",
-            "drive_url": "https://drive.google.com/file/d/1UZuMQB2x-WCQuP-rNe6vUGw0Bxkniq8Y/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "4741 Point Loma Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1386,21 +846,8 @@
         "address": "27625 Jefferson Ave",
         "lat": 32.6983286216767,
         "lng": -117.148778034082,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "27625 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753092.pdf",
-            "drive_url": "https://drive.google.com/file/d/1iscmMBIUNuk6kJrJqdLTCs_PCEqbZ6Uf/view?usp=sharing"
-          },
-          {
-            "filename": "27625 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755419.pdf",
-            "drive_url": "https://drive.google.com/file/d/17LvrdIr216yKX47l5TWtwzeLPIRKYCZe/view?usp=sharing"
-          },
-          {
-            "filename": "27625 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf",
-            "drive_url": "https://drive.google.com/file/d/1URIvD4FCmgcaT6MqCnCzo6cPJ4e1l8xD/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "27625 Jefferson Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1418,21 +865,8 @@
         "address": "1201 E Palm Canyon Dr",
         "lat": 33.82891642517655,
         "lng": -116.52674600483523,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "1201 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S.pdf",
-            "drive_url": "https://drive.google.com/file/d/1PvuzsZUjE08mO8d8W9BFdTmW1TE7oyFC/view?usp=sharing"
-          },
-          {
-            "filename": "1201 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S_1779755905.pdf",
-            "drive_url": "https://drive.google.com/file/d/11DpYD4xDFV9DD89rqmALj0vxomHRv6WC/view?usp=sharing"
-          },
-          {
-            "filename": "1201 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S_1779753624.pdf",
-            "drive_url": "https://drive.google.com/file/d/1sIJ7Z3nov7KjeJLr8BMTnRRwU4-PpsQ3/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1201 E Palm Canyon Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1450,21 +884,8 @@
         "address": "102 N Palm Canyon Dr",
         "lat": 33.81714045257948,
         "lng": -116.5417944052411,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling _1779755935.pdf",
-            "drive_url": "https://drive.google.com/file/d/1na6okZU8jT9kxxAiboh_qaqfA3c939vW/view?usp=sharing"
-          },
-          {
-            "filename": "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling .pdf",
-            "drive_url": "https://drive.google.com/file/d/1Qz8IG5XgC3zccybQ63MAWBnt2AJ-rHcn/view?usp=sharing"
-          },
-          {
-            "filename": "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling _1779753654.pdf",
-            "drive_url": "https://drive.google.com/file/d/1k6uNZsMtDs_9Qdrh5rdBTDojmpWjwxI0/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "102 N Palm Canyon Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1482,19 +903,11 @@
         "address": "6333 Mission Gorge Rd- MP 1225",
         "lat": 32.70522796997904,
         "lng": -117.17744401072876,
-        "pdf_count": 3,
+        "pdf_count": 1,
         "pdfs": [
-          {
-            "filename": "6333 Mission Gorge Rd- MP 1225_1779753400.pdf",
-            "drive_url": "https://drive.google.com/file/d/1vH0UVRq92QnrdJzo6QIRBycP8u-omETR/view?usp=sharing"
-          },
           {
             "filename": "6333 Mission Gorge Rd- MP 1225.pdf",
             "drive_url": "https://drive.google.com/file/d/1gkWY6vtwnzIQoYSCpp7myoz3sGOHfAYG/view?usp=sharing"
-          },
-          {
-            "filename": "6333 Mission Gorge Rd- MP 1225_1779755693.pdf",
-            "drive_url": "https://drive.google.com/file/d/13Z3JoXdGI9O_fi9kbty5ffD6T0ZXuufF/view?usp=sharing"
           }
         ],
         "display_name": "6333 Mission Gorge Rd- MP 1225, San Diego, CA",
@@ -1514,17 +927,8 @@
         "address": "445 Hacienda Dr",
         "lat": 32.7331921875408,
         "lng": -117.16457417439513,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "445 Hacienda Dr - Sunroad Plaza_1779752833.pdf",
-            "drive_url": "https://drive.google.com/file/d/1RHb2EKfl3DFq2Z1zR8hGdaOl2yVVyFg7/view?usp=sharing"
-          },
-          {
-            "filename": "445 Hacienda Dr - Sunroad Plaza.pdf",
-            "drive_url": "https://drive.google.com/file/d/160bWifwVlYUEq6A990dCqWauKH4G6P8b/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "445 Hacienda Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1542,17 +946,8 @@
         "address": "34275 Monterey Ave",
         "lat": 32.7187465942808,
         "lng": -117.14716080867106,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "34275 Monterey Ave - 34275 Monterey OM.pdf",
-            "drive_url": "https://drive.google.com/file/d/1MmDzDYqRzqX_cEo7zI-y_7WIAwfX1DsO/view?usp=sharing"
-          },
-          {
-            "filename": "34275 Monterey Ave - 34275 Monterey OM_1779753466.pdf",
-            "drive_url": "https://drive.google.com/file/d/1JsQbS8rDDJDhVGEIoYT4iwTrTLANVI9N/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "34275 Monterey Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1570,33 +965,8 @@
         "address": "13977 Poway Rd",
         "lat": 32.72134791942995,
         "lng": -117.1526087580846,
-        "pdf_count": 6,
-        "pdfs": [
-          {
-            "filename": "13977 Poway Rd - 13977 Poway_1779756103.pdf",
-            "drive_url": "https://drive.google.com/file/d/15llquLpb6cYlB0MWwBSyA3UNfZoP_qfK/view?usp=sharing"
-          },
-          {
-            "filename": "13977 Poway Rd - 13977 Poway_1779756099.pdf",
-            "drive_url": "https://drive.google.com/file/d/1fHLVFujLrRYZ7z0hRMER4NgLf_akWAxH/view?usp=sharing"
-          },
-          {
-            "filename": "13977 Poway Rd - 13977 Poway_1779749743.pdf",
-            "drive_url": "https://drive.google.com/file/d/1dzFQgPYJWsqS1gYAONyjgaVu5NwF3UaH/view?usp=sharing"
-          },
-          {
-            "filename": "13977 Poway Rd - 13977 Poway.pdf",
-            "drive_url": "https://drive.google.com/file/d/1dWA_qKlGxonSPoE3fC-JJRZAeLLDqQKt/view?usp=sharing"
-          },
-          {
-            "filename": "13977 Poway Rd - 13977 Poway_1779753831.pdf",
-            "drive_url": "https://drive.google.com/file/d/1vRX4X2kUY7x_nZ_wtqWdfnx8qf64aPKx/view?usp=sharing"
-          },
-          {
-            "filename": "13977 Poway Rd - 13977 Poway_1779753835.pdf",
-            "drive_url": "https://drive.google.com/file/d/1hLkLndBJW1z3K1uw06WzuVnwN_2FAn_O/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "13977 Poway Rd, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1614,13 +984,8 @@
         "address": "SeminaryPoint",
         "lat": 32.70993005015901,
         "lng": -117.16066628821503,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "SeminaryPoint_OaklandCA.pdf",
-            "drive_url": null
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "SeminaryPoint, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1638,17 +1003,8 @@
         "address": "83500 Hwy 111",
         "lat": 32.71329631441407,
         "lng": -117.15308551229637,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "83500 Hwy 111 - Marketing BrochureFlyer_1779755336.pdf",
-            "drive_url": "https://drive.google.com/file/d/1eCdQAj42n53SNxGPM-EkkVgNK25N7veb/view?usp=sharing"
-          },
-          {
-            "filename": "83500 Hwy 111 - Marketing BrochureFlyer.pdf",
-            "drive_url": "https://drive.google.com/file/d/1YKX8yTCaHw_OX7FYJoWhw7wc5Ee17yF8/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "83500 Hwy 111, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1666,21 +1022,8 @@
         "address": "262 S Palm Canyon Dr",
         "lat": 33.83343269686229,
         "lng": -116.54238324804523,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "262 S Palm Canyon Dr - 262 S. Palm Canyon Drive Palm Springs .pdf",
-            "drive_url": "https://drive.google.com/file/d/1ocQaLhRPvv4rpyMiQNtasK9vxt_FcQUE/view?usp=sharing"
-          },
-          {
-            "filename": "262 S Palm Canyon Dr - 262 S. Palm Canyon Drive Palm Springs _1779755998.pdf",
-            "drive_url": "https://drive.google.com/file/d/1HKggqovvluIEveywRLr600D-E9s10wHO/view?usp=sharing"
-          },
-          {
-            "filename": "262 S Palm Canyon Dr - 262 S. Palm Canyon Drive Palm Springs _1779753723.pdf",
-            "drive_url": "https://drive.google.com/file/d/1a3XwW2EeEDJVsbhCZkwaAbKS-qASvEMA/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "262 S Palm Canyon Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1698,21 +1041,8 @@
         "address": "4811 W Point Loma Blvd",
         "lat": 32.72828651951058,
         "lng": -117.15124077443734,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "4811 W Point Loma Blvd - Sale Brochure_1779753818.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Lwd5NP7_CiGVMgPX6OdBT9vY-knwn-pn/view?usp=sharing"
-          },
-          {
-            "filename": "4811 W Point Loma Blvd - Sale Brochure_1779756088.pdf",
-            "drive_url": "https://drive.google.com/file/d/1QYC3_v6dG3ABSUVWWdnw2tbPFyqHGYKl/view?usp=sharing"
-          },
-          {
-            "filename": "4811 W Point Loma Blvd - Sale Brochure.pdf",
-            "drive_url": "https://drive.google.com/file/d/1D8asZLs7jqIy92Z5urMf05SiYdvRWy97/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "4811 W Point Loma Blvd, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1730,21 +1060,8 @@
         "address": "1020 E Florida Ave",
         "lat": 32.7071140686902,
         "lng": -117.15332165360105,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "1020 E Florida Ave - Traffic Count 1020 E Florida Ave Hemet.pdf",
-            "drive_url": "https://drive.google.com/file/d/1cW4RXloWxba-9cnlRrb94kyiG2eWoKNz/view?usp=sharing"
-          },
-          {
-            "filename": "1020 E Florida Ave - 1020 E. Florida Ave. Offering Memorandum.pdf",
-            "drive_url": "https://drive.google.com/file/d/1DJH3DxYqNyWA-8XR6B1F9W3-hzX-x47V/view?usp=sharing"
-          },
-          {
-            "filename": "1020 E Florida Ave - APN MAP.pdf",
-            "drive_url": "https://drive.google.com/file/d/1_hCSw9jPRSly-J7r17ZWNG2eul9tS2V7/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1020 E Florida Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1762,21 +1079,8 @@
         "address": "54227 Pine Crest Ave",
         "lat": 32.733449740916264,
         "lng": -117.14649578983118,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "54227 Pine Crest Ave - 35364_print 2.pdf",
-            "drive_url": "https://drive.google.com/file/d/1PG8gTgcT-h2IkvDI-v8ny7o0ueOIl00l/view?usp=sharing"
-          },
-          {
-            "filename": "54227 Pine Crest Ave - 35364_print 2_1779753793.pdf",
-            "drive_url": "https://drive.google.com/file/d/11cWsO8V2A0py9AwydZfHNDL-BbQ_jmwG/view?usp=sharing"
-          },
-          {
-            "filename": "54227 Pine Crest Ave - 35364_print 2_1779756063.pdf",
-            "drive_url": "https://drive.google.com/file/d/1kpGy8jX0P7TBb2R0UimMAGJrNtA1U1YD/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "54227 Pine Crest Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1794,21 +1098,8 @@
         "address": "1180 N State St",
         "lat": 32.70446185865498,
         "lng": -117.17215684252223,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "1180 N State St - View the Rite Aid Brochure.pdf",
-            "drive_url": "https://drive.google.com/file/d/1g37RJ_t-7aSwzpxpRB8YUBPzo3qbmkbc/view?usp=sharing"
-          },
-          {
-            "filename": "1180 N State St - View the Rite Aid Marketing Flyer.pdf",
-            "drive_url": "https://drive.google.com/file/d/1FBEYgprGwGrrhmcz2q1TN2givxJDU5_d/view?usp=sharing"
-          },
-          {
-            "filename": "1180 N State St - View the Rite Aid Brochure_1779742184.pdf",
-            "drive_url": "https://drive.google.com/file/d/1e6WCrRf5kEi7U_YRK0bYFLZwRGL7NxEL/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1180 N State St, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1826,17 +1117,8 @@
         "address": "2415 San Diego Ave",
         "lat": 32.703813625454906,
         "lng": -117.16178326698956,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "2415 San Diego Ave - 2415SanDiegoAve_UPG.pdf",
-            "drive_url": "https://drive.google.com/file/d/14TKBAqyw34jPJmZUoX2xczR0P3yMbieK/view?usp=sharing"
-          },
-          {
-            "filename": "2415 San Diego Ave - OldTownCorralOM_UPG.pdf",
-            "drive_url": "https://drive.google.com/file/d/1ahM3lGJwQg6zbME2e7lCK4J1enw0zS3O/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "2415 San Diego Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1854,8 +1136,12 @@
         "address": "FortunaBLVD",
         "lat": 32.70493923463827,
         "lng": -117.14516395706556,
-        "pdf_count": 1,
+        "pdf_count": 2,
         "pdfs": [
+          {
+            "filename": "FortunaBLVD.pdf",
+            "drive_url": null
+          },
           {
             "filename": "FortunaBLVD.pdf",
             "drive_url": null
@@ -1878,13 +1164,8 @@
         "address": "42150 Jackson St",
         "lat": 32.72875189050814,
         "lng": -117.14456232026369,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "42150 Jackson St - Offering Memorandum.pdf",
-            "drive_url": "https://drive.google.com/file/d/1fGhqyYWEHxIzO_jSOLSrl5AyLQrL4xyb/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "42150 Jackson St, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1902,13 +1183,8 @@
         "address": "Offering Memorandum",
         "lat": 32.71313296412181,
         "lng": -117.17017906516085,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "Offering Memorandum - Ontare Plaza - 3609-3617 State St.pdf",
-            "drive_url": null
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "Offering Memorandum, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1926,13 +1202,8 @@
         "address": "1416-1440 West Beverly Blvd, Montebello- OM",
         "lat": 32.73480922311588,
         "lng": -117.15779549463404,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "1416-1440 West Beverly Blvd, Montebello- OM.pdf",
-            "drive_url": null
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1416-1440 West Beverly Blvd, Montebello- OM, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1950,21 +1221,8 @@
         "address": "27685 Jefferson Ave",
         "lat": 32.73415708623044,
         "lng": -117.17470805530314,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "27685 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755438.pdf",
-            "drive_url": "https://drive.google.com/file/d/1ndgZfBTV35000736PBVK4KOWxlU3B37L/view?usp=sharing"
-          },
-          {
-            "filename": "27685 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753107.pdf",
-            "drive_url": "https://drive.google.com/file/d/1tYGGiRk3Fx2nQGqbisRrIfWSfd4JA_CR/view?usp=sharing"
-          },
-          {
-            "filename": "27685 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Esj29n6NGWZApKMQZ2zsZrZLBdrtHDS2/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "27685 Jefferson Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -1982,17 +1240,8 @@
         "address": "455 Hacienda Dr",
         "lat": 32.70904618876618,
         "lng": -117.16967763329374,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "455 Hacienda Dr - Sunroad Plaza_1779752841.pdf",
-            "drive_url": "https://drive.google.com/file/d/1gUAEtkQ6WJsVZ8ytbhuEFfDLPubz9Mj5/view?usp=sharing"
-          },
-          {
-            "filename": "455 Hacienda Dr - Sunroad Plaza.pdf",
-            "drive_url": "https://drive.google.com/file/d/1pnE1Nx3hpCIjhRudMBHn1nZVvTHFmZBe/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "455 Hacienda Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2010,13 +1259,8 @@
         "address": "JurupaValley",
         "lat": 32.699821172475566,
         "lng": -117.15112235391356,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "JurupaValley_JurupaSprings_OM (002).pdf",
-            "drive_url": null
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "JurupaValley, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2034,17 +1278,8 @@
         "address": "72777 Dinah Shore Dr",
         "lat": 32.69834591051061,
         "lng": -117.1627105065529,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "72777 Dinah Shore Dr - 72777_DinahShore_OM-05132025-Low-Res.pdf",
-            "drive_url": "https://drive.google.com/file/d/1PTo3opGTWHeJpdj97oNfKzbxJJIpdt-p/view?usp=sharing"
-          },
-          {
-            "filename": "72777 Dinah Shore Dr - 72777_DinahShore_OM-05122025-Low-Res.pdf",
-            "drive_url": "https://drive.google.com/file/d/1-VWohBiAc4SLk6L1RwUxFnCyKK3aMqQf/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "72777 Dinah Shore Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2062,21 +1297,8 @@
         "address": "2545 W Florida Ave",
         "lat": 32.71248752444692,
         "lng": -117.14811372559559,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "2545 W Florida Ave - Marketing BrochureFlyer.pdf",
-            "drive_url": "https://drive.google.com/file/d/1-Ixcp59xmapLh8DpGMRrkUij6rmGz0CQ/view?usp=sharing"
-          },
-          {
-            "filename": "2545 W Florida Ave - Marketing BrochureFlyer_1779755089.pdf",
-            "drive_url": "https://drive.google.com/file/d/1aUix63mZr8FNOvLxxQQ4mwF3Pb2toxm1/view?usp=sharing"
-          },
-          {
-            "filename": "2545 W Florida Ave - Marketing BrochureFlyer_1779752332.pdf",
-            "drive_url": "https://drive.google.com/file/d/1dEkB95bBfCOjPhlFekIQb0SBOyvFaia4/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "2545 W Florida Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2094,13 +1316,8 @@
         "address": "AlessandroPlaza",
         "lat": 32.69845107823405,
         "lng": -117.18065728468744,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "AlessandroPlaza_OM_Unpriced_MNET.pdf",
-            "drive_url": null
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "AlessandroPlaza, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2118,21 +1335,8 @@
         "address": "5032 Niagara Ave",
         "lat": 32.6981710232601,
         "lng": -117.15916665510844,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "5032 Niagara Ave - Broker CA_OB Collective_1779753518.pdf",
-            "drive_url": "https://drive.google.com/file/d/14bj7FE_yl18N3ozBQR8WGDBwrzM0cNG_/view?usp=sharing"
-          },
-          {
-            "filename": "5032 Niagara Ave - Broker CA_OB Collective_1779755807.pdf",
-            "drive_url": "https://drive.google.com/file/d/1rYnKpfD6GfMDdgW86qNwUz4-oihLxe8N/view?usp=sharing"
-          },
-          {
-            "filename": "5032 Niagara Ave - Broker CA_OB Collective.pdf",
-            "drive_url": "https://drive.google.com/file/d/1ihHesmPDpDY9Tfffthd8ZO_GsWf87FVo/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "5032 Niagara Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2150,8 +1354,12 @@
         "address": "e7cc41a0-6860-416d-a203-e248d37db592",
         "lat": 32.703772731155624,
         "lng": -117.1642523055894,
-        "pdf_count": 1,
+        "pdf_count": 2,
         "pdfs": [
+          {
+            "filename": "e7cc41a0-6860-416d-a203-e248d37db592.pdf",
+            "drive_url": null
+          },
           {
             "filename": "e7cc41a0-6860-416d-a203-e248d37db592.pdf",
             "drive_url": null
@@ -2174,13 +1382,8 @@
         "address": "465 Hacienda Dr",
         "lat": 32.731748517439456,
         "lng": -117.16556274818221,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "465 Hacienda Dr - Sunroad Plaza.pdf",
-            "drive_url": "https://drive.google.com/file/d/1TnqWlJcsVSl7s29CuSXM4EoIqei1PKUN/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "465 Hacienda Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2198,19 +1401,11 @@
         "address": "14010 Palm Dr Marketing Package",
         "lat": 33.81841036774074,
         "lng": -116.54604573456685,
-        "pdf_count": 3,
+        "pdf_count": 1,
         "pdfs": [
           {
             "filename": "14010 Palm Dr Marketing Package.pdf",
             "drive_url": "https://drive.google.com/file/d/1KU8jlK5xBpgi2xQ8Uu8SICEp3PYe1jtK/view?usp=sharing"
-          },
-          {
-            "filename": "14010 Palm Dr Marketing Package_1779755887.pdf",
-            "drive_url": "https://drive.google.com/file/d/191aV1I4wtInuhfWApzpu8SihLOdex1y6/view?usp=sharing"
-          },
-          {
-            "filename": "14010 Palm Dr Marketing Package_1779753604.pdf",
-            "drive_url": "https://drive.google.com/file/d/1szShMEms85BJ7mozbMPRFM4Qt31xqahc/view?usp=sharing"
           }
         ],
         "display_name": "14010 Palm Dr Marketing Package, San Diego, CA",
@@ -2230,13 +1425,8 @@
         "address": "1.1.24 Rent Roll",
         "lat": 32.716046249756,
         "lng": -117.16706347199282,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "1.1.24 Rent Roll - 1416 - 1440 West Beverly, Montebello.pdf",
-            "drive_url": null
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1.1.24 Rent Roll, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2254,13 +1444,8 @@
         "address": "25 W 11th St",
         "lat": 32.69870275625903,
         "lng": -117.15277585119166,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "25 W 11th St - National_City_Development_Flyer_.pdf",
-            "drive_url": "https://drive.google.com/file/d/1s_4ao_1UYiroUNEqcTnD4w9-ou1B0s0M/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "25 W 11th St, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2278,13 +1463,8 @@
         "address": "2730 Imperial Ave",
         "lat": 32.70830176087439,
         "lng": -117.16014878033627,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "2730 Imperial Ave - 2730 2736  2740-2752 Imperial Ave - OM.pdf",
-            "drive_url": "https://drive.google.com/file/d/1o8-wmlqXwcz0U1PhMy3QHITzTl0JRMat/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "2730 Imperial Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2302,17 +1482,8 @@
         "address": "1571 S Hale Ave",
         "lat": 32.721119990486216,
         "lng": -117.15679578568367,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "1571 S Hale Ave - Marketing BrochureFlyer.pdf",
-            "drive_url": "https://drive.google.com/file/d/1sIAulpMIjcSKu32OTFHY6Ld1L6Qgn-2y/view?usp=sharing"
-          },
-          {
-            "filename": "1571 S Hale Ave - Brochure.pdf",
-            "drive_url": "https://drive.google.com/file/d/1Pgfwe8f-aAO5fY233FER77z91iJnoJHa/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1571 S Hale Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2330,21 +1501,8 @@
         "address": "790 N Johnson Ave",
         "lat": 32.710804209177915,
         "lng": -117.14589904138653,
-        "pdf_count": 3,
-        "pdfs": [
-          {
-            "filename": "790 N Johnson Ave - Brochure.pdf",
-            "drive_url": "https://drive.google.com/file/d/12UhFZ_EilfsgiJu-up57qIwUZIylnVx_/view?usp=sharing"
-          },
-          {
-            "filename": "790 N Johnson Ave - Brochure_1779755453.pdf",
-            "drive_url": "https://drive.google.com/file/d/1bnu9oPNIMAd-c-UaxgSw_M7FgcE5heHj/view?usp=sharing"
-          },
-          {
-            "filename": "790 N Johnson Ave - Brochure_1779753124.pdf",
-            "drive_url": "https://drive.google.com/file/d/1q9SLeNHeubFUyNhH4Vsbbgpjj52YVxq9/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "790 N Johnson Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2362,13 +1520,8 @@
         "address": "3340 El Cajon Blvd",
         "lat": 32.725092254762274,
         "lng": -117.17428198222763,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3340 El Cajon Blvd - Final OM 3340 El Cajon Bld.pdf.pdf",
-            "drive_url": "https://drive.google.com/file/d/1CO9s1PrinSZ1y2kEq299GkV1SHdocwEz/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "3340 El Cajon Blvd, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2386,13 +1539,8 @@
         "address": "6555 Indian Canyon Dr",
         "lat": 33.82864516309006,
         "lng": -116.52623961999001,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "6555 Indian Canyon Dr - 6555 N Indian Canyon Dr Sale Brochure.pdf",
-            "drive_url": "https://drive.google.com/file/d/1iihZCLTtbeltUe8y38Nv5lnHpDB2zJgL/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "6555 Indian Canyon Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2410,13 +1558,8 @@
         "address": "1291 E Florida Ave",
         "lat": 32.702865460832534,
         "lng": -117.16414394061788,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "1291 E Florida Ave - Hemet_Strip_Center_Sale_Brochure_11-10-2.pdf",
-            "drive_url": "https://drive.google.com/file/d/15ewQoX-_1hwRIY7RaN-2IBCrtChtCPhr/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1291 E Florida Ave, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2554,13 +1697,8 @@
         "address": "28860, Old Town Front Street, Temecula, CA",
         "lat": 32.723199943355226,
         "lng": -117.16818345629758,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "28860, Old Town Front Street, Temecula, CA - Offering Memorandum (1).pdf",
-            "drive_url": null
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "28860, Old Town Front Street, Temecula, CA, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2578,13 +1716,8 @@
         "address": "3444 Midway Dr",
         "lat": 32.716730759080754,
         "lng": -117.14215819233553,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "3444 Midway Dr - 3444 Midway.pdf",
-            "drive_url": "https://drive.google.com/file/d/1kVom1One69xhPEylwaE_qk21lSWv-FB1/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "3444 Midway Dr, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2602,13 +1735,8 @@
         "address": "84010 Avenue 50",
         "lat": 32.72203647304256,
         "lng": -117.17072601728947,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "84010 Avenue 50 - CVS Coachella.pdf",
-            "drive_url": "https://drive.google.com/file/d/1bngWWrpn4qZJpxLeLZF8798jJcCsr6iw/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "84010 Avenue 50, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2626,17 +1754,8 @@
         "address": "27722 Clinton Keith Rd",
         "lat": 32.72968311359275,
         "lng": -117.14678328811289,
-        "pdf_count": 2,
-        "pdfs": [
-          {
-            "filename": "27722 Clinton Keith Rd - The Orchard at Stone Creek.pdf",
-            "drive_url": "https://drive.google.com/file/d/1ZZzsb7l02w327ucLSMI41ctjqZclo-Tz/view?usp=sharing"
-          },
-          {
-            "filename": "27722 Clinton Keith Rd - CBRE Marketing BrochureFlyer.pdf",
-            "drive_url": "https://drive.google.com/file/d/129EFZOUveO5lve9CF9Elsf_yVQXZb3qF/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "27722 Clinton Keith Rd, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2654,13 +1773,8 @@
         "address": "41950 6th St",
         "lat": 32.73238924642473,
         "lng": -117.16972335220726,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "41950 6th St_Temecula OM.pdf",
-            "drive_url": "https://drive.google.com/file/d/1qpx2R2CEPKVUFyiKk7VI6Yi6Kx55HlZO/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "41950 6th St, San Diego, CA",
         "geocoding_method": "approximate"
       }
@@ -2678,13 +1792,8 @@
         "address": "1075 Rosecrans St",
         "lat": 32.7270958348859,
         "lng": -117.14170247301922,
-        "pdf_count": 1,
-        "pdfs": [
-          {
-            "filename": "1075 Rosecrans St - Offering-Memorandum 1075 Rosecrans.pdf",
-            "drive_url": "https://drive.google.com/file/d/1KdzhO-pyM8ITvcIQa1VKnUapUTitc-bR/view?usp=sharing"
-          }
-        ],
+        "pdf_count": 0,
+        "pdfs": [],
         "display_name": "1075 Rosecrans St, San Diego, CA",
         "geocoding_method": "approximate"
       }
