@@ -11,7 +11,8 @@
         ]
       },
       "properties": {
-        "address": "02.20.26",
+        "address": "800 S Mountain Ave",
+        "city": "los angeles",
         "pdfs": [
           "02.20.26 - 800 S Mountain Ave - OM.pdf"
         ],
@@ -24,12 +25,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -118.1237,
+          34.0157
         ]
       },
       "properties": {
-        "address": "1.1.24 Rent Roll",
+        "address": "1416",
+        "city": "montebello",
         "pdfs": [
           "1.1.24 Rent Roll - 1416 - 1440 West Beverly, Montebello.pdf"
         ],
@@ -42,12 +44,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -117.1014,
+          32.678
         ]
       },
       "properties": {
         "address": "100 W 8th St",
+        "city": "national city",
         "pdfs": [
           "100 W 8th St - Downtown Specific Plan Map National City.pdf",
           "100 W 8th St - Land Use Regulations National City downt.pdf"
@@ -67,8 +70,27 @@
       },
       "properties": {
         "address": "1003 E Devonshire Ave",
+        "city": "los angeles",
         "pdfs": [
-          "1003 E Devonshire Ave - 1003 E. Devonshire Avenue.pdf",
+          "1003 E Devonshire Ave - 1003 E. Devonshire Avenue.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.3723,
+          33.7456
+        ]
+      },
+      "properties": {
+        "address": "1003 E Devonshire Ave",
+        "city": "hemet",
+        "pdfs": [
           "1003 E Devonshire Ave - HEMET-OM updated-compressed.pdf"
         ],
         "flagged": false,
@@ -86,6 +108,7 @@
       },
       "properties": {
         "address": "1010 National City Blvd",
+        "city": "national city",
         "pdfs": [
           "1010 National City Blvd - National_City_Development_Flyer_.pdf",
           "1010 National City Blvd - National_City_Development_Flyer__1779753496.pdf",
@@ -106,6 +129,7 @@
       },
       "properties": {
         "address": "102 N Palm Canyon Dr",
+        "city": "palm canyon",
         "pdfs": [
           "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling .pdf",
           "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling _1779753654.pdf",
@@ -126,9 +150,28 @@
       },
       "properties": {
         "address": "1020 E Florida Ave",
+        "city": "los angeles",
         "pdfs": [
           "1020 E Florida Ave - 1020 E. Florida Ave. Offering Memorandum.pdf",
-          "1020 E Florida Ave - APN MAP.pdf",
+          "1020 E Florida Ave - APN MAP.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.3723,
+          33.7456
+        ]
+      },
+      "properties": {
+        "address": "1020 E Florida Ave",
+        "city": "hemet",
+        "pdfs": [
           "1020 E Florida Ave - Traffic Count 1020 E Florida Ave Hemet.pdf"
         ],
         "flagged": false,
@@ -146,6 +189,7 @@
       },
       "properties": {
         "address": "1040 National City Blvd",
+        "city": "national city",
         "pdfs": [
           "1040 National City Blvd - National_City_Development_Flyer_.pdf",
           "1040 National City Blvd - National_City_Development_Flyer__1779753507.pdf",
@@ -166,6 +210,7 @@
       },
       "properties": {
         "address": "1045 Main Street-Marketing Package-For S",
+        "city": "los angeles",
         "pdfs": [
           "1045 Main Street-Marketing Package-For S.pdf"
         ],
@@ -184,6 +229,7 @@
       },
       "properties": {
         "address": "1075 Rosecrans St",
+        "city": "los angeles",
         "pdfs": [
           "1075 Rosecrans St - Offering-Memorandum 1075 Rosecrans.pdf"
         ],
@@ -202,6 +248,7 @@
       },
       "properties": {
         "address": "1180 N State St",
+        "city": "los angeles",
         "pdfs": [
           "1180 N State St - View the Rite Aid Brochure.pdf",
           "1180 N State St - View the Rite Aid Brochure_1779742184.pdf",
@@ -222,6 +269,7 @@
       },
       "properties": {
         "address": "1201 E Palm Canyon Dr",
+        "city": "palm canyon",
         "pdfs": [
           "1201 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S.pdf",
           "1201 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S_1779753624.pdf",
@@ -242,6 +290,7 @@
       },
       "properties": {
         "address": "1202 Main St",
+        "city": "los angeles",
         "pdfs": [
           "1202 Main St - 1202 W Main St.pdf",
           "1202 Main St - 1202 W Main St_1779753200.pdf",
@@ -262,6 +311,7 @@
       },
       "properties": {
         "address": "1243 E Palm Canyon Dr",
+        "city": "palm canyon",
         "pdfs": [
           "1243 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S.pdf",
           "1243 E Palm Canyon Dr - Travelodge Portfolio Palm Springs-FOR S_1779753635.pdf",
@@ -276,12 +326,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.3723,
+          33.7456
         ]
       },
       "properties": {
         "address": "128 N Juanita St",
+        "city": "hemet",
         "pdfs": [
           "128 N Juanita St - 128 N. Juanita St. Hemet_.pdf",
           "128 N Juanita St - 128 N. Juanita St. Hemet__1779753144.pdf",
@@ -296,12 +347,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.3723,
+          33.7456
         ]
       },
       "properties": {
         "address": "1291 E Florida Ave",
+        "city": "hemet",
         "pdfs": [
           "1291 E Florida Ave - Hemet_Strip_Center_Sale_Brochure_11-10-2.pdf"
         ],
@@ -320,6 +372,7 @@
       },
       "properties": {
         "address": "13977 Poway Rd",
+        "city": "los angeles",
         "pdfs": [
           "13977 Poway Rd - 13977 Poway.pdf",
           "13977 Poway Rd - 13977 Poway_1779749743.pdf",
@@ -337,12 +390,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5453,
-          33.8303
+          -118.2437,
+          34.0522
         ]
       },
       "properties": {
         "address": "14010 Palm Dr Marketing Package",
+        "city": "los angeles",
         "pdfs": [
           "14010 Palm Dr Marketing Package.pdf"
         ],
@@ -355,12 +409,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5453,
-          33.8303
+          -118.2437,
+          34.0522
         ]
       },
       "properties": {
         "address": "14010 Palm Dr Marketing Package_1779753604",
+        "city": "los angeles",
         "pdfs": [
           "14010 Palm Dr Marketing Package_1779753604.pdf"
         ],
@@ -373,12 +428,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.5453,
-          33.8303
+          -118.2437,
+          34.0522
         ]
       },
       "properties": {
         "address": "14010 Palm Dr Marketing Package_1779755887",
+        "city": "los angeles",
         "pdfs": [
           "14010 Palm Dr Marketing Package_1779755887.pdf"
         ],
@@ -397,6 +453,7 @@
       },
       "properties": {
         "address": "1416-1440 West Beverly Blvd, Montebello- OM",
+        "city": "montebello",
         "pdfs": [
           "1416-1440 West Beverly Blvd, Montebello- OM.pdf"
         ],
@@ -415,6 +472,7 @@
       },
       "properties": {
         "address": "14411 Norwalk Ln",
+        "city": "los angeles",
         "pdfs": [
           "14411 Norwalk Ln - Marketing BrochureFlyer.pdf",
           "14411 Norwalk Ln - Marketing BrochureFlyer_1779749487.pdf",
@@ -438,6 +496,7 @@
       },
       "properties": {
         "address": "1502 Market St",
+        "city": "los angeles",
         "pdfs": [
           "1502 Market St - Brochure.pdf",
           "1502 Market St - Coldwell Banker Marketing BrochureFlyer.pdf"
@@ -457,6 +516,7 @@
       },
       "properties": {
         "address": "1512 Main Street_Bank_print For Sale",
+        "city": "los angeles",
         "pdfs": [
           "1512 Main Street_Bank_print For Sale.pdf.pdf"
         ],
@@ -475,6 +535,7 @@
       },
       "properties": {
         "address": "1512 Main Street_Bank_print For Sale_1779753210",
+        "city": "los angeles",
         "pdfs": [
           "1512 Main Street_Bank_print For Sale.pdf_1779753210.pdf"
         ],
@@ -493,6 +554,7 @@
       },
       "properties": {
         "address": "1560 Garnet Ave",
+        "city": "los angeles",
         "pdfs": [
           "1560 Garnet Ave - 1560-1564GarnetAve2_OM.pdf",
           "1560 Garnet Ave - 1560-1564GarnetAve2_OM_1779825639.pdf"
@@ -512,6 +574,7 @@
       },
       "properties": {
         "address": "1571 S Hale Ave",
+        "city": "los angeles",
         "pdfs": [
           "1571 S Hale Ave - Brochure.pdf",
           "1571 S Hale Ave - Marketing BrochureFlyer.pdf"
@@ -531,6 +594,7 @@
       },
       "properties": {
         "address": "1670 Main St",
+        "city": "los angeles",
         "pdfs": [
           "1670 Main St - Stonegate-Rite-Aid Print 4.16.26.pdf",
           "1670 Main St - Stonegate-Rite-Aid Print 4.16.26_1779753220.pdf",
@@ -551,6 +615,7 @@
       },
       "properties": {
         "address": "2 Star Retail Auto Repair",
+        "city": "los angeles",
         "pdfs": [
           "2 Star Retail Auto Repair - 68406 Highway 111.pdf",
           "2 Star Retail Auto Repair - 68406 Highway 111_1779755220.pdf",
@@ -574,6 +639,7 @@
       },
       "properties": {
         "address": "2 Star Retail BarNightclub",
+        "city": "los angeles",
         "pdfs": [
           "2 Star Retail BarNightclub - 121225_OM 903 Island.pdf",
           "2 Star Retail BarNightclub - 121225_OM 903 Island_1779753055.pdf",
@@ -595,6 +661,7 @@
       },
       "properties": {
         "address": "2 Star Retail Drug Store",
+        "city": "los angeles",
         "pdfs": [
           "2 Star Retail Drug Store - 801 N El Camino Real Brochure S.pdf",
           "2 Star Retail Drug Store - 801 N El Camino Real Brochure S_1779752132.pdf",
@@ -616,6 +683,7 @@
       },
       "properties": {
         "address": "2 Star Retail Freestanding",
+        "city": "los angeles",
         "pdfs": [
           "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1.pdf.pdf",
           "2 Star Retail Freestanding - MISSION AVE 1708-1710 OM 1.pdf_1779753371.pdf",
@@ -636,8 +704,27 @@
       },
       "properties": {
         "address": "2 Star Retail Freestanding Strip Center",
+        "city": "los angeles",
         "pdfs": [
-          "2 Star Retail Freestanding Strip Center - Brochure.pdf",
+          "2 Star Retail Freestanding Strip Center - Brochure.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.3723,
+          33.7456
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Freestanding Strip Center",
+        "city": "hemet",
+        "pdfs": [
           "2 Star Retail Freestanding Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2.pdf",
           "2 Star Retail Freestanding Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2_1779755026.pdf"
         ],
@@ -656,12 +743,10 @@
       },
       "properties": {
         "address": "2 Star Retail Restaurant",
+        "city": "los angeles",
         "pdfs": [
           "2 Star Retail Restaurant - 83010 Highway 111 and 45900 Fargo Street.pdf",
           "2 Star Retail Restaurant - Lee  Associates Marketing BrochureFlye.pdf",
-          "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C.pdf",
-          "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C_1779753666.pdf",
-          "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C_1779755946.pdf",
           "2 Star Retail Restaurant - Offering Memorandum.pdf",
           "2 Star Retail Restaurant - Offering Memorandum_1779755249.pdf"
         ],
@@ -674,12 +759,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.3867,
+          33.7431
+        ]
+      },
+      "properties": {
+        "address": "2 Star Retail Restaurant",
+        "city": "palm canyon",
+        "pdfs": [
+          "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C.pdf",
+          "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C_1779753666.pdf",
+          "2 Star Retail Restaurant - OM - 360 N Palm Canyon - Palm Springs_ C_1779755946.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2258,
+          33.7268
         ]
       },
       "properties": {
         "address": "2 Star Retail Restaurant Strip Center",
+        "city": "indio",
         "pdfs": [
           "2 Star Retail Restaurant Strip Center - Indio Offering Memorandum.pdf"
         ],
@@ -698,6 +805,7 @@
       },
       "properties": {
         "address": "2 Star Retail Storefront",
+        "city": "los angeles",
         "pdfs": [
           "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print.pdf",
           "2 Star Retail Storefront - 1202 Market St Mkt Pgk 2021_print_1779749316.pdf",
@@ -735,6 +843,7 @@
       },
       "properties": {
         "address": "2 Star Retail Storefront RetailOffice",
+        "city": "los angeles",
         "pdfs": [
           "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure.pdf",
           "2 Star Retail Storefront RetailOffice - 1512 Palm Avenue - Brochure_1779753564.pdf",
@@ -752,12 +861,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.3723,
+          33.7456
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront RetailOffice Strip Center",
+        "city": "hemet",
         "pdfs": [
           "2 Star Retail Storefront RetailOffice Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2.pdf",
           "2 Star Retail Storefront RetailOffice Strip Center - Hemet_Strip_Center_Sale_Brochure_11-10-2_1779755018.pdf"
@@ -777,6 +887,7 @@
       },
       "properties": {
         "address": "2 Star Retail Storefront RetailResidential",
+        "city": "los angeles",
         "pdfs": [
           "2 Star Retail Storefront RetailResidential - 1194 N Imperial Hwy Ocotillo - 12-25.pdf",
           "2 Star Retail Storefront RetailResidential - 1194 N Imperial Hwy Ocotillo - 12-25_1779755369.pdf",
@@ -792,12 +903,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.9618,
+          32.7957
         ]
       },
       "properties": {
         "address": "2 Star Retail Storefront RetailResidential Strip C",
+        "city": "el cajon",
         "pdfs": [
           "2 Star Retail Storefront RetailResidential Strip C - OM 4224-28 El Cajon Blvd.pdf"
         ],
@@ -816,6 +928,7 @@
       },
       "properties": {
         "address": "2 Star Retail VeterinarianKennel",
+        "city": "los angeles",
         "pdfs": [
           "2 Star Retail VeterinarianKennel - Marketing BrochureFlyer.pdf",
           "2 Star Retail VeterinarianKennel - Marketing BrochureFlyer_1779749062.pdf",
@@ -839,6 +952,7 @@
       },
       "properties": {
         "address": "2100 N Palm Canyon Dr",
+        "city": "palm canyon",
         "pdfs": [
           "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE.pdf",
           "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR SALE_1779749626.pdf",
@@ -865,6 +979,7 @@
       },
       "properties": {
         "address": "2232 Encinitas Blvd OM",
+        "city": "los angeles",
         "pdfs": [
           "2232 Encinitas Blvd OM.pdf"
         ],
@@ -883,6 +998,7 @@
       },
       "properties": {
         "address": "2415 San Diego Ave",
+        "city": "san diego",
         "pdfs": [
           "2415 San Diego Ave - 2415SanDiegoAve_UPG.pdf",
           "2415 San Diego Ave - OldTownCorralOM_UPG.pdf"
@@ -902,6 +1018,7 @@
       },
       "properties": {
         "address": "25 W 11th St",
+        "city": "los angeles",
         "pdfs": [
           "25 W 11th St - National_City_Development_Flyer_.pdf"
         ],
@@ -920,6 +1037,7 @@
       },
       "properties": {
         "address": "25312_Madison_Ave_R",
+        "city": "los angeles",
         "pdfs": [
           "25312_Madison_Ave_R.pdf"
         ],
@@ -938,6 +1056,7 @@
       },
       "properties": {
         "address": "2545 W Florida Ave",
+        "city": "los angeles",
         "pdfs": [
           "2545 W Florida Ave - Marketing BrochureFlyer.pdf",
           "2545 W Florida Ave - Marketing BrochureFlyer_1779752332.pdf",
@@ -958,6 +1077,7 @@
       },
       "properties": {
         "address": "262 S Palm Canyon Dr",
+        "city": "palm canyon",
         "pdfs": [
           "262 S Palm Canyon Dr - 262 S. Palm Canyon Drive Palm Springs .pdf",
           "262 S Palm Canyon Dr - 262 S. Palm Canyon Drive Palm Springs _1779753723.pdf",
@@ -978,6 +1098,7 @@
       },
       "properties": {
         "address": "2730 Imperial Ave",
+        "city": "los angeles",
         "pdfs": [
           "2730 Imperial Ave - 2730 2736  2740-2752 Imperial Ave - OM.pdf"
         ],
@@ -996,6 +1117,7 @@
       },
       "properties": {
         "address": "27310 Madison Ave",
+        "city": "los angeles",
         "pdfs": [
           "27310 Madison Ave - Madison Ave_OM.pdf.pdf",
           "27310 Madison Ave - Madison Ave_OM.pdf_1779753177.pdf"
@@ -1015,6 +1137,7 @@
       },
       "properties": {
         "address": "27625 Jefferson Ave",
+        "city": "los angeles",
         "pdfs": [
           "27625 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf",
           "27625 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753092.pdf",
@@ -1035,6 +1158,7 @@
       },
       "properties": {
         "address": "27665 Jefferson Ave",
+        "city": "los angeles",
         "pdfs": [
           "27665 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf",
           "27665 Jefferson Ave - Adobe Plaza Offering Memorandum_1779755428.pdf"
@@ -1054,6 +1178,7 @@
       },
       "properties": {
         "address": "27685 Jefferson Ave",
+        "city": "los angeles",
         "pdfs": [
           "27685 Jefferson Ave - Adobe Plaza Offering Memorandum.pdf",
           "27685 Jefferson Ave - Adobe Plaza Offering Memorandum_1779753107.pdf",
@@ -1074,6 +1199,7 @@
       },
       "properties": {
         "address": "27722 Clinton Keith Rd",
+        "city": "los angeles",
         "pdfs": [
           "27722 Clinton Keith Rd - CBRE Marketing BrochureFlyer.pdf",
           "27722 Clinton Keith Rd - The Orchard at Stone Creek.pdf"
@@ -1093,6 +1219,7 @@
       },
       "properties": {
         "address": "28860, Old Town Front Street, Temecula, CA",
+        "city": "temecula",
         "pdfs": [
           "28860, Old Town Front Street, Temecula, CA - Offering Memorandum (1).pdf"
         ],
@@ -1111,6 +1238,7 @@
       },
       "properties": {
         "address": "296 S Palm Canyon Drive",
+        "city": "palm canyon",
         "pdfs": [
           "296 S Palm Canyon Drive.pdf"
         ],
@@ -1129,6 +1257,7 @@
       },
       "properties": {
         "address": "296 S Palm Canyon Drive_1779753735",
+        "city": "palm canyon",
         "pdfs": [
           "296 S Palm Canyon Drive_1779753735.pdf"
         ],
@@ -1147,6 +1276,7 @@
       },
       "properties": {
         "address": "296 S Palm Canyon Drive_1779756010",
+        "city": "palm canyon",
         "pdfs": [
           "296 S Palm Canyon Drive_1779756010.pdf"
         ],
@@ -1165,6 +1295,7 @@
       },
       "properties": {
         "address": "3 Star Retail Convenience Store",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail Convenience Store - Winchester 7.11 - Tear Sheet.pdf"
         ],
@@ -1183,6 +1314,7 @@
       },
       "properties": {
         "address": "3 Star Retail Drug Store",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail Drug Store - CVS Mission Viejo OM.pdf",
           "3 Star Retail Drug Store - CVS Mission Viejo OM_1779753259.pdf",
@@ -1203,6 +1335,7 @@
       },
       "properties": {
         "address": "3 Star Retail Drug Store Neighborhood Center",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail Drug Store Neighborhood Center - 894 Oak Valley Rite Aid Sale Lease Flyer.pdf"
         ],
@@ -1221,6 +1354,7 @@
       },
       "properties": {
         "address": "3 Star Retail Freestanding",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail Freestanding - 22331 El Paseo Offering Memorandum 1.pdf",
           "3 Star Retail Freestanding - 22331 El Paseo Offering Memorandum 1_1779754933.pdf",
@@ -1228,7 +1362,6 @@
           "3 Star Retail Freestanding - 724 N El Camino Real OM_1779754867.pdf",
           "3 Star Retail Freestanding - Brochure.pdf",
           "3 Star Retail Freestanding - Brochure_1779754907.pdf",
-          "3 Star Retail Freestanding - El Cajon CA - Starbucks.pdf",
           "3 Star Retail Freestanding - FOR SALE 1640 N El Camino Real San Cle.pdf",
           "3 Star Retail Freestanding - FOR SALE 1640 N El Camino Real San Cle_1779754885.pdf",
           "3 Star Retail Freestanding - Floorplan.pdf",
@@ -1247,12 +1380,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -116.9618,
+          32.7957
+        ]
+      },
+      "properties": {
+        "address": "3 Star Retail Freestanding",
+        "city": "el cajon",
+        "pdfs": [
+          "3 Star Retail Freestanding - El Cajon CA - Starbucks.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -118.2437,
           34.0522
         ]
       },
       "properties": {
         "address": "3 Star Retail Freestanding Power Center",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail Freestanding Power Center - Marketing BrochureFlyer.pdf"
         ],
@@ -1271,6 +1424,7 @@
       },
       "properties": {
         "address": "3 Star Retail Freestanding Strip Center",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail Freestanding Strip Center - ValleyCenter_ParkCircle_v2 1.pdf"
         ],
@@ -1289,6 +1443,7 @@
       },
       "properties": {
         "address": "3 Star Retail Movie Theatre",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail Movie Theatre - 2822 State St.pdf",
           "3 Star Retail Movie Theatre - State Street Brochure 2025.pdf"
@@ -1308,6 +1463,7 @@
       },
       "properties": {
         "address": "3 Star Retail Neighborhood Center",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail Neighborhood Center - Brochure MVM.pdf"
         ],
@@ -1326,6 +1482,7 @@
       },
       "properties": {
         "address": "3 Star Retail Restaurant",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail Restaurant - 1814 El Camino Real_OM_2026.pdf",
           "3 Star Retail Restaurant - 1814 El Camino Real_OM_2026_1779754896.pdf",
@@ -1347,6 +1504,7 @@
       },
       "properties": {
         "address": "3 Star Retail Storefront RetailOffice",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail Storefront RetailOffice - FourthE OM_UPG.pdf",
           "3 Star Retail Storefront RetailOffice - Sale Brochure - El Paseo Collection Eleg.pdf",
@@ -1367,6 +1525,7 @@
       },
       "properties": {
         "address": "3 Star Retail Strip Center",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail Strip Center - ValleyCenter_ParkCircle_v2 1.pdf",
           "3 Star Retail Strip Center - ValleyCenter_ParkCircle_v2 1_1779753350.pdf",
@@ -1387,6 +1546,7 @@
       },
       "properties": {
         "address": "3 Star Retail VeterinarianKennel",
+        "city": "los angeles",
         "pdfs": [
           "3 Star Retail VeterinarianKennel - 73120 Highway 111 030526.pdf",
           "3 Star Retail VeterinarianKennel - 73120 Highway 111 030526_1779752906.pdf",
@@ -1407,6 +1567,7 @@
       },
       "properties": {
         "address": "3050 Pio Pico Dr",
+        "city": "los angeles",
         "pdfs": [
           "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2.pdf",
           "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2_1779753806.pdf",
@@ -1427,6 +1588,7 @@
       },
       "properties": {
         "address": "3055 Harding St",
+        "city": "los angeles",
         "pdfs": [
           "3055 Harding St.pdf"
         ],
@@ -1445,6 +1607,7 @@
       },
       "properties": {
         "address": "3055 Harding St_1779755193",
+        "city": "los angeles",
         "pdfs": [
           "3055 Harding St_1779755193.pdf"
         ],
@@ -1457,12 +1620,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.3723,
+          33.7456
         ]
       },
       "properties": {
         "address": "33389 Old State Hwy",
+        "city": "hemet",
         "pdfs": [
           "33389 Old State Hwy - Hemet - 33389 Highway 74.pdf",
           "33389 Old State Hwy - Hemet - 33389 Highway 74_1779755839.pdf"
@@ -1482,6 +1646,7 @@
       },
       "properties": {
         "address": "3340 El Cajon Blvd",
+        "city": "el cajon",
         "pdfs": [
           "3340 El Cajon Blvd - Final OM 3340 El Cajon Bld.pdf.pdf"
         ],
@@ -1500,6 +1665,7 @@
       },
       "properties": {
         "address": "34275 Monterey Ave",
+        "city": "los angeles",
         "pdfs": [
           "34275 Monterey Ave - 34275 Monterey OM.pdf",
           "34275 Monterey Ave - 34275 Monterey OM_1779753466.pdf"
@@ -1519,6 +1685,7 @@
       },
       "properties": {
         "address": "34275 Monterey OM",
+        "city": "los angeles",
         "pdfs": [
           "34275 Monterey OM.pdf"
         ],
@@ -1537,6 +1704,7 @@
       },
       "properties": {
         "address": "3444 Midway Dr",
+        "city": "los angeles",
         "pdfs": [
           "3444 Midway Dr - 3444 Midway.pdf"
         ],
@@ -1555,8 +1723,29 @@
       },
       "properties": {
         "address": "3444 Midway",
+        "city": "los angeles",
         "pdfs": [
           "3444 Midway.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1014,
+          32.678
+        ]
+      },
+      "properties": {
+        "address": "34660 Monterey Ave",
+        "city": "national city",
+        "pdfs": [
+          "34660 Monterey Ave - 2301-2305 Highland Ave National City - f (1).pdf",
+          "34660 Monterey Ave - 2301-2305 Highland Ave National City - f.pdf"
         ],
         "flagged": false,
         "flag_reason": null
@@ -1573,21 +1762,38 @@
       },
       "properties": {
         "address": "34660 Monterey Ave",
+        "city": "los angeles",
         "pdfs": [
-          "34660 Monterey Ave - 2301-2305 Highland Ave National City - f (1).pdf",
-          "34660 Monterey Ave - 2301-2305 Highland Ave National City - f.pdf",
           "34660 Monterey Ave - 26175 Jefferson Ave LeasingSale Brochur.pdf",
           "34660 Monterey Ave - 2822 State St.pdf",
           "34660 Monterey Ave - 6375-81 and 6385 Imperial Ave - Marketin.pdf",
           "34660 Monterey Ave - 838-840-G-Street.pdf",
           "34660 Monterey Ave - Flyer - 300 S Highland Springs Ave Bann.pdf",
           "34660 Monterey Ave - OM - 1523 South Coast Highway.pdf",
-          "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building (1).pdf",
-          "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building.pdf",
           "34660 Monterey Ave - State Street Brochure 2025.pdf",
           "34660 Monterey Ave - View the Rite Aid Marketing Flyer.pdf",
           "34660 Monterey Ave - attachment - 2026-03-31T114801.230.pdf",
           "34660 Monterey Ave.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1477,
+          33.4942
+        ]
+      },
+      "properties": {
+        "address": "34660 Monterey Ave",
+        "city": "temecula",
+        "pdfs": [
+          "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building (1).pdf",
+          "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building.pdf"
         ],
         "flagged": false,
         "flag_reason": null
@@ -1604,6 +1810,7 @@
       },
       "properties": {
         "address": "34900 Monterey Ave",
+        "city": "los angeles",
         "pdfs": [
           "34900 Monterey Ave - Pet Smart OM.pdf",
           "34900 Monterey Ave - Pet Smart OM_1779753477.pdf",
@@ -1624,6 +1831,7 @@
       },
       "properties": {
         "address": "3719 Mission Blvd",
+        "city": "los angeles",
         "pdfs": [
           "3719 Mission Blvd - Brochure 3719 Mission Blvd.pdf",
           "3719 Mission Blvd - Brochure 3719 Mission Blvd_1779753383.pdf",
@@ -1644,6 +1852,7 @@
       },
       "properties": {
         "address": "41267 E Florida Ave",
+        "city": "los angeles",
         "pdfs": [
           "41267 E Florida Ave - County Zoning.pdf",
           "41267 E Florida Ave - County Zoning_1779755069.pdf",
@@ -1669,6 +1878,7 @@
       },
       "properties": {
         "address": "41950 6th St_Temecula OM",
+        "city": "temecula",
         "pdfs": [
           "41950 6th St_Temecula OM.pdf"
         ],
@@ -1681,12 +1891,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.3723,
+          33.7456
         ]
       },
       "properties": {
         "address": "42021 Florida Ave",
+        "city": "hemet",
         "pdfs": [
           "42021 Florida Ave - Flyer - Hemet CA.pdf",
           "42021 Florida Ave - Flyer - Hemet CA_1779754996.pdf"
@@ -1706,6 +1917,7 @@
       },
       "properties": {
         "address": "42150 Jackson St",
+        "city": "los angeles",
         "pdfs": [
           "42150 Jackson St - Offering Memorandum.pdf"
         ],
@@ -1724,6 +1936,7 @@
       },
       "properties": {
         "address": "43423 Monroe Street Indio Brochure",
+        "city": "indio",
         "pdfs": [
           "43423 Monroe Street Indio Brochure.pdf"
         ],
@@ -1742,6 +1955,7 @@
       },
       "properties": {
         "address": "43423 Monroe Street Indio Brochure_1779753434",
+        "city": "indio",
         "pdfs": [
           "43423 Monroe Street Indio Brochure_1779753434.pdf"
         ],
@@ -1760,6 +1974,7 @@
       },
       "properties": {
         "address": "43423 Monroe Street Indio Brochure_1779755724",
+        "city": "indio",
         "pdfs": [
           "43423 Monroe Street Indio Brochure_1779755724.pdf"
         ],
@@ -1778,6 +1993,7 @@
       },
       "properties": {
         "address": "435 Hacienda Dr",
+        "city": "los angeles",
         "pdfs": [
           "435 Hacienda Dr - Sunroad Plaza.pdf",
           "435 Hacienda Dr - Sunroad Plaza_1779755156.pdf"
@@ -1797,6 +2013,7 @@
       },
       "properties": {
         "address": "445 Hacienda Dr",
+        "city": "los angeles",
         "pdfs": [
           "445 Hacienda Dr - Sunroad Plaza.pdf",
           "445 Hacienda Dr - Sunroad Plaza_1779752833.pdf"
@@ -1816,6 +2033,7 @@
       },
       "properties": {
         "address": "450 S Palm Canyon Dr",
+        "city": "palm canyon",
         "pdfs": [
           "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE.pdf",
           "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR SALE_1779753747.pdf",
@@ -1836,6 +2054,7 @@
       },
       "properties": {
         "address": "455 Hacienda Dr",
+        "city": "los angeles",
         "pdfs": [
           "455 Hacienda Dr - Sunroad Plaza.pdf",
           "455 Hacienda Dr - Sunroad Plaza_1779752841.pdf"
@@ -1855,6 +2074,7 @@
       },
       "properties": {
         "address": "465 Hacienda Dr",
+        "city": "los angeles",
         "pdfs": [
           "465 Hacienda Dr - Sunroad Plaza.pdf"
         ],
@@ -1873,6 +2093,7 @@
       },
       "properties": {
         "address": "4741 Point Loma Ave",
+        "city": "los angeles",
         "pdfs": [
           "4741 Point Loma Ave - 4741 - Pt loma OM - 2026-04-04 2.pdf",
           "4741 Point Loma Ave - 4741 - Pt loma OM - 2026-04-04 2_1779743313.pdf",
@@ -1893,8 +2114,28 @@
       },
       "properties": {
         "address": "475 Hacienda Dr",
+        "city": "los angeles",
         "pdfs": [
           "475 Hacienda Dr - Sunroad Plaza.pdf"
+        ],
+        "flagged": false,
+        "flag_reason": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.2258,
+          33.7268
+        ]
+      },
+      "properties": {
+        "address": "47985 Monroe St",
+        "city": "indio",
+        "pdfs": [
+          "47985 Monroe St - Brochure - Former Rite-Aid in Indio CA.pdf"
         ],
         "flagged": false,
         "flag_reason": null
@@ -1911,8 +2152,8 @@
       },
       "properties": {
         "address": "47985 Monroe St",
+        "city": "los angeles",
         "pdfs": [
-          "47985 Monroe St - Brochure - Former Rite-Aid in Indio CA.pdf",
           "47985 Monroe St - Household Budget Expenditures Report Ta.pdf",
           "47985 Monroe St - Retail Demand Outlook Report Tabular 2.pdf",
           "47985 Monroe St - Retail Demand by Industry Tabular 2578.pdf"
@@ -1932,6 +2173,7 @@
       },
       "properties": {
         "address": "4811 W Point Loma Blvd",
+        "city": "los angeles",
         "pdfs": [
           "4811 W Point Loma Blvd - Sale Brochure.pdf",
           "4811 W Point Loma Blvd - Sale Brochure_1779753818.pdf",
@@ -1952,6 +2194,7 @@
       },
       "properties": {
         "address": "490 S Palm Canyon Dr",
+        "city": "palm canyon",
         "pdfs": [
           "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE.pdf",
           "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR SALE_1779753760.pdf",
@@ -1972,6 +2215,7 @@
       },
       "properties": {
         "address": "5032 Niagara Ave",
+        "city": "los angeles",
         "pdfs": [
           "5032 Niagara Ave - Broker CA_OB Collective.pdf",
           "5032 Niagara Ave - Broker CA_OB Collective_1779753518.pdf",
@@ -1992,6 +2236,7 @@
       },
       "properties": {
         "address": "54227 Pine Crest Ave",
+        "city": "los angeles",
         "pdfs": [
           "54227 Pine Crest Ave - 35364_print 2.pdf",
           "54227 Pine Crest Ave - 35364_print 2_1779753793.pdf",
@@ -2012,6 +2257,7 @@
       },
       "properties": {
         "address": "5752 La Jolla Blvd",
+        "city": "los angeles",
         "pdfs": [
           "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145.pdf",
           "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145_1779753167.pdf",
@@ -2032,6 +2278,7 @@
       },
       "properties": {
         "address": "6333 Mission Gorge Rd- MP 1225",
+        "city": "los angeles",
         "pdfs": [
           "6333 Mission Gorge Rd- MP 1225.pdf"
         ],
@@ -2050,6 +2297,7 @@
       },
       "properties": {
         "address": "6333 Mission Gorge Rd- MP 1225_1779753400",
+        "city": "los angeles",
         "pdfs": [
           "6333 Mission Gorge Rd- MP 1225_1779753400.pdf"
         ],
@@ -2068,6 +2316,7 @@
       },
       "properties": {
         "address": "6333 Mission Gorge Rd- MP 1225_1779755693",
+        "city": "los angeles",
         "pdfs": [
           "6333 Mission Gorge Rd- MP 1225_1779755693.pdf"
         ],
@@ -2086,6 +2335,7 @@
       },
       "properties": {
         "address": "6555 Indian Canyon Dr",
+        "city": "los angeles",
         "pdfs": [
           "6555 Indian Canyon Dr - 6555 N Indian Canyon Dr Sale Brochure.pdf"
         ],
@@ -2104,6 +2354,7 @@
       },
       "properties": {
         "address": "68580 Ramon Rd",
+        "city": "los angeles",
         "pdfs": [
           "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25.pdf",
           "68580 Ramon Rd - 68580_Ramon_Rd_Brochure_6-18-25_1779749757.pdf",
@@ -2127,6 +2378,7 @@
       },
       "properties": {
         "address": "69040 Ramon Rd_Marketing Brochure_Triwel",
+        "city": "los angeles",
         "pdfs": [
           "69040 Ramon Rd_Marketing Brochure_Triwel.pdf"
         ],
@@ -2145,6 +2397,7 @@
       },
       "properties": {
         "address": "69040 Ramon Rd_Marketing Brochure_Triwel_1779753873",
+        "city": "los angeles",
         "pdfs": [
           "69040 Ramon Rd_Marketing Brochure_Triwel_1779753873.pdf"
         ],
@@ -2163,6 +2416,7 @@
       },
       "properties": {
         "address": "69040 Ramon Rd_Marketing Brochure_Triwel_1779756140",
+        "city": "los angeles",
         "pdfs": [
           "69040 Ramon Rd_Marketing Brochure_Triwel_1779756140.pdf"
         ],
@@ -2181,6 +2435,7 @@
       },
       "properties": {
         "address": "72777 Dinah Shore Dr",
+        "city": "los angeles",
         "pdfs": [
           "72777 Dinah Shore Dr - 72777_DinahShore_OM-05122025-Low-Res.pdf",
           "72777 Dinah Shore Dr - 72777_DinahShore_OM-05132025-Low-Res.pdf"
@@ -2200,6 +2455,7 @@
       },
       "properties": {
         "address": "73625 Highway 111_OM",
+        "city": "los angeles",
         "pdfs": [
           "73625 Highway 111_OM.pdf"
         ],
@@ -2218,6 +2474,7 @@
       },
       "properties": {
         "address": "74725 Joni Dr",
+        "city": "los angeles",
         "pdfs": [
           "74725 Joni Dr - 74725JoniPD_IncStmt.pdf",
           "74725 Joni Dr - 74725JoniPD_IncStmt_1779755466.pdf",
@@ -2239,6 +2496,7 @@
       },
       "properties": {
         "address": "748 5th Ave",
+        "city": "los angeles",
         "pdfs": [
           "748 5th Ave - 7485thAve_OM_UPG.pdf"
         ],
@@ -2257,6 +2515,7 @@
       },
       "properties": {
         "address": "790 N Johnson Ave",
+        "city": "los angeles",
         "pdfs": [
           "790 N Johnson Ave - Brochure.pdf",
           "790 N Johnson Ave - Brochure_1779753124.pdf",
@@ -2277,6 +2536,7 @@
       },
       "properties": {
         "address": "7969 Mission Gorge Rd",
+        "city": "los angeles",
         "pdfs": [
           "7969 Mission Gorge Rd - Cushman  Wakefield Marketing BrochureF.pdf",
           "7969 Mission Gorge Rd - Cushman  Wakefield Marketing BrochureF_1779753411.pdf",
@@ -2297,6 +2557,7 @@
       },
       "properties": {
         "address": "8130 Parkway Drive_OM",
+        "city": "los angeles",
         "pdfs": [
           "8130 Parkway Drive_OM.pdf"
         ],
@@ -2315,6 +2576,7 @@
       },
       "properties": {
         "address": "8130 Parkway Drive_OM_1779753781",
+        "city": "los angeles",
         "pdfs": [
           "8130 Parkway Drive_OM_1779753781.pdf"
         ],
@@ -2333,6 +2595,7 @@
       },
       "properties": {
         "address": "8130 Parkway Drive_OM_1779756052",
+        "city": "los angeles",
         "pdfs": [
           "8130 Parkway Drive_OM_1779756052.pdf"
         ],
@@ -2351,6 +2614,7 @@
       },
       "properties": {
         "address": "83500 Hwy 111",
+        "city": "los angeles",
         "pdfs": [
           "83500 Hwy 111 - Marketing BrochureFlyer.pdf",
           "83500 Hwy 111 - Marketing BrochureFlyer_1779755336.pdf"
@@ -2370,6 +2634,7 @@
       },
       "properties": {
         "address": "84010 Avenue 50",
+        "city": "los angeles",
         "pdfs": [
           "84010 Avenue 50 - CVS Coachella.pdf"
         ],
@@ -2388,6 +2653,7 @@
       },
       "properties": {
         "address": "AlessandroPlaza_OM_Unpriced_MNET",
+        "city": "los angeles",
         "pdfs": [
           "AlessandroPlaza_OM_Unpriced_MNET.pdf"
         ],
@@ -2406,6 +2672,7 @@
       },
       "properties": {
         "address": "Brochure",
+        "city": "los angeles",
         "pdfs": [
           "Brochure - 28501 Canwood St.pdf"
         ],
@@ -2424,6 +2691,7 @@
       },
       "properties": {
         "address": "CedarTree",
+        "city": "los angeles",
         "pdfs": [
           "CedarTree.pdf"
         ],
@@ -2442,6 +2710,7 @@
       },
       "properties": {
         "address": "FortunaBLVD",
+        "city": "los angeles",
         "pdfs": [
           "FortunaBLVD.pdf"
         ],
@@ -2460,6 +2729,7 @@
       },
       "properties": {
         "address": "JurupaValley_JurupaSprings_OM (002)",
+        "city": "los angeles",
         "pdfs": [
           "JurupaValley_JurupaSprings_OM (002).pdf"
         ],
@@ -2478,6 +2748,7 @@
       },
       "properties": {
         "address": "Offering Memorandum",
+        "city": "los angeles",
         "pdfs": [
           "Offering Memorandum - Ontare Plaza - 3609-3617 State St.pdf"
         ],
@@ -2496,6 +2767,7 @@
       },
       "properties": {
         "address": "Oxnard-OM",
+        "city": "los angeles",
         "pdfs": [
           "Oxnard-OM - 4833-4917 S Rose Ave.pdf"
         ],
@@ -2514,6 +2786,7 @@
       },
       "properties": {
         "address": "Pajaro Hills Shopping Center_Offering Memorandum",
+        "city": "los angeles",
         "pdfs": [
           "Pajaro Hills Shopping Center_Offering Memorandum.pdf"
         ],
@@ -2526,12 +2799,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -118.2437,
-          34.0522
+          -116.9618,
+          32.7957
         ]
       },
       "properties": {
         "address": "Rent Roll",
+        "city": "el cajon",
         "pdfs": [
           "Rent Roll - Broadway El Cajon Shopping Center.pdf"
         ],
@@ -2550,6 +2824,7 @@
       },
       "properties": {
         "address": "SeminaryPoint_OaklandCA",
+        "city": "los angeles",
         "pdfs": [
           "SeminaryPoint_OaklandCA.pdf"
         ],
@@ -2568,6 +2843,7 @@
       },
       "properties": {
         "address": "Unknown",
+        "city": "los angeles",
         "pdfs": [
           "Unknown - 307  317 N. El Camino Real San Clement.pdf",
           "Unknown - 310-320 Broadway.pdf",
@@ -2596,6 +2872,7 @@
       },
       "properties": {
         "address": "e7cc41a0-6860-416d-a203-e248d37db592",
+        "city": "los angeles",
         "pdfs": [
           "e7cc41a0-6860-416d-a203-e248d37db592.pdf"
         ],
