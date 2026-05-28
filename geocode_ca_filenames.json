@@ -1,0 +1,632 @@
+{
+  "100 W 8th St - Downtown Specific Plan Map National City": {
+    "lat": 32.67553,
+    "lng": -117.107965,
+    "formatted": "W 8th St, National City, CA, United States of America"
+  },
+  "100 W 8th St - Land Use Regulations National City downt": {
+    "lat": 35.130291,
+    "lng": -118.00296,
+    "formatted": "Landis Dr, California City, CA, United States of America"
+  },
+  "1003 E Devonshire Ave - 1003 E. Devonshire Avenue": {
+    "lat": 38.303714,
+    "lng": -76.54808,
+    "formatted": "Devonshire Way, California, MD, United States of America"
+  },
+  "1003 E Devonshire Ave - HEMET-": {
+    "lat": 33.7511518,
+    "lng": -116.9615594,
+    "formatted": "1003 East Devonshire Avenue, Hemet, CA 92543, United States of America"
+  },
+  "1010 National City Blvd - National City Development": {
+    "lat": 35.629384,
+    "lng": -118.468457,
+    "formatted": "Ceed Lane, Lake Isabella, CA, United States of America"
+  },
+  "102 N Palm Canyon Dr - North Palm Canyon Drive 100 - Liebling": {
+    "lat": 35.378253,
+    "lng": -120.663803,
+    "formatted": "Canyon Dr, Santa Margarita, CA, United States of America"
+  },
+  "1020 E Florida Ave - APN MAP": {
+    "lat": 35.642831,
+    "lng": -120.66552,
+    "formatted": "Apion Court, Paso Robles, CA, United States of America"
+  },
+  "1020 E Florida Ave - Traffic Count 1020 E Florida Ave Hemet": {
+    "lat": 33.747675,
+    "lng": -116.961814,
+    "formatted": "E Florida Ave, Hemet, CA, United States of America"
+  },
+  "1040 National City Blvd - National City Development": {
+    "lat": 35.629384,
+    "lng": -118.468457,
+    "formatted": "Ceed Lane, Lake Isabella, CA, United States of America"
+  },
+  "1045 Main Street-": {
+    "lat": 34.0103696,
+    "lng": -117.363884,
+    "formatted": "1045 Main Street, Riverside, CA 92552, United States of America"
+  },
+  "1075 Rosecrans St - Offering-Memorandum 1075 Rosecrans": {
+    "lat": 35.758172,
+    "lng": -120.69821,
+    "formatted": "St Francis Way, San Miguel, CA, United States of America"
+  },
+  "128 N Juanita St - 128 N. Juanita St. Hemet": {
+    "lat": 33.748107,
+    "lng": -116.968346,
+    "formatted": "N Juanita St, Hemet, CA, United States of America"
+  },
+  "1291 E Florida Ave - Hemet Strip Center": {
+    "lat": 35.964328,
+    "lng": -119.291161,
+    "formatted": "Center St, Pixley, CA, United States of America"
+  },
+  "13977 Poway Rd - 13977 Poway": {
+    "lat": 32.955688,
+    "lng": -117.027654,
+    "formatted": "13977 Poway Road, Poway, CA 92064, United States of America"
+  },
+  "14010 Palm Dr": {
+    "lat": 33.9466094,
+    "lng": -116.5012274,
+    "formatted": "14010 Palm Drive, Desert Hot Springs, CA 92240, United States of America"
+  },
+  "14411 Norwalk Ln -": {
+    "lat": 32.9749463,
+    "lng": -117.040026,
+    "formatted": "14411 Norwalk Lane, Poway, CA 92064, United States of America"
+  },
+  "1502 Market St -": {
+    "lat": 37.809075,
+    "lng": -122.2807808,
+    "formatted": "1502 Market Street, Oakland, CA 94607, United States of America"
+  },
+  "1502 Market St - Coldwell Banker": {
+    "lat": 35.157131,
+    "lng": -118.66629,
+    "formatted": "Bunker Court, Tehachapi, CA, United States of America"
+  },
+  "1512 Main Street Bank": {
+    "lat": 34.166256,
+    "lng": -118.513252,
+    "formatted": "Bianca Ave, Encino, CA, United States of America"
+  },
+  "1560 Garnet Ave - 1560-1564GarnetAve2": {
+    "lat": 35.300486,
+    "lng": -120.011406,
+    "formatted": "Garnet Road, Santa Margarita, CA, United States of America"
+  },
+  "1571 S Hale Ave -": {
+    "lat": 33.1036964,
+    "lng": -117.1126102,
+    "formatted": "1571 South Hale Avenue, Escondido, CA 92029, United States of America"
+  },
+  "1670 Main St - Stonegate-Rite-Aid": {
+    "lat": 35.378214,
+    "lng": -120.854326,
+    "formatted": "Main St, Morro Bay, CA, United States of America"
+  },
+  "2 Star Retail Auto Repair - Cathedral City": {
+    "lat": 33.77974,
+    "lng": -116.46529,
+    "formatted": "Cathedral City, California, United States of America"
+  },
+  "2 Star Retail BarNightclub - 121225": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail BarNightclub -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Freestanding - MISSION AVE 1708-1710": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Freestanding Strip Center -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Freestanding Strip Center - Hemet Strip Center": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Restaurant - Lee  Associates": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Restaurant -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Restaurant Strip Center - Indio": {
+    "lat": 33.72058,
+    "lng": -116.21556,
+    "formatted": "Indio, California, United States of America"
+  },
+  "2 Star Retail Storefront - 307  317 N. El Camino Real San Clement": {
+    "lat": 33.440102,
+    "lng": -117.640576,
+    "formatted": "Cam San Clemente, San Clemente, CA, United States of America"
+  },
+  "2 Star Retail Storefront - 73880 73890ElPaseoDrivePD": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Storefront - 73880 73890ElPaseoPD": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Storefront -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Storefront RetailOffice -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Storefront RetailOffice - El Paseo": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Storefront RetailOffice - MP- 2121 Adams 060125": {
+    "lat": 35.115445,
+    "lng": -117.944957,
+    "formatted": "Adams Ave, California City, CA, United States of America"
+  },
+  "2 Star Retail Storefront RetailResidential - Zoning Allowances": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail Storefront RetailResidential Strip C -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2 Star Retail VeterinarianKennel -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "2100 N Palm Canyon Dr - North Palm Canyon Drive 2100 FOR": {
+    "lat": 35.121094,
+    "lng": -117.990122,
+    "formatted": "Fir Ave, California City, CA, United States of America"
+  },
+  "2232 Encinitas Blvd": {
+    "lat": 33.0383217,
+    "lng": -117.2394267,
+    "formatted": "2232 Encinitas Boulevard, Encinitas, CA 92024, United States of America"
+  },
+  "2415 San Diego Ave - 2415SanDiegoAve": {
+    "lat": 32.751517,
+    "lng": -117.19354,
+    "formatted": "San Diego Ave, San Diego, CA, United States of America"
+  },
+  "2415 San Diego Ave - OldTownCorral": {
+    "lat": 36.216401,
+    "lng": -119.365794,
+    "formatted": "San Diego St, Tulare, CA, United States of America"
+  },
+  "25 W 11th St - National City Development": {
+    "lat": 35.121403,
+    "lng": -120.617773,
+    "formatted": "N 11th St, Grover Beach, CA, United States of America"
+  },
+  "2545 W Florida Ave -": {
+    "lat": 33.7473154,
+    "lng": -116.9983929,
+    "formatted": "2545 West Florida Avenue, Hemet, CA 92545, United States of America"
+  },
+  "262 S Palm Canyon Dr - 262 S. Palm Canyon Drive Palm Springs": {
+    "lat": 33.820139,
+    "lng": -116.546718,
+    "formatted": "S Palm Canyon Dr, Palm Springs, CA, United States of America"
+  },
+  "27310 Madison Ave - Madison Ave": {
+    "lat": 33.5462059,
+    "lng": -117.1867845,
+    "formatted": "United States Border Patrol, Madison Avenue, Murrieta, CA 92562, United States of America"
+  },
+  "27625 Jefferson Ave - Adobe Plaza": {
+    "lat": 35.926569,
+    "lng": -121.079342,
+    "formatted": "Adobe Pl, Bradley, CA, United States of America"
+  },
+  "27665 Jefferson Ave - Adobe Plaza": {
+    "lat": 35.926569,
+    "lng": -121.079342,
+    "formatted": "Adobe Pl, Bradley, CA, United States of America"
+  },
+  "27685 Jefferson Ave - Adobe Plaza": {
+    "lat": 35.926569,
+    "lng": -121.079342,
+    "formatted": "Adobe Pl, Bradley, CA, United States of America"
+  },
+  "27722 Clinton Keith Rd - CBRE": {
+    "lat": 35.134592,
+    "lng": -120.564304,
+    "formatted": "Cobre Pl, Arroyo Grande, CA, United States of America"
+  },
+  "27722 Clinton Keith Rd - The Orchard at Stone Creek": {
+    "lat": 35.133091,
+    "lng": -117.975657,
+    "formatted": "Stonecrop St, California City, CA, United States of America"
+  },
+  "296 S Palm Canyon Drive": {
+    "lat": 33.8196394,
+    "lng": -116.5466877,
+    "formatted": "296 South Palm Canyon Drive, Palm Springs, CA 92262, United States of America"
+  },
+  "3 Star Retail Convenience Store - Winchester 7.11 - Tear Sheet": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "3 Star Retail Drug Store - CVS Mission Viejo": {
+    "lat": 33.60002,
+    "lng": -117.672,
+    "formatted": "Mission Viejo, California, United States of America"
+  },
+  "3 Star Retail Drug Store Neighborhood Center - 894 Oak Valley Rite Aid": {
+    "lat": 35.130657,
+    "lng": -117.937412,
+    "formatted": "Reed Pl, California City, CA, United States of America"
+  },
+  "3 Star Retail Freestanding - 22331 El Paseo": {
+    "lat": 35.277938,
+    "lng": -120.648071,
+    "formatted": "Ella St, San Luis Obispo, CA, United States of America"
+  },
+  "3 Star Retail Freestanding -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "3 Star Retail Freestanding - FOR": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "3 Star Retail Freestanding - Floorplan": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "3 Star Retail Freestanding - RSM 24 Hr Fitness -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "3 Star Retail Freestanding - San Clemente Renderings": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "3 Star Retail Freestanding Power Center -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "3 Star Retail Neighborhood Center -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "3 Star Retail Restaurant - Historical": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "3 Star Retail Storefront RetailOffice - FourthE": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "3 Star Retail Storefront RetailOffice -": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "3050 Pio Pico Dr - Rent Roll - 3050 Pio Pico-v2": {
+    "lat": 38.284317,
+    "lng": -76.488546,
+    "formatted": "Pow Wow Pl, California, MD, United States of America"
+  },
+  "3055 Harding St": {
+    "lat": 33.1611938,
+    "lng": -117.3443427,
+    "formatted": "Pollo Maria, 3055 Harding Street, Carlsbad, CA 92008, United States of America"
+  },
+  "33389 Old State Hwy - Hemet - 33389 Highway 74": {
+    "lat": 38.613115,
+    "lng": -92.471229,
+    "formatted": "State St, California, MO, United States of America"
+  },
+  "3340 El Cajon Blvd - Final": {
+    "lat": 39.004214,
+    "lng": -122.862535,
+    "formatted": "E Finley Road, Finley, CA, United States of America"
+  },
+  "34275 Monterey Ave - 34275 Monterey": {
+    "lat": 36.6207147,
+    "lng": -121.9125812,
+    "formatted": "Monterey Avenue, Pacific Grove, CA 93950, United States of America"
+  },
+  "34275 Monterey": {
+    "lat": 36.600256,
+    "lng": -121.8946388,
+    "formatted": "Monterey, California, United States of America"
+  },
+  "3444 Midway Dr - 3444 Midway": {
+    "lat": 32.7510599,
+    "lng": -117.2129287,
+    "formatted": "El Pollo Loco, 3444 Midway Drive, San Diego, CA 92110, United States of America"
+  },
+  "3444 Midway": {
+    "lat": 32.7510599,
+    "lng": -117.2129287,
+    "formatted": "El Pollo Loco, 3444 Midway Drive, San Diego, CA 92110, United States of America"
+  },
+  "34660 Monterey Ave - 2301-2305 Highland Ave National City - f (1)": {
+    "lat": 32.68192,
+    "lng": -117.10988,
+    "formatted": "National City Boulevard, National City, CA, United States of America"
+  },
+  "34660 Monterey Ave - 2301-2305 Highland Ave National City - f": {
+    "lat": 32.68192,
+    "lng": -117.10988,
+    "formatted": "National City Boulevard, National City, CA, United States of America"
+  },
+  "34660 Monterey Ave - 26175 Jefferson Ave Leasing": {
+    "lat": 36.456255,
+    "lng": -118.879262,
+    "formatted": "la Cienega Dr, Three Rivers, CA, United States of America"
+  },
+  "34660 Monterey Ave - 2822 State St": {
+    "lat": 38.28992,
+    "lng": -76.507058,
+    "formatted": "Monterey Lane, California, MD, United States of America"
+  },
+  "34660 Monterey Ave - 6375-81 and 6385 Imperial Ave - Marketin": {
+    "lat": 34.494313,
+    "lng": -118.327265,
+    "formatted": "Meander Road, Santa Clarita, CA, United States of America"
+  },
+  "34660 Monterey Ave - 838-840-G-Street": {
+    "lat": 34.41292,
+    "lng": -118.564257,
+    "formatted": "Monterey Ave, Valencia, CA, United States of America"
+  },
+  "34660 Monterey Ave -": {
+    "lat": 33.7962314,
+    "lng": -116.3875446,
+    "formatted": "99 Cents Only Stores, 34660 Monterey Avenue, Palm Desert, CA 92211, United States of America"
+  },
+  "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building (1)": {
+    "lat": 38.28992,
+    "lng": -76.507058,
+    "formatted": "Monterey Lane, California, MD, United States of America"
+  },
+  "34660 Monterey Ave - R-Temecula-Parkway-Retail-Building": {
+    "lat": 34.41292,
+    "lng": -118.564257,
+    "formatted": "Monterey Ave, Valencia, CA, United States of America"
+  },
+  "34660 Monterey Ave - State Street": {
+    "lat": 38.28992,
+    "lng": -76.507058,
+    "formatted": "Monterey Lane, California, MD, United States of America"
+  },
+  "34660 Monterey Ave - View the Rite Aid": {
+    "lat": 38.28992,
+    "lng": -76.507058,
+    "formatted": "Monterey Lane, California, MD, United States of America"
+  },
+  "34660 Monterey Ave - attachment - 2026-03-31T114801.230": {
+    "lat": 36.208802,
+    "lng": -120.372951,
+    "formatted": "S Monterey Ave, Coalinga, CA, United States of America"
+  },
+  "34660 Monterey Ave": {
+    "lat": 33.7962314,
+    "lng": -116.3875446,
+    "formatted": "99 Cents Only Stores, 34660 Monterey Avenue, Palm Desert, CA 92211, United States of America"
+  },
+  "34900 Monterey Ave - Pet Smart": {
+    "lat": 34.199028,
+    "lng": -118.650299,
+    "formatted": "Semrad Road, West Hills, CA, United States of America"
+  },
+  "3719 Mission Blvd -": {
+    "lat": 32.782974,
+    "lng": -117.252313,
+    "formatted": "3719 Mission Boulevard, San Diego, CA 92109, United States of America"
+  },
+  "41267 E Florida Ave - Riverside County Report": {
+    "lat": 35.214402,
+    "lng": -117.779832,
+    "formatted": "Kennedy Boulevard, California City, CA, United States of America"
+  },
+  "41950 6th St Temecula": {
+    "lat": 33.4959075,
+    "lng": -117.1507448,
+    "formatted": "41950 6th Street, Temecula, CA 92590, United States of America"
+  },
+  "42021 Florida Ave -": {
+    "lat": 33.747678,
+    "lng": -116.9276031,
+    "formatted": "42021 Florida Avenue, East Hemet, Riverside County, CA 92544, United States of America"
+  },
+  "42150 Jackson St -": {
+    "lat": 33.7423947,
+    "lng": -116.215582,
+    "formatted": "42150 Jackson Street, Indio, CA 92203, United States of America"
+  },
+  "43423 Monroe Street Indio": {
+    "lat": 33.7362403,
+    "lng": -116.2338493,
+    "formatted": "43423 Monroe Street, Indio, CA 92201, United States of America"
+  },
+  "435 Hacienda Dr - Sunroad Plaza": {
+    "lat": 35.096759,
+    "lng": -117.959668,
+    "formatted": "Hacienda Boulevard, California City, CA, United States of America"
+  },
+  "445 Hacienda Dr - Sunroad Plaza": {
+    "lat": 35.096759,
+    "lng": -117.959668,
+    "formatted": "Hacienda Boulevard, California City, CA, United States of America"
+  },
+  "450 S Palm Canyon Dr - South Palm Canyon Drive 450 FOR": {
+    "lat": 35.121094,
+    "lng": -117.990122,
+    "formatted": "Fir Ave, California City, CA, United States of America"
+  },
+  "455 Hacienda Dr - Sunroad Plaza": {
+    "lat": 35.096759,
+    "lng": -117.959668,
+    "formatted": "Hacienda Boulevard, California City, CA, United States of America"
+  },
+  "465 Hacienda Dr - Sunroad Plaza": {
+    "lat": 35.096759,
+    "lng": -117.959668,
+    "formatted": "Hacienda Boulevard, California City, CA, United States of America"
+  },
+  "4741 Point L": {
+    "lat": 38.0412393,
+    "lng": -122.8021583,
+    "formatted": "Point Reyes National Seashore Morgan Horse Ranch, Marin County, California, United States of America"
+  },
+  "475 Hacienda Dr - Sunroad Plaza": {
+    "lat": 35.096759,
+    "lng": -117.959668,
+    "formatted": "Hacienda Boulevard, California City, CA, United States of America"
+  },
+  "47985 Monroe St -": {
+    "lat": 40.065961,
+    "lng": -79.89008,
+    "formatted": "Monroe Way, California, PA, United States of America"
+  },
+  "47985 Monroe St - Household Budget Expenditures Report Ta": {
+    "lat": 41.183886,
+    "lng": -121.362817,
+    "formatted": "Day Road, McArthur, CA, United States of America"
+  },
+  "47985 Monroe St - Retail Demand Outlook Report Tabular 2": {
+    "lat": 40.065961,
+    "lng": -79.89008,
+    "formatted": "Monroe Way, California, PA, United States of America"
+  },
+  "47985 Monroe St - Retail Demand by Industry Tabular 2578": {
+    "lat": 38.631311,
+    "lng": -92.544179,
+    "formatted": "Industrial Road, California, MO, United States of America"
+  },
+  "4811 W Point L": {
+    "lat": 35.150177,
+    "lng": -118.009686,
+    "formatted": "Ley Pl, California City, CA, United States of America"
+  },
+  "490 S Palm Canyon Dr - South Palm Canyon Drive 490 FOR": {
+    "lat": 35.121094,
+    "lng": -117.990122,
+    "formatted": "Fir Ave, California City, CA, United States of America"
+  },
+  "54227 Pine Crest Ave - 35364": {
+    "lat": 33.7463885,
+    "lng": -116.7165244,
+    "formatted": "54227 Pine Crest Avenue, Idyllwild, Riverside County, CA 92549, United States of America"
+  },
+  "5752 La Jolla Blvd - attachment - 2026-03-11T152204.145": {
+    "lat": 34.643235,
+    "lng": -118.259636,
+    "formatted": "Gila Court, Palmdale, CA, United States of America"
+  },
+  "68580 Ramon Rd - 68580 Ramon Rd": {
+    "lat": 34.543603,
+    "lng": -118.079336,
+    "formatted": "Ramona Road, Palmdale, CA, United States of America"
+  },
+  "69040 Ramon Rd": {
+    "lat": 33.816055,
+    "lng": -116.45727,
+    "formatted": "69040 Ramon Road, Cathedral City, CA 92234, United States of America"
+  },
+  "73625 Highway 111": {
+    "lat": 33.8316763,
+    "lng": -116.5028685,
+    "formatted": "North Gene Autry Trail, Palm Springs, CA 92262, United States of America"
+  },
+  "74725 Joni Dr - 74725JoniPD": {
+    "lat": 35.139627,
+    "lng": -117.937642,
+    "formatted": "Joan Court, California City, CA, United States of America"
+  },
+  "748 5th Ave - 7485thAve": {
+    "lat": 36.014905,
+    "lng": -120.131199,
+    "formatted": "5th Ave, Avenal, CA, United States of America"
+  },
+  "790 N Johnson Ave -": {
+    "lat": 32.805552,
+    "lng": -116.971587,
+    "formatted": "790 North Johnson Avenue, El Cajon, CA 92020, United States of America"
+  },
+  "7969 Mission Gorge Rd - Cushman  Wakefield": {
+    "lat": 34.456963,
+    "lng": -118.516919,
+    "formatted": "Wakefield Court, Santa Clarita, CA, United States of America"
+  },
+  "8130 Parkway Drive": {
+    "lat": 32.776323,
+    "lng": -117.022114,
+    "formatted": "8130 Parkway Drive, La Mesa, CA 91942, United States of America"
+  },
+  "83500 Hwy 111 -": {
+    "lat": 33.1845601,
+    "lng": -115.5190549,
+    "formatted": "Highway 111, Niland, Imperial County, CA, United States of America"
+  },
+  "84010 Avenue 50 - CVS Coachella": {
+    "lat": 33.685552,
+    "lng": -116.198938,
+    "formatted": "Ave 50, Coachella, CA, United States of America"
+  },
+  "Unknown - 307  317 N. El Camino Real San Clement": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "Unknown - 310-320 Broadway": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  },
+  "Unknown -": {
+    "lat": 37.8816743,
+    "lng": -122.296526,
+    "formatted": "unknown, 1212 San Pablo Avenue, Berkeley, CA 94706, United States of America"
+  },
+  "Unknown - Vacant Suite": {
+    "lat": 37.25022,
+    "lng": -119.75126,
+    "formatted": "California, United States of America"
+  }
+}
