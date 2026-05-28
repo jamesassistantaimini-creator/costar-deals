@@ -41,7 +41,9 @@
         .pdf-link { display: inline-block; background: #eff6ff; color: #3b82f6; padding: 4px 8px; border-radius: 3px; text-decoration: none; font-size: 11px; margin-right: 5px; }
         .pdf-link:hover { background: #3b82f6; color: white; }
         .placeholder { text-align: center; color: #999; padding: 30px 10px; font-size: 12px; }
-        .greyscale { filter: grayscale(80%) brightness(1.1); }
+        #map { filter: grayscale(75%) brightness(1.05); }
+        /* Restore saturation for UI elements */
+        .header, .change-state, .sidebar { filter: none; }
     </style>
 </head>
 <body>
@@ -122,8 +124,7 @@ function initMap() {
     // Greyscale OSM tiles (default)
     const greyTile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap',
-        maxZoom: 19,
-        className: 'greyscale'
+        maxZoom: 19
     }).addTo(map);
     
     // Satellite tiles (hidden initially)
