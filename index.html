@@ -41,9 +41,7 @@
         .pdf-link { display: inline-block; background: #eff6ff; color: #3b82f6; padding: 4px 8px; border-radius: 3px; text-decoration: none; font-size: 11px; margin-right: 5px; }
         .pdf-link:hover { background: #3b82f6; color: white; }
         .placeholder { text-align: center; color: #999; padding: 30px 10px; font-size: 12px; }
-        #map { filter: grayscale(75%) brightness(1.05); }
-        /* Restore saturation for UI elements */
-        .header, .change-state, .sidebar { filter: none; }
+        /* Map uses built-in greyscale tile provider */
     </style>
 </head>
 <body>
@@ -122,16 +120,24 @@ function initMap() {
     map = L.map('map').setView([36.5, -120], 7);
     
     // Greyscale OSM tiles (default)
-    const greyTile = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap',
-        maxZoom: 19
-    }).addTo(map);
+    // Greyscale tiles - CartoDB Positron (light greyscale)
+    const greyTile = L.tileLayer(
+        'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+        {
+            attribution: '&copy; CARTO',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }
+    ).addTo(map);
     
     // Satellite tiles (hidden initially)
-    const satTile = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-        attribution: 'Tiles &copy; Esri',
-        maxZoom: 19
-    });
+    const satTile = L.tileLayer(
+        'https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+        {
+            attribution: 'Tiles &copy; Esri',
+            maxZoom: 19
+        }
+    );
     
     let isSatellite = false;
     const satBtn = document.getElementById('satellite-btn');
