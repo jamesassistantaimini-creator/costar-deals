@@ -6,14 +6,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.21502218735776,
-          33.70946803783208
+          -116.21019825771172,
+          33.72021441250674
         ]
       },
       "properties": {
         "address": "43423 Monroe Street Indio Brochure",
-        "lat": 33.70946803783208,
-        "lng": -116.21502218735776,
+        "lat": 33.72021441250674,
+        "lng": -116.21019825771172,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -38,14 +38,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14685936580932,
-          32.7343647233952
+          -117.15177503388368,
+          32.7054554409715
         ]
       },
       "properties": {
         "address": "100 W 8th St",
-        "lat": 32.7343647233952,
-        "lng": -117.14685936580932,
+        "lat": 32.7054554409715,
+        "lng": -117.15177503388368,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -66,14 +66,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.1480180427041,
-          32.700943181717285
+          -117.14317054753548,
+          32.70477593893699
         ]
       },
       "properties": {
         "address": "8130 Parkway Drive",
-        "lat": 32.700943181717285,
-        "lng": -117.1480180427041,
+        "lat": 32.70477593893699,
+        "lng": -117.14317054753548,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -98,14 +98,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.17558708985575,
-          32.729227369253806
+          -117.14435171013466,
+          32.712141474222406
         ]
       },
       "properties": {
         "address": "34660 Monterey Ave",
-        "lat": 32.729227369253806,
-        "lng": -117.17558708985575,
+        "lat": 32.712141474222406,
+        "lng": -117.14435171013466,
         "pdf_count": 14,
         "pdfs": [
           {
@@ -174,14 +174,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16788920988893,
-          32.71953628305418
+          -117.16570085800873,
+          32.698869532030685
         ]
       },
       "properties": {
         "address": "1502 Market St",
-        "lat": 32.71953628305418,
-        "lng": -117.16788920988893,
+        "lat": 32.698869532030685,
+        "lng": -117.16570085800873,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -202,14 +202,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.52607627710616,
-          33.837218848645804
+          -116.5633746151558,
+          33.84463881149527
         ]
       },
       "properties": {
         "address": "296 S Palm Canyon Drive",
-        "lat": 33.837218848645804,
-        "lng": -116.52607627710616,
+        "lat": 33.84463881149527,
+        "lng": -116.5633746151558,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -234,14 +234,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15048158022654,
-          32.72694333537742
+          -117.15530506297554,
+          32.734877444775734
         ]
       },
       "properties": {
         "address": "41267 E Florida Ave",
-        "lat": 32.72694333537742,
-        "lng": -117.15048158022654,
+        "lat": 32.734877444775734,
+        "lng": -117.15530506297554,
         "pdf_count": 8,
         "pdfs": [
           {
@@ -286,14 +286,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15679875676913,
-          32.72396932750977
+          -117.16335061938211,
+          32.71276201857797
         ]
       },
       "properties": {
         "address": "68580 Ramon Rd",
-        "lat": 32.72396932750977,
-        "lng": -117.15679875676913,
+        "lat": 32.71276201857797,
+        "lng": -117.16335061938211,
         "pdf_count": 6,
         "pdfs": [
           {
@@ -330,14 +330,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.55360874008441,
-          33.84812576458032
+          -117.14181655258376,
+          32.71171627346914
+        ]
+      },
+      "properties": {
+        "address": "Oxnard-OM",
+        "lat": 32.71171627346914,
+        "lng": -117.14181655258376,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "Oxnard-OM - 4833-4917 S Rose Ave.pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "Oxnard-OM, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.55641752015397,
+          33.81684074494592
         ]
       },
       "properties": {
         "address": "1243 E Palm Canyon Dr",
-        "lat": 33.84812576458032,
-        "lng": -116.55360874008441,
+        "lat": 33.81684074494592,
+        "lng": -116.55641752015397,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -362,14 +386,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.1478099124401,
-          32.71654340574617
+          -117.17639759395217,
+          32.72122878142174
         ]
       },
       "properties": {
         "address": "69040 Ramon Rd",
-        "lat": 32.71654340574617,
-        "lng": -117.1478099124401,
+        "lat": 32.72122878142174,
+        "lng": -117.17639759395217,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -394,14 +418,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15349050840993,
-          32.71976412137223
+          -117.16694844849104,
+          32.69940293306687
         ]
       },
       "properties": {
         "address": "27665 Jefferson Ave",
-        "lat": 32.71976412137223,
-        "lng": -117.15349050840993,
+        "lat": 32.69940293306687,
+        "lng": -117.16694844849104,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -422,14 +446,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15012030454258,
-          32.70719744828147
+          -117.15368875550291,
+          32.71702627416514
         ]
       },
       "properties": {
         "address": "435 Hacienda Dr",
-        "lat": 32.70719744828147,
-        "lng": -117.15012030454258,
+        "lat": 32.71702627416514,
+        "lng": -117.15368875550291,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -450,14 +474,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14391599472593,
-          32.71729144134495
+          -117.1539931310794,
+          32.72225642922708
         ]
       },
       "properties": {
         "address": "14411 Norwalk Ln",
-        "lat": 32.71729144134495,
-        "lng": -117.14391599472593,
+        "lat": 32.72225642922708,
+        "lng": -117.1539931310794,
         "pdf_count": 6,
         "pdfs": [
           {
@@ -494,14 +518,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14720890832358,
-          32.72856384004734
+          -117.15907433711268,
+          32.707064717794815
         ]
       },
       "properties": {
         "address": "74725 Joni Dr",
-        "lat": 32.72856384004734,
-        "lng": -117.14720890832358,
+        "lat": 32.707064717794815,
+        "lng": -117.15907433711268,
         "pdf_count": 4,
         "pdfs": [
           {
@@ -530,14 +554,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15407482259546,
-          32.71110694371692
+          -117.15716176841735,
+          32.69740603166216
+        ]
+      },
+      "properties": {
+        "address": "CedarTree",
+        "lat": 32.69740603166216,
+        "lng": -117.15716176841735,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "CedarTree.pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "CedarTree, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.17070463035407,
+          32.72619083467489
         ]
       },
       "properties": {
         "address": "475 Hacienda Dr",
-        "lat": 32.71110694371692,
-        "lng": -117.15407482259546,
+        "lat": 32.72619083467489,
+        "lng": -117.17070463035407,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -554,14 +602,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14176551026674,
-          32.713018237832344
+          -117.15768498256189,
+          32.701626682439475
         ]
       },
       "properties": {
         "address": "42021 Florida Ave",
-        "lat": 32.713018237832344,
-        "lng": -117.14176551026674,
+        "lat": 32.701626682439475,
+        "lng": -117.15768498256189,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -582,14 +630,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14630711029969,
-          32.7144583705757
+          -117.15230535588644,
+          32.72762356884535
         ]
       },
       "properties": {
         "address": "1512 Main Street",
-        "lat": 32.7144583705757,
-        "lng": -117.14630711029969,
+        "lat": 32.72762356884535,
+        "lng": -117.15230535588644,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -610,14 +658,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.1510545891429,
-          32.708564605098516
+          -117.1799293666073,
+          32.710348543479654
         ]
       },
       "properties": {
         "address": "7969 Mission Gorge Rd",
-        "lat": 32.708564605098516,
-        "lng": -117.1510545891429,
+        "lat": 32.710348543479654,
+        "lng": -117.1799293666073,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -642,14 +690,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.17488114413864,
-          32.71040297322772
+          -117.15335417156565,
+          32.73410502597888
         ]
       },
       "properties": {
         "address": "5752 La Jolla Blvd",
-        "lat": 32.71040297322772,
-        "lng": -117.17488114413864,
+        "lat": 32.73410502597888,
+        "lng": -117.15335417156565,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -674,14 +722,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.10529166524039,
-          32.66896884105686
+          -117.0949427583133,
+          32.68017497180764
         ]
       },
       "properties": {
         "address": "1040 National City Blvd",
-        "lat": 32.66896884105686,
-        "lng": -117.10529166524039,
+        "lat": 32.68017497180764,
+        "lng": -117.0949427583133,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -706,14 +754,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16218207206764,
-          32.720918262582494
+          -117.15380039413874,
+          32.726517219663734
         ]
       },
       "properties": {
         "address": "34900 Monterey Ave",
-        "lat": 32.720918262582494,
-        "lng": -117.16218207206764,
+        "lat": 32.726517219663734,
+        "lng": -117.15380039413874,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -738,14 +786,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16293375630387,
-          32.72208079119081
+          -117.14934794447721,
+          32.705555670644976
         ]
       },
       "properties": {
         "address": "3055 Harding St",
-        "lat": 32.72208079119081,
-        "lng": -117.16293375630387,
+        "lat": 32.705555670644976,
+        "lng": -117.14934794447721,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -766,14 +814,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14625711750259,
-          32.7152336054169
+          -117.16345874495534,
+          32.700978273759524
         ]
       },
       "properties": {
         "address": "27310 Madison Ave",
-        "lat": 32.7152336054169,
-        "lng": -117.14625711750259,
+        "lat": 32.700978273759524,
+        "lng": -117.16345874495534,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -794,14 +842,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.54011296532678,
-          33.8454733242414
+          -116.56134799559686,
+          33.831605897835054
         ]
       },
       "properties": {
         "address": "2100 N Palm Canyon Dr",
-        "lat": 33.8454733242414,
-        "lng": -116.54011296532678,
+        "lat": 33.831605897835054,
+        "lng": -116.56134799559686,
         "pdf_count": 9,
         "pdfs": [
           {
@@ -850,14 +898,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16761249092305,
-          32.714566526135066
+          -117.15710623322012,
+          32.705740607182435
         ]
       },
       "properties": {
         "address": "748 5th Ave",
-        "lat": 32.714566526135066,
-        "lng": -117.16761249092305,
+        "lat": 32.705740607182435,
+        "lng": -117.15710623322012,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -874,14 +922,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.17703258025061,
-          32.696979385548076
+          -117.1508983741614,
+          32.723595667767015
         ]
       },
       "properties": {
         "address": "1670 Main St",
-        "lat": 32.696979385548076,
-        "lng": -117.17703258025061,
+        "lat": 32.723595667767015,
+        "lng": -117.1508983741614,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -906,14 +954,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.54933365604106,
-          33.82874983762225
+          -117.16558008975743,
+          32.722170872267846
+        ]
+      },
+      "properties": {
+        "address": "Pajaro Hills Shopping Center",
+        "lat": 32.722170872267846,
+        "lng": -117.16558008975743,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "Pajaro Hills Shopping Center_Offering Memorandum.pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "Pajaro Hills Shopping Center, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5589431956072,
+          33.84880321801881
         ]
       },
       "properties": {
         "address": "490 S Palm Canyon Dr",
-        "lat": 33.82874983762225,
-        "lng": -116.54933365604106,
+        "lat": 33.84880321801881,
+        "lng": -116.5589431956072,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -938,14 +1010,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.23562675529531,
-          32.79342579757379
+          -117.26200679298337,
+          32.79762633604424
         ]
       },
       "properties": {
         "address": "1560 Garnet Ave",
-        "lat": 32.79342579757379,
-        "lng": -117.23562675529531,
+        "lat": 32.79762633604424,
+        "lng": -117.26200679298337,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -966,14 +1038,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14682195877495,
-          32.71532254272202
+          -117.1702212905665,
+          32.71161564245689
+        ]
+      },
+      "properties": {
+        "address": "Rent Roll",
+        "lat": 32.71161564245689,
+        "lng": -117.1702212905665,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "Rent Roll - Broadway El Cajon Shopping Center.pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "Rent Roll, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.14166162727635,
+          32.70217422828268
         ]
       },
       "properties": {
         "address": "1003 E Devonshire Ave",
-        "lat": 32.71532254272202,
-        "lng": -117.14682195877495,
+        "lat": 32.70217422828268,
+        "lng": -117.14166162727635,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -994,14 +1090,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14647896298679,
-          32.73455578738865
+          -117.1617468718476,
+          32.72336381496447
         ]
       },
       "properties": {
         "address": "1202 Main St",
-        "lat": 32.73455578738865,
-        "lng": -117.14647896298679,
+        "lat": 32.72336381496447,
+        "lng": -117.1617468718476,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1026,14 +1122,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.55824343529248,
-          33.815749694764314
+          -116.54511767540633,
+          33.847218795184126
         ]
       },
       "properties": {
         "address": "450 S Palm Canyon Dr",
-        "lat": 33.815749694764314,
-        "lng": -116.55824343529248,
+        "lat": 33.847218795184126,
+        "lng": -116.54511767540633,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1058,14 +1154,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16811161622248,
-          32.71875233986866
+          -117.15993665043466,
+          32.70103641780803
         ]
       },
       "properties": {
         "address": "33389 Old State Hwy",
-        "lat": 32.71875233986866,
-        "lng": -117.16811161622248,
+        "lat": 32.70103641780803,
+        "lng": -117.15993665043466,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -1086,14 +1182,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.17351065566679,
-          32.70242686772165
+          -117.1589615369139,
+          32.69656463601027
         ]
       },
       "properties": {
         "address": "3050 Pio Pico Dr",
-        "lat": 32.70242686772165,
-        "lng": -117.17351065566679,
+        "lat": 32.69656463601027,
+        "lng": -117.1589615369139,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1118,14 +1214,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15975177921594,
-          32.69706419460939
+          -117.15741936908171,
+          32.73553608028138
         ]
       },
       "properties": {
         "address": "47985 Monroe St",
-        "lat": 32.69706419460939,
-        "lng": -117.15975177921594,
+        "lat": 32.73553608028138,
+        "lng": -117.15741936908171,
         "pdf_count": 4,
         "pdfs": [
           {
@@ -1154,14 +1250,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15170005595877,
-          32.72470820452405
+          -117.15034629398423,
+          32.7124645945908
         ]
       },
       "properties": {
         "address": "128 N Juanita St",
-        "lat": 32.72470820452405,
-        "lng": -117.15170005595877,
+        "lat": 32.7124645945908,
+        "lng": -117.15034629398423,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1186,14 +1282,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15482720699141,
-          32.72239849121622
+          -117.16623259572759,
+          32.72451752495948
         ]
       },
       "properties": {
         "address": "3719 Mission Blvd",
-        "lat": 32.72239849121622,
-        "lng": -117.15482720699141,
+        "lat": 32.72451752495948,
+        "lng": -117.16623259572759,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1218,14 +1314,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.07901310280711,
-          32.68069342595369
+          -117.11586942428964,
+          32.69266523623919
         ]
       },
       "properties": {
         "address": "1010 National City Blvd",
-        "lat": 32.68069342595369,
-        "lng": -117.07901310280711,
+        "lat": 32.69266523623919,
+        "lng": -117.11586942428964,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1250,14 +1346,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15574246373592,
-          32.730589838723525
+          -117.15770338139266,
+          32.7222787069114
         ]
       },
       "properties": {
         "address": "4741 Point Loma Ave",
-        "lat": 32.730589838723525,
-        "lng": -117.15574246373592,
+        "lat": 32.7222787069114,
+        "lng": -117.15770338139266,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1282,14 +1378,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14540023722459,
-          32.701802233006156
+          -117.148778034082,
+          32.6983286216767
         ]
       },
       "properties": {
         "address": "27625 Jefferson Ave",
-        "lat": 32.701802233006156,
-        "lng": -117.14540023722459,
+        "lat": 32.6983286216767,
+        "lng": -117.148778034082,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1314,14 +1410,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.53619763882566,
-          33.810764784236504
+          -116.52674600483523,
+          33.82891642517655
         ]
       },
       "properties": {
         "address": "1201 E Palm Canyon Dr",
-        "lat": 33.810764784236504,
-        "lng": -116.53619763882566,
+        "lat": 33.82891642517655,
+        "lng": -116.52674600483523,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1346,14 +1442,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.54410481540361,
-          33.822988232528914
+          -116.5417944052411,
+          33.81714045257948
         ]
       },
       "properties": {
         "address": "102 N Palm Canyon Dr",
-        "lat": 33.822988232528914,
-        "lng": -116.54410481540361,
+        "lat": 33.81714045257948,
+        "lng": -116.5417944052411,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1378,14 +1474,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16386820672889,
-          32.729736049658534
+          -117.17744401072876,
+          32.70522796997904
         ]
       },
       "properties": {
         "address": "6333 Mission Gorge Rd- MP 1225",
-        "lat": 32.729736049658534,
-        "lng": -117.16386820672889,
+        "lat": 32.70522796997904,
+        "lng": -117.17744401072876,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1410,14 +1506,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.17438635690486,
-          32.73022249415061
+          -117.16457417439513,
+          32.7331921875408
         ]
       },
       "properties": {
         "address": "445 Hacienda Dr",
-        "lat": 32.73022249415061,
-        "lng": -117.17438635690486,
+        "lat": 32.7331921875408,
+        "lng": -117.16457417439513,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -1438,14 +1534,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14969196758423,
-          32.73401255428683
+          -117.14716080867106,
+          32.7187465942808
         ]
       },
       "properties": {
         "address": "34275 Monterey Ave",
-        "lat": 32.73401255428683,
-        "lng": -117.14969196758423,
+        "lat": 32.7187465942808,
+        "lng": -117.14716080867106,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -1466,14 +1562,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14954799332727,
-          32.697878377521086
+          -117.1526087580846,
+          32.72134791942995
         ]
       },
       "properties": {
         "address": "13977 Poway Rd",
-        "lat": 32.697878377521086,
-        "lng": -117.14954799332727,
+        "lat": 32.72134791942995,
+        "lng": -117.1526087580846,
         "pdf_count": 6,
         "pdfs": [
           {
@@ -1510,14 +1606,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.1641780019657,
-          32.71034631812818
+          -117.16066628821503,
+          32.70993005015901
+        ]
+      },
+      "properties": {
+        "address": "SeminaryPoint",
+        "lat": 32.70993005015901,
+        "lng": -117.16066628821503,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "SeminaryPoint_OaklandCA.pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "SeminaryPoint, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15308551229637,
+          32.71329631441407
         ]
       },
       "properties": {
         "address": "83500 Hwy 111",
-        "lat": 32.71034631812818,
-        "lng": -117.1641780019657,
+        "lat": 32.71329631441407,
+        "lng": -117.15308551229637,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -1538,14 +1658,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.56484532946625,
-          33.848371502171695
+          -116.54238324804523,
+          33.83343269686229
         ]
       },
       "properties": {
         "address": "262 S Palm Canyon Dr",
-        "lat": 33.848371502171695,
-        "lng": -116.56484532946625,
+        "lat": 33.83343269686229,
+        "lng": -116.54238324804523,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1570,14 +1690,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15791123093332,
-          32.733340058058346
+          -117.15124077443734,
+          32.72828651951058
         ]
       },
       "properties": {
         "address": "4811 W Point Loma Blvd",
-        "lat": 32.733340058058346,
-        "lng": -117.15791123093332,
+        "lat": 32.72828651951058,
+        "lng": -117.15124077443734,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1602,14 +1722,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16539220510275,
-          32.7163206571315
+          -117.15332165360105,
+          32.7071140686902
         ]
       },
       "properties": {
         "address": "1020 E Florida Ave",
-        "lat": 32.7163206571315,
-        "lng": -117.16539220510275,
+        "lat": 32.7071140686902,
+        "lng": -117.15332165360105,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1634,14 +1754,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14821988561114,
-          32.73080579855276
+          -117.14649578983118,
+          32.733449740916264
         ]
       },
       "properties": {
         "address": "54227 Pine Crest Ave",
-        "lat": 32.73080579855276,
-        "lng": -117.14821988561114,
+        "lat": 32.733449740916264,
+        "lng": -117.14649578983118,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1666,14 +1786,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16689318951583,
-          32.71162688663741
+          -117.17215684252223,
+          32.70446185865498
         ]
       },
       "properties": {
         "address": "1180 N State St",
-        "lat": 32.71162688663741,
-        "lng": -117.16689318951583,
+        "lat": 32.70446185865498,
+        "lng": -117.17215684252223,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1698,14 +1818,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.17294844292442,
-          32.7317097970182
+          -117.16178326698956,
+          32.703813625454906
         ]
       },
       "properties": {
         "address": "2415 San Diego Ave",
-        "lat": 32.7317097970182,
-        "lng": -117.17294844292442,
+        "lat": 32.703813625454906,
+        "lng": -117.16178326698956,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -1726,14 +1846,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16422131170935,
-          32.718193459315664
+          -117.14516395706556,
+          32.70493923463827
+        ]
+      },
+      "properties": {
+        "address": "FortunaBLVD",
+        "lat": 32.70493923463827,
+        "lng": -117.14516395706556,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "FortunaBLVD.pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "FortunaBLVD, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.14456232026369,
+          32.72875189050814
         ]
       },
       "properties": {
         "address": "42150 Jackson St",
-        "lat": 32.718193459315664,
-        "lng": -117.16422131170935,
+        "lat": 32.72875189050814,
+        "lng": -117.14456232026369,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1750,14 +1894,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14628023160144,
-          32.715463624395575
+          -117.17017906516085,
+          32.71313296412181
+        ]
+      },
+      "properties": {
+        "address": "Offering Memorandum",
+        "lat": 32.71313296412181,
+        "lng": -117.17017906516085,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "Offering Memorandum - Ontare Plaza - 3609-3617 State St.pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "Offering Memorandum, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15779549463404,
+          32.73480922311588
+        ]
+      },
+      "properties": {
+        "address": "1416-1440 West Beverly Blvd, Montebello- OM",
+        "lat": 32.73480922311588,
+        "lng": -117.15779549463404,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "1416-1440 West Beverly Blvd, Montebello- OM.pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "1416-1440 West Beverly Blvd, Montebello- OM, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.17470805530314,
+          32.73415708623044
         ]
       },
       "properties": {
         "address": "27685 Jefferson Ave",
-        "lat": 32.715463624395575,
-        "lng": -117.14628023160144,
+        "lat": 32.73415708623044,
+        "lng": -117.17470805530314,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1782,14 +1974,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.17509418225485,
-          32.72655713224832
+          -117.16967763329374,
+          32.70904618876618
         ]
       },
       "properties": {
         "address": "455 Hacienda Dr",
-        "lat": 32.72655713224832,
-        "lng": -117.17509418225485,
+        "lat": 32.70904618876618,
+        "lng": -117.16967763329374,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -1810,14 +2002,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.160221859014,
-          32.721096574723425
+          -117.15112235391356,
+          32.699821172475566
+        ]
+      },
+      "properties": {
+        "address": "JurupaValley",
+        "lat": 32.699821172475566,
+        "lng": -117.15112235391356,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "JurupaValley_JurupaSprings_OM (002).pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "JurupaValley, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1627105065529,
+          32.69834591051061
         ]
       },
       "properties": {
         "address": "72777 Dinah Shore Dr",
-        "lat": 32.721096574723425,
-        "lng": -117.160221859014,
+        "lat": 32.69834591051061,
+        "lng": -117.1627105065529,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -1838,14 +2054,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16328608156842,
-          32.70139749440036
+          -117.14811372559559,
+          32.71248752444692
         ]
       },
       "properties": {
         "address": "2545 W Florida Ave",
-        "lat": 32.70139749440036,
-        "lng": -117.16328608156842,
+        "lat": 32.71248752444692,
+        "lng": -117.14811372559559,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1870,14 +2086,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16360879848196,
-          32.73155247813548
+          -117.18065728468744,
+          32.69845107823405
+        ]
+      },
+      "properties": {
+        "address": "AlessandroPlaza",
+        "lat": 32.69845107823405,
+        "lng": -117.18065728468744,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "AlessandroPlaza_OM_Unpriced_MNET.pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "AlessandroPlaza, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15916665510844,
+          32.6981710232601
         ]
       },
       "properties": {
         "address": "5032 Niagara Ave",
-        "lat": 32.73155247813548,
-        "lng": -117.16360879848196,
+        "lat": 32.6981710232601,
+        "lng": -117.15916665510844,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1902,14 +2142,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16482085939681,
-          32.70353335873283
+          -117.1642523055894,
+          32.703772731155624
+        ]
+      },
+      "properties": {
+        "address": "e7cc41a0-6860-416d-a203-e248d37db592",
+        "lat": 32.703772731155624,
+        "lng": -117.1642523055894,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "e7cc41a0-6860-416d-a203-e248d37db592.pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "e7cc41a0-6860-416d-a203-e248d37db592, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.16556274818221,
+          32.731748517439456
         ]
       },
       "properties": {
         "address": "465 Hacienda Dr",
-        "lat": 32.70353335873283,
-        "lng": -117.16482085939681,
+        "lat": 32.731748517439456,
+        "lng": -117.16556274818221,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1926,14 +2190,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.53486807959929,
-          33.83143851247887
+          -116.54604573456685,
+          33.81841036774074
         ]
       },
       "properties": {
         "address": "14010 Palm Dr Marketing Package",
-        "lat": 33.83143851247887,
-        "lng": -116.53486807959929,
+        "lat": 33.81841036774074,
+        "lng": -116.54604573456685,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -1958,14 +2222,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14281186215536,
-          32.708825826985446
+          -117.16706347199282,
+          32.716046249756
+        ]
+      },
+      "properties": {
+        "address": "1.1.24 Rent Roll",
+        "lat": 32.716046249756,
+        "lng": -117.16706347199282,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "1.1.24 Rent Roll - 1416 - 1440 West Beverly, Montebello.pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "1.1.24 Rent Roll, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.15277585119166,
+          32.69870275625903
         ]
       },
       "properties": {
         "address": "25 W 11th St",
-        "lat": 32.708825826985446,
-        "lng": -117.14281186215536,
+        "lat": 32.69870275625903,
+        "lng": -117.15277585119166,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -1982,14 +2270,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16540742666217,
-          32.71283605646398
+          -117.16014878033627,
+          32.70830176087439
         ]
       },
       "properties": {
         "address": "2730 Imperial Ave",
-        "lat": 32.71283605646398,
-        "lng": -117.16540742666217,
+        "lat": 32.70830176087439,
+        "lng": -117.16014878033627,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2006,14 +2294,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15238063546299,
-          32.69991463369437
+          -117.15679578568367,
+          32.721119990486216
         ]
       },
       "properties": {
         "address": "1571 S Hale Ave",
-        "lat": 32.69991463369437,
-        "lng": -117.15238063546299,
+        "lat": 32.721119990486216,
+        "lng": -117.15679578568367,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -2034,14 +2322,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14556031542823,
-          32.71225168238538
+          -117.14589904138653,
+          32.710804209177915
         ]
       },
       "properties": {
         "address": "790 N Johnson Ave",
-        "lat": 32.71225168238538,
-        "lng": -117.14556031542823,
+        "lat": 32.710804209177915,
+        "lng": -117.14589904138653,
         "pdf_count": 3,
         "pdfs": [
           {
@@ -2066,14 +2354,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14684876575917,
-          32.73386508276738
+          -117.17428198222763,
+          32.725092254762274
         ]
       },
       "properties": {
         "address": "3340 El Cajon Blvd",
-        "lat": 32.73386508276738,
-        "lng": -117.14684876575917,
+        "lat": 32.725092254762274,
+        "lng": -117.17428198222763,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2090,14 +2378,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.54633933192586,
-          33.84877770251733
+          -116.52623961999001,
+          33.82864516309006
         ]
       },
       "properties": {
         "address": "6555 Indian Canyon Dr",
-        "lat": 33.84877770251733,
-        "lng": -116.54633933192586,
+        "lat": 33.82864516309006,
+        "lng": -116.52623961999001,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2114,14 +2402,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15894689027864,
-          32.73354823992396
+          -117.16414394061788,
+          32.702865460832534
         ]
       },
       "properties": {
         "address": "1291 E Florida Ave",
-        "lat": 32.73354823992396,
-        "lng": -117.15894689027864,
+        "lat": 32.702865460832534,
+        "lng": -117.16414394061788,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2138,14 +2426,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16065975335003,
-          32.722670336944304
+          -117.16403337161722,
+          32.71536089981598
         ]
       },
       "properties": {
         "address": "73625 Highway 111",
-        "lat": 32.722670336944304,
-        "lng": -117.16065975335003,
+        "lat": 32.71536089981598,
+        "lng": -117.16403337161722,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2162,14 +2450,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16939058537332,
-          32.70283321552162
+          -117.17294364697543,
+          32.712985447253736
         ]
       },
       "properties": {
         "address": "1045 Main Street-Marketing Package-For S",
-        "lat": 32.70283321552162,
-        "lng": -117.16939058537332,
+        "lat": 32.712985447253736,
+        "lng": -117.17294364697543,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2186,14 +2474,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16457280218553,
-          32.72003839730894
+          -117.1721391270592,
+          32.716824727464335
         ]
       },
       "properties": {
         "address": "2232 Encinitas Blvd OM",
-        "lat": 32.72003839730894,
-        "lng": -117.16457280218553,
+        "lat": 32.716824727464335,
+        "lng": -117.1721391270592,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2210,14 +2498,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.16748460325356,
-          32.71276074173471
+          -117.14950005205178,
+          32.717828052517596
         ]
       },
       "properties": {
         "address": "3444 Midway",
-        "lat": 32.71276074173471,
-        "lng": -117.16748460325356,
+        "lat": 32.717828052517596,
+        "lng": -117.14950005205178,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2234,14 +2522,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.17974162643259,
-          32.707776847794555
+          -117.167980241708,
+          32.71445636058649
         ]
       },
       "properties": {
         "address": "34275 Monterey OM",
-        "lat": 32.707776847794555,
-        "lng": -117.17974162643259,
+        "lat": 32.71445636058649,
+        "lng": -117.167980241708,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2258,14 +2546,38 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14484436054038,
-          32.707215437315945
+          -117.16818345629758,
+          32.723199943355226
+        ]
+      },
+      "properties": {
+        "address": "28860, Old Town Front Street, Temecula, CA",
+        "lat": 32.723199943355226,
+        "lng": -117.16818345629758,
+        "pdf_count": 1,
+        "pdfs": [
+          {
+            "filename": "28860, Old Town Front Street, Temecula, CA - Offering Memorandum (1).pdf",
+            "drive_url": null
+          }
+        ],
+        "display_name": "28860, Old Town Front Street, Temecula, CA, San Diego, CA",
+        "geocoding_method": "approximate"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.14215819233553,
+          32.716730759080754
         ]
       },
       "properties": {
         "address": "3444 Midway Dr",
-        "lat": 32.707215437315945,
-        "lng": -117.14484436054038,
+        "lat": 32.716730759080754,
+        "lng": -117.14215819233553,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2282,14 +2594,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.15854917804515,
-          32.70434653692018
+          -117.17072601728947,
+          32.72203647304256
         ]
       },
       "properties": {
         "address": "84010 Avenue 50",
-        "lat": 32.70434653692018,
-        "lng": -117.15854917804515,
+        "lat": 32.72203647304256,
+        "lng": -117.17072601728947,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2306,14 +2618,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.17472117778202,
-          32.71252430153458
+          -117.14678328811289,
+          32.72968311359275
         ]
       },
       "properties": {
         "address": "27722 Clinton Keith Rd",
-        "lat": 32.71252430153458,
-        "lng": -117.17472117778202,
+        "lat": 32.72968311359275,
+        "lng": -117.14678328811289,
         "pdf_count": 2,
         "pdfs": [
           {
@@ -2334,14 +2646,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.14420099084194,
-          32.714106277474684
+          -117.16972335220726,
+          32.73238924642473
         ]
       },
       "properties": {
         "address": "41950 6th St",
-        "lat": 32.714106277474684,
-        "lng": -117.14420099084194,
+        "lat": 32.73238924642473,
+        "lng": -117.16972335220726,
         "pdf_count": 1,
         "pdfs": [
           {
@@ -2358,14 +2670,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.18008559534981,
-          32.696007138308175
+          -117.14170247301922,
+          32.7270958348859
         ]
       },
       "properties": {
         "address": "1075 Rosecrans St",
-        "lat": 32.696007138308175,
-        "lng": -117.18008559534981,
+        "lat": 32.7270958348859,
+        "lng": -117.14170247301922,
         "pdf_count": 1,
         "pdfs": [
           {
